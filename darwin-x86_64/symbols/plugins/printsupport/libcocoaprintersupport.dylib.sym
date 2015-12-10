@@ -1,0 +1,55 @@
+MODULE mac x86_64 8436966F50BE3D18B99CC8706E88F6CC0 libcocoaprintersupport.dylib
+FUNC 1600 230 0 __ZN26QCocoaPrinterSupportPlugin6createERK7QString
+FUNC 1830 10 0 __ZN26QCocoaPrinterSupportPlugin18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
+FUNC 1840 20 0 __ZNK26QCocoaPrinterSupportPlugin10metaObjectEv
+FUNC 1860 40 0 __ZN26QCocoaPrinterSupportPlugin11qt_metacastEPKc
+FUNC 18a0 10 0 __ZN26QCocoaPrinterSupportPlugin11qt_metacallEN11QMetaObject4CallEiPPv
+FUNC 18b0 10 0 _qt_plugin_query_metadata
+FUNC 18c0 144 0 _qt_plugin_instance
+FUNC 1a10 40 0 __ZN8QPointerI7QObjectED1Ev
+FUNC 1a50 10 0 __ZN26QCocoaPrinterSupportPluginD1Ev
+FUNC 1a60 1c 0 __ZN26QCocoaPrinterSupportPluginD0Ev
+PUBLIC 1c20 0 qt_meta_data_QCocoaPrinterSupportPlugin
+PUBLIC 1c60 0 typeinfo name for QCocoaPrinterSupportPlugin
+PUBLIC 1c80 0 qt_meta_stringdata_QCocoaPrinterSupportPlugin
+PUBLIC 1cc0 0 qt_section_alignment_dummy
+PUBLIC 1cd0 0 qt_pluginMetaData
+PUBLIC 20c0 0 QCocoaPrinterSupportPlugin::staticMetaObject
+PUBLIC 20f0 0 vtable for QCocoaPrinterSupportPlugin
+PUBLIC 2170 0 typeinfo for QCocoaPrinterSupportPlugin
+PUBLIC 2188 0 qt_plugin_instance::_instance
+PUBLIC 2198 0 guard variable for qt_plugin_instance::_instance
+STACK CFI INIT 1600 22f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1601 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1604 .cfa: $rbp 16 +
+STACK CFI 160e $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1830 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1831 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1834 .cfa: $rbp 16 +
+STACK CFI INIT 1840 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1841 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1844 .cfa: $rbp 16 +
+STACK CFI INIT 1860 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1861 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1864 .cfa: $rbp 16 +
+STACK CFI 1867 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 18a0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 18a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 18a4 .cfa: $rbp 16 +
+STACK CFI INIT 18b0 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 18b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 18b4 .cfa: $rbp 16 +
+STACK CFI INIT 18c0 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 18c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 18c4 .cfa: $rbp 16 +
+STACK CFI 18cb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1a10 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a14 .cfa: $rbp 16 +
+STACK CFI INIT 1a50 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a54 .cfa: $rbp 16 +
+STACK CFI INIT 1a60 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a64 .cfa: $rbp 16 +
+STACK CFI 1a66 $rbx: .cfa -24 + ^

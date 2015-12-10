@@ -1,0 +1,156 @@
+MODULE Linux x86 8A134DE2D6A4C1A0B1CF102D600C25C20 libqxcb.so
+FILE 0 /tmp/joshualang-build-qt-18178/build-linux-x86/qtbase/src/plugins/platforms/xcb/.moc/qxcbmain.moc
+FILE 1 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 2 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 3 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 4 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 5 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/xcb/qxcbmain.cpp
+FUNC f50 2 0 QXcbIntegrationPlugin::qt_static_metacall
+f50 2 56 0
+FUNC f60 74 0 QXcbIntegrationPlugin::create
+f60 10 48 5
+f70 26 49 5
+f96 2 52 5
+f98 4 49 5
+f9c 30 50 5
+fcc 8 53 5
+FUNC fe0 3b 0 QXcbIntegrationPlugin::metaObject
+fe0 4 70 0
+fe4 4 113 3
+fe8 b 70 0
+ff3 3 113 3
+ff6 7 71 0
+ffd 8 71 0
+1005 b 72 0
+1010 3 72 0
+1013 6 71 0
+1019 2 72 0
+FUNC 1020 12 0 qt_plugin_query_metadata
+1020 b 171 0
+102b 7 171 0
+FUNC 1040 173 0 qt_plugin_instance
+1040 11 171 0
+1051 d 171 0
+105e a 588 4
+1068 b 588 4
+1073 c 171 0
+107f b 39 5
+108a 2 171 0
+108c d 39 5
+1099 8 696 4
+10a1 8 702 4
+10a9 2 696 4
+10ab 2 702 4
+10ad 4 703 4
+10b1 d 181 1
+10be 4 705 4
+10c2 7 219 1
+10c9 8 705 4
+10d1 6 707 4
+10d7 6 708 4
+10dd 4 591 4
+10e1 7 219 1
+10e8 8 591 4
+10f0 18 588 4
+1108 e 171 0
+1116 6 588 4
+111c c 171 0
+1128 16 171 0
+113e 3 171 0
+1141 14 590 4
+1155 33 171 0
+1188 10 161 4
+1198 e 706 4
+11a6 d 161 4
+FUNC 11c0 4c 0 QXcbIntegrationPlugin::qt_metacast
+11c0 14 75 0
+11d4 4 76 0
+11d8 12 77 0
+11ea 4 78 0
+11ee 4 77 0
+11f2 e 79 0
+1200 8 80 0
+1208 4 76 0
+FUNC 1210 38 0 QXcbIntegrationPlugin::qt_metacall
+1210 4 83 0
+1214 4 84 0
+1218 b 83 0
+1223 20 84 0
+1243 5 88 0
+FUNC 1250 28 0 QXcbIntegrationPlugin::~QXcbIntegrationPlugin
+1250 f 39 5
+125f 19 39 5
+FUNC 1280 32 0 QXcbIntegrationPlugin::~QXcbIntegrationPlugin
+1280 10 39 5
+1290 22 39 5
+FUNC 12c0 37 0 QPointer<QObject>::~QPointer
+12c0 13 64 2
+12d3 6 591 4
+12d9 7 219 1
+12e0 a 591 4
+12ea 8 161 4
+12f2 5 64 2
+PUBLIC c50 0 _init
+PUBLIC 1020 0 qt_plugin_query_metadata
+PUBLIC 1040 0 qt_plugin_instance
+PUBLIC 1324 0 _fini
+STACK CFI INIT f50 2 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT f60 74 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI f61 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI f62 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI f70 .cfa: $esp 32 +
+STACK CFI fcf .cfa: $esp 12 +
+STACK CFI fd2 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI fd3 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT fe0 3b .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI fe1 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI fe4 .cfa: $esp 32 +
+STACK CFI 1008 .cfa: $esp 8 +
+STACK CFI 1009 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI 1010 $ebx: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI 1013 .cfa: $esp 8 +
+STACK CFI 101a $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 1250 28 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 1251 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 125f .cfa: $esp 32 +
+STACK CFI 1276 .cfa: $esp 8 +
+STACK CFI 1277 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 1280 32 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 1281 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 1282 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 1290 .cfa: $esp 32 +
+STACK CFI 12af .cfa: $esp 12 +
+STACK CFI 12b0 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 12b1 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 12c0 37 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 12c1 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 12c4 .cfa: $esp 32 +
+STACK CFI 12f5 .cfa: $esp 8 +
+STACK CFI 12f6 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 1020 12 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 1040 173 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 1041 $edi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 1042 $esi: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 1043 $ebx: .cfa -16 + ^ .cfa: $esp 16 +
+STACK CFI 1051 .cfa: $esp 32 +
+STACK CFI 111f .cfa: $esp 16 +
+STACK CFI 1120 $ebx: $ebx .cfa: $esp 12 +
+STACK CFI 1121 $esi: $esi .cfa: $esp 8 +
+STACK CFI 1122 $edi: $edi .cfa: $esp 4 +
+STACK CFI 1128 $ebx: .cfa -16 + ^ $edi: .cfa -8 + ^ $esi: .cfa -12 + ^ .cfa: $esp 32 +
+STACK CFI INIT 11c0 4c .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 11c1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 11c2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 11c5 .cfa: $esp 32 +
+STACK CFI 1203 .cfa: $esp 12 +
+STACK CFI 1206 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 1207 $esi: $esi .cfa: $esp 4 +
+STACK CFI 1208 $ebx: .cfa -12 + ^ $esi: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI INIT 1210 38 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 1211 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 1214 .cfa: $esp 32 +
+STACK CFI 1246 .cfa: $esp 8 +
+STACK CFI 1247 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 12f7 4 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT c80 190 .cfa: $esp 8 + .ra: .cfa -4 + ^
+STACK CFI c86 .cfa: $esp 12 +

@@ -1,0 +1,133 @@
+MODULE Linux x86_64 EA3BE65FAF9F36E0A123349070DBE8FA0 libqxcb.so
+FILE 0 /tmp/joshualang-build-qt-18178/build-linux-x86_64/qtbase/src/plugins/platforms/xcb/.moc/qxcbmain.moc
+FILE 1 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 2 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 3 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 4 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/xcb/qxcbmain.cpp
+FUNC 13f0 2 0 QXcbIntegrationPlugin::qt_static_metacall
+13f0 2 56 0
+FUNC 1400 5c 0 QXcbIntegrationPlugin::create
+1400 5 48 4
+1405 5 49 4
+140a 8 48 4
+1412 2 49 4
+1414 4 48 4
+1418 7 49 4
+141f 5 48 4
+1424 5 49 4
+1429 2 52 4
+142b 4 49 4
+142f 1f 50 4
+144e e 53 4
+FUNC 1460 18 0 QXcbIntegrationPlugin::metaObject
+1460 4 113 2
+1464 7 71 0
+146b 5 71 0
+1470 8 72 0
+FUNC 1480 8 0 qt_plugin_query_metadata
+1480 8 171 0
+FUNC 1490 16a 0 qt_plugin_instance
+1490 6 171 0
+1496 d 171 0
+14a3 c 588 3
+14af b 588 3
+14ba a 171 0
+14c4 5 39 4
+14c9 3 171 0
+14cc c 39 4
+14d8 3 696 3
+14db 4 39 4
+14df 5 696 3
+14e4 7 702 3
+14eb 3 696 3
+14ee 5 702 3
+14f3 5 703 3
+14f8 e 181 1
+1506 5 705 3
+150b 7 219 1
+1512 8 705 3
+151a 7 707 3
+1521 7 708 3
+1528 5 591 3
+152d 7 219 1
+1534 8 591 3
+153c 1c 588 3
+1558 e 171 0
+1566 7 588 3
+156d b 171 0
+1578 14 171 0
+158c 7 171 0
+1593 16 590 3
+15a9 27 171 0
+15d0 10 161 3
+15e0 10 706 3
+15f0 a 161 3
+FUNC 1600 4c 0 QXcbIntegrationPlugin::qt_metacast
+1600 9 75 0
+1609 5 76 0
+160e 14 77 0
+1622 3 78 0
+1625 4 77 0
+1629 b 80 0
+1634 6 79 0
+163a 2 80 0
+163c c 79 0
+1648 4 76 0
+FUNC 1650 5 0 QXcbIntegrationPlugin::qt_metacall
+1650 5 84 0
+FUNC 1660 f 0 QXcbIntegrationPlugin::~QXcbIntegrationPlugin
+1660 f 39 4
+FUNC 1670 1c 0 QXcbIntegrationPlugin::~QXcbIntegrationPlugin
+1670 8 39 4
+1678 14 39 4
+FUNC 1690 2a 0 QPointer<QObject>::~QPointer
+1690 8 591 3
+1698 7 219 1
+169f c 591 3
+16ab f 161 3
+PUBLIC 1130 0 _init
+PUBLIC 1480 0 qt_plugin_query_metadata
+PUBLIC 1490 0 qt_plugin_instance
+PUBLIC 16e0 0 _fini
+STACK CFI INIT 13f0 2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1400 5c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1402 $r13: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 140f $r12: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 1415 $rbp: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 1420 $rbx: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 1424 .cfa: $rsp 48 +
+STACK CFI 1452 .cfa: $rsp 40 +
+STACK CFI 1456 .cfa: $rsp 32 +
+STACK CFI 1457 .cfa: $rsp 24 +
+STACK CFI 1459 .cfa: $rsp 16 +
+STACK CFI 145b .cfa: $rsp 8 +
+STACK CFI INIT 1460 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1660 f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1670 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1678 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1687 .cfa: $rsp 8 +
+STACK CFI INIT 1690 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1480 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1490 16a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1491 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1492 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 1496 .cfa: $rsp 32 +
+STACK CFI 1571 .cfa: $rsp 24 +
+STACK CFI 1572 .cfa: $rsp 16 +
+STACK CFI 1573 .cfa: $rsp 8 +
+STACK CFI 1578 .cfa: $rsp 32 +
+STACK CFI INIT 1600 4c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1601 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1602 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 1609 .cfa: $rsp 32 +
+STACK CFI 162d .cfa: $rsp 24 +
+STACK CFI 162e .cfa: $rsp 16 +
+STACK CFI 162f .cfa: $rsp 8 +
+STACK CFI 1630 .cfa: $rsp 32 +
+STACK CFI 1634 .cfa: $rsp 24 +
+STACK CFI 163b .cfa: $rsp 16 +
+STACK CFI 163c .cfa: $rsp 8 +
+STACK CFI 1648 .cfa: $rsp 32 +
+STACK CFI INIT 1650 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1150 180 .cfa: $rsp 16 + .ra: .cfa -8 + ^
+STACK CFI 1156 .cfa: $rsp 24 +

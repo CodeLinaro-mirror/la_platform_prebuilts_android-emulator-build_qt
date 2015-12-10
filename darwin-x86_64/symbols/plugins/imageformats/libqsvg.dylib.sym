@@ -1,0 +1,142 @@
+MODULE mac x86_64 FFAAF87E28F43C77B35A0BC08B6DF6760 libqsvg.dylib
+FUNC 10b0 280 0 __ZNK10QSvgPlugin4keysEv
+FUNC 1330 70 0 __ZNK10QSvgPlugin12capabilitiesEP9QIODeviceRK10QByteArray
+FUNC 13a0 50 0 __ZNK10QSvgPlugin6createEP9QIODeviceRK10QByteArray
+FUNC 13f0 10 0 __ZN10QSvgPlugin18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
+FUNC 1400 20 0 __ZNK10QSvgPlugin10metaObjectEv
+FUNC 1420 40 0 __ZN10QSvgPlugin11qt_metacastEPKc
+FUNC 1460 10 0 __ZN10QSvgPlugin11qt_metacallEN11QMetaObject4CallEiPPv
+FUNC 1470 10 0 _qt_plugin_query_metadata
+FUNC 1480 144 0 _qt_plugin_instance
+FUNC 15d0 40 0 __ZN8QPointerI7QObjectED1Ev
+FUNC 1610 10 0 __ZN10QSvgPluginD1Ev
+FUNC 1620 20 0 __ZN10QSvgPluginD0Ev
+FUNC 1640 1c3 0 __ZN5QListI7QStringE18detach_helper_growEii
+FUNC 1810 270 0 __ZN20QSvgIOHandlerPrivate4loadEP9QIODevice
+FUNC 1a80 a0 0 __ZN13QSvgIOHandlerC1Ev
+FUNC 1b20 a0 0 __ZN13QSvgIOHandlerC2Ev
+FUNC 1bc0 50 0 __ZN13QSvgIOHandlerD0Ev
+FUNC 1c10 50 0 __ZN13QSvgIOHandlerD1Ev
+FUNC 1c60 50 0 __ZN13QSvgIOHandlerD2Ev
+FUNC 1cb0 190 0 __ZNK13QSvgIOHandler7canReadEv
+FUNC 1e40 30 0 __ZNK13QSvgIOHandler4nameEv
+FUNC 1e70 360 0 __ZN13QSvgIOHandler4readEP6QImage
+FUNC 21d0 f0 0 __ZNK13QSvgIOHandler6optionEN15QImageIOHandler11ImageOptionE
+FUNC 22c0 90 0 __ZN13QSvgIOHandler9setOptionEN15QImageIOHandler11ImageOptionERK8QVariant
+FUNC 2350 20 0 __ZNK13QSvgIOHandler14supportsOptionEN15QImageIOHandler11ImageOptionE
+FUNC 2370 9d 0 __ZN13QSvgIOHandler7canReadEP9QIODevice
+FUNC 2410 8f 0 __ZN9QtPrivate19QVariantValueHelperI6QColorE8metaTypeERK8QVariant
+PUBLIC 2910 0 qt_meta_data_QSvgPlugin
+PUBLIC 294c 0 typeinfo name for QSvgPlugin
+PUBLIC 2960 0 qt_meta_stringdata_QSvgPlugin
+PUBLIC 2990 0 typeinfo name for QSvgIOHandler
+PUBLIC 29a0 0 qt_section_alignment_dummy
+PUBLIC 29b0 0 qt_pluginMetaData
+PUBLIC 3240 0 QSvgPlugin::staticMetaObject
+PUBLIC 3270 0 vtable for QSvgPlugin
+PUBLIC 32f0 0 typeinfo for QSvgPlugin
+PUBLIC 3310 0 vtable for QSvgIOHandler
+PUBLIC 33a0 0 typeinfo for QSvgIOHandler
+PUBLIC 33b8 0 qt_plugin_instance::_instance
+PUBLIC 33c8 0 guard variable for qt_plugin_instance::_instance
+STACK CFI INIT 10b0 271 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 10b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 10b4 .cfa: $rbp 16 +
+STACK CFI 10bf $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 1330 6f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1331 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1334 .cfa: $rbp 16 +
+STACK CFI 133a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 13a0 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 13a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 13a4 .cfa: $rbp 16 +
+STACK CFI 13aa $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 13f0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 13f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 13f4 .cfa: $rbp 16 +
+STACK CFI INIT 1400 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1401 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1404 .cfa: $rbp 16 +
+STACK CFI INIT 1420 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1421 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1424 .cfa: $rbp 16 +
+STACK CFI 1427 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1460 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1461 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1464 .cfa: $rbp 16 +
+STACK CFI INIT 1470 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1471 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1474 .cfa: $rbp 16 +
+STACK CFI INIT 1480 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1481 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1484 .cfa: $rbp 16 +
+STACK CFI 148b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 15d0 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 15d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 15d4 .cfa: $rbp 16 +
+STACK CFI INIT 1610 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1611 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1614 .cfa: $rbp 16 +
+STACK CFI INIT 1620 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1621 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1624 .cfa: $rbp 16 +
+STACK CFI 1626 $rbx: .cfa -24 + ^
+STACK CFI INIT 1640 1c3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1641 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1644 .cfa: $rbp 16 +
+STACK CFI 164e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1810 26f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1811 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1814 .cfa: $rbp 16 +
+STACK CFI 1821 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1a80 96 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a84 .cfa: $rbp 16 +
+STACK CFI 1a87 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1b20 96 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1b21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1b24 .cfa: $rbp 16 +
+STACK CFI 1b27 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1bc0 4b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1bc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1bc4 .cfa: $rbp 16 +
+STACK CFI 1bc7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1c10 43 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1c11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1c14 .cfa: $rbp 16 +
+STACK CFI 1c17 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1c60 43 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1c61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1c64 .cfa: $rbp 16 +
+STACK CFI 1c67 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1cb0 185 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1cb4 .cfa: $rbp 16 +
+STACK CFI 1cbb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1e40 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e44 .cfa: $rbp 16 +
+STACK CFI 1e46 $rbx: .cfa -24 + ^
+STACK CFI INIT 1e70 351 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e74 .cfa: $rbp 16 +
+STACK CFI 1e80 $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 21d0 b3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 21d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 21d4 .cfa: $rbp 16 +
+STACK CFI 21da $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 22c0 8d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 22c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 22c4 .cfa: $rbp 16 +
+STACK CFI 22cb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2350 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2351 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2354 .cfa: $rbp 16 +
+STACK CFI INIT 2370 9d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2371 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2374 .cfa: $rbp 16 +
+STACK CFI 2379 $rbx: .cfa -24 + ^
+STACK CFI INIT 2410 8f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2411 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2414 .cfa: $rbp 16 +
+STACK CFI 241d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^

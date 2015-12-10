@@ -1,0 +1,754 @@
+MODULE Linux x86_64 79372DFF3EC9DE131E39A7789269CD680 libqsvg.so
+FILE 0 /tmp/joshualang-build-qt-18178/build-linux-x86_64/qtsvg/src/plugins/imageformats/svg/.moc/main.moc
+FILE 1 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 2 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
+FILE 3 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
+FILE 4 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
+FILE 5 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
+FILE 6 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 7 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 8 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 9 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
+FILE 10 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
+FILE 11 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 12 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 13 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 14 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 15 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 16 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstringlist.h
+FILE 17 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qcolor.h
+FILE 18 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/imageformats/svg/main.cpp
+FILE 19 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/imageformats/svg/qsvgiohandler.cpp
+FUNC 2e70 2 0 QSvgPlugin::qt_static_metacall
+2e70 2 56 0
+FUNC 2e80 3d 0 QSvgPlugin::create
+2e80 2 77 18
+2e82 5 78 18
+2e87 8 77 18
+2e8f 10 78 18
+2e9f b 79 18
+2eaa b 80 18
+2eb5 8 82 18
+FUNC 2ec0 18 0 QSvgPlugin::metaObject
+2ec0 4 113 12
+2ec4 7 71 0
+2ecb 5 71 0
+2ed0 8 72 0
+FUNC 2ee0 78 0 QSvgPlugin::capabilities
+2ee0 4 64 18
+2ee4 a 590 7
+2eee 8 64 18
+2ef6 5 590 7
+2efb 4 65 18
+2eff 5 66 18
+2f04 c 74 18
+2f10 f 590 7
+2f1f 4 65 18
+2f23 3 471 7
+2f26 2 68 18
+2f28 7 67 18
+2f2f c 71 18
+2f3b 2 112 2
+2f3d b 74 18
+2f48 c 71 18
+2f54 4 112 2
+FUNC 2f60 8 0 qt_plugin_query_metadata
+2f60 8 181 0
+FUNC 2f70 16a 0 qt_plugin_instance
+2f70 6 181 0
+2f76 d 181 0
+2f83 c 588 13
+2f8f b 588 13
+2f9a a 181 0
+2fa4 5 47 18
+2fa9 3 181 0
+2fac c 47 18
+2fb8 3 696 13
+2fbb 4 47 18
+2fbf 5 696 13
+2fc4 7 702 13
+2fcb 3 696 13
+2fce 5 702 13
+2fd3 5 703 13
+2fd8 e 181 1
+2fe6 5 705 13
+2feb 7 219 1
+2ff2 8 705 13
+2ffa 7 707 13
+3001 7 708 13
+3008 5 591 13
+300d 7 219 1
+3014 8 591 13
+301c 1c 588 13
+3038 e 181 0
+3046 7 588 13
+304d b 181 0
+3058 14 181 0
+306c 7 181 0
+3073 16 590 13
+3089 27 181 0
+30b0 10 161 13
+30c0 10 706 13
+30d0 a 161 13
+FUNC 30e0 256 0 QSvgPlugin::keys
+30e0 2 59 18
+30e2 5 846 15
+30e7 a 59 18
+30f1 7 846 15
+30f8 5 59 18
+30fd 20 846 15
+311d 7 139 8
+3124 8 119 16
+312c 4 139 8
+3130 12 119 16
+3142 8 776 8
+314a 4 118 5
+314e 8 51 11
+3156 9 54 11
+315f 11 181 1
+3170 4 62 11
+3174 a 835 8
+317e 5 834 8
+3183 7 465 8
+318a 5 834 8
+318f 11 465 8
+31a0 f 222 6
+31af 13 465 8
+31c2 5 1053 15
+31c7 2 118 5
+31c9 4 62 11
+31cd 5 65 11
+31d2 7 219 1
+31d9 f 1053 15
+31e8 5 65 11
+31ed 9 219 1
+31f6 8 795 8
+31fe 5 1053 15
+3203 2 118 5
+3205 8 62 11
+320d f 222 6
+321c 5 1053 15
+3221 2 118 5
+3223 8 62 11
+322b f 222 6
+323a 16 61 18
+3250 d 779 8
+325d 9 108 8
+3266 5 784 8
+326b 8 109 8
+3273 5 783 8
+3278 4 108 8
+327c 5 782 8
+3281 f 443 8
+3290 5 444 8
+3295 3 877 15
+3298 2 54 11
+329a 3 877 15
+329d 8 54 11
+32a5 7 181 1
+32ac 4 445 8
+32b0 4 446 8
+32b4 1c 443 8
+32d0 9 65 11
+32d9 7 219 1
+32e0 18 1053 15
+32f8 9 65 11
+3301 7 219 1
+3308 18 1053 15
+3320 16 836 8
+FUNC 3340 4c 0 QSvgPlugin::qt_metacast
+3340 9 75 0
+3349 5 76 0
+334e 14 77 0
+3362 3 78 0
+3365 4 77 0
+3369 b 80 0
+3374 6 79 0
+337a 2 80 0
+337c c 79 0
+3388 4 76 0
+FUNC 3390 5 0 QSvgPlugin::qt_metacall
+3390 5 84 0
+FUNC 33a0 f 0 QSvgPlugin::~QSvgPlugin
+33a0 f 47 18
+FUNC 33b0 1c 0 QSvgPlugin::~QSvgPlugin
+33b0 8 47 18
+33b8 14 47 18
+FUNC 33d0 2a 0 QPointer<QObject>::~QPointer
+33d0 8 591 13
+33d8 7 219 1
+33df c 591 13
+33eb f 161 13
+FUNC 3400 1c0 0 QList<QString>::detach_helper_grow
+3400 14 722 8
+3414 3 108 8
+3417 4 722 8
+341b 5 725 8
+3420 4 108 8
+3424 5 724 8
+3429 7 725 8
+3430 4 108 8
+3434 3 725 8
+3437 5 728 8
+343c 4 108 8
+3440 11 728 8
+3451 f 443 8
+3460 5 444 8
+3465 3 877 15
+3468 2 54 11
+346a 3 877 15
+346d a 54 11
+3477 7 181 1
+347e 4 445 8
+3482 4 446 8
+3486 1f 443 8
+34a5 4 109 8
+34a9 3 735 8
+34ac 8 736 8
+34b4 4 735 8
+34b8 8 443 8
+34c0 5 444 8
+34c5 3 877 15
+34c8 2 54 11
+34ca 3 877 15
+34cd a 54 11
+34d7 8 181 1
+34df 4 445 8
+34e3 4 446 8
+34e7 5 443 8
+34ec 4 118 5
+34f0 8 62 11
+34f8 a 835 8
+3502 5 834 8
+3507 7 465 8
+350e 5 834 8
+3513 d 465 8
+3520 8 836 8
+3528 8 108 8
+3530 a 748 8
+353a c 749 8
+3546 4 748 8
+354a 3 749 8
+354d 5 65 11
+3552 7 219 1
+3559 f 1053 15
+3568 f 222 6
+3577 f 465 8
+3586 5 1053 15
+358b 2 118 5
+358d b 62 11
+3598 5 65 11
+359d 9 219 1
+35a6 12 745 8
+35b8 8 443 8
+FUNC 35c0 5e 0 QList<QString>::append
+35c0 3 118 5
+35c3 1 548 8
+35c4 3 548 8
+35c7 5 550 8
+35cc f 551 8
+35db 5 405 8
+35e0 6 877 15
+35e6 a 54 11
+35f0 7 181 1
+35f7 9 579 8
+3600 3 877 15
+3603 a 54 11
+360d 7 181 1
+3614 5 571 8
+3619 3 576 8
+361c 2 579 8
+FUNC 3620 1b 0 QSvgIOHandler::supportsOption
+3620 19 247 19
+3639 2 248 19
+FUNC 3640 1a 0 QSvgIOHandler::name
+3640 1 134 19
+3641 7 135 19
+3648 3 134 19
+364b a 135 19
+3655 5 136 19
+FUNC 3660 152 0 QSvgIOHandler::setOption
+3660 e 213 19
+366e 1d 214 19
+368b 11 682 4
+369c d 246 17
+36a9 18 685 4
+36c1 d 258 17
+36ce 14 259 17
+36e2 d 225 19
+36ef 11 230 19
+3700 10 219 19
+3710 10 230 19
+3720 5 214 19
+3725 14 216 19
+3739 f 230 19
+3748 14 222 19
+375c c 230 19
+3768 20 246 17
+3788 8 683 4
+3790 b 258 17
+379b 17 259 17
+FUNC 37c0 171 0 QSvgIOHandler::canRead
+37c0 9 115 19
+37c9 e 116 19
+37d7 c 118 19
+37e3 a 118 19
+37ed 1d 121 19
+380a 17 122 19
+3821 11 636 7
+3832 9 125 19
+383b 24 126 19
+385f 5 459 7
+3864 2 118 5
+3866 4 62 11
+386a f 222 6
+3879 5 127 19
+387e 5 459 7
+3883 2 118 5
+3885 4 62 11
+3889 17 222 6
+38a0 10 130 19
+38b0 18 123 19
+38c8 5 65 11
+38cd 7 219 1
+38d4 c 459 7
+38e0 5 65 11
+38e5 7 219 1
+38ec 14 459 7
+3900 4 130 19
+3904 2 117 19
+3906 a 130 19
+3910 11 636 7
+3921 9 125 19
+392a 7 129 19
+FUNC 3940 27e 0 QSvgIOHandlerPrivate::load
+3940 14 70 19
+3954 10 74 19
+3964 5 471 7
+3969 2 118 5
+396b 3 471 7
+396e 8 62 11
+3976 f 222 6
+3985 8 74 19
+398d f 518 3
+399c 3 81 19
+399f 3 518 3
+39a2 6 81 19
+39a8 b 82 19
+39b3 3 461 7
+39b6 d 83 19
+39c3 3 483 7
+39c6 b 83 19
+39d1 5 55 6
+39d6 25 83 19
+39fb 5 459 7
+3a00 3 83 19
+3a03 2 118 5
+3a05 4 62 11
+3a09 5 65 11
+3a0e 7 219 1
+3a15 4 459 7
+3a19 3 461 7
+3a1c 10 84 19
+3a2c 9 92 19
+3a35 13 98 19
+3a48 9 65 11
+3a51 7 219 1
+3a58 18 459 7
+3a70 18 222 6
+3a88 18 75 19
+3aa0 13 93 19
+3ab3 5 254 10
+3ab8 5 93 19
+3abd 2 251 10
+3abf 3 93 19
+3ac2 4 94 19
+3ac6 3 251 10
+3ac9 5 94 19
+3ace 3 251 10
+3ad1 f 98 19
+3ae0 c 85 19
+3aec f 590 7
+3afb 5 459 7
+3b00 2 590 7
+3b02 2 118 5
+3b04 4 62 11
+3b08 f 222 6
+3b17 4 85 19
+3b1b 1a 86 19
+3b35 5 459 7
+3b3a 3 86 19
+3b3d 2 118 5
+3b3f 4 62 11
+3b43 9 65 11
+3b4c 7 219 1
+3b53 d 459 7
+3b60 18 222 6
+3b78 5 65 11
+3b7d 7 219 1
+3b84 14 459 7
+3b98 7 88 19
+3b9f 4 89 19
+3ba3 8 88 19
+3bab 13 89 19
+FUNC 3bc0 120 0 QSvgIOHandler::option
+3bc0 9 184 19
+3bc9 27 185 19
+3bf0 a 187 19
+3bfa e 209 19
+3c08 c 190 19
+3c14 12 72 19
+3c26 c 191 19
+3c32 e 209 19
+3c40 d 194 19
+3c4d 13 209 19
+3c60 d 200 19
+3c6d 13 209 19
+3c80 d 197 19
+3c8d 13 209 19
+3ca0 d 203 19
+3cad 13 209 19
+3cc0 3 366 4
+3cc3 7 367 4
+3cca c 366 4
+3cd6 a 209 19
+FUNC 3ce0 15 0 QSvgIOHandlerPrivate::load
+3ce0 8 72 19
+3ce8 d 98 19
+FUNC 3d00 b2 0 QSvgIOHandler::QSvgIOHandler
+3d00 9 101 19
+3d09 1a 102 19
+3d23 4 52 19
+3d27 3 102 19
+3d2a 17 52 19
+3d41 e 103 14
+3d4f e 50 10
+3d5d 5 52 19
+3d62 e 50 10
+3d70 e 103 14
+3d7e 1c 50 10
+3d9a d 52 19
+3da7 4 102 19
+3dab 7 105 19
+FUNC 3dc0 9f 0 QSvgIOHandler::canRead
+3dc0 4 252 19
+3dc4 5 253 19
+3dc9 4 252 19
+3dcd 8 253 19
+3dd5 18 254 19
+3ded 4 459 7
+3df1 2 118 5
+3df3 4 62 11
+3df7 f 222 6
+3e06 a 255 19
+3e10 5 65 11
+3e15 7 219 1
+3e1c 14 459 7
+3e30 11 636 7
+3e41 5 254 19
+3e46 11 636 7
+3e57 8 254 19
+FUNC 3e60 44 0 QSvgIOHandler::~QSvgIOHandler
+3e60 10 108 19
+3e70 4 110 19
+3e74 3 108 19
+3e77 5 110 19
+3e7c 12 48 19
+3e8e 8 110 19
+3e96 4 111 19
+3e9a 3 108 19
+3e9d 2 111 19
+3e9f 5 108 19
+FUNC 3eb0 12 0 QSvgIOHandler::~QSvgIOHandler
+3eb0 1 108 19
+3eb1 3 108 19
+3eb4 e 111 19
+FUNC 3ed0 364 0 QSvgIOHandler::read
+3ed0 14 140 19
+3ee4 a 141 19
+3eee 2 179 19
+3ef0 1b 180 19
+3f0b 9 141 19
+3f14 a 72 19
+3f1e e 185 10
+3f2c 18 114 14
+3f44 4 143 19
+3f48 24 496 10
+3f6c 5 143 19
+3f71 18 111 14
+3f89 4 268 14
+3f8d 2 185 10
+3f8f 11 268 14
+3fa0 16 185 10
+3fb6 2 183 9
+3fb8 2 251 10
+3fba 3 254 10
+3fbd 5 183 9
+3fc2 3 251 10
+3fc5 4 254 10
+3fc9 7 183 9
+3fd0 4 251 10
+3fd4 5 254 10
+3fd9 16 114 14
+3fef a 155 19
+3ff9 4 156 19
+3ffd e 155 19
+400b 5 156 19
+4010 4 155 19
+4014 1c 185 10
+4030 2 251 10
+4032 2 254 10
+4034 6 183 9
+403a 3 251 10
+403d 3 254 10
+4040 6 183 9
+4046 4 251 10
+404a 4 254 10
+404e 19 162 19
+4067 12 163 19
+4079 1c 164 19
+4095 13 165 19
+40a8 40 166 19
+40e8 c 185 10
+40f4 b 114 14
+40ff 14 185 10
+4113 4 143 19
+4117 24 496 10
+413b a 143 19
+4145 25 168 19
+416a 10 111 14
+417a 17 170 19
+4191 b 171 19
+419c 15 172 19
+41b1 10 173 19
+41c1 17 175 19
+41d8 28 106 9
+4200 23 270 14
+4223 11 141 19
+PUBLIC 27e8 0 _init
+PUBLIC 2f60 0 qt_plugin_query_metadata
+PUBLIC 2f70 0 qt_plugin_instance
+PUBLIC 4258 0 _fini
+STACK CFI INIT 2e70 2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2e80 3d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2e82 $r12: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2e8b $rbp: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 2e8f $rbx: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 2eb9 .cfa: $rsp 24 +
+STACK CFI 2eba .cfa: $rsp 16 +
+STACK CFI 2ebc .cfa: $rsp 8 +
+STACK CFI INIT 2ec0 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 33a0 f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 33b0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 33b8 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 33c7 .cfa: $rsp 8 +
+STACK CFI INIT 2ee0 78 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2ee1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2eef $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 2ef6 .cfa: $rsp 32 +
+STACK CFI 2f08 .cfa: $rsp 24 +
+STACK CFI 2f09 .cfa: $rsp 16 +
+STACK CFI 2f0a .cfa: $rsp 8 +
+STACK CFI 2f10 .cfa: $rsp 32 +
+STACK CFI 2f41 .cfa: $rsp 24 +
+STACK CFI 2f42 .cfa: $rsp 16 +
+STACK CFI 2f43 .cfa: $rsp 8 +
+STACK CFI 2f48 .cfa: $rsp 32 +
+STACK CFI INIT 33d0 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2f60 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2f70 16a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2f71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2f72 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 2f76 .cfa: $rsp 32 +
+STACK CFI 3051 .cfa: $rsp 24 +
+STACK CFI 3052 .cfa: $rsp 16 +
+STACK CFI 3053 .cfa: $rsp 8 +
+STACK CFI 3058 .cfa: $rsp 32 +
+STACK CFI INIT 3400 1c0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3402 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3404 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3406 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 3408 $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 3409 $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 340d $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 3414 .cfa: $rsp 80 +
+STACK CFI 353e .cfa: $rsp 56 +
+STACK CFI 353f .cfa: $rsp 48 +
+STACK CFI 3540 .cfa: $rsp 40 +
+STACK CFI 3542 .cfa: $rsp 32 +
+STACK CFI 3544 .cfa: $rsp 24 +
+STACK CFI 3546 .cfa: $rsp 16 +
+STACK CFI 354c .cfa: $rsp 8 +
+STACK CFI 354d .cfa: $rsp 80 +
+STACK CFI INIT 35c0 5e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 35c4 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 35f8 .cfa: $rsp 8 +
+STACK CFI 3600 .cfa: $rsp 16 +
+STACK CFI 361d .cfa: $rsp 8 +
+STACK CFI INIT 30e0 256 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 30e2 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 30e9 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 30eb $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 30ed $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 30ee $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 30f9 $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 30fd .cfa: $rsp 112 +
+STACK CFI 323e .cfa: $rsp 56 +
+STACK CFI 3242 .cfa: $rsp 48 +
+STACK CFI 3243 .cfa: $rsp 40 +
+STACK CFI 3245 .cfa: $rsp 32 +
+STACK CFI 3247 .cfa: $rsp 24 +
+STACK CFI 3249 .cfa: $rsp 16 +
+STACK CFI 324b .cfa: $rsp 8 +
+STACK CFI 3250 .cfa: $rsp 112 +
+STACK CFI INIT 3340 4c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3341 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3342 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3349 .cfa: $rsp 32 +
+STACK CFI 336d .cfa: $rsp 24 +
+STACK CFI 336e .cfa: $rsp 16 +
+STACK CFI 336f .cfa: $rsp 8 +
+STACK CFI 3370 .cfa: $rsp 32 +
+STACK CFI 3374 .cfa: $rsp 24 +
+STACK CFI 337b .cfa: $rsp 16 +
+STACK CFI 337c .cfa: $rsp 8 +
+STACK CFI 3388 .cfa: $rsp 32 +
+STACK CFI INIT 3390 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3620 1b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3640 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3641 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3659 .cfa: $rsp 8 +
+STACK CFI INIT 3660 152 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3662 $r12: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3663 $rbp: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3667 $rbx: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 366e .cfa: $rsp 80 +
+STACK CFI 36f3 .cfa: $rsp 32 +
+STACK CFI 36f4 .cfa: $rsp 24 +
+STACK CFI 36f5 .cfa: $rsp 16 +
+STACK CFI 36f7 .cfa: $rsp 8 +
+STACK CFI 3700 .cfa: $rsp 80 +
+STACK CFI 3714 .cfa: $rsp 32 +
+STACK CFI 3715 .cfa: $rsp 24 +
+STACK CFI 3716 .cfa: $rsp 16 +
+STACK CFI 3718 .cfa: $rsp 8 +
+STACK CFI 3720 .cfa: $rsp 80 +
+STACK CFI 373d .cfa: $rsp 32 +
+STACK CFI 373e .cfa: $rsp 24 +
+STACK CFI 373f .cfa: $rsp 16 +
+STACK CFI 3741 .cfa: $rsp 8 +
+STACK CFI 3748 .cfa: $rsp 80 +
+STACK CFI 3760 .cfa: $rsp 32 +
+STACK CFI 3761 .cfa: $rsp 24 +
+STACK CFI 3762 .cfa: $rsp 16 +
+STACK CFI 3764 .cfa: $rsp 8 +
+STACK CFI 3768 .cfa: $rsp 80 +
+STACK CFI INIT 37c0 171 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 37c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 37c2 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 37c9 .cfa: $rsp 80 +
+STACK CFI 38a4 .cfa: $rsp 24 +
+STACK CFI 38a5 .cfa: $rsp 16 +
+STACK CFI 38a6 .cfa: $rsp 8 +
+STACK CFI 38b0 .cfa: $rsp 80 +
+STACK CFI 3904 .cfa: $rsp 24 +
+STACK CFI 3907 .cfa: $rsp 16 +
+STACK CFI 3908 .cfa: $rsp 8 +
+STACK CFI 3910 .cfa: $rsp 80 +
+STACK CFI INIT 3940 27e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3942 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3944 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3946 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 3948 $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 394c $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 3950 $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 3954 .cfa: $rsp 96 +
+STACK CFI 3a39 .cfa: $rsp 56 +
+STACK CFI 3a3a .cfa: $rsp 48 +
+STACK CFI 3a3b .cfa: $rsp 40 +
+STACK CFI 3a3d .cfa: $rsp 32 +
+STACK CFI 3a3f .cfa: $rsp 24 +
+STACK CFI 3a41 .cfa: $rsp 16 +
+STACK CFI 3a43 .cfa: $rsp 8 +
+STACK CFI 3a48 .cfa: $rsp 96 +
+STACK CFI 3ad5 .cfa: $rsp 56 +
+STACK CFI 3ad6 .cfa: $rsp 48 +
+STACK CFI 3ad7 .cfa: $rsp 40 +
+STACK CFI 3ad9 .cfa: $rsp 32 +
+STACK CFI 3adb .cfa: $rsp 24 +
+STACK CFI 3add .cfa: $rsp 16 +
+STACK CFI 3adf .cfa: $rsp 8 +
+STACK CFI 3ae0 .cfa: $rsp 96 +
+STACK CFI INIT 3bc0 120 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3bc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3bc2 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3bc9 .cfa: $rsp 32 +
+STACK CFI 3bfe .cfa: $rsp 24 +
+STACK CFI 3c02 .cfa: $rsp 16 +
+STACK CFI 3c03 .cfa: $rsp 8 +
+STACK CFI 3c08 .cfa: $rsp 32 +
+STACK CFI 3c36 .cfa: $rsp 24 +
+STACK CFI 3c3a .cfa: $rsp 16 +
+STACK CFI 3c3b .cfa: $rsp 8 +
+STACK CFI 3c40 .cfa: $rsp 32 +
+STACK CFI 3c51 .cfa: $rsp 24 +
+STACK CFI 3c55 .cfa: $rsp 16 +
+STACK CFI 3c56 .cfa: $rsp 8 +
+STACK CFI 3c60 .cfa: $rsp 32 +
+STACK CFI 3c71 .cfa: $rsp 24 +
+STACK CFI 3c75 .cfa: $rsp 16 +
+STACK CFI 3c76 .cfa: $rsp 8 +
+STACK CFI 3c80 .cfa: $rsp 32 +
+STACK CFI 3c91 .cfa: $rsp 24 +
+STACK CFI 3c95 .cfa: $rsp 16 +
+STACK CFI 3c96 .cfa: $rsp 8 +
+STACK CFI 3ca0 .cfa: $rsp 32 +
+STACK CFI 3cb1 .cfa: $rsp 24 +
+STACK CFI 3cb5 .cfa: $rsp 16 +
+STACK CFI 3cb6 .cfa: $rsp 8 +
+STACK CFI 3cc0 .cfa: $rsp 32 +
+STACK CFI 3cda .cfa: $rsp 24 +
+STACK CFI 3cde .cfa: $rsp 16 +
+STACK CFI 3cdf .cfa: $rsp 8 +
+STACK CFI INIT 3ce0 15 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3d00 b2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3d01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3d05 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3d09 .cfa: $rsp 32 +
+STACK CFI 3daf .cfa: $rsp 24 +
+STACK CFI 3db0 .cfa: $rsp 16 +
+STACK CFI 3db1 .cfa: $rsp 8 +
+STACK CFI INIT 3dc0 9f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3dc1 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3dcd .cfa: $rsp 32 +
+STACK CFI 3e0a .cfa: $rsp 16 +
+STACK CFI 3e0d .cfa: $rsp 8 +
+STACK CFI 3e10 .cfa: $rsp 32 +
+STACK CFI INIT 3e60 44 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3e61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3e6c $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3e70 .cfa: $rsp 32 +
+STACK CFI 3e9a .cfa: $rsp 24 +
+STACK CFI 3e9e .cfa: $rsp 16 +
+STACK CFI 3e9f .cfa: $rsp 8 +
+STACK CFI INIT 3eb0 12 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3eb1 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3ebd .cfa: $rsp 8 +
+STACK CFI INIT 3ed0 364 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3ed2 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3ed4 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3ed6 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 3edb $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 3edc $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 3edd $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 3ee4 .cfa: $rsp 272 +
+STACK CFI 3ef7 .cfa: $rsp 56 +
+STACK CFI 3ef8 .cfa: $rsp 48 +
+STACK CFI 3ef9 .cfa: $rsp 40 +
+STACK CFI 3efb .cfa: $rsp 32 +
+STACK CFI 3efd .cfa: $rsp 24 +
+STACK CFI 3eff .cfa: $rsp 16 +
+STACK CFI 3f01 .cfa: $rsp 8 +
+STACK CFI 3f08 .cfa: $rsp 272 +
+STACK CFI INIT 2800 550 .cfa: $rsp 16 + .ra: .cfa -8 + ^
+STACK CFI 2806 .cfa: $rsp 24 +

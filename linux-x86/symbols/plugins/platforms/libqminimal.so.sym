@@ -1,0 +1,807 @@
+MODULE Linux x86 0C2495EC06D3FB9D1D8E3B0CE53FFC480 libqminimal.so
+FILE 0 /tmp/joshualang-build-qt-18178/build-linux-x86/qtbase/src/platformsupport/.moc/moc_qunixeventdispatcher_qpa_p.cpp
+FILE 1 /tmp/joshualang-build-qt-18178/build-linux-x86/qtbase/src/plugins/platforms/minimal/.moc/main.moc
+FILE 2 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 3 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
+FILE 4 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
+FILE 5 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdebug.h
+FILE 6 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
+FILE 7 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 8 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
+FILE 9 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 10 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 11 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 12 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
+FILE 13 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 14 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 15 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 16 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 17 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 18 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstringlist.h
+FILE 19 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/private/../../../../../src/gui/kernel/qguiapplication_p.h
+FILE 20 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformintegration.h
+FILE 21 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformscreen.h
+FILE 22 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qgenericunixeventdispatcher.cpp
+FILE 23 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qunixeventdispatcher.cpp
+FILE 24 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/main.cpp
+FILE 25 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalbackingstore.cpp
+FILE 26 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp
+FILE 27 /tmp/joshualang-build-qt-18178/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.h
+FUNC 3e30 2 0 QMinimalIntegrationPlugin::qt_static_metacall
+3e30 2 56 1
+FUNC 3e40 64 0 QMinimalIntegrationPlugin::create
+3e40 10 49 24
+3e50 26 50 24
+3e76 2 53 24
+3e78 4 50 24
+3e7c 20 51 24
+3e9c 8 54 24
+FUNC 3eb0 3b 0 QMinimalIntegrationPlugin::metaObject
+3eb0 4 70 1
+3eb4 4 113 14
+3eb8 b 70 1
+3ec3 3 113 14
+3ec6 7 71 1
+3ecd 8 71 1
+3ed5 b 72 1
+3ee0 3 72 1
+3ee3 6 71 1
+3ee9 2 72 1
+FUNC 3ef0 12 0 qt_plugin_query_metadata
+3ef0 b 173 1
+3efb 7 173 1
+FUNC 3f10 173 0 qt_plugin_instance
+3f10 11 173 1
+3f21 d 173 1
+3f2e a 588 15
+3f38 b 588 15
+3f43 c 173 1
+3f4f b 40 24
+3f5a 2 173 1
+3f5c d 40 24
+3f69 8 696 15
+3f71 8 702 15
+3f79 2 696 15
+3f7b 2 702 15
+3f7d 4 703 15
+3f81 d 181 2
+3f8e 4 705 15
+3f92 7 219 2
+3f99 8 705 15
+3fa1 6 707 15
+3fa7 6 708 15
+3fad 4 591 15
+3fb1 7 219 2
+3fb8 8 591 15
+3fc0 18 588 15
+3fd8 e 173 1
+3fe6 6 588 15
+3fec c 173 1
+3ff8 16 173 1
+400e 3 173 1
+4011 14 590 15
+4025 33 173 1
+4058 10 161 15
+4068 e 706 15
+4076 d 161 15
+FUNC 4090 4c 0 QMinimalIntegrationPlugin::qt_metacast
+4090 14 75 1
+40a4 4 76 1
+40a8 12 77 1
+40ba 4 78 1
+40be 4 77 1
+40c2 e 79 1
+40d0 8 80 1
+40d8 4 76 1
+FUNC 40e0 38 0 QMinimalIntegrationPlugin::qt_metacall
+40e0 4 83 1
+40e4 4 84 1
+40e8 b 83 1
+40f3 20 84 1
+4113 5 88 1
+FUNC 4120 28 0 QMinimalIntegrationPlugin::~QMinimalIntegrationPlugin
+4120 f 40 24
+412f 19 40 24
+FUNC 4150 32 0 QMinimalIntegrationPlugin::~QMinimalIntegrationPlugin
+4150 10 40 24
+4160 22 40 24
+FUNC 4190 37 0 QPointer<QObject>::~QPointer
+4190 13 64 7
+41a3 6 591 15
+41a9 7 219 2
+41b0 a 591 15
+41ba 8 161 15
+41c2 5 64 7
+FUNC 41d0 3c 0 QMinimalIntegration::~QMinimalIntegration
+41d0 10 82 26
+41e0 c 82 26
+41ec 7 84 26
+41f3 8 84 26
+41fb b 97 20
+4206 6 85 26
+FUNC 4210 44 0 QMinimalIntegration::~QMinimalIntegration
+4210 10 82 26
+4220 c 82 26
+422c f 84 26
+423b b 97 20
+4246 e 85 26
+FUNC 4260 42 0 QMinimalIntegration::hasCapability
+4260 13 88 26
+4273 a 89 26
+427d 10 92 26
+428d e 94 26
+429b 5 90 26
+42a0 2 94 26
+FUNC 42b0 51 0 QMinimalIntegration::fontDatabase
+42b0 14 106 26
+42c4 6 107 26
+42ca 7 109 26
+42d1 7 112 26
+42d8 8 108 26
+42e0 8 112 26
+42e8 c 110 26
+42f4 8 99 26
+42fc 3 110 26
+42ff 2 111 26
+FUNC 4310 3e 0 QMinimalIntegration::createPlatformWindow
+4310 10 115 26
+4320 1e 117 26
+433e 8 118 26
+4346 8 120 26
+FUNC 4350 36 0 QMinimalIntegration::createPlatformBackingStore
+4350 10 123 26
+4360 1e 124 26
+437e 8 125 26
+FUNC 4390 19 0 QMinimalIntegration::createEventDispatcher
+4390 f 128 26
+439f 5 136 26
+43a4 5 138 26
+FUNC 43b0 14 0 QMinimalIntegration::instance
+43b0 b 141 26
+43bb 6 96 19
+43c1 2 142 26
+43c3 1 143 26
+FUNC 43d0 210 0 QMinimalIntegration::QMinimalIntegration
+43d0 12 64 26
+43e2 8 64 26
+43ea 10 66 26
+43fa 6 776 11
+4400 2 118 8
+4402 8 51 13
+440a 7 54 13
+4411 21 181 2
+4432 2 56 26
+4434 2 57 26
+4436 4 270 11
+443a 5 57 26
+443f 4 270 11
+4443 6 85 17
+4449 8 891 3
+4451 f 57 26
+4460 14 58 26
+4474 a 59 26
+447e 7 286 11
+4485 4 57 26
+4489 4 286 11
+448d a 57 26
+4497 c 93 18
+44a3 3 66 26
+44a6 e 68 26
+44b4 8 69 26
+44bc c 73 26
+44c8 3 46 27
+44cb 2 73 26
+44cd d 46 27
+44da e 50 12
+44e8 e 46 27
+44f6 e 103 16
+4504 e 75 26
+4512 14 79 26
+4526 8 80 26
+452e 17 779 11
+4545 2 108 11
+4547 7 784 11
+454e 4 109 11
+4552 7 783 11
+4559 7 782 11
+4560 8 443 11
+4568 4 444 11
+456c 2 877 17
+456e 2 54 13
+4570 2 877 17
+4572 8 54 13
+457a 7 181 2
+4581 3 445 11
+4584 3 446 11
+4587 21 443 11
+45a8 18 69 26
+45c0 9 70 26
+45c9 4 270 11
+45cd 2 56 26
+45cf 4 270 11
+45d3 d 891 3
+FUNC 45e0 25 0 QPlatformScreen::availableGeometry
+45e0 7 91 21
+45e7 1e 91 21
+FUNC 4610 1a 0 QPlatformScreen::name
+4610 b 115 21
+461b 4 115 21
+461f 8 1052 17
+4627 3 115 21
+FUNC 4630 22 0 QMinimalScreen::geometry
+4630 22 48 27
+FUNC 4660 8 0 QMinimalScreen::depth
+4660 8 49 27
+FUNC 4670 8 0 QMinimalScreen::format
+4670 8 50 27
+FUNC 4680 2 0 DummyFontDatabase::populateFontDatabase
+4680 2 102 26
+FUNC 4690 28 0 DummyFontDatabase::~DummyFontDatabase
+4690 f 99 26
+469f 19 99 26
+FUNC 46c0 32 0 DummyFontDatabase::~DummyFontDatabase
+46c0 10 99 26
+46d0 22 99 26
+FUNC 4700 28 0 QMinimalScreen::~QMinimalScreen
+4700 f 42 27
+470f 19 42 27
+FUNC 4730 32 0 QMinimalScreen::~QMinimalScreen
+4730 10 42 27
+4740 22 42 27
+FUNC 4770 cb 0 QList<QString>::~QList
+4770 16 793 11
+4786 2 795 11
+4788 2 118 8
+478a 4 62 13
+478e d 835 11
+479b c 834 11
+47a7 11 465 11
+47b8 18 222 9
+47d0 d 465 11
+47dd 4 1053 17
+47e1 2 118 8
+47e3 4 62 13
+47e7 5 65 13
+47ec 7 219 2
+47f3 d 1053 17
+4800 5 65 13
+4805 7 219 2
+480c 6 795 11
+4812 12 797 11
+4824 8 836 11
+482c f 797 11
+FUNC 4840 102 0 QMinimalBackingStore::paintDevice
+4840 9 57 25
+4849 3 58 25
+484c b 57 25
+4857 6 58 25
+485d 3 61 25
+4860 6 62 25
+4866 3 61 25
+4869 7 62 25
+4870 9 62 4
+4879 a 59 25
+4883 3 530 17
+4886 3 59 25
+4889 1c 62 4
+48a5 5 59 25
+48aa 6 530 17
+48b0 3 59 25
+48b3 14 530 17
+48c7 3 124 5
+48ca 3 530 17
+48cd c 124 5
+48d9 3 1053 17
+48dc 2 118 8
+48de 4 62 13
+48e2 5 65 13
+48e7 7 219 2
+48ee 4 1053 17
+48f2 19 98 5
+490b 8 59 25
+4913 3 61 25
+4916 6 62 25
+491c 3 61 25
+491f 9 62 25
+4928 1a 222 9
+FUNC 4950 310 0 QMinimalBackingStore::flush
+4950 9 65 25
+4959 3 70 25
+495c b 65 25
+4967 6 70 25
+496d b 76 25
+4978 6 72 25
+497e 8 650 17
+4986 9 72 25
+498f e 650 17
+499d 28 896 17
+49c5 3 650 17
+49c8 12 896 17
+49da 3 1053 17
+49dd 2 118 8
+49df 3 896 17
+49e2 8 62 13
+49ea 5 65 13
+49ef 7 219 2
+49f6 8 1053 17
+49fe 12 73 25
+4a10 3 483 10
+4a13 6 62 4
+4a19 3 55 9
+4a1c 3 62 4
+4a1f a 73 25
+4a29 3 530 17
+4a2c 6 73 25
+4a32 1c 62 4
+4a4e 5 73 25
+4a53 6 530 17
+4a59 3 73 25
+4a5c 14 530 17
+4a70 3 124 5
+4a73 3 530 17
+4a76 c 124 5
+4a82 3 1053 17
+4a85 2 118 8
+4a87 8 62 13
+4a8f 18 222 9
+4aa7 19 98 5
+4ac0 21 530 17
+4ae1 3 124 5
+4ae4 3 530 17
+4ae7 c 124 5
+4af3 3 1053 17
+4af6 2 118 8
+4af8 8 62 13
+4b00 18 222 9
+4b18 19 98 5
+4b31 b 73 25
+4b3c 3 459 10
+4b3f 2 118 8
+4b41 8 62 13
+4b49 18 222 9
+4b61 25 74 25
+4b86 3 1053 17
+4b89 2 118 8
+4b8b 8 62 13
+4b93 18 222 9
+4bab d 76 25
+4bb8 20 222 9
+4bd8 9 65 13
+4be1 7 219 2
+4be8 18 1053 17
+4c00 9 65 13
+4c09 7 219 2
+4c10 10 1053 17
+4c20 9 65 13
+4c29 7 219 2
+4c30 10 1053 17
+4c40 9 65 13
+4c49 7 219 2
+4c50 10 459 10
+FUNC 4c60 152 0 QMinimalBackingStore::QMinimalBackingStore
+4c60 14 44 25
+4c74 3 44 25
+4c77 2d 46 25
+4ca4 2 48 25
+4ca6 3 46 25
+4ca9 2 48 25
+4cab d 50 25
+4cb8 9 62 4
+4cc1 d 49 25
+4cce 1c 62 4
+4cea 5 49 25
+4cef c 530 17
+4cfb 3 49 25
+4cfe 14 530 17
+4d12 3 124 5
+4d15 3 530 17
+4d18 f 124 5
+4d27 3 1053 17
+4d2a 2 118 8
+4d2c 4 62 13
+4d30 5 65 13
+4d35 7 219 2
+4d3c 4 1053 17
+4d40 1c 98 5
+4d5c c 117 5
+4d68 19 98 5
+4d81 8 49 25
+4d89 f 50 25
+4d98 1a 222 9
+FUNC 4dc0 35 0 QMinimalBackingStore::~QMinimalBackingStore
+4dc0 10 52 25
+4dd0 1f 52 25
+4def 6 54 25
+FUNC 4e00 3d 0 QMinimalBackingStore::~QMinimalBackingStore
+4e00 10 52 25
+4e10 1f 52 25
+4e2f e 54 25
+FUNC 4e40 8f 0 QMinimalBackingStore::resize
+4e40 14 79 25
+4e54 15 80 25
+4e69 6 81 25
+4e6f 2 80 25
+4e71 f 81 25
+4e80 6 159 16
+4e86 6 81 25
+4e8c 4 159 16
+4e90 2a 82 25
+4eba e 83 25
+4ec8 7 159 16
+FUNC 4ed0 36 0 createUnixEventDispatcher
+4ed0 10 41 22
+4ee0 1e 47 22
+4efe 8 48 22
+FUNC 4f10 2b 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+4f10 f 57 23
+4f1f 17 57 23
+4f36 5 58 23
+FUNC 4f40 35 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+4f40 10 57 23
+4f50 17 57 23
+4f67 e 58 23
+FUNC 4f80 34 0 QUnixEventDispatcherQPA::flush
+4f80 f 73 23
+4f8f 6 110 6
+4f95 6 74 23
+4f9b 14 75 23
+4faf 5 76 23
+FUNC 4fc0 2e 0 QUnixEventDispatcherQPA::hasPendingEvents
+4fc0 f 67 23
+4fcf 18 69 23
+4fe7 7 70 23
+FUNC 4ff0 35 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA
+4ff0 10 53 23
+5000 4 53 23
+5004 1b 54 23
+501f 6 55 23
+FUNC 5030 42 0 QUnixEventDispatcherQPA::processEvents
+5030 11 61 23
+5041 4 61 23
+5045 10 62 23
+5055 3 63 23
+5058 2 62 23
+505a f 63 23
+5069 9 64 23
+FUNC 5080 2 0 QUnixEventDispatcherQPA::qt_static_metacall
+5080 2 56 0
+FUNC 5090 3b 0 QUnixEventDispatcherQPA::metaObject
+5090 4 70 0
+5094 4 113 14
+5098 b 70 0
+50a3 3 113 14
+50a6 7 71 0
+50ad 8 71 0
+50b5 b 72 0
+50c0 3 72 0
+50c3 6 71 0
+50c9 2 72 0
+FUNC 50d0 4c 0 QUnixEventDispatcherQPA::qt_metacast
+50d0 14 75 0
+50e4 4 76 0
+50e8 12 77 0
+50fa 4 78 0
+50fe 4 77 0
+5102 e 79 0
+5110 8 80 0
+5118 4 76 0
+FUNC 5120 38 0 QUnixEventDispatcherQPA::qt_metacall
+5120 4 83 0
+5124 4 84 0
+5128 b 83 0
+5133 20 84 0
+5153 5 88 0
+PUBLIC 3460 0 _init
+PUBLIC 3ef0 0 qt_plugin_query_metadata
+PUBLIC 3f10 0 qt_plugin_instance
+PUBLIC 5180 0 _fini
+STACK CFI INIT 3e30 2 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 3e40 64 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 3e41 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 3e42 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 3e50 .cfa: $esp 32 +
+STACK CFI 3e9f .cfa: $esp 12 +
+STACK CFI 3ea2 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 3ea3 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 3eb0 3b .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 3eb1 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 3eb4 .cfa: $esp 32 +
+STACK CFI 3ed8 .cfa: $esp 8 +
+STACK CFI 3ed9 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI 3ee0 $ebx: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI 3ee3 .cfa: $esp 8 +
+STACK CFI 3eea $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 4120 28 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4121 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 412f .cfa: $esp 32 +
+STACK CFI 4146 .cfa: $esp 8 +
+STACK CFI 4147 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 4150 32 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4151 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4152 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4160 .cfa: $esp 32 +
+STACK CFI 417f .cfa: $esp 12 +
+STACK CFI 4180 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4181 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4190 37 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4191 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4194 .cfa: $esp 32 +
+STACK CFI 41c5 .cfa: $esp 8 +
+STACK CFI 41c6 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 3ef0 12 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 3f10 173 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 3f11 $edi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 3f12 $esi: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 3f13 $ebx: .cfa -16 + ^ .cfa: $esp 16 +
+STACK CFI 3f21 .cfa: $esp 32 +
+STACK CFI 3fef .cfa: $esp 16 +
+STACK CFI 3ff0 $ebx: $ebx .cfa: $esp 12 +
+STACK CFI 3ff1 $esi: $esi .cfa: $esp 8 +
+STACK CFI 3ff2 $edi: $edi .cfa: $esp 4 +
+STACK CFI 3ff8 $ebx: .cfa -16 + ^ $edi: .cfa -8 + ^ $esi: .cfa -12 + ^ .cfa: $esp 32 +
+STACK CFI INIT 4090 4c .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4091 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4092 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4095 .cfa: $esp 32 +
+STACK CFI 40d3 .cfa: $esp 12 +
+STACK CFI 40d6 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 40d7 $esi: $esi .cfa: $esp 4 +
+STACK CFI 40d8 $ebx: .cfa -12 + ^ $esi: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI INIT 40e0 38 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 40e1 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 40e4 .cfa: $esp 32 +
+STACK CFI 4116 .cfa: $esp 8 +
+STACK CFI 4117 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 41c7 4 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 45e0 25 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 45e1 $ebp: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 45e3 .cfa: $ebp 8 +
+STACK CFI 45e7 $esi: .cfa -12 + ^
+STACK CFI 4602 $ebp: $ebp $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4610 1a .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 4630 22 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 4660 8 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 4670 8 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 41d0 3c .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 41d1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 41d2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 41e0 .cfa: $esp 32 +
+STACK CFI 4209 .cfa: $esp 12 +
+STACK CFI 420a $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 420b $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4680 2 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 4210 44 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4211 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4212 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4220 .cfa: $esp 32 +
+STACK CFI 4251 .cfa: $esp 12 +
+STACK CFI 4252 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4253 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4260 42 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4261 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4264 .cfa: $esp 32 +
+STACK CFI 4290 .cfa: $esp 8 +
+STACK CFI 4291 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI 4298 $ebx: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI 429b .cfa: $esp 8 +
+STACK CFI 42a1 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 42b0 51 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 42b1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 42b2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 42b5 .cfa: $esp 32 +
+STACK CFI 42d4 .cfa: $esp 12 +
+STACK CFI 42d5 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 42d6 $esi: $esi .cfa: $esp 4 +
+STACK CFI 42d8 $ebx: .cfa -12 + ^ $esi: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI 42e3 .cfa: $esp 12 +
+STACK CFI 42e4 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 42e5 $esi: $esi .cfa: $esp 4 +
+STACK CFI 42e8 $ebx: .cfa -12 + ^ $esi: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI INIT 4310 3e .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4311 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4312 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4320 .cfa: $esp 32 +
+STACK CFI 4349 .cfa: $esp 12 +
+STACK CFI 434c $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 434d $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4350 36 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4351 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4352 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4360 .cfa: $esp 32 +
+STACK CFI 4381 .cfa: $esp 12 +
+STACK CFI 4384 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4385 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4390 19 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4391 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 439f .cfa: $esp 16 +
+STACK CFI 43a7 .cfa: $esp 8 +
+STACK CFI 43a8 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 4690 28 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4691 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 469f .cfa: $esp 32 +
+STACK CFI 46b6 .cfa: $esp 8 +
+STACK CFI 46b7 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 46c0 32 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 46c1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 46c2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 46d0 .cfa: $esp 32 +
+STACK CFI 46ef .cfa: $esp 12 +
+STACK CFI 46f0 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 46f1 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4700 28 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4701 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 470f .cfa: $esp 32 +
+STACK CFI 4726 .cfa: $esp 8 +
+STACK CFI 4727 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 4730 32 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4731 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4732 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4740 .cfa: $esp 32 +
+STACK CFI 475f .cfa: $esp 12 +
+STACK CFI 4760 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4761 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 43b0 14 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 4770 cb .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4771 $ebp: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4772 $edi: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4773 $esi: .cfa -16 + ^ .cfa: $esp 16 +
+STACK CFI 4774 $ebx: .cfa -20 + ^ .cfa: $esp 20 +
+STACK CFI 4777 .cfa: $esp 64 +
+STACK CFI 4815 .cfa: $esp 20 +
+STACK CFI 4816 $ebx: $ebx .cfa: $esp 16 +
+STACK CFI 4817 $esi: $esi .cfa: $esp 12 +
+STACK CFI 4818 $edi: $edi .cfa: $esp 8 +
+STACK CFI 4819 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4820 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $esp 64 +
+STACK CFI 482f .cfa: $esp 20 +
+STACK CFI 4830 $ebx: $ebx .cfa: $esp 16 +
+STACK CFI 4831 $esi: $esi .cfa: $esp 12 +
+STACK CFI 4832 $edi: $edi .cfa: $esp 8 +
+STACK CFI 4833 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4834 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $esp 64 +
+STACK CFI INIT 43d0 210 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 43d1 $ebp: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 43d2 $edi: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 43d3 $esi: .cfa -16 + ^ .cfa: $esp 16 +
+STACK CFI 43d4 $ebx: .cfa -20 + ^ .cfa: $esp 20 +
+STACK CFI 43e2 .cfa: $esp 64 +
+STACK CFI 4529 .cfa: $esp 20 +
+STACK CFI 452a $ebx: $ebx .cfa: $esp 16 +
+STACK CFI 452b $esi: $esi .cfa: $esp 12 +
+STACK CFI 452c $edi: $edi .cfa: $esp 8 +
+STACK CFI 452d $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 452e $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $esp 64 +
+STACK CFI INIT 4840 102 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4841 $ebp: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4843 .cfa: $ebp 8 +
+STACK CFI 484c $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^
+STACK CFI 4864 $ebx: $ebx
+STACK CFI 4865 $esi: $esi
+STACK CFI 4866 $edi: $edi
+STACK CFI 486a $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4870 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $ebp 8 +
+STACK CFI 491a $ebx: $ebx
+STACK CFI 491b $esi: $esi
+STACK CFI 491c $edi: $edi
+STACK CFI 4920 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4921 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $ebp 8 +
+STACK CFI INIT 4950 310 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4951 $ebp: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4953 .cfa: $ebp 8 +
+STACK CFI 495c $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^
+STACK CFI 4971 $ebx: $ebx
+STACK CFI 4972 $esi: $esi
+STACK CFI 4973 $edi: $edi
+STACK CFI 4974 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4978 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $ebp 8 +
+STACK CFI 4baf $ebx: $ebx
+STACK CFI 4bb0 $esi: $esi
+STACK CFI 4bb1 $edi: $edi
+STACK CFI 4bb2 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4bb3 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $ebp 8 +
+STACK CFI INIT 4c60 152 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4c61 $ebp: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4c63 .cfa: $ebp 8 +
+STACK CFI 4c66 $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^
+STACK CFI 4caf $ebx: $ebx
+STACK CFI 4cb0 $esi: $esi
+STACK CFI 4cb1 $edi: $edi
+STACK CFI 4cb2 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4cb8 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $ebp 8 +
+STACK CFI 4d8d $ebx: $ebx
+STACK CFI 4d8e $esi: $esi
+STACK CFI 4d8f $edi: $edi
+STACK CFI 4d90 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4d91 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $ebp 8 +
+STACK CFI INIT 4dc0 35 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4dc1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4dc2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4dd0 .cfa: $esp 32 +
+STACK CFI 4df2 .cfa: $esp 12 +
+STACK CFI 4df3 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4df4 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4e00 3d .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4e01 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4e02 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4e10 .cfa: $esp 32 +
+STACK CFI 4e3a .cfa: $esp 12 +
+STACK CFI 4e3b $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4e3c $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4e40 8f .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4e41 $ebp: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4e43 .cfa: $ebp 8 +
+STACK CFI 4e46 $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^
+STACK CFI 4ebe $ebx: $ebx
+STACK CFI 4ebf $esi: $esi
+STACK CFI 4ec0 $edi: $edi
+STACK CFI 4ec1 $ebp: $ebp .cfa: $esp 4 +
+STACK CFI 4ec8 $ebp: .cfa -8 + ^ $ebx: .cfa -20 + ^ $edi: .cfa -12 + ^ $esi: .cfa -16 + ^ .cfa: $ebp 8 +
+STACK CFI INIT 4ed0 36 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4ed1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4ed2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4ee0 .cfa: $esp 32 +
+STACK CFI 4f01 .cfa: $esp 12 +
+STACK CFI 4f04 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4f05 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4f10 2b .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4f11 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4f1f .cfa: $esp 32 +
+STACK CFI 4f39 .cfa: $esp 8 +
+STACK CFI 4f3a $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 4f40 35 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4f41 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4f42 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4f50 .cfa: $esp 32 +
+STACK CFI 4f72 .cfa: $esp 12 +
+STACK CFI 4f73 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 4f74 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 4f80 34 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4f81 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4f8f .cfa: $esp 32 +
+STACK CFI 4fb2 .cfa: $esp 8 +
+STACK CFI 4fb3 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 4fc0 2e .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4fc1 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4fcf .cfa: $esp 16 +
+STACK CFI 4fea .cfa: $esp 8 +
+STACK CFI 4fed $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 4ff0 35 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 4ff1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 4ff2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 4ff5 .cfa: $esp 32 +
+STACK CFI 5022 .cfa: $esp 12 +
+STACK CFI 5023 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 5024 $esi: $esi .cfa: $esp 4 +
+STACK CFI INIT 5030 42 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 5031 $edi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 5032 $esi: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 5033 $ebx: .cfa -16 + ^ .cfa: $esp 16 +
+STACK CFI 5036 .cfa: $esp 32 +
+STACK CFI 506c .cfa: $esp 16 +
+STACK CFI 506d $ebx: $ebx .cfa: $esp 12 +
+STACK CFI 5070 $esi: $esi .cfa: $esp 8 +
+STACK CFI 5071 $edi: $edi .cfa: $esp 4 +
+STACK CFI INIT 5080 2 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI INIT 5090 3b .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 5091 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 5094 .cfa: $esp 32 +
+STACK CFI 50b8 .cfa: $esp 8 +
+STACK CFI 50b9 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI 50c0 $ebx: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI 50c3 .cfa: $esp 8 +
+STACK CFI 50ca $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 50d0 4c .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 50d1 $esi: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 50d2 $ebx: .cfa -12 + ^ .cfa: $esp 12 +
+STACK CFI 50d5 .cfa: $esp 32 +
+STACK CFI 5113 .cfa: $esp 12 +
+STACK CFI 5116 $ebx: $ebx .cfa: $esp 8 +
+STACK CFI 5117 $esi: $esi .cfa: $esp 4 +
+STACK CFI 5118 $ebx: .cfa -12 + ^ $esi: .cfa -8 + ^ .cfa: $esp 32 +
+STACK CFI INIT 5120 38 .cfa: $esp 4 + .ra: .cfa -4 + ^
+STACK CFI 5121 $ebx: .cfa -8 + ^ .cfa: $esp 8 +
+STACK CFI 5124 .cfa: $esp 32 +
+STACK CFI 5156 .cfa: $esp 8 +
+STACK CFI 5157 $ebx: $ebx .cfa: $esp 4 +
+STACK CFI INIT 3490 860 .cfa: $esp 8 + .ra: .cfa -4 + ^
+STACK CFI 3496 .cfa: $esp 12 +
