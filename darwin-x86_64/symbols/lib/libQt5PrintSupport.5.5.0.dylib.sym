@@ -1,4 +1,4 @@
-MODULE mac x86_64 92CBD422C58636BCAA0D9ACB09C984FF0 libQt5PrintSupport.5.5.0.dylib
+MODULE mac x86_64 77696D374AF33C4EAC4E39D8F6E07EDE0 libQt5PrintSupport.5.5.0.dylib
 FUNC 17b0 50 0 -[QCocoaPageLayoutDelegate initWithNSPrintInfo
 FUNC 1800 160 0 -[QCocoaPageLayoutDelegate pageLayoutDidEnd
 FUNC 1960 370 0 __ZN26QMacPageSetupDialogPrivate19openCocoaPageLayoutEN2Qt14WindowModalityE
