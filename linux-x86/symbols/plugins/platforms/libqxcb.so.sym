@@ -1,10 +1,10 @@
 MODULE Linux x86 8A134DE2D6A4C1A0B1CF102D600C25C20 libqxcb.so
-FILE 0 /tmp/joshualang-build-qt-93997/build-linux-x86/qtbase/src/plugins/platforms/xcb/.moc/qxcbmain.moc
-FILE 1 /tmp/joshualang-build-qt-93997/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 2 /tmp/joshualang-build-qt-93997/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 3 /tmp/joshualang-build-qt-93997/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 4 /tmp/joshualang-build-qt-93997/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 5 /tmp/joshualang-build-qt-93997/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/xcb/qxcbmain.cpp
+FILE 0 /tmp/joshualang-build-qt-37839/build-linux-x86/qtbase/src/plugins/platforms/xcb/.moc/qxcbmain.moc
+FILE 1 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 2 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 3 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 4 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 5 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/xcb/qxcbmain.cpp
 FUNC f50 2 0 QXcbIntegrationPlugin::qt_static_metacall
 f50 2 56 0
 FUNC f60 74 0 QXcbIntegrationPlugin::create

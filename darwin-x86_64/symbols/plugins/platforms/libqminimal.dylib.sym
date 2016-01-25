@@ -1,56 +1,404 @@
 MODULE mac x86_64 CC077AC37D243BAF85923A86C8FFA31A0 libqminimal.dylib
-FUNC 10c0 50 0 __ZN25QMinimalIntegrationPlugin6createERK7QStringRK11QStringList
-FUNC 1110 10 0 __ZN25QMinimalIntegrationPlugin18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
-FUNC 1120 20 0 __ZNK25QMinimalIntegrationPlugin10metaObjectEv
-FUNC 1140 40 0 __ZN25QMinimalIntegrationPlugin11qt_metacastEPKc
-FUNC 1180 10 0 __ZN25QMinimalIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv
-FUNC 1190 10 0 _qt_plugin_query_metadata
-FUNC 11a0 144 0 _qt_plugin_instance
-FUNC 12f0 40 0 __ZN8QPointerI7QObjectED1Ev
-FUNC 1330 10 0 __ZN25QMinimalIntegrationPluginD1Ev
-FUNC 1340 1c 0 __ZN25QMinimalIntegrationPluginD0Ev
-FUNC 1360 10 0 __ZN19QMinimalIntegrationC1ERK11QStringList
-FUNC 1370 260 0 __ZN19QMinimalIntegrationC2ERK11QStringList
-FUNC 15d0 30 0 __ZN19QMinimalIntegrationD0Ev
-FUNC 1600 20 0 __ZN19QMinimalIntegrationD1Ev
-FUNC 1620 20 0 __ZN19QMinimalIntegrationD2Ev
-FUNC 1640 20 0 __ZNK19QMinimalIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE
-FUNC 1660 50 0 __ZNK19QMinimalIntegration12fontDatabaseEv
-FUNC 16b0 40 0 __ZNK19QMinimalIntegration20createPlatformWindowEP7QWindow
-FUNC 16f0 30 0 __ZNK19QMinimalIntegration26createPlatformBackingStoreEP7QWindow
-FUNC 1720 10 0 __ZNK19QMinimalIntegration21createEventDispatcherEv
-FUNC 1730 10 0 __ZN19QMinimalIntegration8instanceEv
-FUNC 1740 10 0 __ZN17DummyFontDatabaseD1Ev
-FUNC 1750 20 0 __ZN17DummyFontDatabaseD0Ev
-FUNC 1770 10 0 __ZN17DummyFontDatabase20populateFontDatabaseEv
-FUNC 1780 10 0 __ZN14QMinimalScreenD1Ev
-FUNC 1790 20 0 __ZN14QMinimalScreenD0Ev
-FUNC 17b0 10 0 __ZNK14QMinimalScreen8geometryEv
-FUNC 17c0 10 0 __ZNK15QPlatformScreen17availableGeometryEv
-FUNC 17d0 10 0 __ZNK14QMinimalScreen5depthEv
-FUNC 17e0 10 0 __ZNK14QMinimalScreen6formatEv
-FUNC 17f0 13 0 __ZNK15QPlatformScreen4nameEv
-FUNC 1810 10 0 __ZN20QMinimalBackingStoreC1EP7QWindow
-FUNC 1820 120 0 __ZN20QMinimalBackingStoreC2EP7QWindow
-FUNC 1940 40 0 __ZN20QMinimalBackingStoreD0Ev
-FUNC 1980 30 0 __ZN20QMinimalBackingStoreD1Ev
-FUNC 19b0 30 0 __ZN20QMinimalBackingStoreD2Ev
-FUNC 19e0 e0 0 __ZN20QMinimalBackingStore11paintDeviceEv
-FUNC 1ac0 250 0 __ZN20QMinimalBackingStore5flushEP7QWindowRK7QRegionRK6QPoint
-FUNC 1d10 7b 0 __ZN20QMinimalBackingStore6resizeERK5QSizeRK7QRegion
-FUNC 1d90 30 0 __ZN23QUnixEventDispatcherQPAC1EP7QObject
-FUNC 1dc0 30 0 __ZN23QUnixEventDispatcherQPAC2EP7QObject
-FUNC 1df0 20 0 __ZN23QUnixEventDispatcherQPAD0Ev
-FUNC 1e10 10 0 __ZN23QUnixEventDispatcherQPAD1Ev
-FUNC 1e20 10 0 __ZN23QUnixEventDispatcherQPAD2Ev
-FUNC 1e30 20 0 __ZN23QUnixEventDispatcherQPA13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE
-FUNC 1e50 20 0 __ZN23QUnixEventDispatcherQPA16hasPendingEventsEv
-FUNC 1e70 1d 0 __ZN23QUnixEventDispatcherQPA5flushEv
-FUNC 1e90 27 0 __Z25createUnixEventDispatcherv
-FUNC 1ec0 10 0 __ZN23QUnixEventDispatcherQPA18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
-FUNC 1ed0 20 0 __ZNK23QUnixEventDispatcherQPA10metaObjectEv
-FUNC 1ef0 40 0 __ZN23QUnixEventDispatcherQPA11qt_metacastEPKc
-FUNC 1f30 a 0 __ZN23QUnixEventDispatcherQPA11qt_metacallEN11QMetaObject4CallEiPPv
+FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
+FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdebug.h
+FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
+FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/private/../../../../../src/gui/kernel/qguiapplication_p.h
+FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformscreen.h
+FILE 16 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qgenericunixeventdispatcher.cpp
+FILE 17 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qunixeventdispatcher.cpp
+FILE 18 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/main.cpp
+FILE 19 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalbackingstore.cpp
+FILE 20 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp
+FILE 21 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.h
+FILE 22 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/platformsupport/.moc/moc_qunixeventdispatcher_qpa_p.cpp
+FILE 23 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/platforms/minimal/.moc/main.moc
+FUNC 10c0 49 0 QMinimalIntegrationPlugin::create(QString const&, QStringList const&)
+10c0 d 49 18
+10cd 21 50 18
+10ee 13 51 18
+1101 8 54 18
+FUNC 1110 6 0 QMinimalIntegrationPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+1110 4 56 23
+1114 2 61 23
+FUNC 1120 1e 0 QMinimalIntegrationPlugin::metaObject() const
+1120 4 70 23
+1124 4 113 10
+1128 7 71 23
+112f f 71 23
+FUNC 1140 3e 0 QMinimalIntegrationPlugin::qt_metacast(char const*)
+1140 14 75 23
+1154 13 77 23
+1167 12 79 23
+1179 5 80 23
+FUNC 1180 a 0 QMinimalIntegrationPlugin::qt_metacall(QMetaObject::Call, int, void**)
+1180 4 83 23
+1184 1 84 23
+1185 5 0 23
+FUNC 1190 d 0 qt_plugin_query_metadata
+1190 4 173 23
+1194 9 173 23
+FUNC 11a0 144 0 qt_plugin_instance
+11a0 4 173 23
+11a4 21 173 23
+11c5 1d 590 11
+11e2 1f 173 23
+1201 c 588 11
+120d 6 90 5
+1213 15 588 11
+1228 a 173 23
+1232 12 40 18
+1244 b 696 11
+124f c 702 11
+125b 5 703 11
+1260 8 176 0
+1268 c 705 11
+1274 8 214 0
+127c 6 220 0
+1282 c 706 11
+128e 5 161 11
+1293 7 707 11
+129a 7 708 11
+12a1 5 591 11
+12a6 8 214 0
+12ae 6 220 0
+12b4 8 161 11
+12bc e 588 11
+12ca 6 90 5
+12d0 14 588 11
+FUNC 12f0 31 0 QPointer<QObject>::~QPointer
+12f0 4 64 4
+12f4 c 591 11
+1300 8 214 0
+1308 6 220 0
+130e 8 591 11
+1316 5 161 11
+131b 6 64 4
+FUNC 1330 a 0 QMinimalIntegrationPlugin::~QMinimalIntegrationPlugin
+1330 4 40 18
+1334 1 40 18
+1335 5 0 18
+FUNC 1340 1c 0 QMinimalIntegrationPlugin::~QMinimalIntegrationPlugin
+1340 9 40 18
+1349 5 40 18
+134e e 40 18
+FUNC 1360 a 0 QMinimalIntegration::QMinimalIntegration
+1360 4 67 20
+1364 1 80 20
+1365 5 0 20
+FUNC 1370 259 0 QMinimalIntegration::QMinimalIntegration
+1370 17 67 20
+1387 12 67 20
+1399 7 777 8
+13a0 f 90 5
+13af c 779 8
+13bb 10 108 8
+13cb c 108 8
+13d7 9 108 8
+13e0 15 444 8
+13f5 6 878 13
+13fb 2 90 5
+13fd 7 51 9
+1404 c 176 0
+1410 4 445 8
+1414 4 446 8
+1418 8 443 8
+1420 8 176 0
+1428 d 108 8
+1435 4 270 8
+1439 6 109 8
+143f 2 108 8
+1441 5 109 8
+1446 4 270 8
+144a 9 57 20
+1453 1d 58 20
+1470 3 59 20
+1473 6 58 20
+1479 c 286 8
+1485 7 57 20
+148c 6 286 8
+1492 4 795 8
+1496 10 90 5
+14a6 9 214 0
+14af a 220 0
+14b9 c 796 8
+14c5 5 834 8
+14ca 16 465 8
+14e0 4 1053 13
+14e4 b 90 5
+14ef 8 214 0
+14f7 6 220 0
+14fd 1d 1053 13
+151a 5 222 6
+151f a 465 8
+1529 8 836 8
+1531 4 66 20
+1535 10 68 20
+1545 12 69 20
+1557 a 70 20
+1561 8 73 20
+1569 12 46 21
+157b e 103 12
+1589 20 75 20
+15a9 6 76 20
+15af b 79 20
+15ba f 80 20
+FUNC 15d0 30 0 QMinimalIntegration::~QMinimalIntegration
+15d0 9 83 20
+15d9 a 83 20
+15e3 f 84 20
+15f2 e 83 20
+FUNC 1600 20 0 QMinimalIntegration::~QMinimalIntegration
+1600 4 83 20
+1604 a 83 20
+160e 10 84 20
+161e 2 85 20
+FUNC 1620 20 0 QMinimalIntegration::~QMinimalIntegration
+1620 4 83 20
+1624 a 83 20
+162e 10 84 20
+163e 2 85 20
+FUNC 1640 17 0 QMinimalIntegration::hasCapability(QPlatformIntegration::Capability) const
+1640 10 88 20
+1650 5 92 20
+1655 2 94 20
+FUNC 1660 45 0 QMinimalIntegration::fontDatabase() const
+1660 9 106 20
+1669 6 107 20
+166f e 108 20
+167d e 109 20
+168b 5 110 20
+1690 a 99 20
+169a 4 110 20
+169e 7 112 20
+FUNC 16b0 36 0 QMinimalIntegration::createPlatformWindow(QWindow*) const
+16b0 f 115 20
+16bf 13 117 20
+16d2 c 118 20
+16de 8 119 20
+FUNC 16f0 2a 0 QMinimalIntegration::createPlatformBackingStore(QWindow*) const
+16f0 f 123 20
+16ff 1b 124 20
+FUNC 1720 a 0 QMinimalIntegration::createEventDispatcher() const
+1720 4 128 20
+1724 1 136 20
+1725 5 0 20
+FUNC 1730 10 0 QMinimalIntegration::instance()
+1730 4 141 20
+1734 a 96 14
+173e 2 142 20
+FUNC 1740 a 0 DummyFontDatabase::~DummyFontDatabase
+1740 4 99 20
+1744 1 99 20
+1745 5 0 20
+FUNC 1750 1c 0 DummyFontDatabase::~DummyFontDatabase
+1750 9 99 20
+1759 5 99 20
+175e e 99 20
+FUNC 1770 6 0 DummyFontDatabase::populateFontDatabase()
+1770 4 102 20
+1774 2 102 20
+FUNC 1780 a 0 QMinimalScreen::~QMinimalScreen
+1780 4 42 21
+1784 1 42 21
+1785 5 0 21
+FUNC 1790 1c 0 QMinimalScreen::~QMinimalScreen
+1790 9 42 21
+1799 5 42 21
+179e e 42 21
+FUNC 17b0 e 0 QMinimalScreen::geometry() const
+17b0 4 48 21
+17b4 a 48 21
+FUNC 17c0 b 0 QPlatformScreen::availableGeometry() const
+17c0 4 91 15
+17c4 7 91 15
+FUNC 17d0 9 0 QMinimalScreen::depth() const
+17d0 4 49 21
+17d4 5 49 21
+FUNC 17e0 9 0 QMinimalScreen::format() const
+17e0 4 50 21
+17e4 5 50 21
+FUNC 17f0 13 0 QPlatformScreen::name() const
+17f0 4 115 15
+17f4 a 1052 13
+17fe 5 115 15
+FUNC 1810 a 0 QMinimalBackingStore::QMinimalBackingStore
+1810 4 47 19
+1814 1 50 19
+1815 5 0 19
+FUNC 1820 115 0 QMinimalBackingStore::QMinimalBackingStore
+1820 10 47 19
+1830 18 47 19
+1848 5 46 19
+184d 3 77 21
+1850 8 46 19
+1858 8 48 19
+1860 31 62 1
+1891 5 49 19
+1896 4 124 2
+189a 18 530 13
+18b2 b 124 2
+18bd 4 1053 13
+18c1 b 90 5
+18cc 8 214 0
+18d4 6 220 0
+18da e 1053 13
+18e8 5 222 6
+18ed 14 98 2
+1901 c 121 2
+190d 18 98 2
+1925 5 49 19
+192a b 50 19
+FUNC 1940 32 0 QMinimalBackingStore::~QMinimalBackingStore
+1940 9 53 19
+1949 a 53 19
+1953 11 54 19
+1964 e 53 19
+FUNC 1980 2a 0 QMinimalBackingStore::~QMinimalBackingStore
+1980 9 53 19
+1989 a 53 19
+1993 17 54 19
+FUNC 19b0 2a 0 QMinimalBackingStore::~QMinimalBackingStore
+19b0 9 53 19
+19b9 a 53 19
+19c3 17 54 19
+FUNC 19e0 d6 0 QMinimalBackingStore::paintDevice()
+19e0 10 57 19
+19f0 a 58 19
+19fa 31 62 1
+1a2b 5 59 19
+1a30 4 124 2
+1a34 18 530 13
+1a4c b 124 2
+1a57 4 1053 13
+1a5b b 90 5
+1a66 8 214 0
+1a6e 6 220 0
+1a74 e 1053 13
+1a82 5 222 6
+1a87 18 98 2
+1a9f 5 59 19
+1aa4 12 61 19
+FUNC 1ac0 247 0 QMinimalBackingStore::flush(QWindow*, QRegion const&, QPoint const&)
+1ac0 12 65 19
+1ad2 b 70 19
+1add 15 650 13
+1af2 7 896 13
+1af9 22 72 19
+1b1b 5 896 13
+1b20 4 1053 13
+1b24 b 90 5
+1b2f 8 214 0
+1b37 6 220 0
+1b3d e 1053 13
+1b4b 5 222 6
+1b50 31 62 1
+1b81 5 73 19
+1b86 4 124 2
+1b8a 18 530 13
+1ba2 b 124 2
+1bad 4 1053 13
+1bb1 b 90 5
+1bbc 8 214 0
+1bc4 6 220 0
+1bca e 1053 13
+1bd8 5 222 6
+1bdd 1c 98 2
+1bf9 5 73 19
+1bfe 4 483 7
+1c02 4 55 6
+1c06 b 124 2
+1c11 1a 530 13
+1c2b b 124 2
+1c36 4 1053 13
+1c3a b 90 5
+1c45 8 214 0
+1c4d 6 220 0
+1c53 e 1053 13
+1c61 5 222 6
+1c66 14 98 2
+1c7a 4 459 7
+1c7e b 90 5
+1c89 8 214 0
+1c91 6 220 0
+1c97 e 459 7
+1ca5 9 222 6
+1cae 5 73 19
+1cb3 17 74 19
+1cca 4 1053 13
+1cce b 90 5
+1cd9 8 214 0
+1ce1 6 220 0
+1ce7 e 1053 13
+1cf5 5 222 6
+1cfa d 76 19
+FUNC 1d10 7b 0 QMinimalBackingStore::resize(QSize const&, QRegion const&)
+1d10 15 79 19
+1d25 19 80 19
+1d3e 1f 81 19
+1d5d 21 82 19
+1d7e d 83 19
+FUNC 1d90 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA
+1d90 9 55 17
+1d99 13 55 17
+1dac 7 55 17
+FUNC 1dc0 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA
+1dc0 9 55 17
+1dc9 1a 55 17
+FUNC 1df0 1c 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+1df0 9 58 17
+1df9 5 58 17
+1dfe e 58 17
+FUNC 1e10 a 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+1e10 4 58 17
+1e14 1 58 17
+1e15 5 0 17
+FUNC 1e20 a 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+1e20 4 58 17
+1e24 1 58 17
+1e25 5 0 17
+FUNC 1e30 20 0 QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>)
+1e30 9 61 17
+1e39 8 62 17
+1e41 f 63 17
+FUNC 1e50 1b 0 QUnixEventDispatcherQPA::hasPendingEvents()
+1e50 4 67 17
+1e54 17 69 17
+FUNC 1e70 1d 0 QUnixEventDispatcherQPA::flush()
+1e70 4 73 17
+1e74 11 110 3
+1e85 6 75 17
+1e8b 2 76 17
+FUNC 1e90 27 0 createUnixEventDispatcher()
+1e90 b 41 16
+1e9b 1c 47 16
+FUNC 1ec0 6 0 QUnixEventDispatcherQPA::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+1ec0 4 56 22
+1ec4 2 61 22
+FUNC 1ed0 1e 0 QUnixEventDispatcherQPA::metaObject() const
+1ed0 4 70 22
+1ed4 4 113 10
+1ed8 7 71 22
+1edf f 71 22
+FUNC 1ef0 3e 0 QUnixEventDispatcherQPA::qt_metacast(char const*)
+1ef0 14 75 22
+1f04 13 77 22
+1f17 12 79 22
+1f29 5 80 22
+FUNC 1f30 a 0 QUnixEventDispatcherQPA::qt_metacall(QMetaObject::Call, int, void**)
+1f30 4 83 22
+1f34 1 84 22
+1f35 5 0 22
 PUBLIC 2370 0 qt_meta_data_QMinimalIntegrationPlugin
 PUBLIC 23b0 0 typeinfo name for QMinimalIntegrationPlugin
 PUBLIC 23d0 0 qt_meta_stringdata_QMinimalIntegrationPlugin

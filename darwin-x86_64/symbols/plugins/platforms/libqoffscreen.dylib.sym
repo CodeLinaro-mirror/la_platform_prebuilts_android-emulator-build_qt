@@ -1,106 +1,1157 @@
 MODULE mac x86_64 06AED9CF071A30D0B30CBE3BD2886AA80 libqoffscreen.dylib
-FUNC 1780 40 0 __ZN27QOffscreenIntegrationPlugin6createERK7QStringRK11QStringList
-FUNC 17c0 10 0 __ZN27QOffscreenIntegrationPlugin18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
-FUNC 17d0 20 0 __ZNK27QOffscreenIntegrationPlugin10metaObjectEv
-FUNC 17f0 40 0 __ZN27QOffscreenIntegrationPlugin11qt_metacastEPKc
-FUNC 1830 10 0 __ZN27QOffscreenIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv
-FUNC 1840 10 0 _qt_plugin_query_metadata
-FUNC 1850 144 0 _qt_plugin_instance
-FUNC 19a0 40 0 __ZN8QPointerI7QObjectED1Ev
-FUNC 19e0 10 0 __ZN27QOffscreenIntegrationPluginD1Ev
-FUNC 19f0 1c 0 __ZN27QOffscreenIntegrationPluginD0Ev
-FUNC 1a10 10 0 __ZN21QOffscreenIntegrationC1Ev
-FUNC 1a20 e0 0 __ZN21QOffscreenIntegrationC2Ev
-FUNC 1b00 50 0 __ZN21QOffscreenIntegrationD0Ev
-FUNC 1b50 50 0 __ZN21QOffscreenIntegrationD1Ev
-FUNC 1ba0 50 0 __ZN21QOffscreenIntegrationD2Ev
-FUNC 1bf0 20 0 __ZNK21QOffscreenIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE
-FUNC 1c10 40 0 __ZNK21QOffscreenIntegration20createPlatformWindowEP7QWindow
-FUNC 1c50 30 0 __ZNK21QOffscreenIntegration26createPlatformBackingStoreEP7QWindow
-FUNC 1c80 10 0 __ZNK21QOffscreenIntegration21createEventDispatcherEv
-FUNC 1c90 10 0 __ZNK21QOffscreenIntegration12fontDatabaseEv
-FUNC 1ca0 10 0 __ZNK21QOffscreenIntegration4dragEv
-FUNC 1cb0 a 0 __ZNK21QOffscreenIntegration8servicesEv
-FUNC 1cc0 10 0 __ZN14QOffscreenDragD1Ev
-FUNC 1cd0 20 0 __ZN14QOffscreenDragD0Ev
-FUNC 1cf0 10 0 __ZN14QOffscreenDrag16platformDropDataEv
-FUNC 1d00 8 0 __ZN14QOffscreenDrag4dragEP5QDrag
-FUNC 1d10 10 0 __ZN16QOffscreenWindowC1EP7QWindow
-FUNC 1d20 e0 0 __ZN16QOffscreenWindowC2EP7QWindow
-FUNC 1e00 50 0 __ZN16QOffscreenWindowD0Ev
-FUNC 1e50 50 0 __ZN16QOffscreenWindowD1Ev
-FUNC 1ea0 50 0 __ZN16QOffscreenWindowD2Ev
-FUNC 1ef0 a0 0 __ZN16QOffscreenWindow11setGeometryERK5QRect
-FUNC 1f90 60 0 __ZN16QOffscreenWindow22setFrameMarginsEnabledEb
-FUNC 1ff0 160 0 __ZN16QOffscreenWindow15setGeometryImplERK5QRect
-FUNC 2150 130 0 __ZN16QOffscreenWindow10setVisibleEb
-FUNC 2280 20 0 __ZN16QOffscreenWindow21requestActivateWindowEv
-FUNC 22a0 10 0 __ZNK16QOffscreenWindow5winIdEv
-FUNC 22b0 10 0 __ZNK16QOffscreenWindow12frameMarginsEv
-FUNC 22c0 100 0 __ZN16QOffscreenWindow14setWindowStateEN2Qt11WindowStateE
-FUNC 23c0 84 0 __ZN16QOffscreenWindow14windowForWinIdEy
-FUNC 2450 190 0 __ZN5QHashIyP16QOffscreenWindowEixERKy
-FUNC 25e0 1c0 0 __ZN5QHashIyP16QOffscreenWindowE6removeERKy
-FUNC 27a0 40 0 __ZN5QHashIyP16QOffscreenWindowED1Ev
-FUNC 27e0 10 0 __ZN5QHashIyP16QOffscreenWindowE11deleteNode2EPN9QHashData4NodeE
-FUNC 27f0 28 0 __ZN5QHashIyP16QOffscreenWindowE13duplicateNodeEPN9QHashData4NodeEPv
-FUNC 2820 2d 0 __GLOBAL__I_a
-FUNC 2850 70 0 __ZN16QOffscreenScreenC1Ev
-FUNC 28c0 70 0 __ZN16QOffscreenScreenC2Ev
-FUNC 2930 320 0 __ZNK16QOffscreenScreen10grabWindowEyiiii
-FUNC 2c50 90 0 __ZN22QOffscreenBackingStore20backingStoreForWinIdEy
-FUNC 2ce0 1a0 0 __ZNK22QOffscreenBackingStore10grabWindowEyRK5QRect
-FUNC 2e80 40 0 __ZN22QOffscreenBackingStoreC1EP7QWindow
-FUNC 2ec0 40 0 __ZN22QOffscreenBackingStoreC2EP7QWindow
-FUNC 2f00 70 0 __ZN22QOffscreenBackingStoreD0Ev
-FUNC 2f70 60 0 __ZN22QOffscreenBackingStoreD1Ev
-FUNC 2fd0 60 0 __ZN22QOffscreenBackingStoreD2Ev
-FUNC 3030 1b0 0 __ZN22QOffscreenBackingStore9clearHashEv
-FUNC 31e0 10 0 __ZN22QOffscreenBackingStore11paintDeviceEv
-FUNC 31f0 180 0 __ZN22QOffscreenBackingStore5flushEP7QWindowRK7QRegionRK6QPoint
-FUNC 3370 90 0 __ZN22QOffscreenBackingStore6resizeERK5QSizeRK7QRegion
-FUNC 3400 bc 0 __ZN22QOffscreenBackingStore6scrollERK7QRegionii
-FUNC 34c0 1a0 0 __ZN5QHashIy5QRectEixERKy
-FUNC 3660 190 0 __ZN5QHashIyP22QOffscreenBackingStoreEixERKy
-FUNC 37f0 150 0 __ZNK5QHashIy5QRectE4keysEv
-FUNC 3940 d0 0 __ZN5QHashIyP22QOffscreenBackingStoreE4findERKy
-FUNC 3a10 1c0 0 __ZN5QHashIyP22QOffscreenBackingStoreE6removeERKy
-FUNC 3bd0 40 0 __ZN5QHashIyP22QOffscreenBackingStoreED1Ev
-FUNC 3c10 30 0 __ZN16QOffscreenScreenD1Ev
-FUNC 3c40 40 0 __ZN16QOffscreenScreenD0Ev
-FUNC 3c80 10 0 __ZNK16QOffscreenScreen8geometryEv
-FUNC 3c90 10 0 __ZNK15QPlatformScreen17availableGeometryEv
-FUNC 3ca0 10 0 __ZNK16QOffscreenScreen5depthEv
-FUNC 3cb0 10 0 __ZNK16QOffscreenScreen6formatEv
-FUNC 3cc0 20 0 __ZNK15QPlatformScreen4nameEv
-FUNC 3ce0 10 0 __ZNK16QOffscreenScreen6cursorEv
-FUNC 3cf0 10 0 __ZN5QHashIyP22QOffscreenBackingStoreE11deleteNode2EPN9QHashData4NodeE
-FUNC 3d00 d0 0 __ZN5QHashIy5QRectEaSERKS1_
-FUNC 3dd0 30 0 __ZN5QHashIy5QRectE13duplicateNodeEPN9QHashData4NodeEPv
-FUNC 3e00 10 0 __ZN5QHashIy5QRectE11deleteNode2EPN9QHashData4NodeE
-FUNC 3e10 30 0 __ZN5QHashIyP22QOffscreenBackingStoreE13duplicateNodeEPN9QHashData4NodeEPv
-FUNC 3e40 110 0 __ZN5QListIyE18detach_helper_growEii
-FUNC 3f50 10 0 __ZN16QOffscreenCursorD1Ev
-FUNC 3f60 20 0 __ZN16QOffscreenCursorD0Ev
-FUNC 3f80 10 0 __ZN15QPlatformCursor12pointerEventERK11QMouseEvent
-FUNC 3f90 10 0 __ZN16QOffscreenCursor12changeCursorEP7QCursorP7QWindow
-FUNC 3fa0 10 0 __ZNK16QOffscreenCursor3posEv
-FUNC 3fb0 2eb 0 __ZN16QOffscreenCursor6setPosERK6QPoint
-FUNC 42a0 2d 0 __GLOBAL__I_a
-FUNC 42d0 25 0 __ZN21QOffscreenIntegration26createOffscreenIntegrationEv
-FUNC 4300 30 0 __ZN23QUnixEventDispatcherQPAC1EP7QObject
-FUNC 4330 30 0 __ZN23QUnixEventDispatcherQPAC2EP7QObject
-FUNC 4360 20 0 __ZN23QUnixEventDispatcherQPAD0Ev
-FUNC 4380 10 0 __ZN23QUnixEventDispatcherQPAD1Ev
-FUNC 4390 10 0 __ZN23QUnixEventDispatcherQPAD2Ev
-FUNC 43a0 20 0 __ZN23QUnixEventDispatcherQPA13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE
-FUNC 43c0 20 0 __ZN23QUnixEventDispatcherQPA16hasPendingEventsEv
-FUNC 43e0 1d 0 __ZN23QUnixEventDispatcherQPA5flushEv
-FUNC 4400 27 0 __Z25createUnixEventDispatcherv
-FUNC 4430 10 0 __ZN23QUnixEventDispatcherQPA18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
-FUNC 4440 20 0 __ZNK23QUnixEventDispatcherQPA10metaObjectEv
-FUNC 4460 40 0 __ZN23QUnixEventDispatcherQPA11qt_metacastEPKc
-FUNC 44a0 a 0 __ZN23QUnixEventDispatcherQPA11qt_metacallEN11QMetaObject4CallEiPPv
+FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
+FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
+FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qhash.h
+FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qmargins.h
+FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
+FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
+FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qvector.h
+FILE 16 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/kernel/qwindow.h
+FILE 17 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformcursor.h
+FILE 18 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformscreen.h
+FILE 19 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/text/qplatformfontdatabase.h
+FILE 20 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qgenericunixeventdispatcher.cpp
+FILE 21 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qunixeventdispatcher.cpp
+FILE 22 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/main.cpp
+FILE 23 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreencommon.cpp
+FILE 24 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreencommon.h
+FILE 25 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenintegration.cpp
+FILE 26 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenintegration_dummy.cpp
+FILE 27 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenwindow.cpp
+FILE 28 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/platformsupport/.moc/moc_qunixeventdispatcher_qpa_p.cpp
+FILE 29 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/platforms/offscreen/.moc/main.moc
+FUNC 1780 37 0 QOffscreenIntegrationPlugin::create(QString const&, QStringList const&)
+1780 9 49 22
+1789 1c 51 22
+17a5 8 52 22
+17ad a 55 22
+FUNC 17c0 6 0 QOffscreenIntegrationPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+17c0 4 56 29
+17c4 2 61 29
+FUNC 17d0 1e 0 QOffscreenIntegrationPlugin::metaObject() const
+17d0 4 70 29
+17d4 4 113 12
+17d8 7 71 29
+17df f 71 29
+FUNC 17f0 3e 0 QOffscreenIntegrationPlugin::qt_metacast(char const*)
+17f0 14 75 29
+1804 13 77 29
+1817 12 79 29
+1829 5 80 29
+FUNC 1830 a 0 QOffscreenIntegrationPlugin::qt_metacall(QMetaObject::Call, int, void**)
+1830 4 83 29
+1834 1 84 29
+1835 5 0 29
+FUNC 1840 d 0 qt_plugin_query_metadata
+1840 4 173 29
+1844 9 173 29
+FUNC 1850 144 0 qt_plugin_instance
+1850 4 173 29
+1854 21 173 29
+1875 1d 590 13
+1892 1f 173 29
+18b1 c 588 13
+18bd 6 90 4
+18c3 15 588 13
+18d8 a 173 29
+18e2 12 40 22
+18f4 b 696 13
+18ff c 702 13
+190b 5 703 13
+1910 8 176 0
+1918 c 705 13
+1924 8 214 0
+192c 6 220 0
+1932 c 706 13
+193e 5 161 13
+1943 7 707 13
+194a 7 708 13
+1951 5 591 13
+1956 8 214 0
+195e 6 220 0
+1964 8 161 13
+196c e 588 13
+197a 6 90 4
+1980 14 588 13
+FUNC 19a0 31 0 QPointer<QObject>::~QPointer
+19a0 4 64 3
+19a4 c 591 13
+19b0 8 214 0
+19b8 6 220 0
+19be 8 591 13
+19c6 5 161 13
+19cb 6 64 3
+FUNC 19e0 a 0 QOffscreenIntegrationPlugin::~QOffscreenIntegrationPlugin
+19e0 4 40 22
+19e4 1 40 22
+19e5 5 0 22
+FUNC 19f0 1c 0 QOffscreenIntegrationPlugin::~QOffscreenIntegrationPlugin
+19f0 9 40 22
+19f9 5 40 22
+19fe e 40 22
+FUNC 1a10 a 0 QOffscreenIntegration::QOffscreenIntegration
+1a10 4 92 25
+1a14 1 109 25
+1a15 5 0 25
+FUNC 1a20 d2 0 QOffscreenIntegration::QOffscreenIntegration
+1a20 a 92 25
+1a2a a 92 25
+1a34 1d 95 12
+1a51 5 95 25
+1a56 e 87 19
+1a64 9 148 12
+1a6d 8 104 25
+1a75 12 69 24
+1a87 9 145 12
+1a90 4 148 12
+1a94 10 54 12
+1aa4 10 106 25
+1ab4 9 145 12
+1abd 4 148 12
+1ac1 10 54 12
+1ad1 21 108 25
+FUNC 1b00 4e 0 QOffscreenIntegration::~QOffscreenIntegration
+1b00 9 112 25
+1b09 a 112 25
+1b13 9 100 12
+1b1c 6 54 12
+1b22 9 100 12
+1b2b 6 54 12
+1b31 9 100 12
+1b3a 6 54 12
+1b40 e 112 25
+FUNC 1b50 4d 0 QOffscreenIntegration::~QOffscreenIntegration
+1b50 9 112 25
+1b59 a 112 25
+1b63 9 100 12
+1b6c 6 54 12
+1b72 9 100 12
+1b7b 6 54 12
+1b81 9 100 12
+1b8a c 54 12
+1b96 7 113 25
+FUNC 1ba0 4d 0 QOffscreenIntegration::~QOffscreenIntegration
+1ba0 9 112 25
+1ba9 a 112 25
+1bb3 9 100 12
+1bbc 6 54 12
+1bc2 9 100 12
+1bcb 6 54 12
+1bd1 9 100 12
+1bda c 54 12
+1be6 7 113 25
+FUNC 1bf0 17 0 QOffscreenIntegration::hasCapability(QPlatformIntegration::Capability) const
+1bf0 10 116 25
+1c00 5 120 25
+1c05 2 122 25
+FUNC 1c10 36 0 QOffscreenIntegration::createPlatformWindow(QWindow*) const
+1c10 f 125 25
+1c1f 13 127 25
+1c32 c 128 25
+1c3e 8 129 25
+FUNC 1c50 2a 0 QOffscreenIntegration::createPlatformBackingStore(QWindow*) const
+1c50 f 133 25
+1c5f 1b 134 25
+FUNC 1c80 a 0 QOffscreenIntegration::createEventDispatcher() const
+1c80 4 138 25
+1c84 1 140 25
+1c85 5 0 25
+FUNC 1c90 a 0 QOffscreenIntegration::fontDatabase() const
+1c90 4 153 25
+1c94 4 135 12
+1c98 2 154 25
+FUNC 1ca0 a 0 QOffscreenIntegration::drag() const
+1ca0 4 159 25
+1ca4 4 135 12
+1ca8 2 160 25
+FUNC 1cb0 a 0 QOffscreenIntegration::services() const
+1cb0 4 165 25
+1cb4 4 135 12
+1cb8 2 166 25
+FUNC 1cc0 a 0 QOffscreenDrag::~QOffscreenDrag
+1cc0 4 69 24
+1cc4 1 69 24
+1cc5 5 0 24
+FUNC 1cd0 1c 0 QOffscreenDrag::~QOffscreenDrag
+1cd0 9 69 24
+1cd9 5 69 24
+1cde e 69 24
+FUNC 1cf0 8 0 QOffscreenDrag::platformDropData()
+1cf0 6 72 24
+1cf6 2 72 24
+FUNC 1d00 8 0 QOffscreenDrag::drag(QDrag*)
+1d00 6 73 24
+1d06 2 73 24
+FUNC 1d10 a 0 QOffscreenWindow::QOffscreenWindow
+1d10 4 49 27
+1d14 1 61 27
+1d15 5 0 27
+FUNC 1d20 d8 0 QOffscreenWindow::QOffscreenWindow
+1d20 13 49 27
+1d33 f 49 27
+1d42 1c 50 10
+1d5e 1a 49 27
+1d78 c 50 27
+1d84 19 53 27
+1d9d 23 51 27
+1dc0 5 55 27
+1dc5 19 58 27
+1dde f 60 27
+1ded b 61 27
+FUNC 1e00 4c 0 QOffscreenWindow::~QOffscreenWindow
+1e00 9 64 27
+1e09 a 64 27
+1e13 c 65 27
+1e1f 7 66 27
+1e26 10 67 27
+1e36 8 68 27
+1e3e e 64 27
+FUNC 1e50 44 0 QOffscreenWindow::~QOffscreenWindow
+1e50 9 64 27
+1e59 a 64 27
+1e63 c 65 27
+1e6f 7 66 27
+1e76 10 67 27
+1e86 e 68 27
+FUNC 1ea0 44 0 QOffscreenWindow::~QOffscreenWindow
+1ea0 9 64 27
+1ea9 a 64 27
+1eb3 c 65 27
+1ebf 7 66 27
+1ec6 10 67 27
+1ed6 e 68 27
+FUNC 1ef0 a0 0 QOffscreenWindow::setGeometry(QRect const&)
+1ef0 d 71 27
+1efd 11 72 27
+1f0e 1b 75 27
+1f29 10 154 27
+1f39 5 136 1
+1f3e 4 155 27
+1f42 11 157 27
+1f53 1c 155 27
+1f6f b 78 27
+1f7a 11 80 27
+1f8b 5 81 27
+FUNC 1f90 58 0 QOffscreenWindow::setFrameMarginsEnabled(bool)
+1f90 e 153 27
+1f9e 10 154 27
+1fae 5 136 1
+1fb3 12 157 27
+1fc5 1c 155 27
+1fe1 7 158 27
+FUNC 1ff0 158 0 QOffscreenWindow::setGeometryImpl(QRect const&)
+1ff0 e 84 27
+1ffe f 85 27
+200d 1c 251 10
+2029 3 393 10
+202c 8 254 10
+2034 3 396 10
+2037 4 91 27
+203b 3 105 8
+203e 2 91 27
+2040 23 261 10
+2063 4 95 27
+2067 1c 261 10
+2083 3 108 8
+2086 4 97 27
+208a 17 261 10
+20a1 8 101 27
+20a9 a 103 27
+20b3 8 104 27
+20bb 18 50 10
+20d3 8 104 27
+20db b 105 27
+20e6 16 251 10
+20fc 7 176 10
+2103 7 176 10
+210a 5 176 10
+210f f 176 10
+211e 1d 105 27
+213b 4 107 27
+213f 9 109 27
+FUNC 2150 122 0 QOffscreenWindow::setVisible(bool)
+2150 15 112 27
+2165 10 113 27
+2175 b 117 27
+2180 9 116 27
+2189 d 117 27
+2196 15 118 27
+21ab 6 120 27
+21b1 4 121 27
+21b5 1c 122 27
+21d1 18 50 10
+21e9 8 122 27
+21f1 9 127 27
+21fa 5 251 10
+21ff c 254 10
+220b 7 176 10
+2212 7 176 10
+2219 5 176 10
+221e 5 176 10
+2223 23 128 27
+2246 1b 130 27
+2261 4 133 27
+2265 d 134 27
+FUNC 2280 1f 0 QOffscreenWindow::requestActivateWindow()
+2280 4 137 27
+2284 6 138 27
+228a 13 139 27
+229d 2 140 27
+FUNC 22a0 a 0 QOffscreenWindow::winId() const
+22a0 4 143 27
+22a4 6 144 27
+FUNC 22b0 e 0 QOffscreenWindow::frameMargins() const
+22b0 4 148 27
+22b4 a 149 27
+FUNC 22c0 fc 0 QOffscreenWindow::setWindowState(Qt::WindowState)
+22c0 17 161 27
+22d7 10 154 27
+22e7 5 136 1
+22ec 12 157 27
+22fe 1c 155 27
+231a 4 163 27
+231e b 165 27
+2329 14 170 27
+233d 17 382 10
+2354 7 173 10
+235b 7 173 10
+2362 e 170 27
+2370 c 175 27
+237c 1d 167 27
+2399 8 175 27
+23a1 1b 181 27
+FUNC 23c0 84 0 QOffscreenWindow::windowForWinId(unsigned long long)
+23c0 4 185 27
+23c4 8 186 27
+23cc f 669 6
+23db c 951 6
+23e7 c 81 6
+23f3 b 957 6
+23fe 12 959 6
+2410 b 246 6
+241b 15 959 6
+2430 3 669 6
+2433 8 672 6
+243b 4 669 6
+243f 3 670 6
+2442 2 186 27
+FUNC 2450 18f 0 QHash<unsigned long long, QOffscreenWindow*>::operator[](unsigned long long const&)
+2450 14 788 6
+2464 3 363 6
+2467 9 90 4
+2470 24 633 6
+2494 3 634 6
+2497 c 90 4
+24a3 9 214 0
+24ac 6 220 0
+24b2 3 635 6
+24b5 c 621 6
+24c1 3 636 6
+24c4 4 951 6
+24c8 3 952 6
+24cb e 81 6
+24d9 2 951 6
+24db 2 956 6
+24dd f 957 6
+24ec 14 959 6
+2500 12 246 6
+2512 13 959 6
+2525 9 793 6
+252e 6 193 6
+2534 f 194 6
+2543 7 951 6
+254a 3 952 6
+254d e 81 6
+255b 4 951 6
+255f f 957 6
+256e 11 959 6
+257f 16 246 6
+2595 15 600 6
+25aa 16 245 6
+25c0 3 600 6
+25c3 3 601 6
+25c6 6 602 6
+25cc 4 796 6
+25d0 f 799 6
+FUNC 25e0 1b1 0 QHash<unsigned long long, QOffscreenWindow*>::remove(unsigned long long const&)
+25e0 14 834 6
+25f4 15 357 6
+2609 9 90 4
+2612 24 633 6
+2636 7 634 6
+263d c 90 4
+2649 9 214 0
+2652 6 220 0
+2658 7 635 6
+265f c 621 6
+266b 7 636 6
+2672 4 839 6
+2676 8 951 6
+267e 3 952 6
+2681 d 81 6
+268e e 957 6
+269c 14 959 6
+26b0 11 246 6
+26c1 14 959 6
+26d5 1b 841 6
+26f0 6 844 6
+26f6 a 845 6
+2700 8 576 6
+2708 3 847 6
+270b d 848 6
+2718 3 845 6
+271b b 848 6
+2726 8 576 6
+272e 3 847 6
+2731 11 848 6
+2742 15 203 6
+2757 5 205 6
+275c 8 203 6
+2764 8 205 6
+276c 8 205 6
+2774 e 852 6
+2782 f 853 6
+FUNC 27a0 3e 0 QHash<unsigned long long, QOffscreenWindow *>::~QHash
+27a0 b 342 6
+27ab 3 342 6
+27ae c 90 4
+27ba 9 214 0
+27c3 6 220 0
+27c9 3 342 6
+27cc c 621 6
+27d8 6 342 6
+FUNC 27e0 6 0 QHash<unsigned long long, QOffscreenWindow*>::deleteNode2(QHashData::Node*)
+27e0 4 581 6
+27e4 2 587 6
+FUNC 27f0 28 0 QHash<unsigned long long, QOffscreenWindow*>::duplicateNode(QHashData::Node*, void*)
+27f0 9 591 6
+27f9 3 593 6
+27fc 1a 245 6
+2816 2 594 6
+FUNC 2820 2d 0 <name omitted>
+2820 4 50 27
+2824 15 331 6
+2839 14 189 27
+FUNC 2850 6d 0 QOffscreenScreen::QOffscreenScreen
+2850 a 92 23
+285a f 92 23
+2869 23 170 10
+288c 8 92 23
+2894 12 50 23
+28a6 e 108 9
+28b4 4 95 12
+28b8 5 93 23
+FUNC 28c0 6d 0 QOffscreenScreen::QOffscreenScreen
+28c0 a 92 23
+28ca f 92 23
+28d9 23 170 10
+28fc 8 92 23
+2904 12 50 23
+2916 e 108 9
+2924 4 95 12
+2928 5 93 23
+FUNC 2930 31e 0 QOffscreenScreen::grabWindow(unsigned long long, int, int, int, int) const
+2930 1e 96 23
+294e 17 170 10
+2965 d 99 23
+2972 1d 100 23
+298f 5 101 23
+2994 8 777 7
+299c b 90 4
+29a7 c 779 7
+29b3 c 108 7
+29bf 11 108 7
+29d0 4 109 7
+29d4 14 454 7
+29e8 5 108 7
+29ed 5 108 7
+29f2 7 455 7
+29f9 8 176 0
+2a01 d 108 7
+2a0e 4 270 7
+2a12 9 109 7
+2a1b 4 270 7
+2a1f 21 103 23
+2a40 c 286 7
+2a4c c 103 23
+2a58 9 281 7
+2a61 7 103 23
+2a68 3d 104 23
+2aa5 3 103 23
+2aa8 8 286 7
+2ab0 8 103 23
+2ab8 4 286 7
+2abc 8 103 23
+2ac4 c 281 7
+2ad0 f 103 23
+2adf 4 795 7
+2ae3 b 90 4
+2aee 8 214 0
+2af6 6 220 0
+2afc 4 796 7
+2b00 5 836 7
+2b05 5 110 23
+2b0a b 113 23
+2b15 8 114 23
+2b1d a 279 10
+2b27 4 114 23
+2b2b b 279 10
+2b36 8 173 10
+2b3e 1d 173 10
+2b5b 9 114 23
+2b64 e 111 23
+2b72 4 795 7
+2b76 b 90 4
+2b81 8 214 0
+2b89 6 220 0
+2b8f 4 796 7
+2b93 d 836 7
+2ba0 8 205 23
+2ba8 d 669 6
+2bb5 a 951 6
+2bbf d 81 6
+2bcc a 957 6
+2bd6 a 959 6
+2be0 b 246 6
+2beb 15 959 6
+2c00 3 669 6
+2c03 8 672 6
+2c0b 4 669 6
+2c0f c 670 6
+2c1b 11 119 23
+2c2c c 120 23
+2c38 16 121 23
+FUNC 2c50 84 0 QOffscreenBackingStore::backingStoreForWinId(unsigned long long)
+2c50 4 204 23
+2c54 8 205 23
+2c5c f 669 6
+2c6b c 951 6
+2c77 c 81 6
+2c83 b 957 6
+2c8e 12 959 6
+2ca0 b 246 6
+2cab 15 959 6
+2cc0 3 669 6
+2cc3 8 672 6
+2ccb 4 669 6
+2ccf 3 670 6
+2cd2 2 205 23
+FUNC 2ce0 19c 0 QOffscreenBackingStore::grabWindow(unsigned long long, QRect const&) const
+2ce0 1a 184 23
+2cfa 20 50 10
+2d1a a 669 6
+2d24 9 951 6
+2d2d c 81 6
+2d39 b 957 6
+2d44 c 959 6
+2d50 b 246 6
+2d5b a 959 6
+2d65 5 669 6
+2d6a b 672 6
+2d75 6 670 6
+2d7b 8 185 23
+2d83 22 179 10
+2da5 f 189 23
+2db4 20 251 10
+2dd4 a 393 10
+2dde 9 254 10
+2de7 a 396 10
+2df1 3 279 10
+2df4 3 279 10
+2df7 3 279 10
+2dfa 3 279 10
+2dfd 7 173 10
+2e04 7 173 10
+2e0b 2d 195 23
+2e38 a 187 23
+2e42 2c 200 23
+2e6e e 201 23
+FUNC 2e80 33 0 QOffscreenBackingStore::QOffscreenBackingStore
+2e80 9 125 23
+2e89 18 125 23
+2ea1 b 331 6
+2eac 7 126 23
+FUNC 2ec0 33 0 QOffscreenBackingStore::QOffscreenBackingStore
+2ec0 9 125 23
+2ec9 18 125 23
+2ee1 b 331 6
+2eec 7 126 23
+FUNC 2f00 67 0 QOffscreenBackingStore::~QOffscreenBackingStore
+2f00 9 129 23
+2f09 a 129 23
+2f13 5 130 23
+2f18 4 342 6
+2f1c c 90 4
+2f28 9 214 0
+2f31 6 220 0
+2f37 4 342 6
+2f3b c 621 6
+2f47 11 131 23
+2f58 8 129 23
+2f60 7 131 23
+FUNC 2f70 5f 0 QOffscreenBackingStore::~QOffscreenBackingStore
+2f70 9 129 23
+2f79 a 129 23
+2f83 5 130 23
+2f88 4 342 6
+2f8c c 90 4
+2f98 9 214 0
+2fa1 6 220 0
+2fa7 4 342 6
+2fab c 621 6
+2fb7 11 131 23
+2fc8 7 131 23
+FUNC 2fd0 5f 0 QOffscreenBackingStore::~QOffscreenBackingStore
+2fd0 9 129 23
+2fd9 a 129 23
+2fe3 5 130 23
+2fe8 4 342 6
+2fec c 90 4
+2ff8 9 214 0
+3001 6 220 0
+3007 4 342 6
+300b c 621 6
+3017 11 131 23
+3028 7 131 23
+FUNC 3030 1af 0 QOffscreenBackingStore::clearHash()
+3030 12 209 23
+3042 10 210 23
+3052 8 777 7
+305a b 90 4
+3065 c 779 7
+3071 c 108 7
+307d 11 108 7
+308e 4 109 7
+3092 14 454 7
+30a6 5 108 7
+30ab 5 108 7
+30b0 7 455 7
+30b7 8 176 0
+30bf d 108 7
+30cc 4 270 7
+30d0 9 109 7
+30d9 4 270 7
+30dd 7 211 23
+30e4 1c 212 23
+3100 c 286 7
+310c 7 211 23
+3113 9 281 7
+311c 7 211 23
+3123 b 212 23
+312e 6 213 23
+3134 d 214 23
+3141 4 795 7
+3145 b 90 4
+3150 8 214 0
+3158 6 220 0
+315e 4 796 7
+3162 5 836 7
+3167 f 331 6
+3176 8 627 6
+317e c 90 4
+318a 9 214 0
+3193 6 220 0
+3199 13 621 6
+31ac 4 795 7
+31b0 b 90 4
+31bb 8 214 0
+31c3 6 220 0
+31c9 4 796 7
+31cd 5 836 7
+31d2 d 217 23
+FUNC 31e0 a 0 QOffscreenBackingStore::paintDevice()
+31e0 4 134 23
+31e4 6 135 23
+FUNC 31f0 173 0 QOffscreenBackingStore::flush(QWindow*, QRegion const&, QPoint const&)
+31f0 1a 139 23
+320a 20 142 23
+322a 13 145 23
+323d 15 213 16
+3252 5 214 16
+3257 8 254 10
+325f 24 170 10
+3283 8 147 23
+328b a 170 10
+3295 9 183 9
+329e 2 279 10
+32a0 2 183 9
+32a2 3 279 10
+32a5 2 183 9
+32a7 7 173 10
+32ae 7 173 10
+32b5 14 148 23
+32c9 8 150 23
+32d1 4 114 9
+32d5 5 117 9
+32da 7 279 10
+32e1 4 279 10
+32e5 4 279 10
+32e9 2 279 10
+32eb 5 179 10
+32f0 4 279 10
+32f4 8 179 10
+32fc 3 279 10
+32ff 2 279 10
+3301 4 173 10
+3305 3 173 10
+3308 3 173 10
+330b d 155 23
+3318 21 157 23
+3339 16 158 23
+334f 14 159 23
+FUNC 3370 87 0 QOffscreenBackingStore::resize(QSize const&, QRegion const&)
+3370 17 162 23
+3387 19 163 23
+33a0 1f 164 23
+33bf 21 165 23
+33e0 8 166 23
+33e8 f 167 23
+FUNC 3400 bc 0 QOffscreenBackingStore::scroll(QRegion const&, int, int)
+3400 1d 172 23
+341d 18 173 23
+3435 8 176 23
+343d 13 82 15
+3450 7 55 5
+3457 b 108 9
+3462 c 178 23
+346e 4 82 15
+3472 b 177 23
+347d d 90 4
+348a 8 214 0
+3492 6 220 0
+3498 e 68 15
+34a6 5 222 5
+34ab 11 181 23
+FUNC 34c0 197 0 QHash<unsigned long long, QRect>::operator[](unsigned long long const&)
+34c0 14 788 6
+34d4 3 363 6
+34d7 9 90 4
+34e0 24 633 6
+3504 3 634 6
+3507 c 90 4
+3513 9 214 0
+351c 6 220 0
+3522 3 635 6
+3525 c 621 6
+3531 3 636 6
+3534 4 951 6
+3538 3 952 6
+353b e 81 6
+3549 2 951 6
+354b 2 956 6
+354d f 957 6
+355c 14 959 6
+3570 12 246 6
+3582 13 959 6
+3595 9 793 6
+359e 6 193 6
+35a4 f 194 6
+35b3 7 951 6
+35ba 3 952 6
+35bd e 81 6
+35cb 4 951 6
+35cf f 957 6
+35de 11 959 6
+35ef 16 246 6
+3605 15 600 6
+361a 1e 245 6
+3638 3 600 6
+363b 3 601 6
+363e 6 602 6
+3644 4 796 6
+3648 f 799 6
+FUNC 3660 18f 0 QHash<unsigned long long, QOffscreenBackingStore*>::operator[](unsigned long long const&)
+3660 14 788 6
+3674 3 363 6
+3677 9 90 4
+3680 24 633 6
+36a4 3 634 6
+36a7 c 90 4
+36b3 9 214 0
+36bc 6 220 0
+36c2 3 635 6
+36c5 c 621 6
+36d1 3 636 6
+36d4 4 951 6
+36d8 3 952 6
+36db e 81 6
+36e9 2 951 6
+36eb 2 956 6
+36ed f 957 6
+36fc 14 959 6
+3710 12 246 6
+3722 13 959 6
+3735 9 793 6
+373e 6 193 6
+3744 f 194 6
+3753 7 951 6
+375a 3 952 6
+375d e 81 6
+376b 4 951 6
+376f f 957 6
+377e 11 959 6
+378f 16 246 6
+37a5 15 600 6
+37ba 16 245 6
+37d0 3 600 6
+37d3 3 601 6
+37d6 6 602 6
+37dc 4 796 6
+37e0 f 799 6
+FUNC 37f0 141 0 QHash<unsigned long long, QRect>::keys() const
+37f0 14 698 6
+3804 a 139 7
+380e 6 355 6
+3814 5 539 7
+3819 5 90 4
+381e 2 540 7
+3820 8 108 7
+3828 8 755 7
+3830 b 108 7
+383b 5 108 7
+3840 4 109 7
+3844 14 454 7
+3858 8 108 7
+3860 5 108 7
+3865 8 455 7
+386d b 90 4
+3878 8 214 0
+3880 6 220 0
+3886 a 836 7
+3890 8 543 7
+3898 3 513 6
+389b 7 216 6
+38a2 e 215 6
+38b0 8 218 6
+38b8 2 217 6
+38ba 4 220 6
+38be 12 217 6
+38d0 3 550 7
+38d3 5 90 4
+38d8 c 550 7
+38e4 8 551 7
+38ec 14 413 7
+3900 4 413 7
+3904 8 571 7
+390c 3 576 7
+390f 10 479 6
+391f 12 707 6
+FUNC 3940 c9 0 QHash<unsigned long long, QOffscreenBackingStore*>::find(unsigned long long const&)
+3940 10 933 6
+3950 3 363 6
+3953 8 90 4
+395b 24 633 6
+397f 3 634 6
+3982 c 90 4
+398e 9 214 0
+3997 6 220 0
+399d 3 635 6
+39a0 c 621 6
+39ac 3 636 6
+39af 7 951 6
+39b6 3 952 6
+39b9 c 81 6
+39c5 a 957 6
+39cf 11 959 6
+39e0 e 246 6
+39ee 10 959 6
+39fe b 935 6
+FUNC 3a10 1b1 0 QHash<unsigned long long, QOffscreenBackingStore*>::remove(unsigned long long const&)
+3a10 14 834 6
+3a24 15 357 6
+3a39 9 90 4
+3a42 24 633 6
+3a66 7 634 6
+3a6d c 90 4
+3a79 9 214 0
+3a82 6 220 0
+3a88 7 635 6
+3a8f c 621 6
+3a9b 7 636 6
+3aa2 4 839 6
+3aa6 8 951 6
+3aae 3 952 6
+3ab1 d 81 6
+3abe e 957 6
+3acc 14 959 6
+3ae0 11 246 6
+3af1 14 959 6
+3b05 1b 841 6
+3b20 6 844 6
+3b26 a 845 6
+3b30 8 576 6
+3b38 3 847 6
+3b3b d 848 6
+3b48 3 845 6
+3b4b b 848 6
+3b56 8 576 6
+3b5e 3 847 6
+3b61 11 848 6
+3b72 15 203 6
+3b87 5 205 6
+3b8c 8 203 6
+3b94 8 205 6
+3b9c 8 205 6
+3ba4 e 852 6
+3bb2 f 853 6
+FUNC 3bd0 3e 0 QHash<unsigned long long, QOffscreenBackingStore *>::~QHash
+3bd0 b 342 6
+3bdb 3 342 6
+3bde c 90 4
+3bea 9 214 0
+3bf3 6 220 0
+3bf9 3 342 6
+3bfc c 621 6
+3c08 6 342 6
+FUNC 3c10 30 0 QOffscreenScreen::~QOffscreenScreen
+3c10 9 49 24
+3c19 a 49 24
+3c23 9 100 12
+3c2c 6 54 12
+3c32 e 49 24
+FUNC 3c40 38 0 QOffscreenScreen::~QOffscreenScreen
+3c40 9 49 24
+3c49 a 49 24
+3c53 9 100 12
+3c5c 6 54 12
+3c62 8 49 24
+3c6a e 49 24
+FUNC 3c80 e 0 QOffscreenScreen::geometry() const
+3c80 4 54 24
+3c84 a 54 24
+FUNC 3c90 b 0 QPlatformScreen::availableGeometry() const
+3c90 4 91 18
+3c94 7 91 18
+FUNC 3ca0 b 0 QOffscreenScreen::depth() const
+3ca0 9 55 24
+3ca9 2 55 24
+FUNC 3cb0 b 0 QOffscreenScreen::format() const
+3cb0 9 56 24
+3cb9 2 56 24
+FUNC 3cc0 13 0 QPlatformScreen::name() const
+3cc0 4 115 18
+3cc4 a 1052 14
+3cce 5 115 18
+FUNC 3ce0 a 0 QOffscreenScreen::cursor() const
+3ce0 4 57 24
+3ce4 4 135 12
+3ce8 2 57 24
+FUNC 3cf0 6 0 QHash<unsigned long long, QOffscreenBackingStore*>::deleteNode2(QHashData::Node*)
+3cf0 4 581 6
+3cf4 2 587 6
+FUNC 3d00 c6 0 QHash<unsigned long long, QRect>::operator=(QHash<unsigned long long, QRect> const&)
+3d00 e 641 6
+3d0e f 642 6
+3d1d 3 90 4
+3d20 7 51 11
+3d27 9 176 0
+3d30 3 645 6
+3d33 c 90 4
+3d3f 9 214 0
+3d48 6 220 0
+3d4e 3 646 6
+3d51 c 621 6
+3d5d 3 647 6
+3d60 6 648 6
+3d66 24 633 6
+3d8a 3 634 6
+3d8d c 90 4
+3d99 9 214 0
+3da2 6 220 0
+3da8 3 635 6
+3dab c 621 6
+3db7 3 636 6
+3dba c 651 6
+FUNC 3dd0 30 0 QHash<unsigned long long, QRect>::duplicateNode(QHashData::Node*, void*)
+3dd0 9 591 6
+3dd9 3 593 6
+3ddc 22 245 6
+3dfe 2 594 6
+FUNC 3e00 6 0 QHash<unsigned long long, QRect>::deleteNode2(QHashData::Node*)
+3e00 4 581 6
+3e04 2 587 6
+FUNC 3e10 28 0 QHash<unsigned long long, QOffscreenBackingStore*>::duplicateNode(QHashData::Node*, void*)
+3e10 9 591 6
+3e19 3 593 6
+3e1c 1a 245 6
+3e36 2 594 6
+FUNC 3e40 10d 0 QList<unsigned long long>::detach_helper_grow(int, int)
+3e40 1a 723 7
+3e5a 11 108 7
+3e6b 5 725 7
+3e70 e 108 7
+3e7e 5 108 7
+3e83 7 728 7
+3e8a 14 454 7
+3e9e 5 108 7
+3ea3 8 108 7
+3eab 8 455 7
+3eb3 a 108 7
+3ebd 12 735 7
+3ecf d 735 7
+3edc 4 109 7
+3ee0 14 454 7
+3ef4 5 735 7
+3ef9 8 735 7
+3f01 8 455 7
+3f09 b 90 4
+3f14 8 214 0
+3f1c 6 220 0
+3f22 8 836 7
+3f2a 8 108 7
+3f32 1b 748 7
+FUNC 3f50 a 0 QOffscreenCursor::~QOffscreenCursor
+3f50 4 47 23
+3f54 1 79 17
+3f55 5 0 23
+FUNC 3f60 1c 0 QOffscreenCursor::~QOffscreenCursor
+3f60 9 47 23
+3f69 5 79 17
+3f6e e 47 23
+FUNC 3f80 6 0 QPlatformCursor::pointerEvent(QMouseEvent const&)
+3f80 4 84 17
+3f84 2 84 17
+FUNC 3f90 6 0 QOffscreenCursor::changeCursor(QCursor*, QWindow*)
+3f90 4 80 23
+3f94 2 83 23
+FUNC 3fa0 a 0 QOffscreenCursor::pos() const
+3fa0 4 52 23
+3fa4 6 52 23
+FUNC 3fb0 2eb 0 QOffscreenCursor::setPos(QPoint const&)
+3fb0 15 54 23
+3fc5 b 55 23
+3fd0 5 56 23
+3fd5 8 777 7
+3fdd b 90 4
+3fe8 c 779 7
+3ff4 c 108 7
+4000 11 108 7
+4011 4 109 7
+4015 14 454 7
+4029 5 108 7
+402e 5 108 7
+4033 7 455 7
+403a 8 176 0
+4042 d 108 7
+404f 4 270 7
+4053 9 109 7
+405c 4 270 7
+4060 20 58 23
+4080 c 286 7
+408c c 58 23
+4098 9 281 7
+40a1 7 58 23
+40a8 3a 59 23
+40e2 3 58 23
+40e5 8 286 7
+40ed 8 58 23
+40f5 4 286 7
+40f9 8 58 23
+4101 f 281 7
+4110 f 58 23
+411f 4 795 7
+4123 b 90 4
+412e 8 214 0
+4136 6 220 0
+413c 4 796 7
+4140 5 836 7
+4145 a 65 23
+414f 5 66 23
+4154 8 219 16
+415c 7 67 23
+4163 6 138 9
+4169 13 69 23
+417c 5 270 9
+4181 5 71 23
+4186 d 270 9
+4193 15 270 9
+41a8 a 270 9
+41b2 6 270 9
+41b8 7 117 9
+41bf d 270 9
+41cc 1d 72 23
+41e9 5 270 9
+41ee 7 117 9
+41f5 8 270 9
+41fd 8 270 9
+4205 d 270 9
+4212 d 270 9
+421f 34 74 23
+4253 12 76 23
+4265 4 795 7
+4269 b 90 4
+4274 8 214 0
+427c 6 220 0
+4282 4 796 7
+4286 5 836 7
+428b 10 77 23
+FUNC 42a0 2d 0 <name omitted>
+42a0 4 170 23
+42a4 15 331 6
+42b9 14 219 23
+FUNC 42d0 25 0 QOffscreenIntegration::createOffscreenIntegration()
+42d0 b 37 26
+42db 1a 38 26
+FUNC 4300 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA
+4300 9 55 21
+4309 13 55 21
+431c 7 55 21
+FUNC 4330 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA
+4330 9 55 21
+4339 1a 55 21
+FUNC 4360 1c 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+4360 9 58 21
+4369 5 58 21
+436e e 58 21
+FUNC 4380 a 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+4380 4 58 21
+4384 1 58 21
+4385 5 0 21
+FUNC 4390 a 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA
+4390 4 58 21
+4394 1 58 21
+4395 5 0 21
+FUNC 43a0 20 0 QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>)
+43a0 9 61 21
+43a9 8 62 21
+43b1 f 63 21
+FUNC 43c0 1b 0 QUnixEventDispatcherQPA::hasPendingEvents()
+43c0 4 67 21
+43c4 17 69 21
+FUNC 43e0 1d 0 QUnixEventDispatcherQPA::flush()
+43e0 4 73 21
+43e4 11 110 2
+43f5 6 75 21
+43fb 2 76 21
+FUNC 4400 27 0 createUnixEventDispatcher()
+4400 b 41 20
+440b 1c 47 20
+FUNC 4430 6 0 QUnixEventDispatcherQPA::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+4430 4 56 28
+4434 2 61 28
+FUNC 4440 1e 0 QUnixEventDispatcherQPA::metaObject() const
+4440 4 70 28
+4444 4 113 12
+4448 7 71 28
+444f f 71 28
+FUNC 4460 3e 0 QUnixEventDispatcherQPA::qt_metacast(char const*)
+4460 14 75 28
+4474 13 77 28
+4487 12 79 28
+4499 5 80 28
+FUNC 44a0 a 0 QUnixEventDispatcherQPA::qt_metacall(QMetaObject::Call, int, void**)
+44a0 4 83 28
+44a4 1 84 28
+44a5 5 0 28
 PUBLIC 4a70 0 qt_meta_data_QOffscreenIntegrationPlugin
 PUBLIC 4ab0 0 typeinfo name for QOffscreenIntegrationPlugin
 PUBLIC 4ad0 0 qt_meta_stringdata_QOffscreenIntegrationPlugin
@@ -235,10 +1286,6 @@ STACK CFI INIT 1d20 d8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1d21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1d24 .cfa: $rbp 16 +
 STACK CFI 1d2d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 2450 18f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2451 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2454 .cfa: $rbp 16 +
-STACK CFI 245e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
 STACK CFI INIT 1e00 4c .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1e01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1e04 .cfa: $rbp 16 +
@@ -251,10 +1298,6 @@ STACK CFI INIT 1ea0 44 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1ea1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1ea4 .cfa: $rbp 16 +
 STACK CFI 1ea6 $rbx: .cfa -24 + ^
-STACK CFI INIT 25e0 1b1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 25e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 25e4 .cfa: $rbp 16 +
-STACK CFI 25f1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
 STACK CFI INIT 1ef0 a0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1ef1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1ef4 .cfa: $rbp 16 +
@@ -287,6 +1330,14 @@ STACK CFI 22cb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
 STACK CFI INIT 23c0 84 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 23c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 23c4 .cfa: $rbp 16 +
+STACK CFI INIT 2450 18f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2451 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2454 .cfa: $rbp 16 +
+STACK CFI 245e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 25e0 1b1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 25e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 25e4 .cfa: $rbp 16 +
+STACK CFI 25f1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
 STACK CFI INIT 27a0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 27a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 27a4 .cfa: $rbp 16 +
@@ -349,14 +1400,6 @@ STACK CFI INIT 31f0 173 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 31f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 31f4 .cfa: $rbp 16 +
 STACK CFI 3201 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 34c0 197 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 34c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 34c4 .cfa: $rbp 16 +
-STACK CFI 34ce $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3660 18f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3661 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3664 .cfa: $rbp 16 +
-STACK CFI 366e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
 STACK CFI INIT 3370 87 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 3371 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 3374 .cfa: $rbp 16 +
@@ -365,6 +1408,14 @@ STACK CFI INIT 3400 bc .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 3401 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 3404 .cfa: $rbp 16 +
 STACK CFI 3411 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 34c0 197 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 34c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 34c4 .cfa: $rbp 16 +
+STACK CFI 34ce $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3660 18f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3661 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3664 .cfa: $rbp 16 +
+STACK CFI 366e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
 STACK CFI INIT 37f0 141 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 37f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 37f4 .cfa: $rbp 16 +
