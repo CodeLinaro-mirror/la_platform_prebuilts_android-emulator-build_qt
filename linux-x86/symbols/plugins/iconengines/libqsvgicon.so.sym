@@ -1,30 +1,30 @@
 MODULE Linux x86 F1623E4B9D330B63BF78566FA7DB25660 libqsvgicon.so
-FILE 0 /tmp/joshualang-build-qt-37839/build-linux-x86/qtsvg/src/plugins/iconengines/svgiconengine/.moc/main.moc
-FILE 1 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 2 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
-FILE 3 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdatastream.h
-FILE 4 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
-FILE 5 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
-FILE 6 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 7 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qatomic.h
-FILE 8 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
-FILE 9 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 10 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
-FILE 11 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qhash.h
-FILE 12 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
-FILE 13 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
-FILE 14 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 15 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 16 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qshareddata.h
-FILE 17 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 18 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
-FILE 19 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 20 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstringlist.h
-FILE 21 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qpaintdevice.h
-FILE 22 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qpainter.h
-FILE 23 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/private/../../../../../src/gui/kernel/qguiapplication_p.h
-FILE 24 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/iconengines/svgiconengine/main.cpp
-FILE 25 /tmp/joshualang-build-qt-37839/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/iconengines/svgiconengine/qsvgiconengine.cpp
+FILE 0 /tmp/grigoryj-build-qt-12764/build-linux-x86/qtsvg/src/plugins/iconengines/svgiconengine/.moc/main.moc
+FILE 1 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 2 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
+FILE 3 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdatastream.h
+FILE 4 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
+FILE 5 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
+FILE 6 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 7 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qatomic.h
+FILE 8 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
+FILE 9 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 10 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 11 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qhash.h
+FILE 12 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 13 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
+FILE 14 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 15 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 16 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qshareddata.h
+FILE 17 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 18 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 19 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 20 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstringlist.h
+FILE 21 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qpaintdevice.h
+FILE 22 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qpainter.h
+FILE 23 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/private/../../../../../src/gui/kernel/qguiapplication_p.h
+FILE 24 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/iconengines/svgiconengine/main.cpp
+FILE 25 /tmp/grigoryj-build-qt-12764/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/iconengines/svgiconengine/qsvgiconengine.cpp
 FUNC 2550 16 0 _GLOBAL__sub_I_qsvgiconengine.cpp
 2550 b 344 25
 255b b 57 7
