@@ -1,1196 +1,1313 @@
-MODULE mac x86_64 D747845AD2DE3B8E81CC8CC58692BCB10 libqgif.dylib
-FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
-FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
-FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
-FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
-FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
-FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
-FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qvector.h
-FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qrgb.h
-FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/gui/image/qgifhandler.cpp
-FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/gif/main.cpp
-FILE 16 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/imageformats/gif/.moc/moc_main.cpp
-FUNC ad0 91 0 QGIFFormat::QGIFFormat
-ad0 9 143 14
-ad9 9 143 14
-ae2 7 146 14
-ae9 7 147 14
-af0 a 148 14
-afa 7 149 14
-b01 10 145 14
-b11 7 150 14
-b18 a 151 14
-b22 7 152 14
-b29 7 153 14
-b30 4 154 14
-b34 5 155 14
-b39 21 157 14
-b5a 7 160 14
-FUNC b70 91 0 QGIFFormat::QGIFFormat
-b70 9 143 14
-b79 9 143 14
-b82 7 146 14
-b89 7 147 14
-b90 a 148 14
-b9a 7 149 14
-ba1 10 145 14
-bb1 7 150 14
-bb8 a 151 14
-bc2 7 152 14
-bc9 7 153 14
-bd0 4 154 14
-bd4 5 155 14
-bd9 21 157 14
-bfa 7 160 14
-FUNC c10 48 0 QGIFFormat::~QGIFFormat
-c10 9 166 14
-c19 e 167 14
-c27 e 168 14
-c35 11 169 14
-c46 12 170 14
-FUNC c60 48 0 QGIFFormat::~QGIFFormat
-c60 9 166 14
-c69 e 167 14
-c77 e 168 14
-c85 11 169 14
-c96 12 170 14
-FUNC cb0 462 0 QGIFFormat::disposePrevious(QImage*)
-cb0 14 173 14
-cc4 d 181 14
-cd1 3 183 14
-cd4 4 185 14
-cd8 4 183 14
-cdc 6 539 1
-ce2 e 183 14
-cf0 7 539 1
-cf7 3 183 14
-cfa 4 184 14
-cfe 4 185 14
-d02 6 539 1
-d08 b 185 14
-d13 7 539 1
-d1a 3 185 14
-d1d 4 186 14
-d21 f 188 14
-d30 1d 208 14
-d4d 3 210 14
-d50 26 211 14
-d76 1a 209 14
-d90 1c 210 14
-dac 20 211 14
-dcc 2 209 14
-dce 1b 210 14
-de9 e 194 14
-df7 9 196 14
-e00 9 928 14
-e09 57 929 14
-e60 11 930 14
-e71 12 932 14
-e83 13 929 14
-e96 6 199 14
-e9c 4 197 14
-ea0 13 1031 14
-eb3 13 1034 14
-ec6 e 202 14
-ed4 c 203 14
-ee0 d 928 14
-eed 2 203 14
-eef 32 929 14
-f21 22 932 14
-f43 10 930 14
-f53 2d 931 14
-f80 b 932 14
-f8b 14 931 14
-f9f 13 932 14
-fb2 8 931 14
-fba 19 929 14
-fd3 e 1034 14
-fe1 6 1035 14
-fe7 e 1036 14
-ff5 c 199 14
-1001 d 928 14
-100e 32 929 14
-1040 23 932 14
-1063 13 930 14
-1076 2a 931 14
-10a0 b 932 14
-10ab 14 931 14
-10bf 13 932 14
-10d2 8 931 14
-10da 18 929 14
-10f2 a 218 14
-10fc 7 220 14
-1103 f 221 14
-FUNC 1120 105 0 QGIFFormat::fillRect(QImage*, int, int, int, int, unsigned int)
-1120 34 927 14
-1154 3c 929 14
-1190 10 930 14
-11a0 30 931 14
-11d0 b 932 14
-11db 11 931 14
-11ec 16 932 14
-1202 8 931 14
-120a c 929 14
-1216 f 935 14
-FUNC 1230 168c 0 QGIFFormat::decode(QImage*, unsigned char const*, int, int*, int*)
-1230 36 230 14
-1266 16 236 14
-127c c 237 14
-1288 e 238 14
-1296 d 239 14
-12a3 8 242 14
-12ab b 243 14
-12b6 b 244 14
-12c1 a 247 14
-12cb 10 249 14
-12db 4 266 14
-12df b 281 14
-12ea b 294 14
-12f5 28 406 14
-131d 13 451 14
-1330 14 252 14
-1344 2 251 14
-1346 12 636 14
-1358 10 289 14
-1368 11 290 14
-1379 f 291 14
-1388 f 61 13
-1397 7 292 14
-139e 4 294 14
-13a2 16 292 14
-13b8 f 294 14
-13c7 10 254 14
-13d7 b 255 14
-13e2 18 257 14
-13fa 8 258 14
-1402 d 259 14
-140f 10 263 14
-141f b 264 14
-142a 13 266 14
-143d 13 267 14
-1450 9 268 14
-1459 c 271 14
-1465 9 268 14
-146e a 271 14
-1478 b 272 14
-1483 b 275 14
-148e 8 276 14
-1496 4 277 14
-149a 19 284 14
-14b3 10 308 14
-14c3 18 309 14
-14db d 318 14
-14e8 10 327 14
-14f8 12 328 14
-150a 61 331 14
-156b 18 336 14
-1583 c 541 1
-158f b 336 14
-159a 4 336 14
-159e d 337 14
-15ab 18 338 14
-15c3 11 541 1
-15d4 6 338 14
-15da 4 338 14
-15de d 339 14
-15eb 4 341 14
-15ef 20 342 14
-160f 4 343 14
-1613 18 344 14
-162b 7 346 14
-1632 1b 347 14
-164d 6 346 14
-1653 27 348 14
-167a b 349 14
-1685 b 350 14
-1690 1d 351 14
-16ad 13 356 14
-16c0 b 361 14
-16cb 10 362 14
-16db 6 366 14
-16e1 5 370 14
-16e6 f 369 14
-16f5 4 539 1
-16f9 c 369 14
-1705 a 369 14
-170f 7 370 14
-1716 4 539 1
-171a a 370 14
-1724 b 370 14
-172f 5 374 14
-1734 5 371 14
-1739 8 372 14
-1741 6 371 14
-1747 a 372 14
-1751 21 374 14
-1772 9 440 14
-177b f 441 14
-178a f 444 14
-1799 4 445 14
-179d 3 446 14
-17a0 3 447 14
-17a3 3 448 14
-17a6 8 450 14
-17ae a 445 14
-17b8 7 446 14
-17bf 7 447 14
-17c6 7 448 14
-17cd 7 451 14
-17d4 c 452 14
-17e0 40 450 14
-1820 9 451 14
-1829 24 452 14
-184d 23 450 14
-1870 6 451 14
-1876 4 452 14
-187a 11 450 14
-188b 4 442 14
-188f 17 456 14
-18a6 4 459 14
-18aa 8 460 14
-18b2 8 463 14
-18ba 8 464 14
-18c2 17 465 14
-18d9 4 469 14
-18dd 12 470 14
-18ef a 471 14
-18f9 7 472 14
-1900 10 471 14
-1910 13 472 14
-1923 16 473 14
-1939 9 474 14
-1942 9 475 14
-194b 7 477 14
-1952 3 473 14
-1955 2 477 14
-1957 a 478 14
-1961 d 479 14
-196e b 480 14
-1979 b 481 14
-1984 a 483 14
-198e 9 484 14
-1997 e 485 14
-19a5 1f 472 14
-19c4 11 488 14
-19d5 7 501 14
-19dc 7 530 14
-19e3 8 501 14
-19eb 1d 503 14
-1a08 7 504 14
-1a0f 1a 506 14
-1a29 9 507 14
-1a32 23 511 14
-1a55 b 512 14
-1a60 8 511 14
-1a68 17 516 14
-1a7f e 489 14
-1a8d 2e 490 14
-1abb d 451 14
-1ac8 13 490 14
-1adb 12 491 14
-1aed 11 1031 14
-1afe 1f 1034 14
-1b1d 6 1035 14
-1b23 12 1036 14
-1b35 18 491 14
-1b4d 10 492 14
-1b5d 4 493 14
-1b61 4 492 14
-1b65 8 493 14
-1b6d 8 494 14
-1b75 22 495 14
-1b97 d 496 14
-1ba4 15 497 14
-1bb9 20 498 14
-1bd9 1c 451 14
-1bf5 f 522 14
-1c04 33 527 14
-1c37 14 530 14
-1c4b 5 531 14
-1c50 b 532 14
-1c5b 7 533 14
-1c62 c 532 14
-1c6e 9 536 14
-1c77 9 537 14
-1c80 7 540 14
-1c87 e 541 14
-1c95 32 543 14
-1cc7 15 544 14
-1cdc 20 545 14
-1cfc 1e 451 14
-1d1a 14 557 14
-1d2e e 545 14
-1d3c f 546 14
-1d4b 1b 547 14
-1d66 5 1031 14
-1d6b e 547 14
-1d79 8 1031 14
-1d81 1b 1034 14
-1d9c 6 1035 14
-1da2 11 1036 14
-1db3 14 548 14
-1dc7 10 550 14
-1dd7 4 551 14
-1ddb 4 550 14
-1ddf a 551 14
-1de9 14 552 14
-1dfd d 553 14
-1e0a 15 554 14
-1e1f 12 555 14
-1e31 14 556 14
-1e45 19 451 14
-1e5e 15 556 14
-1e73 1c 545 14
-1e8f b 570 14
-1e9a 8 575 14
-1ea2 d 587 14
-1eaf f 617 14
-1ebe b 618 14
-1ec9 5 619 14
-1ece 18 618 14
-1ee6 b 620 14
-1ef1 14 621 14
-1f05 1b 623 14
-1f20 14 626 14
-1f34 2f 628 14
-1f63 19 451 14
-1f7c c 629 14
-1f88 8 631 14
-1f90 d 632 14
-1f9d f 590 14
-1fac 12 591 14
-1fbe 5 592 14
-1fc3 f 591 14
-1fd2 29 91 7
-1ffb 1f 451 14
-201a 2 91 7
-201c a 596 14
-2026 4 595 14
-202a 18 599 14
-2042 4 603 14
-2046 8 604 14
-204e 11 605 14
-205f f 609 14
-206e 17 610 14
-2085 18 612 14
-209d d 613 14
-20aa 4 636 14
-20ae 8 637 14
-20b6 8 638 14
-20be d 606 14
-20cb 14 642 14
-20df d 643 14
-20ec 11 646 14
-20fd 5 563 14
-2102 a 564 14
-210c 8 565 14
-2114 36 566 14
-214a c 296 14
-2156 1a 298 14
-2170 6 299 14
-2176 8 300 14
-217e d 304 14
-218b 18 461 14
-21a3 8 572 14
-21ab d 587 14
-21b8 10 638 14
-21c8 22 314 14
-21ea d 311 14
-21f7 c 272 14
-2203 b 275 14
-220e 8 276 14
-2216 4 277 14
-221a 8 280 14
-2222 42 281 14
-2264 23 451 14
-2287 4 281 14
-228b 19 282 14
-22a4 8 302 14
-22ac a 304 14
-22b6 8 585 14
-22be d 587 14
-22cb 1c 374 14
-22e7 6 382 14
-22ed 8 321 14
-22f5 1a 323 14
-230f f 376 14
-231e 5 377 14
-2323 2f 378 14
-2352 d 379 14
-235f 4 382 14
-2363 d 384 14
-2370 2c 386 14
-239c 7 389 14
-23a3 8 388 14
-23ab 8 389 14
-23b3 14 1031 14
-23c7 1e 1034 14
-23e5 6 1035 14
-23eb 13 1036 14
-23fe 1c 928 14
-241a 23 930 14
-243d 23 931 14
-2460 b 932 14
-246b 14 931 14
-247f 14 932 14
-2493 8 931 14
-249b 15 929 14
-24b0 7 392 14
-24b7 8 391 14
-24bf f 392 14
-24ce 14 1031 14
-24e2 1b 1034 14
-24fd 6 1035 14
-2503 10 1036 14
-2513 1c 928 14
-252f 23 930 14
-2552 23 931 14
-2575 b 932 14
-2580 14 931 14
-2594 10 932 14
-25a4 8 931 14
-25ac c 929 14
-25b8 1c 398 14
-25d4 4 399 14
-25d8 3 401 14
-25db a 399 14
-25e5 6 539 1
-25eb 7 399 14
-25f2 c 539 1
-25fe 3 399 14
-2601 4 400 14
-2605 3 401 14
-2608 7 539 1
-260f 9 401 14
-2618 6 539 1
-261e 2 401 14
-2620 3 402 14
-2623 6 403 14
-2629 13 404 14
-263c d 406 14
-2649 c 407 14
-2655 e 409 14
-2663 4 409 14
-2667 a 410 14
-2671 12 410 14
-2683 26 409 14
-26a9 1b 412 14
-26c4 e 414 14
-26d2 b 415 14
-26dd 1d 416 14
-26fa 23 417 14
-271d 23 416 14
-2740 37 417 14
-2777 1d 416 14
-2794 8 422 14
-279c 1a 423 14
-27b6 d 424 14
-27c3 4 425 14
-27c7 e 429 14
-27d5 e 430 14
-27e3 b 431 14
-27ee b 432 14
-27f9 e 433 14
-2807 16 434 14
-281d 8 435 14
-2825 27 429 14
-284c 15 451 14
-2861 1f 436 14
-2880 2 250 14
-2882 a 249 14
-288c b 251 14
-2897 6 656 14
-289d 15 657 14
-28b2 a 508 14
-FUNC 2910 314 0 QGIFFormat::nextY(unsigned char*, int)
-2910 17 938 14
-2927 e 939 14
-2935 d 942 14
-2942 1c 1026 14
-295e e 947 14
-296c e 951 14
-297a e 953 14
-2988 9 951 14
-2991 1f 954 14
-29b0 40 955 14
-29f0 7 965 14
-29f7 7 954 14
-29fe 7 966 14
-2a05 13 965 14
-2a18 21 967 14
-2a39 b 969 14
-2a44 13 970 14
-2a57 10 972 14
-2a67 e 980 14
-2a75 a 982 14
-2a7f 9 980 14
-2a88 18 983 14
-2aa0 40 984 14
-2ae0 7 992 14
-2ae7 7 983 14
-2aee 7 993 14
-2af5 13 992 14
-2b08 21 994 14
-2b29 b 997 14
-2b34 10 973 14
-2b44 e 1004 14
-2b52 a 1006 14
-2b5c 9 1004 14
-2b65 1b 1007 14
-2b80 40 1008 14
-2bc0 7 1015 14
-2bc7 7 1007 14
-2bce 7 1016 14
-2bd5 f 1015 14
-2be4 e 1016 14
-2bf2 4 947 14
-2bf6 11 1022 14
-2c07 e 1026 14
-2c15 f 1027 14
-FUNC 2c40 874 0 QGIFFormat::scan(QIODevice*, QVector<QSize>*, int*)
-2c40 34 664 14
-2c74 c 668 14
-2c80 45 669 14
-2cc5 8 687 14
-2ccd c 471 7
-2cd9 49 689 14
-2d22 11 699 14
-2d33 15 702 14
-2d48 22 55 6
-2d6a 4 55 6
-2d6e 22 203 6
-2d90 20 616 12
-2db0 4 703 14
-2db4 9 704 14
-2dbd 3 899 14
-2dc0 2c 705 14
-2dec 19 740 14
-2e05 1e 742 14
-2e23 6 743 14
-2e29 10 744 14
-2e39 d 707 14
-2e46 17 708 14
-2e5d 17 714 14
-2e74 14 716 14
-2e88 11 717 14
-2e99 10 719 14
-2ea9 28 718 14
-2ed1 9 752 14
-2eda 28 753 14
-2f02 25 769 14
-2f27 16 771 14
-2f3d a 778 14
-2f47 12 772 14
-2f59 d 773 14
-2f66 b 776 14
-2f71 2 773 14
-2f73 12 774 14
-2f85 14 776 14
-2f99 6 773 14
-2f9f c 776 14
-2fab 8 776 14
-2fb3 4 776 14
-2fb7 14 778 14
-2fcb 6 774 14
-2fd1 6 778 14
-2fd7 2 778 14
-2fd9 4 778 14
-2fdd 3 782 14
-2fe0 2 776 14
-2fe2 7 781 14
-2fe9 3 784 14
-2fec 3 778 14
-2fef e 783 14
-2ffd 3 603 12
-3000 4 203 6
-3004 e 603 12
-3012 1c 90 5
-302e 7 607 12
-3035 d 606 12
-3042 18 607 12
-305a 7 610 12
-3061 3 55 6
-3064 22 203 6
-3086 d 606 12
-3093 3 610 12
-3096 f 620 12
-30a5 2b 788 14
-30d0 d 813 14
-30dd a 814 14
-30e7 d 821 14
-30f4 d 822 14
-3101 3 824 14
-3104 19 825 14
-311d a 835 14
-3127 1e 836 14
-3145 14 842 14
-3159 5 867 14
-315e 7 868 14
-3165 4 870 14
-3169 5 869 14
-316e 2c 870 14
-319a 5 855 14
-319f 7 856 14
-31a6 4 858 14
-31aa 11 857 14
-31bb 4 716 14
-31bf e 91 7
-31cd 11 860 14
-31de 18 878 14
-31f6 5 884 14
-31fb 7 885 14
-3202 16 886 14
-3218 1d 888 14
-3235 10 890 14
-3245 18 895 14
-325d 9 908 14
-3266 37 909 14
-329d 1f 857 14
-32bc 9 896 14
-32c5 3 898 14
-32c8 52 899 14
-331a 6 723 14
-3320 9 724 14
-3329 3 726 14
-332c 1f 727 14
-334b 12 789 14
-335d f 797 14
-336c d 798 14
-3379 3 800 14
-337c 1c 801 14
-3398 8 729 14
-33a0 2c 702 14
-33cc 18 920 14
-33e4 4 459 7
-33e8 b 90 5
-33f3 8 214 0
-33fb 6 220 0
-3401 19 459 7
-341a 5 222 6
-341f 16 471 7
-3435 1c 922 14
-3451 13 690 14
-3464 4 459 7
-3468 b 90 5
-3473 8 214 0
-347b 6 220 0
-3481 e 459 7
-348f e 222 6
-349d 17 924 14
-FUNC 3500 e9 0 QGifHandler::QGifHandler
-3500 a 1044 14
-350a f 1044 14
-3519 b 1052 11
-3524 4 458 7
-3528 9 1044 14
-3531 9 64 12
-353a 8 1045 14
-3542 9 143 14
-354b 7 146 14
-3552 7 147 14
-3559 a 148 14
-3563 7 149 14
-356a 10 145 14
-357a 7 150 14
-3581 a 151 14
-358b 7 152 14
-3592 7 153 14
-3599 4 154 14
-359d 5 155 14
-35a2 21 157 14
-35c3 4 1045 14
-35c7 8 1046 14
-35cf 8 1047 14
-35d7 8 1048 14
-35df 5 1049 14
-35e4 5 1050 14
-FUNC 35f0 e9 0 QGifHandler::QGifHandler
-35f0 a 1044 14
-35fa f 1044 14
-3609 b 1052 11
-3614 4 458 7
-3618 9 1044 14
-3621 9 64 12
-362a 8 1045 14
-3632 9 143 14
-363b 7 146 14
-3642 7 147 14
-3649 a 148 14
-3653 7 149 14
-365a 10 145 14
-366a 7 150 14
-3671 a 151 14
-367b 7 152 14
-3682 7 153 14
-3689 4 154 14
-368d 5 155 14
-3692 21 157 14
-36b3 4 1045 14
-36b7 8 1046 14
-36bf 8 1047 14
-36c7 8 1048 14
-36cf 5 1049 14
-36d4 5 1050 14
-FUNC 36e0 1c 0 QGifHandler::~QGifHandler
-36e0 9 1053 14
-36e9 5 1053 14
-36ee e 1053 14
-FUNC 3700 a 0 QGifHandler::~QGifHandler
-3700 4 1053 14
-3704 1 1053 14
-3705 5 0 14
-FUNC 3710 109 0 QGifHandler::~QGifHandler
-3710 e 1053 14
-371e a 1053 14
-3728 9 1054 14
-3731 e 167 14
-373f e 168 14
-374d 11 169 14
-375e 9 170 14
-3767 8 1054 14
-376f 4 68 12
-3773 b 90 5
-377e 8 214 0
-3786 6 220 0
-378c e 68 12
-379a 5 222 6
-379f 9 1055 14
-37a8 4 459 7
-37ac b 90 5
-37b7 8 214 0
-37bf 6 220 0
-37c5 e 459 7
-37d3 5 222 6
-37d8 4 1053 11
-37dc b 90 5
-37e7 8 214 0
-37ef 6 220 0
-37f5 e 1053 11
-3803 5 222 6
-3808 8 1055 14
-3810 9 1055 14
-FUNC 3820 fb 0 QGifHandler::imageIsComing() const
-3820 14 1060 14
-3834 f 1063 14
-3843 4 1064 14
-3847 19 1070 14
-3860 a 471 7
-386a 18 1065 14
-3882 b 570 7
-388d 4 459 7
-3891 b 90 5
-389c 8 214 0
-38a4 6 220 0
-38aa e 459 7
-38b8 5 222 6
-38bd a 471 7
-38c7 4 1070 14
-38cb 4 55 6
-38cf 16 1070 14
-38e5 a 1074 14
-38ef 11 1063 14
-3900 1b 1076 14
-FUNC 3920 8f 0 QGifHandler::canRead() const
-3920 e 1080 14
-392e 1d 1081 14
-394b 23 1082 14
-396e 4 459 7
-3972 d 90 5
-397f 8 214 0
-3987 6 220 0
-398d e 459 7
-399b 9 222 6
-39a4 b 1087 14
-FUNC 39b0 a3 0 QGifHandler::canRead(QIODevice*)
-39b0 17 1090 14
-39c7 b 1097 14
-39d2 1b 91 7
-39ed 17 91 7
-3a04 5 1099 14
-3a09 29 62 2
-3a32 18 1092 14
-3a4a 9 1101 14
-FUNC 3a60 136 0 QGifHandler::read(QImage*)
-3a60 18 1104 14
-3a78 d 1107 14
-3a85 4 1108 14
-3a89 17 1114 14
-3aa0 a 471 7
-3aaa 18 1109 14
-3ac2 b 570 7
-3acd 4 459 7
-3ad1 b 90 5
-3adc 8 214 0
-3ae4 6 220 0
-3aea e 459 7
-3af8 5 222 6
-3afd a 471 7
-3b07 4 1114 14
-3b0b 4 55 6
-3b0f 16 1114 14
-3b25 a 1118 14
-3b2f f 1107 14
-3b3e 27 1120 14
-3b65 d 1121 14
-3b72 4 1122 14
-3b76 7 1123 14
-3b7d 6 1124 14
-3b83 13 1129 14
-FUNC 3ba0 8 0 QGifHandler::write(QImage const&)
-3ba0 6 1132 14
-3ba6 2 1134 14
-FUNC 3bb0 49 0 QGifHandler::supportsOption(QImageIOHandler::ImageOption) const
-3bb0 d 1138 14
-3bbd 1f 1139 14
-3bdc 9 1140 14
-3be5 f 1142 14
-3bf4 5 1144 14
-FUNC 3c00 93 0 QGifHandler::option(QImageIOHandler::ImageOption) const
-3c00 17 1147 14
-3c17 e 1162 14
-3c25 6 1149 14
-3c2b 18 1150 14
-3c43 4 1151 14
-3c47 6 1154 14
-3c4d 9 203 12
-3c56 6 1157 14
-3c5c 2 1160 14
-3c5e 2 394 12
-3c60 4 55 6
-3c64 6 394 12
-3c6a 4 1155 14
-3c6e 4 55 6
-3c72 a 1155 14
-3c7c 8 367 4
-3c84 7 367 4
-3c8b 8 1165 14
-FUNC 3ca0 6 0 QGifHandler::setOption(QImageIOHandler::ImageOption, QVariant const&)
-3ca0 4 1168 14
-3ca4 2 1171 14
-FUNC 3cb0 9 0 QGifHandler::nextImageDelay() const
-3cb0 4 1174 14
-3cb4 5 1175 14
-FUNC 3cc0 39 0 QGifHandler::imageCount() const
-3cc0 9 1179 14
-3cc9 6 1180 14
-3ccf 18 1181 14
-3ce7 4 1182 14
-3ceb 7 203 12
-3cf2 7 1184 14
-FUNC 3d00 53 0 QGifHandler::loopCount() const
-3d00 a 1188 14
-3d0a 6 1189 14
-3d10 6 1194 14
-3d16 1b 1190 14
-3d31 4 1191 14
-3d35 19 1194 14
-3d4e 5 1200 14
-FUNC 3d60 9 0 QGifHandler::currentImageNumber() const
-3d60 4 1203 14
-3d64 5 1204 14
-FUNC 3d70 24 0 QGifHandler::name() const
-3d70 9 1208 14
-3d79 1b 1209 14
-FUNC 3da0 1a9 0 QVector<QSize>::reallocData(int, int, QFlags<QArrayData::AllocationOption>)
-3da0 16 497 12
-3db6 5 499 12
-3dbb 8 90 5
-3dc3 11 504 12
-3dd4 d 507 12
-3de1 8 215 6
-3de9 5 514 12
-3dee 7 516 12
-3df5 3 55 6
-3df8 f 517 12
-3e07 7 55 6
-3e0e 8 203 6
-3e16 12 526 12
-3e28 11 527 12
-3e39 28 523 12
-3e61 9 534 12
-3e6a e 55 6
-3e78 4 203 6
-3e7c 5 283 12
-3e81 18 284 12
-3e99 14 103 10
-3ead 14 548 12
-3ec1 8 563 12
-3ec9 b 90 5
-3ed4 8 214 0
-3edc 6 220 0
-3ee2 d 568 12
-3eef 5 222 6
-3ef4 5 573 12
-3ef9 4 203 6
-3efd e 553 12
-3f0b 3 55 6
-3f0e b 203 6
-3f19 c 284 12
-3f25 7 103 10
-3f2c 4 284 12
-3f30 6 283 12
-3f36 4 558 12
-3f3a f 584 12
-FUNC 3f50 25 0 QGifPlugin::QGifPlugin
-3f50 b 50 15
-3f5b 13 50 15
-3f6e 7 51 15
-FUNC 3f80 25 0 QGifPlugin::QGifPlugin
-3f80 b 50 15
-3f8b 13 50 15
-3f9e 7 51 15
-FUNC 3fb0 1c 0 QGifPlugin::~QGifPlugin
-3fb0 9 54 15
-3fb9 5 55 15
-3fbe e 54 15
-FUNC 3fd0 a 0 QGifPlugin::~QGifPlugin
-3fd0 4 54 15
-3fd4 1 55 15
-3fd5 5 0 15
-FUNC 3fe0 a 0 QGifPlugin::~QGifPlugin
-3fe0 4 54 15
-3fe4 1 55 15
-3fe5 5 0 15
-FUNC 3ff0 48 0 QGifPlugin::capabilities(QIODevice*, QByteArray const&) const
-3ff0 a 58 15
-3ffa 18 590 7
-4012 5 59 15
-4017 1a 59 15
-4031 7 62 15
-FUNC 4040 49 0 QGifPlugin::create(QIODevice*, QByteArray const&) const
-4040 15 65 15
-4055 10 66 15
-4065 b 67 15
-4070 b 68 15
-407b e 69 15
-FUNC 4090 6 0 QGifPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-4090 4 57 16
-4094 2 62 16
-FUNC 40a0 1e 0 QGifPlugin::metaObject() const
-40a0 4 71 16
-40a4 4 113 8
-40a8 7 72 16
-40af f 72 16
-FUNC 40c0 3e 0 QGifPlugin::qt_metacast(char const*)
-40c0 14 76 16
-40d4 13 78 16
-40e7 12 80 16
-40f9 5 81 16
-FUNC 4100 a 0 QGifPlugin::qt_metacall(QMetaObject::Call, int, void**)
-4100 4 84 16
-4104 1 85 16
-4105 5 0 16
-FUNC 4110 d 0 qt_plugin_query_metadata
-4110 4 178 16
-4114 9 178 16
-FUNC 4120 138 0 qt_plugin_instance
-4120 4 178 16
-4124 21 178 16
-4145 1d 590 9
-4162 1f 178 16
-4181 c 588 9
-418d 6 90 5
-4193 15 588 9
-41a8 10 178 16
-41b8 b 696 9
-41c3 c 702 9
-41cf 5 703 9
-41d4 8 176 0
-41dc c 705 9
-41e8 8 214 0
-41f0 6 220 0
-41f6 c 706 9
-4202 5 161 9
-4207 7 707 9
-420e 7 708 9
-4215 5 591 9
-421a 8 214 0
-4222 6 220 0
-4228 8 161 9
-4230 e 588 9
-423e 6 90 5
-4244 14 588 9
-FUNC 4260 31 0 QPointer<QObject>::~QPointer
-4260 4 64 3
-4264 c 591 9
-4270 8 214 0
-4278 6 220 0
-427e 8 591 9
-4286 5 161 9
-428b 6 64 3
-PUBLIC 4600 0 typeinfo name for QGifHandler
-PUBLIC 4610 0 .memset_pattern
-PUBLIC 4620 0 qt_meta_data_QGifPlugin
-PUBLIC 465c 0 typeinfo name for QGifPlugin
-PUBLIC 4670 0 qt_meta_stringdata_QGifPlugin
-PUBLIC 46f0 0 qt_section_alignment_dummy
-PUBLIC 4700 0 qt_pluginMetaData
-PUBLIC 51b0 0 vtable for QGifHandler
-PUBLIC 5240 0 typeinfo for QGifHandler
-PUBLIC 5260 0 QGifPlugin::staticMetaObject
-PUBLIC 5290 0 vtable for QGifPlugin
-PUBLIC 5310 0 typeinfo for QGifPlugin
-PUBLIC 5328 0 qt_plugin_instance::_instance
-PUBLIC 5338 0 guard variable for qt_plugin_instance::_instance
-STACK CFI INIT ad0 91 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI ad1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI ad4 .cfa: $rbp 16 +
-STACK CFI ad6 $rbx: .cfa -24 + ^
-STACK CFI INIT b70 91 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI b71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI b74 .cfa: $rbp 16 +
-STACK CFI b76 $rbx: .cfa -24 + ^
-STACK CFI INIT c10 48 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI c11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI c14 .cfa: $rbp 16 +
-STACK CFI c16 $rbx: .cfa -24 + ^
-STACK CFI INIT c60 48 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI c61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI c64 .cfa: $rbp 16 +
-STACK CFI c66 $rbx: .cfa -24 + ^
-STACK CFI INIT cb0 462 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI cb4 .cfa: $rbp 16 +
-STACK CFI cc1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1120 105 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1121 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1124 .cfa: $rbp 16 +
-STACK CFI 1131 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1230 168c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1231 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1234 .cfa: $rbp 16 +
-STACK CFI 1244 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2910 314 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2911 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2914 .cfa: $rbp 16 +
-STACK CFI 291e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2c40 874 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2c41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2c44 .cfa: $rbp 16 +
-STACK CFI 2c54 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3500 e9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3501 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3504 .cfa: $rbp 16 +
-STACK CFI 3507 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 35f0 e9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 35f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 35f4 .cfa: $rbp 16 +
-STACK CFI 35f7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 36e0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 36e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 36e4 .cfa: $rbp 16 +
-STACK CFI 36e6 $rbx: .cfa -24 + ^
-STACK CFI INIT 3700 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3701 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3704 .cfa: $rbp 16 +
-STACK CFI INIT 3710 109 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3711 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3714 .cfa: $rbp 16 +
-STACK CFI 371b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 3820 fb .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3821 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3824 .cfa: $rbp 16 +
-STACK CFI 3831 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3920 8f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3921 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3924 .cfa: $rbp 16 +
-STACK CFI 392b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 39b0 a3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 39b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 39b4 .cfa: $rbp 16 +
-STACK CFI 39b9 $rbx: .cfa -24 + ^
-STACK CFI INIT 3a60 136 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3a61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3a64 .cfa: $rbp 16 +
-STACK CFI 3a71 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3ba0 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3ba1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3ba4 .cfa: $rbp 16 +
-STACK CFI INIT 3bb0 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3bb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3bb4 .cfa: $rbp 16 +
-STACK CFI 3bb7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 3c00 93 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3c01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3c04 .cfa: $rbp 16 +
-STACK CFI 3c07 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 3ca0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3ca1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3ca4 .cfa: $rbp 16 +
-STACK CFI INIT 3cb0 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3cb4 .cfa: $rbp 16 +
-STACK CFI INIT 3cc0 39 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3cc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3cc4 .cfa: $rbp 16 +
-STACK CFI 3cc6 $rbx: .cfa -24 + ^
-STACK CFI INIT 3d00 53 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3d01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3d04 .cfa: $rbp 16 +
-STACK CFI 3d07 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 3d60 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3d61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3d64 .cfa: $rbp 16 +
-STACK CFI INIT 3d70 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3d71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3d74 .cfa: $rbp 16 +
-STACK CFI 3d76 $rbx: .cfa -24 + ^
-STACK CFI INIT 3da0 1a9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3da1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3da4 .cfa: $rbp 16 +
-STACK CFI 3dae $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3f50 25 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f54 .cfa: $rbp 16 +
-STACK CFI 3f56 $rbx: .cfa -24 + ^
-STACK CFI INIT 3f80 25 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f84 .cfa: $rbp 16 +
-STACK CFI 3f86 $rbx: .cfa -24 + ^
-STACK CFI INIT 3fb0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3fb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3fb4 .cfa: $rbp 16 +
-STACK CFI 3fb6 $rbx: .cfa -24 + ^
-STACK CFI INIT 3fd0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3fd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3fd4 .cfa: $rbp 16 +
-STACK CFI INIT 3fe0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3fe1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3fe4 .cfa: $rbp 16 +
-STACK CFI INIT 3ff0 48 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3ff1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3ff4 .cfa: $rbp 16 +
-STACK CFI 3ff7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 4040 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4041 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4044 .cfa: $rbp 16 +
-STACK CFI 404a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 4090 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4091 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4094 .cfa: $rbp 16 +
-STACK CFI INIT 40a0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 40a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 40a4 .cfa: $rbp 16 +
-STACK CFI INIT 40c0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 40c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 40c4 .cfa: $rbp 16 +
-STACK CFI 40c7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 4100 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4101 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4104 .cfa: $rbp 16 +
-STACK CFI INIT 4110 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4111 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4114 .cfa: $rbp 16 +
-STACK CFI INIT 4120 138 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4121 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4124 .cfa: $rbp 16 +
-STACK CFI 412b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 4260 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4261 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4264 .cfa: $rbp 16 +
+MODULE mac x86_64 17784F3512B13E53B79C1ABAC14126B80 libqgif.dylib
+FILE 0 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
+FILE 2 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
+FILE 3 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 4 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
+FILE 5 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
+FILE 6 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 7 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 8 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 9 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 10 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 11 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 12 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 13 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 14 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qvector.h
+FILE 15 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qrgb.h
+FILE 16 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/gui/image/qgifhandler.cpp
+FILE 17 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/gif/main.cpp
+FILE 18 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/plugins/imageformats/gif/.moc/moc_main.cpp
+FUNC 1430 91 0 <name omitted>
+1430 9 143 16
+1439 9 143 16
+1442 7 146 16
+1449 7 147 16
+1450 a 148 16
+145a 7 149 16
+1461 10 145 16
+1471 7 150 16
+1478 a 151 16
+1482 7 152 16
+1489 7 153 16
+1490 4 154 16
+1494 5 155 16
+1499 21 157 16
+14ba 7 160 16
+FUNC 14d0 91 0 <name omitted>
+14d0 9 143 16
+14d9 9 143 16
+14e2 7 146 16
+14e9 7 147 16
+14f0 a 148 16
+14fa 7 149 16
+1501 10 145 16
+1511 7 150 16
+1518 a 151 16
+1522 7 152 16
+1529 7 153 16
+1530 4 154 16
+1534 5 155 16
+1539 21 157 16
+155a 7 160 16
+FUNC 1570 48 0 <name omitted>
+1570 9 166 16
+1579 9 167 16
+1582 5 167 16
+1587 9 168 16
+1590 5 168 16
+1595 11 169 16
+15a6 12 170 16
+FUNC 15c0 48 0 <name omitted>
+15c0 9 166 16
+15c9 9 167 16
+15d2 5 167 16
+15d7 9 168 16
+15e0 5 168 16
+15e5 11 169 16
+15f6 12 170 16
+FUNC 1610 61f 0 QGIFFormat::disposePrevious(QImage*)
+1610 14 173 16
+1624 d 181 16
+1631 4 183 16
+1635 4 185 16
+1639 4 183 16
+163d 9 539 1
+1646 7 183 16
+164d a 539 1
+1657 4 184 16
+165b 4 185 16
+165f 8 539 1
+1667 9 185 16
+1670 a 539 1
+167a 4 186 16
+167e f 188 16
+168d 1d 208 16
+16aa 3 210 16
+16ad 26 211 16
+16d3 1d 209 16
+16f0 1c 210 16
+170c 20 211 16
+172c 21 209 16
+174d e 194 16
+175b 9 196 16
+1764 9 928 16
+176d 53 929 16
+17c0 11 930 16
+17d1 12 932 16
+17e3 12 929 16
+17f5 6 199 16
+17fb 4 197 16
+17ff 16 1031 16
+1815 13 1034 16
+1828 e 202 16
+1836 e 203 16
+1844 9 928 16
+184d 2 203 16
+184f 3 932 16
+1852 53 929 16
+18a5 2e 932 16
+18d3 11 930 16
+18e4 37 203 16
+191b 48 932 16
+1963 48 203 16
+19ab 7 932 16
+19b2 3 931 16
+19b5 7 932 16
+19bc 3 931 16
+19bf b 932 16
+19ca 8 931 16
+19d2 29 932 16
+19fb d 931 16
+1a08 3 929 16
+1a0b 4 929 16
+1a0f 11 203 16
+1a20 9 1034 16
+1a29 b 1035 16
+1a34 e 1036 16
+1a42 e 199 16
+1a50 9 928 16
+1a59 3 932 16
+1a5c 50 929 16
+1aac 27 932 16
+1ad3 14 930 16
+1ae7 37 199 16
+1b1e 45 932 16
+1b63 3c 199 16
+1b9f 7 932 16
+1ba6 3 931 16
+1ba9 7 932 16
+1bb0 3 931 16
+1bb3 7 932 16
+1bba 8 931 16
+1bc2 29 932 16
+1beb d 931 16
+1bf8 3 929 16
+1bfb 4 929 16
+1bff 10 199 16
+1c0f a 218 16
+1c19 7 220 16
+1c20 f 221 16
+FUNC 1c30 194 0 QGIFFormat::fillRect(QImage*, int, int, int, int, unsigned int)
+1c30 1d 927 16
+1c4d 16 928 16
+1c63 3 932 16
+1c66 3a 929 16
+1ca0 12 930 16
+1cb2 2f 931 16
+1ce1 42 932 16
+1d23 31 931 16
+1d54 7 932 16
+1d5b 3 931 16
+1d5e 7 932 16
+1d65 3 931 16
+1d68 7 932 16
+1d6f 8 931 16
+1d77 24 932 16
+1d9b d 931 16
+1da8 3 929 16
+1dab a 929 16
+1db5 f 935 16
+FUNC 1dd0 19d0 0 QGIFFormat::decode(QImage*, unsigned char const*, int, int*, int*)
+1dd0 35 230 16
+1e05 10 236 16
+1e15 d 237 16
+1e22 1a 238 16
+1e3c 8 242 16
+1e44 8 243 16
+1e4c 17 244 16
+1e63 c 247 16
+1e6f c 249 16
+1e7b 5 266 16
+1e80 c 281 16
+1e8c c 294 16
+1e98 1d 406 16
+1eb5 1b 451 16
+1ed0 f 252 16
+1edf 2 251 16
+1ee1 12 636 16
+1ef3 12 289 16
+1f05 c 290 16
+1f11 12 291 16
+1f23 f 61 15
+1f32 5 292 16
+1f37 5 294 16
+1f3c 9 292 16
+1f45 b 293 16
+1f50 c 294 16
+1f5c 12 254 16
+1f6e e 255 16
+1f7c 1c 257 16
+1f98 9 258 16
+1fa1 e 259 16
+1faf 12 263 16
+1fc1 c 264 16
+1fcd 16 266 16
+1fe3 16 267 16
+1ff9 12 268 16
+200b 11 271 16
+201c 16 272 16
+2032 c 275 16
+203e 9 276 16
+2047 5 277 16
+204c 9 280 16
+2055 34 281 16
+2089 7 451 16
+2090 5 281 16
+2095 16 282 16
+20ab 12 308 16
+20bd 12 309 16
+20cf e 318 16
+20dd 12 327 16
+20ef c 328 16
+20fb 71 331 16
+216c 19 336 16
+2185 c 541 1
+2191 f 336 16
+21a0 e 337 16
+21ae 19 338 16
+21c7 11 541 1
+21d8 f 338 16
+21e7 e 339 16
+21f5 4 341 16
+21f9 21 342 16
+221a 4 343 16
+221e 19 344 16
+2237 8 346 16
+223f 1c 347 16
+225b 6 346 16
+2261 2b 348 16
+228c 8 349 16
+2294 13 350 16
+22a7 14 351 16
+22bb 10 356 16
+22cb b 361 16
+22d6 11 362 16
+22e7 7 366 16
+22ee 5 370 16
+22f3 f 369 16
+2302 7 539 1
+2309 a 369 16
+2313 b 369 16
+231e 7 370 16
+2325 8 539 1
+232d 7 370 16
+2334 c 370 16
+2340 6 374 16
+2346 a 371 16
+2350 13 372 16
+2363 17 374 16
+237a f 375 16
+2389 f 376 16
+2398 5 377 16
+239d 2f 378 16
+23cc f 379 16
+23db b 440 16
+23e6 12 441 16
+23f8 11 444 16
+2409 c 445 16
+2415 b 446 16
+2420 b 447 16
+242b b 448 16
+2436 8 451 16
+243e 8 452 16
+2446 4a 450 16
+2490 1b 451 16
+24ab 24 452 16
+24cf 41 450 16
+2510 6 451 16
+2516 4 452 16
+251a 3 450 16
+251d 6 451 16
+2523 4 452 16
+2527 3 450 16
+252a 6 451 16
+2530 4 452 16
+2534 18 450 16
+254c 5 459 16
+2551 8 460 16
+2559 15 461 16
+256e 5 469 16
+2573 14 470 16
+2587 b 471 16
+2592 2f 472 16
+25c1 13 473 16
+25d4 a 474 16
+25de a 475 16
+25e8 d 477 16
+25f5 b 478 16
+2600 f 479 16
+260f b 480 16
+261a b 481 16
+2625 1b 483 16
+2640 a 484 16
+264a 16 485 16
+2660 f 488 16
+266f 10 489 16
+267f f 490 16
+268e 19 490 16
+26a7 4 451 16
+26ab 15 490 16
+26c0 a 491 16
+26ca a 490 16
+26d4 f 1031 16
+26e3 1b 1034 16
+26fe b 1035 16
+2709 10 1036 16
+2719 1b 491 16
+2734 12 492 16
+2746 9 493 16
+274f 9 493 16
+2758 9 494 16
+2761 13 495 16
+2774 a 496 16
+277e 1c 497 16
+279a 12 498 16
+27ac 14 451 16
+27c0 24 472 16
+27e4 8 501 16
+27ec 8 530 16
+27f4 7 502 16
+27fb 20 503 16
+281b 8 504 16
+2823 12 506 16
+2835 9 507 16
+283e 28 511 16
+2866 14 512 16
+287a 18 516 16
+2892 8 522 16
+289a 2e 527 16
+28c8 9 529 16
+28d1 16 530 16
+28e7 5 531 16
+28ec c 532 16
+28f8 14 533 16
+290c a 536 16
+2916 a 537 16
+2920 8 540 16
+2928 f 541 16
+2937 38 543 16
+296f 17 544 16
+2986 17 545 16
+299d 1c 451 16
+29b9 16 557 16
+29cf 11 545 16
+29e0 10 546 16
+29f0 1d 547 16
+2a0d 5 1031 16
+2a12 f 547 16
+2a21 7 1031 16
+2a28 1b 1034 16
+2a43 b 1035 16
+2a4e 10 1036 16
+2a5e 12 548 16
+2a70 12 550 16
+2a82 9 551 16
+2a8b b 551 16
+2a96 13 552 16
+2aa9 a 553 16
+2ab3 1c 554 16
+2acf 12 555 16
+2ae1 a 556 16
+2aeb 16 451 16
+2b01 1f 556 16
+2b20 1b 545 16
+2b3b b 570 16
+2b46 9 575 16
+2b4f e 587 16
+2b5d 5 617 16
+2b62 6 617 16
+2b68 5 617 16
+2b6d d 618 16
+2b7a 14 619 16
+2b8e c 620 16
+2b9a 19 621 16
+2bb3 19 623 16
+2bcc 1c 626 16
+2be8 d 628 16
+2bf5 16 451 16
+2c0b e 629 16
+2c19 9 631 16
+2c22 11 632 16
+2c33 5 590 16
+2c38 6 590 16
+2c3e 5 590 16
+2c43 d 591 16
+2c50 13 592 16
+2c63 29 91 8
+2c8c a 451 16
+2c96 c 596 16
+2ca2 5 595 16
+2ca7 e 599 16
+2cb5 5 603 16
+2cba 9 604 16
+2cc3 8 605 16
+2ccb e 605 16
+2cd9 5 609 16
+2cde 6 609 16
+2ce4 5 609 16
+2ce9 c 610 16
+2cf5 b 611 16
+2d00 1a 612 16
+2d1a e 613 16
+2d28 5 636 16
+2d2d 9 637 16
+2d36 8 638 16
+2d3e e 638 16
+2d4c c 642 16
+2d58 b 643 16
+2d63 e 643 16
+2d71 e 646 16
+2d7f 6 563 16
+2d85 14 564 16
+2d99 9 565 16
+2da2 e 566 16
+2db0 d 296 16
+2dbd 17 298 16
+2dd4 9 299 16
+2ddd 9 300 16
+2de6 19 304 16
+2dff 9 572 16
+2e08 e 587 16
+2e16 9 463 16
+2e1f 9 464 16
+2e28 a 465 16
+2e32 e 606 16
+2e40 25 639 16
+2e65 17 314 16
+2e7c e 311 16
+2e8a 9 302 16
+2e93 e 304 16
+2ea1 9 585 16
+2eaa e 587 16
+2eb8 c 272 16
+2ec4 c 275 16
+2ed0 9 276 16
+2ed9 5 277 16
+2ede 15 284 16
+2ef3 10 374 16
+2f03 a 382 16
+2f0d e 384 16
+2f1b 32 386 16
+2f4d 8 389 16
+2f55 8 388 16
+2f5d a 389 16
+2f67 13 1031 16
+2f7a 1b 1034 16
+2f95 b 1035 16
+2fa0 10 1036 16
+2fb0 15 928 16
+2fc5 46 930 16
+300b 3b 389 16
+3046 3d 932 16
+3083 34 389 16
+30b7 4 932 16
+30bb 3 931 16
+30be 4 932 16
+30c2 3 931 16
+30c5 4 932 16
+30c9 8 931 16
+30d1 1e 932 16
+30ef d 931 16
+30fc 2 929 16
+30fe 11 929 16
+310f 9 321 16
+3118 18 323 16
+3130 6 451 16
+3136 4 452 16
+313a 7 451 16
+3141 8 452 16
+3149 7 451 16
+3150 9 452 16
+3159 7 451 16
+3160 7 452 16
+3167 b 450 16
+3172 5 442 16
+3177 e 456 16
+3185 8 392 16
+318d 8 391 16
+3195 a 392 16
+319f 13 1031 16
+31b2 1b 1034 16
+31cd b 1035 16
+31d8 10 1036 16
+31e8 16 928 16
+31fe 4d 930 16
+324b 3b 392 16
+3286 3d 932 16
+32c3 34 392 16
+32f7 4 932 16
+32fb 3 931 16
+32fe 4 932 16
+3302 3 931 16
+3305 4 932 16
+3309 8 931 16
+3311 1e 932 16
+332f d 931 16
+333c 2 929 16
+333e c 929 16
+334a 21 398 16
+336b 4 399 16
+336f 3 401 16
+3372 a 399 16
+337c a 539 1
+3386 4 399 16
+338a 9 539 1
+3393 4 400 16
+3397 4 401 16
+339b 10 539 1
+33ab 6 401 16
+33b1 15 539 1
+33c6 4 402 16
+33ca 6 403 16
+33d0 f 404 16
+33df d 406 16
+33ec d 407 16
+33f9 a 409 16
+3403 3 541 1
+3406 4 409 16
+340a c 410 16
+3416 3 541 1
+3419 14 410 16
+342d 2d 409 16
+345a 15 412 16
+346f f 414 16
+347e f 415 16
+348d 17 416 16
+34a4 a 417 16
+34ae 67 416 16
+3515 3d 417 16
+3552 6e 416 16
+35c0 8b 417 16
+364b 2b 416 16
+3676 e 422 16
+3684 8 423 16
+368c e 424 16
+369a 5 425 16
+369f 10 429 16
+36af 10 430 16
+36bf c 431 16
+36cb c 432 16
+36d7 10 433 16
+36e7 18 434 16
+36ff b 435 16
+370a 1a 436 16
+3724 1d 451 16
+3741 1f 436 16
+3760 3 250 16
+3763 b 249 16
+376e c 251 16
+377a 6 656 16
+3780 15 657 16
+3795 b 508 16
+FUNC 37f0 314 0 QGIFFormat::nextY(unsigned char*, int)
+37f0 17 938 16
+3807 e 939 16
+3815 d 942 16
+3822 1c 1026 16
+383e e 947 16
+384c e 951 16
+385a 17 953 16
+3871 1f 954 16
+3890 40 955 16
+38d0 7 965 16
+38d7 7 954 16
+38de 7 966 16
+38e5 a 965 16
+38ef 9 966 16
+38f8 7 967 16
+38ff 11 967 16
+3910 9 968 16
+3919 b 969 16
+3924 a 970 16
+392e 9 971 16
+3937 10 972 16
+3947 e 980 16
+3955 13 982 16
+3968 18 983 16
+3980 40 984 16
+39c0 7 992 16
+39c7 7 983 16
+39ce 7 993 16
+39d5 a 992 16
+39df 9 993 16
+39e8 7 994 16
+39ef 11 994 16
+3a00 9 996 16
+3a09 b 997 16
+3a14 10 973 16
+3a24 e 1004 16
+3a32 13 1006 16
+3a45 1b 1007 16
+3a60 40 1008 16
+3aa0 7 1015 16
+3aa7 7 1007 16
+3aae 7 1016 16
+3ab5 a 1015 16
+3abf 5 1016 16
+3ac4 7 1016 16
+3acb 7 1016 16
+3ad2 4 947 16
+3ad6 11 1022 16
+3ae7 6 1026 16
+3aed 8 1026 16
+3af5 f 1027 16
+FUNC 3b20 82f 0 QGIFFormat::scan(QIODevice*, QVector<QSize>*, int*)
+3b20 1e 664 16
+3b3e e 130 5
+3b4c 9 665 16
+3b55 d 668 16
+3b62 12 669 16
+3b74 27 669 16
+3b9b 8 687 16
+3ba3 b 471 8
+3bae 69 689 16
+3c17 17 702 16
+3c2e 12 55 7
+3c40 4 703 16
+3c44 6 704 16
+3c4a 3 899 16
+3c4d 21 705 16
+3c6e 9 740 16
+3c77 f 741 16
+3c86 16 742 16
+3c9c a 743 16
+3ca6 10 744 16
+3cb6 9 707 16
+3cbf 1e 708 16
+3cdd e 714 16
+3ceb 9 715 16
+3cf4 1a 716 16
+3d0e 17 717 16
+3d25 e 719 16
+3d33 e 718 16
+3d41 6 723 16
+3d47 d 724 16
+3d54 3 726 16
+3d57 11 727 16
+3d68 9 752 16
+3d71 24 753 16
+3d95 e 769 16
+3da3 18 770 16
+3dbb 16 771 16
+3dd1 a 778 16
+3ddb 12 772 16
+3ded d 773 16
+3dfa b 776 16
+3e05 2 773 16
+3e07 13 774 16
+3e1a 14 776 16
+3e2e 6 541 1
+3e34 18 776 16
+3e4c 14 778 16
+3e60 6 541 1
+3e66 c 778 16
+3e72 3 782 16
+3e75 b 781 16
+3e80 3 784 16
+3e83 17 783 16
+3e9a 4 603 14
+3e9e 4 203 7
+3ea2 11 603 14
+3eb3 11 604 14
+3ec4 4 55 7
+3ec8 4 203 7
+3ecc 3b 616 14
+3f07 10 813 16
+3f17 d 814 16
+3f24 d 821 16
+3f31 9 822 16
+3f3a 3 824 16
+3f3d 13 825 16
+3f50 2 835 16
+3f52 22 836 16
+3f74 2c 842 16
+3fa0 5 867 16
+3fa5 7 868 16
+3fac 6 870 16
+3fb2 3 869 16
+3fb5 22 870 16
+3fd7 5 855 16
+3fdc 7 856 16
+3fe3 11 858 16
+3ff4 4 716 16
+3ff8 2b 91 8
+4023 29 860 16
+404c 5 884 16
+4051 7 885 16
+4058 7 886 16
+405f 9 887 16
+4068 1b 888 16
+4083 e 890 16
+4091 f 895 16
+40a0 5 896 16
+40a5 3 898 16
+40a8 1e 899 16
+40c6 2 908 16
+40c8 30 909 16
+40f8 49 857 16
+4141 6 607 14
+4147 3 606 14
+414a 8 607 14
+4152 8 610 14
+415a 3 55 7
+415d 8 203 7
+4165 1b 610 14
+4180 14 606 14
+4194 3 610 14
+4197 f 620 14
+41a6 9 788 16
+41af a 789 16
+41b9 2 790 16
+41bb f 797 16
+41ca 9 798 16
+41d3 3 800 16
+41d6 2b 801 16
+4201 1f 729 16
+4220 2e 702 16
+424e 10 920 16
+425e 8 920 16
+4266 4 459 8
+426a 2 90 6
+426c 10 62 9
+427c 8 214 0
+4284 9 459 8
+428d 1d 459 8
+42aa c 222 7
+42b6 1c 471 8
+42d2 10 922 16
+42e2 c 130 5
+42ee 14 690 16
+4302 4 459 8
+4306 2 90 6
+4308 9 62 9
+4311 8 214 0
+4319 6 459 8
+431f e 459 8
+432d b 222 7
+4338 17 924 16
+FUNC 43a0 e9 0 <name omitted>
+43a0 a 1044 16
+43aa f 1044 16
+43b9 b 1052 13
+43c4 4 458 8
+43c8 9 1044 16
+43d1 9 64 14
+43da 8 1045 16
+43e2 9 143 16
+43eb 7 146 16
+43f2 7 147 16
+43f9 a 148 16
+4403 7 149 16
+440a 10 145 16
+441a 7 150 16
+4421 a 151 16
+442b 7 152 16
+4432 7 153 16
+4439 4 154 16
+443d 5 155 16
+4442 21 157 16
+4463 4 1045 16
+4467 8 1046 16
+446f 8 1047 16
+4477 8 1048 16
+447f 5 1049 16
+4484 5 1050 16
+FUNC 4490 e9 0 QGifHandler::QGifHandler()
+4490 a 1044 16
+449a f 1044 16
+44a9 b 1052 13
+44b4 4 458 8
+44b8 9 1044 16
+44c1 9 64 14
+44ca 8 1045 16
+44d2 9 143 16
+44db 7 146 16
+44e2 7 147 16
+44e9 a 148 16
+44f3 7 149 16
+44fa 10 145 16
+450a 7 150 16
+4511 a 151 16
+451b 7 152 16
+4522 7 153 16
+4529 4 154 16
+452d 5 155 16
+4532 21 157 16
+4553 4 1045 16
+4557 8 1046 16
+455f 8 1047 16
+4567 8 1048 16
+456f 5 1049 16
+4574 5 1050 16
+FUNC 4580 109 0 QGifHandler::~QGifHandler()
+4580 e 1053 16
+458e a 1053 16
+4598 9 1054 16
+45a1 9 167 16
+45aa 5 167 16
+45af 9 168 16
+45b8 5 168 16
+45bd 11 169 16
+45ce 9 170 16
+45d7 8 1054 16
+45df 4 68 14
+45e3 2 90 6
+45e5 9 62 9
+45ee 8 214 0
+45f6 6 68 14
+45fc e 68 14
+460a 5 222 7
+460f 9 1055 16
+4618 4 459 8
+461c 2 90 6
+461e 9 62 9
+4627 8 214 0
+462f 6 459 8
+4635 e 459 8
+4643 5 222 7
+4648 4 1053 13
+464c 2 90 6
+464e 9 62 9
+4657 8 214 0
+465f 6 1053 13
+4665 e 1053 13
+4673 5 222 7
+4678 8 1055 16
+4680 9 1055 16
+FUNC 4690 a 0 <name omitted>
+4690 4 1053 16
+4694 1 1053 16
+4695 5 0 16
+FUNC 46a0 1c 0 QGifHandler::~QGifHandler()
+46a0 9 1053 16
+46a9 5 1053 16
+46ae e 1053 16
+FUNC 46c0 f3 0 QGifHandler::imageIsComing() const
+46c0 14 1060 16
+46d4 e 1063 16
+46e2 4 1064 16
+46e6 1a 1070 16
+4700 6 471 8
+4706 4 1064 16
+470a 18 1065 16
+4722 b 570 8
+472d 4 459 8
+4731 2 90 6
+4733 9 62 9
+473c 8 214 0
+4744 6 459 8
+474a e 459 8
+4758 5 222 7
+475d a 471 8
+4767 4 1070 16
+476b 4 55 7
+476f f 1070 16
+477e 7 1072 16
+4785 a 1074 16
+478f e 1063 16
+479d 16 1076 16
+FUNC 47c0 8f 0 QGifHandler::canRead() const
+47c0 e 1080 16
+47ce 5 1081 16
+47d3 c 1081 16
+47df c 1081 16
+47eb 23 1082 16
+480e 4 459 8
+4812 4 90 6
+4816 9 62 9
+481f 8 214 0
+4827 6 459 8
+482d e 459 8
+483b 9 222 7
+4844 b 1087 16
+FUNC 4850 a3 0 QGifHandler::canRead(QIODevice*)
+4850 4 1090 16
+4854 13 1091 16
+4867 b 1097 16
+4872 17 91 8
+4889 4 1098 16
+488d 15 91 8
+48a2 7 1099 16
+48a9 29 62 2
+48d2 18 1092 16
+48ea 9 1101 16
+FUNC 4900 138 0 QGifHandler::read(QImage*)
+4900 18 1104 16
+4918 d 1107 16
+4925 4 1108 16
+4929 17 1114 16
+4940 6 471 8
+4946 4 1108 16
+494a 18 1109 16
+4962 b 570 8
+496d 4 459 8
+4971 2 90 6
+4973 9 62 9
+497c 8 214 0
+4984 6 459 8
+498a e 459 8
+4998 5 222 7
+499d a 471 8
+49a7 4 1114 16
+49ab 4 55 7
+49af f 1114 16
+49be 7 1116 16
+49c5 a 1118 16
+49cf d 1107 16
+49dc f 1120 16
+49eb 18 1120 16
+4a03 d 1121 16
+4a10 4 1122 16
+4a14 7 1123 16
+4a1b 6 1124 16
+4a21 17 1129 16
+FUNC 4a40 8 0 QGifHandler::write(QImage const&)
+4a40 6 1132 16
+4a46 2 1134 16
+FUNC 4a50 49 0 QGifHandler::supportsOption(QImageIOHandler::ImageOption) const
+4a50 d 1138 16
+4a5d a 1139 16
+4a67 15 1139 16
+4a7c 9 1140 16
+4a85 f 1142 16
+4a94 5 1144 16
+FUNC 4aa0 93 0 QGifHandler::option(QImageIOHandler::ImageOption) const
+4aa0 d 1147 16
+4aad a 1148 16
+4ab7 e 1162 16
+4ac5 6 1149 16
+4acb 8 1150 16
+4ad3 10 1150 16
+4ae3 4 1151 16
+4ae7 3 1154 16
+4aea 7 203 14
+4af1 5 1154 16
+4af6 6 1157 16
+4afc 2 1160 16
+4afe 2 394 14
+4b00 4 55 7
+4b04 6 394 14
+4b0a 4 1155 16
+4b0e 4 55 7
+4b12 a 1155 16
+4b1c 8 367 4
+4b24 7 367 4
+4b2b 8 1165 16
+FUNC 4b40 6 0 QGifHandler::setOption(QImageIOHandler::ImageOption, QVariant const&)
+4b40 4 1168 16
+4b44 2 1171 16
+FUNC 4b50 9 0 QGifHandler::nextImageDelay() const
+4b50 4 1174 16
+4b54 5 1175 16
+FUNC 4b60 39 0 QGifHandler::imageCount() const
+4b60 9 1179 16
+4b69 6 1180 16
+4b6f 8 1181 16
+4b77 10 1181 16
+4b87 4 1182 16
+4b8b 7 203 14
+4b92 7 1184 16
+FUNC 4ba0 53 0 QGifHandler::loopCount() const
+4ba0 a 1188 16
+4baa 6 1189 16
+4bb0 6 1194 16
+4bb6 8 1190 16
+4bbe 13 1190 16
+4bd1 4 1191 16
+4bd5 19 1194 16
+4bee 5 1200 16
+FUNC 4c00 9 0 QGifHandler::currentImageNumber() const
+4c00 4 1203 16
+4c04 5 1204 16
+FUNC 4c10 24 0 QGifHandler::name() const
+4c10 9 1208 16
+4c19 1b 1209 16
+FUNC 4c40 2f4 0 QVector<QSize>::reallocData(int, int, QFlags<QArrayData::AllocationOption>)
+4c40 14 497 14
+4c54 3 499 14
+4c57 8 503 14
+4c5f 8 90 6
+4c67 15 504 14
+4c7c 4 203 7
+4c80 9 553 14
+4c89 d 283 14
+4c96 3 55 7
+4c99 7 556 14
+4ca0 37 203 7
+4cd7 5 284 14
+4cdc 7 103 12
+4ce3 9 284 14
+4cec 7 103 12
+4cf3 9 284 14
+4cfc 7 103 12
+4d03 12 284 14
+4d15 7 103 12
+4d1c 9 284 14
+4d25 8 103 12
+4d2d 6 284 14
+4d33 8 103 12
+4d3b 6 284 14
+4d41 c 103 12
+4d4d 3 283 14
+4d50 5 556 14
+4d55 15 558 14
+4d6a d 507 14
+4d77 8 215 7
+4d7f 5 514 14
+4d84 7 516 14
+4d8b 3 55 7
+4d8e a 517 14
+4d98 b 203 7
+4da3 3 55 7
+4da6 6 520 14
+4dac 12 526 14
+4dbe 9 527 14
+4dc7 30 523 14
+4df7 d 534 14
+4e04 e 55 7
+4e12 4 203 7
+4e16 3b 283 14
+4e51 5 284 14
+4e56 8 103 12
+4e5e 9 284 14
+4e67 8 103 12
+4e6f 9 284 14
+4e78 8 103 12
+4e80 15 284 14
+4e95 8 103 12
+4e9d 9 284 14
+4ea6 8 103 12
+4eae 6 284 14
+4eb4 8 103 12
+4ebc 6 284 14
+4ec2 c 103 12
+4ece 3 283 14
+4ed1 a 537 14
+4edb 14 548 14
+4eef 8 563 14
+4ef7 2 90 6
+4ef9 9 62 9
+4f02 8 214 0
+4f0a 6 564 14
+4f10 d 568 14
+4f1d 5 222 7
+4f22 3 573 14
+4f25 f 584 14
+FUNC 4f40 25 0 <name omitted>
+4f40 b 50 17
+4f4b 13 50 17
+4f5e 7 51 17
+FUNC 4f70 25 0 QGifPlugin::QGifPlugin()
+4f70 b 50 17
+4f7b 13 50 17
+4f8e 7 51 17
+FUNC 4fa0 a 0 <name omitted>
+4fa0 4 54 17
+4fa4 1 55 17
+4fa5 5 0 17
+FUNC 4fb0 a 0 <name omitted>
+4fb0 4 54 17
+4fb4 1 55 17
+4fb5 5 0 17
+FUNC 4fc0 1c 0 QGifPlugin::~QGifPlugin()
+4fc0 9 54 17
+4fc9 5 55 17
+4fce e 54 17
+FUNC 4fe0 48 0 QGifPlugin::capabilities(QIODevice*, QByteArray const&) const
+4fe0 a 58 17
+4fea 18 590 8
+5002 5 59 17
+5007 c 59 17
+5013 e 59 17
+5021 7 62 17
+FUNC 5030 49 0 QGifPlugin::create(QIODevice*, QByteArray const&) const
+5030 15 65 17
+5045 10 66 17
+5055 b 67 17
+5060 b 68 17
+506b e 69 17
+FUNC 5080 6 0 QGifPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+5080 4 57 18
+5084 2 62 18
+FUNC 5090 1e 0 QGifPlugin::metaObject() const
+5090 4 71 18
+5094 4 113 10
+5098 7 72 18
+509f f 72 18
+FUNC 50b0 3e 0 QGifPlugin::qt_metacast(char const*)
+50b0 f 76 18
+50bf 5 77 18
+50c4 13 78 18
+50d7 12 80 18
+50e9 5 81 18
+FUNC 50f0 a 0 QGifPlugin::qt_metacall(QMetaObject::Call, int, void**)
+50f0 4 84 18
+50f4 1 85 18
+50f5 5 0 18
+FUNC 5100 d 0 qt_plugin_query_metadata
+5100 4 178 18
+5104 9 178 18
+FUNC 5110 138 0 qt_plugin_instance
+5110 4 178 18
+5114 21 178 18
+5135 1d 590 11
+5152 1f 178 18
+5171 c 588 11
+517d 1b 588 11
+5198 10 178 18
+51a8 b 696 11
+51b3 c 702 11
+51bf 5 703 11
+51c4 8 176 0
+51cc c 705 11
+51d8 8 214 0
+51e0 6 705 11
+51e6 c 706 11
+51f2 5 161 11
+51f7 7 707 11
+51fe 7 708 11
+5205 5 591 11
+520a 8 214 0
+5212 6 591 11
+5218 8 161 11
+5220 e 588 11
+522e 1a 588 11
+FUNC 5250 31 0 QPointer<QObject>::~QPointer()
+5250 4 64 3
+5254 c 591 11
+5260 8 214 0
+5268 6 591 11
+526e 8 591 11
+5276 5 161 11
+527b 6 64 3
+PUBLIC 5600 0 typeinfo name for QGifHandler
+PUBLIC 5610 0 .memset_pattern
+PUBLIC 5620 0 qt_meta_data_QGifPlugin
+PUBLIC 565c 0 typeinfo name for QGifPlugin
+PUBLIC 5670 0 qt_meta_stringdata_QGifPlugin
+PUBLIC 56f0 0 qt_section_alignment_dummy
+PUBLIC 5700 0 qt_pluginMetaData
+PUBLIC 61b0 0 vtable for QGifHandler
+PUBLIC 6240 0 typeinfo for QGifHandler
+PUBLIC 6260 0 QGifPlugin::staticMetaObject
+PUBLIC 6290 0 vtable for QGifPlugin
+PUBLIC 6310 0 typeinfo for QGifPlugin
+PUBLIC 6328 0 qt_plugin_instance::_instance
+PUBLIC 6338 0 guard variable for qt_plugin_instance::_instance
+STACK CFI INIT 1430 91 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1431 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1434 .cfa: $rbp 16 +
+STACK CFI 1436 $rbx: .cfa -24 + ^
+STACK CFI INIT 14d0 91 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 14d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 14d4 .cfa: $rbp 16 +
+STACK CFI 14d6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1570 48 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1571 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1574 .cfa: $rbp 16 +
+STACK CFI 1576 $rbx: .cfa -24 + ^
+STACK CFI INIT 15c0 48 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 15c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 15c4 .cfa: $rbp 16 +
+STACK CFI 15c6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1610 61f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1611 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1614 .cfa: $rbp 16 +
+STACK CFI 1621 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1c30 194 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1c31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1c34 .cfa: $rbp 16 +
+STACK CFI 1c41 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1dd0 19d0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1dd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1dd4 .cfa: $rbp 16 +
+STACK CFI 1de4 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 37f0 314 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 37f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 37f4 .cfa: $rbp 16 +
+STACK CFI 37fe $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3b20 82f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3b21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3b24 .cfa: $rbp 16 +
+STACK CFI 3b34 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 43a0 e9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 43a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 43a4 .cfa: $rbp 16 +
+STACK CFI 43a7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 4490 e9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4491 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4494 .cfa: $rbp 16 +
+STACK CFI 4497 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 4580 109 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4581 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4584 .cfa: $rbp 16 +
+STACK CFI 458b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 4690 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4691 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4694 .cfa: $rbp 16 +
+STACK CFI INIT 46a0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 46a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 46a4 .cfa: $rbp 16 +
+STACK CFI 46a6 $rbx: .cfa -24 + ^
+STACK CFI INIT 46c0 f3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 46c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 46c4 .cfa: $rbp 16 +
+STACK CFI 46d1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 47c0 8f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 47c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 47c4 .cfa: $rbp 16 +
+STACK CFI 47cb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 4850 a3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4851 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4854 .cfa: $rbp 16 +
+STACK CFI 4859 $rbx: .cfa -24 + ^
+STACK CFI INIT 4900 138 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4901 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4904 .cfa: $rbp 16 +
+STACK CFI 4911 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 4a40 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4a41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4a44 .cfa: $rbp 16 +
+STACK CFI INIT 4a50 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4a51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4a54 .cfa: $rbp 16 +
+STACK CFI 4a57 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 4aa0 93 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4aa1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4aa4 .cfa: $rbp 16 +
+STACK CFI 4aa7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 4b40 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4b41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4b44 .cfa: $rbp 16 +
+STACK CFI INIT 4b50 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4b51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4b54 .cfa: $rbp 16 +
+STACK CFI INIT 4b60 39 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4b61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4b64 .cfa: $rbp 16 +
+STACK CFI 4b66 $rbx: .cfa -24 + ^
+STACK CFI INIT 4ba0 53 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4ba1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4ba4 .cfa: $rbp 16 +
+STACK CFI 4ba7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 4c00 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4c01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4c04 .cfa: $rbp 16 +
+STACK CFI INIT 4c10 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4c11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4c14 .cfa: $rbp 16 +
+STACK CFI 4c16 $rbx: .cfa -24 + ^
+STACK CFI INIT 4c40 2f4 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4c41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4c44 .cfa: $rbp 16 +
+STACK CFI 4c4e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 4f40 25 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4f41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4f44 .cfa: $rbp 16 +
+STACK CFI 4f46 $rbx: .cfa -24 + ^
+STACK CFI INIT 4f70 25 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4f71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4f74 .cfa: $rbp 16 +
+STACK CFI 4f76 $rbx: .cfa -24 + ^
+STACK CFI INIT 4fa0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4fa1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4fa4 .cfa: $rbp 16 +
+STACK CFI INIT 4fb0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4fb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4fb4 .cfa: $rbp 16 +
+STACK CFI INIT 4fc0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4fc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4fc4 .cfa: $rbp 16 +
+STACK CFI 4fc6 $rbx: .cfa -24 + ^
+STACK CFI INIT 4fe0 48 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4fe1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4fe4 .cfa: $rbp 16 +
+STACK CFI 4fe7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 5030 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5031 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5034 .cfa: $rbp 16 +
+STACK CFI 503a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 5080 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5081 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5084 .cfa: $rbp 16 +
+STACK CFI INIT 5090 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5091 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5094 .cfa: $rbp 16 +
+STACK CFI INIT 50b0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 50b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 50b4 .cfa: $rbp 16 +
+STACK CFI 50b7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 50f0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 50f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 50f4 .cfa: $rbp 16 +
+STACK CFI INIT 5100 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5101 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5104 .cfa: $rbp 16 +
+STACK CFI INIT 5110 138 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5111 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5114 .cfa: $rbp 16 +
+STACK CFI 511b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 5250 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5251 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5254 .cfa: $rbp 16 +
