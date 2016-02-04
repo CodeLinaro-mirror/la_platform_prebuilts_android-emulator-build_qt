@@ -1,87 +1,92 @@
-MODULE mac x86_64 FFAAF87E28F43C77B35A0BC08B6DF6760 libqsvg.dylib
-FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
-FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
-FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
-FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
-FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
-FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
-FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
-FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
-FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qcolor.h
-FILE 16 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/imageformats/svg/main.cpp
-FILE 17 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/imageformats/svg/qsvgiohandler.cpp
-FILE 18 /tmp/qt-build/build/build-darwin-x86_64/qtsvg/src/plugins/imageformats/svg/.moc/main.moc
-FUNC 10b0 271 0 QSvgPlugin::keys() const
-10b0 12 59 16
-10c2 b 139 7
-10cd 14 846 14
-10e1 5 90 4
-10e6 10 550 7
-10f6 a 551 7
-1100 3 878 14
-1103 3 90 4
-1106 7 51 10
-110d b 176 0
-1118 3 90 4
-111b 7 51 10
-1122 d 176 0
-112f 5 571 7
-1134 3 576 7
-1137 14 846 14
-114b 4 550 7
-114f 5 90 4
-1154 10 550 7
-1164 a 551 7
-116e 3 878 14
-1171 2 90 4
-1173 7 51 10
-117a a 176 0
-1184 2 90 4
-1186 7 51 10
-118d c 176 0
-1199 5 571 7
-119e 3 576 7
-11a1 7 777 7
-11a8 b 90 4
-11b3 b 779 7
-11be f 108 7
-11cd d 108 7
-11da 9 108 7
-11e3 12 444 7
-11f5 6 878 14
-11fb 2 90 4
-11fd 7 51 10
-1204 c 176 0
-1210 4 445 7
-1214 4 446 7
-1218 8 443 7
-1220 8 176 0
-1228 b 90 4
-1233 8 214 0
-123b 10 220 0
-124b 8 222 5
-1253 c 90 4
-125f 9 214 0
-1268 10 220 0
-1278 8 222 5
-1280 4 795 7
-1284 10 90 4
-1294 9 214 0
-129d 6 220 0
-12a3 c 796 7
-12af 5 834 7
-12b4 1c 465 7
+MODULE mac x86_64 3C5C6B5E54BF3FD3BAE36B5599A3D6250 libqsvg.dylib
+FILE 0 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
+FILE 2 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 3 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
+FILE 4 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 5 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 6 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 7 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 8 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
+FILE 9 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
+FILE 10 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 11 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 12 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 13 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 14 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 15 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qcolor.h
+FILE 16 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/imageformats/svg/main.cpp
+FILE 17 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtsvg/src/plugins/imageformats/svg/qsvgiohandler.cpp
+FILE 18 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtsvg/src/plugins/imageformats/svg/.moc/main.moc
+FUNC 10c0 261 0 QSvgPlugin::keys() const
+10c0 12 59 16
+10d2 b 139 7
+10dd 14 846 14
+10f1 13 550 7
+1104 5 551 7
+1109 5 405 7
+110e 3 878 14
+1111 3 90 4
+1114 7 51 10
+111b b 176 0
+1126 3 90 4
+1129 7 51 10
+1130 d 176 0
+113d 5 571 7
+1142 3 576 7
+1145 14 846 14
+1159 17 550 7
+1170 5 551 7
+1175 5 405 7
+117a 3 878 14
+117d 2 90 4
+117f 7 51 10
+1186 a 176 0
+1190 2 90 4
+1192 7 51 10
+1199 c 176 0
+11a5 5 571 7
+11aa 3 576 7
+11ad 7 777 7
+11b4 2 90 4
+11b6 9 51 10
+11bf b 779 7
+11ca b 108 7
+11d5 4 443 7
+11d9 d 108 7
+11e6 9 108 7
+11ef 16 444 7
+1205 6 878 14
+120b 2 90 4
+120d 7 51 10
+1214 8 176 0
+121c 4 445 7
+1220 4 446 7
+1224 8 443 7
+122c 8 176 0
+1234 2 90 4
+1236 9 62 10
+123f 8 214 0
+1247 10 1053 14
+1257 8 222 5
+125f 3 90 4
+1262 9 62 10
+126b 9 214 0
+1274 10 1053 14
+1284 8 222 5
+128c 4 795 7
+1290 3 90 4
+1293 9 62 10
+129c 9 214 0
+12a5 6 795 7
+12ab c 796 7
+12b7 5 465 7
+12bc 14 465 7
 12d0 3 1053 14
-12d3 b 90 4
+12d3 2 90 4
+12d5 9 62 10
 12de 8 214 0
-12e6 6 220 0
+12e6 6 1053 14
 12ec e 1053 14
 12fa 5 222 5
 12ff a 465 7
@@ -91,8 +96,10 @@ FUNC 1330 6f 0 QSvgPlugin::capabilities(QIODevice*, QByteArray const&) const
 1330 10 64 16
 1340 19 590 6
 1359 13 590 6
-136c c 471 6
-1378 19 71 16
+136c 6 471 6
+1372 6 67 16
+1378 c 71 16
+1384 d 71 16
 1391 e 74 16
 FUNC 13a0 49 0 QSvgPlugin::create(QIODevice*, QByteArray const&) const
 13a0 15 77 16
@@ -109,7 +116,8 @@ FUNC 1400 1e 0 QSvgPlugin::metaObject() const
 1408 7 71 18
 140f f 71 18
 FUNC 1420 3e 0 QSvgPlugin::qt_metacast(char const*)
-1420 14 75 18
+1420 f 75 18
+142f 5 76 18
 1434 13 77 18
 1447 12 79 18
 1459 5 80 18
@@ -126,8 +134,7 @@ FUNC 1480 144 0 qt_plugin_instance
 14a5 1d 590 12
 14c2 1f 181 18
 14e1 c 588 12
-14ed 6 90 4
-14f3 15 588 12
+14ed 1b 588 12
 1508 a 181 18
 1512 12 47 16
 1524 b 696 12
@@ -136,265 +143,289 @@ FUNC 1480 144 0 qt_plugin_instance
 1540 8 176 0
 1548 c 705 12
 1554 8 214 0
-155c 6 220 0
+155c 6 705 12
 1562 c 706 12
 156e 5 161 12
 1573 7 707 12
 157a 7 708 12
 1581 5 591 12
 1586 8 214 0
-158e 6 220 0
+158e 6 591 12
 1594 8 161 12
 159c e 588 12
-15aa 6 90 4
-15b0 14 588 12
-FUNC 15d0 31 0 QPointer<QObject>::~QPointer
+15aa 1a 588 12
+FUNC 15d0 31 0 QPointer<QObject>::~QPointer()
 15d0 4 64 2
 15d4 c 591 12
 15e0 8 214 0
-15e8 6 220 0
+15e8 6 591 12
 15ee 8 591 12
 15f6 5 161 12
 15fb 6 64 2
-FUNC 1610 a 0 QSvgPlugin::~QSvgPlugin
+FUNC 1610 a 0 <name omitted>
 1610 4 47 16
 1614 1 47 16
 1615 5 0 16
-FUNC 1620 1c 0 QSvgPlugin::~QSvgPlugin
+FUNC 1620 1c 0 QSvgPlugin::~QSvgPlugin()
 1620 9 47 16
 1629 5 47 16
 162e e 47 16
-FUNC 1640 1c3 0 QList<QString>::detach_helper_grow(int, int)
+FUNC 1640 1a3 0 QList<QString>::detach_helper_grow(int, int)
 1640 16 723 7
 1656 c 108 7
 1662 8 725 7
-166a 19 108 7
+166a c 108 7
+1676 5 728 7
+167b 8 108 7
 1683 5 108 7
 1688 d 444 7
 1695 6 878 14
 169b 2 90 4
 169d 7 51 10
-16a4 c 176 0
-16b0 4 445 7
-16b4 4 446 7
-16b8 6 443 7
-16be d 108 7
-16cb 13 735 7
-16de 25 444 7
-1703 25 443 7
-1728 8 878 14
-1730 2 90 4
-1732 7 51 10
-1739 17 176 0
-1750 c 443 7
-175c c 90 4
-1768 9 214 0
-1771 e 220 0
-177f 5 834 7
-1784 1c 465 7
-17a0 3 1053 14
-17a3 b 90 4
-17ae 8 214 0
-17b6 6 220 0
-17bc e 1053 14
-17ca 5 222 5
-17cf a 465 7
-17d9 8 836 7
-17e1 7 108 7
-17e8 1b 748 7
-FUNC 1810 26f 0 QSvgIOHandlerPrivate::load(QIODevice*)
-1810 17 71 17
-1827 f 72 17
-1836 d 74 17
-1843 4 471 6
-1847 2 90 4
-1849 3 471 6
-184c 9 90 4
-1855 8 214 0
-185d 6 220 0
-1863 e 459 6
-1871 9 222 5
-187a a 75 17
-1884 15 518 1
-1899 6 81 17
-189f b 82 17
-18aa 9 83 17
-18b3 7 483 6
-18ba 4 55 5
-18be 10 83 17
-18ce 3 461 6
-18d1 4 83 17
-18d5 2e 83 17
-1903 4 459 6
-1907 b 90 4
-1912 8 214 0
-191a 6 220 0
-1920 e 459 6
-192e 5 222 5
-1933 4 84 17
-1937 7 461 6
-193e 4 84 17
-1942 11 84 17
-1953 10 85 17
-1963 11 590 6
-1974 4 459 6
-1978 e 90 4
-1986 8 214 0
-198e 6 220 0
-1994 e 459 6
-19a2 c 222 5
-19ae 10 88 17
-19be 12 89 17
-19d0 22 86 17
-19f2 4 459 6
-19f6 b 90 4
-1a01 8 214 0
-1a09 6 220 0
-1a0f e 459 6
-1a1d 5 222 5
-1a22 5 92 17
-1a27 10 93 17
-1a37 4 251 9
-1a3b 8 93 17
-1a43 c 254 9
-1a4f c 93 17
-1a5b 8 94 17
-1a63 6 97 17
-1a69 4 92 17
-1a6d 12 98 17
-FUNC 1a80 96 0 QSvgIOHandler::QSvgIOHandler
-1a80 a 103 17
-1a8a 1c 103 17
-1aa6 17 53 17
-1abd 8 103 13
-1ac5 34 50 9
-1af9 14 53 17
-1b0d 4 103 17
-1b11 5 105 17
-FUNC 1b20 96 0 QSvgIOHandler::QSvgIOHandler
-1b20 a 103 17
-1b2a 1c 103 17
-1b46 17 53 17
-1b5d 8 103 13
-1b65 34 50 9
-1b99 14 53 17
-1bad 4 103 17
-1bb1 5 105 17
-FUNC 1bc0 4b 0 QSvgIOHandler::~QSvgIOHandler
-1bc0 a 109 17
-1bca a 109 17
-1bd4 9 110 17
-1bdd 12 48 17
-1bef 8 110 17
-1bf7 8 111 17
-1bff c 109 17
-FUNC 1c10 43 0 QSvgIOHandler::~QSvgIOHandler
-1c10 a 109 17
-1c1a a 109 17
-1c24 9 110 17
-1c2d 12 48 17
-1c3f 8 110 17
-1c47 c 111 17
-FUNC 1c60 43 0 QSvgIOHandler::~QSvgIOHandler
-1c60 a 109 17
-1c6a a 109 17
-1c74 9 110 17
-1c7d 12 48 17
-1c8f 8 110 17
-1c97 c 111 17
-FUNC 1cb0 185 0 QSvgIOHandler::canRead() const
-1cb0 e 115 17
-1cbe e 116 17
-1ccc 17 118 17
-1ce3 1c 121 17
-1cff 13 122 17
-1d12 23 123 17
-1d35 4 459 6
-1d39 16 90 4
-1d4f 8 214 0
-1d57 a 220 0
-1d61 11 459 6
-1d72 17 636 6
-1d89 1a 636 6
-1da3 23 126 17
-1dc6 4 459 6
-1dca e 90 4
-1dd8 8 214 0
-1de0 6 220 0
-1de6 e 459 6
-1df4 5 222 5
-1df9 4 459 6
-1dfd b 90 4
-1e08 8 214 0
-1e10 6 220 0
-1e16 e 459 6
-1e24 5 222 5
-1e29 c 130 17
-FUNC 1e40 24 0 QSvgIOHandler::name() const
-1e40 9 134 17
-1e49 1b 135 17
-FUNC 1e70 351 0 QSvgIOHandler::read(QImage*)
-1e70 16 140 17
-1e86 28 141 17
-1eae 4 142 17
-1eb2 10 185 9
-1ec2 c 114 13
-1ece b 143 17
-1ed9 11 496 9
-1eea 8 185 9
-1ef2 b 143 17
-1efd d 496 9
-1f0a 6 185 9
-1f10 b 143 17
-1f1b e 496 9
-1f29 1d 111 13
-1f46 7 268 13
-1f4d 8 268 13
-1f55 e 146 17
-1f63 2f 185 9
-1f92 2 251 9
-1f94 2 183 8
-1f96 2 251 9
-1f98 3 254 9
-1f9b 2 183 8
-1f9d 3 254 9
-1fa0 d 257 9
-1fad 4 151 17
-1fb1 1b 152 17
-1fcc 19 114 13
-1fe5 7 154 17
-1fec b 154 17
-1ff7 7 155 17
-1ffe c 155 17
-200a 1d 156 17
-2027 32 185 9
-2059 2 251 9
-205b 2 183 8
-205d 2 251 9
-205f 2 254 9
-2061 2 183 8
-2063 2 254 9
-2065 7 257 9
-206c 4 160 17
-2070 13 161 17
-2083 17 162 17
-209a 18 163 17
-20b2 18 164 17
-20ca 23 165 17
-20ed 44 166 17
-2131 1b 168 17
-214c 10 111 13
-215c 1e 170 17
-217a b 171 17
-2185 14 172 17
-2199 8 173 17
-21a1 8 174 17
-21a9 a 175 17
-21b3 e 180 17
+16a4 8 176 0
+16ac 4 445 7
+16b0 4 446 7
+16b4 6 443 7
+16ba d 108 7
+16c7 e 735 7
+16d5 5 443 7
+16da 25 444 7
+16ff 11 443 7
+1710 8 444 7
+1718 8 878 14
+1720 2 90 4
+1722 7 51 10
+1729 8 176 0
+1731 c 443 7
+173d 3 90 4
+1740 9 62 10
+1749 9 214 0
+1752 e 745 7
+1760 5 465 7
+1765 1b 465 7
+1780 3 1053 14
+1783 2 90 4
+1785 9 62 10
+178e 8 214 0
+1796 6 1053 14
+179c e 1053 14
+17aa 5 222 5
+17af a 465 7
+17b9 8 836 7
+17c1 7 108 7
+17c8 1b 748 7
+FUNC 17f0 26c 0 QSvgIOHandlerPrivate::load(QIODevice*)
+17f0 1a 71 17
+180a c 72 17
+1816 d 74 17
+1823 4 471 6
+1827 2 90 4
+1829 3 471 6
+182c 9 62 10
+1835 8 214 0
+183d 6 459 6
+1843 e 459 6
+1851 5 222 5
+1856 4 74 17
+185a a 75 17
+1864 12 518 1
+1876 9 81 17
+187f b 82 17
+188a 9 83 17
+1893 7 483 6
+189a 4 55 5
+189e 10 83 17
+18ae 3 461 6
+18b1 4 83 17
+18b5 11 83 17
+18c6 e 83 17
+18d4 f 83 17
+18e3 4 459 6
+18e7 2 90 4
+18e9 9 62 10
+18f2 8 214 0
+18fa 6 459 6
+1900 e 459 6
+190e 5 222 5
+1913 4 84 17
+1917 7 461 6
+191e 4 84 17
+1922 11 84 17
+1933 10 85 17
+1943 11 590 6
+1954 4 459 6
+1958 2 90 4
+195a c 62 10
+1966 8 214 0
+196e 6 459 6
+1974 e 459 6
+1982 5 222 5
+1987 4 85 17
+198b 10 88 17
+199b 12 89 17
+19ad 9 86 17
+19b6 b 86 17
+19c1 e 86 17
+19cf 4 459 6
+19d3 2 90 4
+19d5 9 62 10
+19de 8 214 0
+19e6 6 459 6
+19ec e 459 6
+19fa 5 222 5
+19ff 5 92 17
+1a04 10 93 17
+1a14 4 251 9
+1a18 8 93 17
+1a20 c 254 9
+1a2c c 93 17
+1a38 8 94 17
+1a40 a 92 17
+1a4a 12 98 17
+FUNC 1a60 96 0 <name omitted>
+1a60 a 103 17
+1a6a 1c 103 17
+1a86 17 53 17
+1a9d 8 103 13
+1aa5 34 50 9
+1ad9 14 53 17
+1aed 4 103 17
+1af1 5 105 17
+FUNC 1b00 96 0 QSvgIOHandler::QSvgIOHandler()
+1b00 a 103 17
+1b0a 1c 103 17
+1b26 17 53 17
+1b3d 8 103 13
+1b45 34 50 9
+1b79 14 53 17
+1b8d 4 103 17
+1b91 5 105 17
+FUNC 1ba0 43 0 <name omitted>
+1ba0 a 109 17
+1baa a 109 17
+1bb4 9 110 17
+1bbd 12 48 17
+1bcf 8 110 17
+1bd7 c 111 17
+FUNC 1bf0 43 0 <name omitted>
+1bf0 a 109 17
+1bfa a 109 17
+1c04 9 110 17
+1c0d 12 48 17
+1c1f 8 110 17
+1c27 c 111 17
+FUNC 1c40 4b 0 QSvgIOHandler::~QSvgIOHandler()
+1c40 a 109 17
+1c4a a 109 17
+1c54 9 110 17
+1c5d 12 48 17
+1c6f 8 110 17
+1c77 8 111 17
+1c7f c 109 17
+FUNC 1c90 185 0 QSvgIOHandler::canRead() const
+1c90 e 115 17
+1c9e e 116 17
+1cac 17 118 17
+1cc3 1c 121 17
+1cdf 13 122 17
+1cf2 23 123 17
+1d15 4 459 6
+1d19 5 90 4
+1d1e 11 62 10
+1d2f 8 214 0
+1d37 a 459 6
+1d41 11 459 6
+1d52 12 636 6
+1d64 5 125 17
+1d69 1a 636 6
+1d83 23 126 17
+1da6 4 459 6
+1daa 5 90 4
+1daf 9 62 10
+1db8 8 214 0
+1dc0 6 459 6
+1dc6 e 459 6
+1dd4 5 222 5
+1dd9 4 459 6
+1ddd 2 90 4
+1ddf 9 62 10
+1de8 8 214 0
+1df0 6 459 6
+1df6 e 459 6
+1e04 5 222 5
+1e09 c 130 17
+FUNC 1e20 24 0 QSvgIOHandler::name() const
+1e20 9 134 17
+1e29 1b 135 17
+FUNC 1e50 376 0 QSvgIOHandler::read(QImage*)
+1e50 16 140 17
+1e66 11 141 17
+1e77 8 141 17
+1e7f f 141 17
+1e8e 4 142 17
+1e92 b 185 9
+1e9d 5 142 17
+1ea2 c 114 13
+1eae b 143 17
+1eb9 11 496 9
+1eca 8 185 9
+1ed2 b 143 17
+1edd d 496 9
+1eea 6 185 9
+1ef0 b 143 17
+1efb e 496 9
+1f09 1d 111 13
+1f26 7 268 13
+1f2d 8 268 13
+1f35 e 146 17
+1f43 2d 185 9
+1f70 2 251 9
+1f72 2 183 8
+1f74 2 251 9
+1f76 3 254 9
+1f79 2 183 8
+1f7b 3 254 9
+1f7e d 257 9
+1f8b 4 151 17
+1f8f b 152 17
+1f9a 12 114 13
+1fac 7 153 17
+1fb3 7 154 17
+1fba 8 154 17
+1fc2 7 155 17
+1fc9 c 155 17
+1fd5 d 156 17
+1fe2 7c 185 9
+205e 2 251 9
+2060 2 183 8
+2062 2 251 9
+2064 2 254 9
+2066 2 183 8
+2068 2 254 9
+206a 7 257 9
+2071 4 160 17
+2075 13 161 17
+2088 17 162 17
+209f 18 163 17
+20b7 18 164 17
+20cf 23 165 17
+20f2 44 166 17
+2136 1b 168 17
+2151 10 111 13
+2161 d 170 17
+216e 11 170 17
+217f b 171 17
+218a 14 172 17
+219e 8 173 17
+21a6 8 174 17
+21ae a 175 17
+21b8 e 180 17
 FUNC 21d0 b3 0 QSvgIOHandler::option(QImageIOHandler::ImageOption) const
-21d0 13 184 17
-21e3 14 185 17
-21f7 17 190 17
+21d0 10 184 17
+21e0 17 185 17
+21f7 4 190 17
+21fb 8 190 17
+2203 b 190 17
 220e a 191 17
 2218 7 367 3
 221f 9 367 3
@@ -406,29 +437,34 @@ FUNC 21d0 b3 0 QSvgIOHandler::option(QImageIOHandler::ImageOption) const
 226d 8 187 17
 2275 e 209 17
 FUNC 22c0 8d 0 QSvgIOHandler::setOption(QImageIOHandler::ImageOption, QVariant const&)
-22c0 e 213 17
-22ce c 214 17
-22da 1b 222 17
+22c0 4 213 17
+22c4 16 214 17
+22da 4 222 17
+22de 17 222 17
 22f5 c 225 17
 2301 b 105 3
 230c d 225 17
-2319 1b 216 17
-2334 10 219 17
+2319 4 216 17
+231d 17 216 17
+2334 4 219 17
+2338 c 219 17
 2344 9 230 17
 FUNC 2350 1c 0 QSvgIOHandler::supportsOption(QImageIOHandler::ImageOption) const
-2350 7 234 17
-2357 13 235 17
+2350 4 234 17
+2354 16 235 17
 236a 2 248 17
 FUNC 2370 9d 0 QSvgIOHandler::canRead(QIODevice*)
 2370 15 252 17
 2385 b 253 17
 2390 15 254 17
-23a5 17 636 6
+23a5 12 636 6
+23b7 5 254 17
 23bc 18 636 6
 23d4 4 459 6
-23d8 b 90 4
+23d8 2 90 4
+23da 9 62 10
 23e3 8 214 0
-23eb 6 220 0
+23eb 6 459 6
 23f1 e 459 6
 23ff 5 222 5
 2404 9 255 17
@@ -457,10 +493,10 @@ PUBLIC 3310 0 vtable for QSvgIOHandler
 PUBLIC 33a0 0 typeinfo for QSvgIOHandler
 PUBLIC 33b8 0 qt_plugin_instance::_instance
 PUBLIC 33c8 0 guard variable for qt_plugin_instance::_instance
-STACK CFI INIT 10b0 271 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 10b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 10b4 .cfa: $rbp 16 +
-STACK CFI 10bf $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 10c0 261 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 10c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 10c4 .cfa: $rbp 16 +
+STACK CFI 10cf $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
 STACK CFI INIT 1330 6f .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1331 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1334 .cfa: $rbp 16 +
@@ -499,46 +535,46 @@ STACK CFI INIT 1620 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1621 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1624 .cfa: $rbp 16 +
 STACK CFI 1626 $rbx: .cfa -24 + ^
-STACK CFI INIT 1640 1c3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1640 1a3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1641 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1644 .cfa: $rbp 16 +
 STACK CFI 164e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1810 26f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1811 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1814 .cfa: $rbp 16 +
-STACK CFI 1821 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1a80 96 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1a81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1a84 .cfa: $rbp 16 +
-STACK CFI 1a87 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1b20 96 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1b21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1b24 .cfa: $rbp 16 +
-STACK CFI 1b27 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1bc0 4b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1bc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1bc4 .cfa: $rbp 16 +
-STACK CFI 1bc7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1c10 43 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1c11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1c14 .cfa: $rbp 16 +
-STACK CFI 1c17 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1c60 43 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1c61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1c64 .cfa: $rbp 16 +
-STACK CFI 1c67 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1cb0 185 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1cb4 .cfa: $rbp 16 +
-STACK CFI 1cbb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1e40 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e44 .cfa: $rbp 16 +
-STACK CFI 1e46 $rbx: .cfa -24 + ^
-STACK CFI INIT 1e70 351 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e74 .cfa: $rbp 16 +
-STACK CFI 1e80 $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 17f0 26c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17f4 .cfa: $rbp 16 +
+STACK CFI 1801 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1a60 96 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a64 .cfa: $rbp 16 +
+STACK CFI 1a67 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1b00 96 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1b01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1b04 .cfa: $rbp 16 +
+STACK CFI 1b07 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1ba0 43 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ba1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ba4 .cfa: $rbp 16 +
+STACK CFI 1ba7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1bf0 43 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1bf1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1bf4 .cfa: $rbp 16 +
+STACK CFI 1bf7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1c40 4b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1c41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1c44 .cfa: $rbp 16 +
+STACK CFI 1c47 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1c90 185 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1c91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1c94 .cfa: $rbp 16 +
+STACK CFI 1c9b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1e20 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e24 .cfa: $rbp 16 +
+STACK CFI 1e26 $rbx: .cfa -24 + ^
+STACK CFI INIT 1e50 376 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e54 .cfa: $rbp 16 +
+STACK CFI 1e60 $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
 STACK CFI INIT 21d0 b3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 21d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 21d4 .cfa: $rbp 16 +
