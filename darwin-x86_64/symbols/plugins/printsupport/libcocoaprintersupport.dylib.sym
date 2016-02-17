@@ -1,104 +1,115 @@
-MODULE mac x86_64 EA1CA47CC2C338D5B4A362A1981395C30 libcocoaprintersupport.dylib
-FILE 0 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 1 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
-FILE 2 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qmetaobject.h
-FILE 3 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
-FILE 4 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 5 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
-FILE 6 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 7 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 8 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 9 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 10 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 11 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/printsupport/cocoa/main.cpp
-FILE 12 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/plugins/printsupport/cocoa/.moc/main.moc
-FUNC 1600 22f 0 QCocoaPrinterSupportPlugin::create(QString const&)
-1600 11 53 11
-1611 1d 530 10
-162e d 573 10
-163b 7 1053 10
-1642 2 90 5
-1644 9 62 7
-164d 8 214 0
-1655 6 1053 10
-165b 11 1053 10
-166c 5 222 6
-1671 8 54 11
-1679 a 110 1
-1683 c 518 3
-168f 9 57 11
-1698 8 59 11
-16a0 19 60 11
-16b9 9 61 11
-16c2 1f 63 11
-16e1 e 64 11
-16ef 2d 65 11
-171c f6 100 2
-1812 11 65 11
-1823 c 68 11
-FUNC 1830 6 0 QCocoaPrinterSupportPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-1830 4 56 12
-1834 2 61 12
-FUNC 1840 1e 0 QCocoaPrinterSupportPlugin::metaObject() const
-1840 4 70 12
-1844 4 113 8
-1848 7 71 12
-184f f 71 12
-FUNC 1860 3e 0 QCocoaPrinterSupportPlugin::qt_metacast(char const*)
-1860 f 75 12
-186f 5 76 12
-1874 13 77 12
-1887 12 79 12
-1899 5 80 12
-FUNC 18a0 a 0 QCocoaPrinterSupportPlugin::qt_metacall(QMetaObject::Call, int, void**)
-18a0 4 83 12
-18a4 1 84 12
-18a5 5 0 12
-FUNC 18b0 d 0 qt_plugin_query_metadata
-18b0 4 175 12
-18b4 9 175 12
-FUNC 18c0 144 0 qt_plugin_instance
+MODULE mac x86_64 C28EBBFE24BF330A9A705CBFB3ED59E30 libcocoaprintersupport.dylib
+FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
+FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qmetaobject.h
+FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
+FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/printsupport/cocoa/main.cpp
+FILE 12 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/printsupport/cocoa/.moc/main.moc
+FUNC 1610 22f 0 QCocoaPrinterSupportPlugin::create(QString const&)
+1610 11 53 11
+1621 1d 530 10
+163e d 573 10
+164b 7 1053 10
+1652 2 90 5
+1654 9 62 7
+165d 8 214 0
+1665 6 1053 10
+166b 11 1053 10
+167c 5 222 6
+1681 8 54 11
+1689 a 110 1
+1693 c 518 3
+169f 9 57 11
+16a8 8 59 11
+16b0 19 60 11
+16c9 9 61 11
+16d2 1f 63 11
+16f1 e 64 11
+16ff 2d 65 11
+172c 4 101 2
+1730 f2 100 2
+1822 11 65 11
+1833 c 68 11
+FUNC 1840 6 0 QCocoaPrinterSupportPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+1840 4 56 12
+1844 2 61 12
+FUNC 1850 1e 0 QCocoaPrinterSupportPlugin::metaObject() const
+1850 4 70 12
+1854 4 113 8
+1858 7 71 12
+185f 6 71 12
+1865 9 71 12
+FUNC 1870 3e 0 QCocoaPrinterSupportPlugin::qt_metacast(char const*)
+1870 f 75 12
+187f 5 76 12
+1884 f 77 12
+1893 4 77 12
+1897 12 79 12
+18a9 5 80 12
+FUNC 18b0 a 0 QCocoaPrinterSupportPlugin::qt_metacall(QMetaObject::Call, int, void**)
+18b0 4 83 12
+18b4 1 84 12
+18b5 5 0 12
+FUNC 18c0 d 0 qt_plugin_query_metadata
 18c0 4 175 12
-18c4 21 175 12
-18e5 1d 590 9
-1902 1f 175 12
-1921 c 588 9
-192d 1b 588 9
-1948 a 175 12
-1952 12 43 11
-1964 b 696 9
-196f c 702 9
-197b 5 703 9
-1980 8 176 0
-1988 c 705 9
-1994 8 214 0
-199c 6 705 9
-19a2 c 706 9
-19ae 5 161 9
-19b3 7 707 9
-19ba 7 708 9
-19c1 5 591 9
-19c6 8 214 0
-19ce 6 591 9
-19d4 8 161 9
-19dc e 588 9
-19ea 1a 588 9
-FUNC 1a10 31 0 QPointer<QObject>::~QPointer()
-1a10 4 64 4
-1a14 c 591 9
-1a20 8 214 0
-1a28 6 591 9
-1a2e 8 591 9
-1a36 5 161 9
-1a3b 6 64 4
-FUNC 1a50 a 0 <name omitted>
-1a50 4 43 11
-1a54 1 43 11
-1a55 5 0 11
-FUNC 1a60 1c 0 QCocoaPrinterSupportPlugin::~QCocoaPrinterSupportPlugin()
-1a60 9 43 11
-1a69 5 43 11
-1a6e e 43 11
+18c4 9 175 12
+FUNC 18d0 144 0 qt_plugin_instance
+18d0 4 175 12
+18d4 21 175 12
+18f5 1d 590 9
+1912 1f 175 12
+1931 7 588 9
+1938 5 588 9
+193d 1b 588 9
+1958 a 175 12
+1962 12 43 11
+1974 b 696 9
+197f 7 702 9
+1986 5 702 9
+198b 5 703 9
+1990 8 176 0
+1998 c 705 9
+19a4 8 214 0
+19ac 6 705 9
+19b2 7 706 9
+19b9 5 706 9
+19be 5 161 9
+19c3 7 707 9
+19ca 7 708 9
+19d1 5 591 9
+19d6 8 214 0
+19de 6 591 9
+19e4 8 161 9
+19ec 7 588 9
+19f3 3 588 9
+19f6 4 588 9
+19fa 6 588 9
+1a00 b 588 9
+1a0b 9 588 9
+FUNC 1a20 31 0 QPointer<QObject>::~QPointer()
+1a20 4 64 4
+1a24 c 591 9
+1a30 8 214 0
+1a38 6 591 9
+1a3e 3 591 9
+1a41 5 591 9
+1a46 5 161 9
+1a4b 6 64 4
+FUNC 1a60 a 0 <name omitted>
+1a60 4 43 11
+1a64 1 43 11
+1a65 5 0 11
+FUNC 1a70 1c 0 QCocoaPrinterSupportPlugin::~QCocoaPrinterSupportPlugin()
+1a70 9 43 11
+1a79 5 43 11
+1a7e e 43 11
 PUBLIC 1c20 0 qt_meta_data_QCocoaPrinterSupportPlugin
 PUBLIC 1c60 0 typeinfo name for QCocoaPrinterSupportPlugin
 PUBLIC 1c80 0 qt_meta_stringdata_QCocoaPrinterSupportPlugin
@@ -109,37 +120,37 @@ PUBLIC 20f0 0 vtable for QCocoaPrinterSupportPlugin
 PUBLIC 2170 0 typeinfo for QCocoaPrinterSupportPlugin
 PUBLIC 2188 0 qt_plugin_instance::_instance
 PUBLIC 2198 0 guard variable for qt_plugin_instance::_instance
-STACK CFI INIT 1600 22f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1601 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1604 .cfa: $rbp 16 +
-STACK CFI 160e $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1830 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1831 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1834 .cfa: $rbp 16 +
-STACK CFI INIT 1840 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1610 22f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1611 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1614 .cfa: $rbp 16 +
+STACK CFI 161e $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1840 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1841 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1844 .cfa: $rbp 16 +
-STACK CFI INIT 1860 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1861 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1864 .cfa: $rbp 16 +
-STACK CFI 1867 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 18a0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 18a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 18a4 .cfa: $rbp 16 +
-STACK CFI INIT 18b0 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1850 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1851 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1854 .cfa: $rbp 16 +
+STACK CFI INIT 1870 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1871 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1874 .cfa: $rbp 16 +
+STACK CFI 1877 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 18b0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 18b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 18b4 .cfa: $rbp 16 +
-STACK CFI INIT 18c0 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18c0 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 18c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 18c4 .cfa: $rbp 16 +
-STACK CFI 18cb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1a10 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1a11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1a14 .cfa: $rbp 16 +
-STACK CFI INIT 1a50 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1a51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1a54 .cfa: $rbp 16 +
-STACK CFI INIT 1a60 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18d0 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 18d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 18d4 .cfa: $rbp 16 +
+STACK CFI 18db $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1a20 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a24 .cfa: $rbp 16 +
+STACK CFI INIT 1a60 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1a61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1a64 .cfa: $rbp 16 +
-STACK CFI 1a66 $rbx: .cfa -24 + ^
+STACK CFI INIT 1a70 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a74 .cfa: $rbp 16 +
+STACK CFI 1a76 $rbx: .cfa -24 + ^

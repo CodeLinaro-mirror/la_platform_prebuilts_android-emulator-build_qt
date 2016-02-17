@@ -1,447 +1,503 @@
-MODULE mac x86_64 0198870E450A3438A2626510813B6DC30 libqminimal.dylib
-FILE 0 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 1 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
-FILE 2 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdebug.h
-FILE 3 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
-FILE 4 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 5 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
-FILE 6 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 7 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
-FILE 8 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
-FILE 9 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 10 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 11 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 12 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
-FILE 13 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 14 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstringlist.h
-FILE 15 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/private/../../../../../src/gui/kernel/qguiapplication_p.h
-FILE 16 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformscreen.h
-FILE 17 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qgenericunixeventdispatcher.cpp
-FILE 18 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qunixeventdispatcher.cpp
-FILE 19 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/main.cpp
-FILE 20 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalbackingstore.cpp
-FILE 21 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp
-FILE 22 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.h
-FILE 23 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/platformsupport/.moc/moc_qunixeventdispatcher_qpa_p.cpp
-FILE 24 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/plugins/platforms/minimal/.moc/main.moc
-FUNC 1070 49 0 QMinimalIntegrationPlugin::create(QString const&, QStringList const&)
-1070 d 49 19
-107d 21 50 19
-109e 13 51 19
-10b1 8 54 19
-FUNC 10c0 6 0 QMinimalIntegrationPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-10c0 4 56 24
-10c4 2 61 24
-FUNC 10d0 1e 0 QMinimalIntegrationPlugin::metaObject() const
-10d0 4 70 24
-10d4 4 113 10
-10d8 7 71 24
-10df f 71 24
-FUNC 10f0 3e 0 QMinimalIntegrationPlugin::qt_metacast(char const*)
-10f0 f 75 24
-10ff 5 76 24
-1104 13 77 24
-1117 12 79 24
-1129 5 80 24
-FUNC 1130 a 0 QMinimalIntegrationPlugin::qt_metacall(QMetaObject::Call, int, void**)
-1130 4 83 24
-1134 1 84 24
-1135 5 0 24
-FUNC 1140 d 0 qt_plugin_query_metadata
-1140 4 173 24
-1144 9 173 24
-FUNC 1150 144 0 qt_plugin_instance
-1150 4 173 24
-1154 21 173 24
-1175 1d 590 11
-1192 1f 173 24
-11b1 c 588 11
-11bd 1b 588 11
-11d8 a 173 24
-11e2 12 40 19
-11f4 b 696 11
-11ff c 702 11
-120b 5 703 11
-1210 8 176 0
-1218 c 705 11
-1224 8 214 0
-122c 6 705 11
-1232 c 706 11
-123e 5 161 11
-1243 7 707 11
-124a 7 708 11
-1251 5 591 11
-1256 8 214 0
-125e 6 591 11
-1264 8 161 11
-126c e 588 11
-127a 1a 588 11
-FUNC 12a0 31 0 QPointer<QObject>::~QPointer()
-12a0 4 64 4
-12a4 c 591 11
-12b0 8 214 0
-12b8 6 591 11
-12be 8 591 11
-12c6 5 161 11
-12cb 6 64 4
-FUNC 12e0 a 0 <name omitted>
-12e0 4 40 19
-12e4 1 40 19
-12e5 5 0 19
-FUNC 12f0 1c 0 QMinimalIntegrationPlugin::~QMinimalIntegrationPlugin()
-12f0 9 40 19
-12f9 5 40 19
-12fe e 40 19
-FUNC 1310 1d9 0 QMinimalIntegration::QMinimalIntegration(QStringList const&)
-1310 14 67 21
-1324 16 67 21
-133a 5 93 14
-133f d 108 8
-134c 4 270 8
-1350 9 109 8
-1359 4 270 8
-135d 9 57 21
-1366 4 281 8
-136a 26 58 21
-1390 3 59 21
-1393 6 58 21
-1399 c 286 8
-13a5 7 57 21
-13ac 4 281 8
-13b0 2 57 21
-13b2 4 795 8
-13b6 3 90 5
-13b9 d 62 9
-13c6 9 214 0
-13cf a 795 8
-13d9 c 796 8
-13e5 5 465 8
-13ea 16 465 8
-1400 4 1053 13
-1404 2 90 5
-1406 9 62 9
-140f 8 214 0
-1417 6 1053 13
-141d 1d 1053 13
-143a 5 222 6
-143f a 465 8
-1449 8 836 8
-1451 4 66 21
-1455 10 68 21
-1465 12 69 21
-1477 a 70 21
-1481 8 73 21
-1489 12 46 22
-149b e 103 12
-14a9 20 75 21
-14c9 6 76 21
-14cf b 79 21
-14da f 80 21
-FUNC 14f0 a 0 QMinimalIntegration::QMinimalIntegration(QStringList const&)
-14f0 4 67 21
-14f4 1 80 21
-14f5 5 0 21
-FUNC 1500 20 0 <name omitted>
-1500 4 83 21
-1504 a 83 21
-150e 10 84 21
-151e 2 85 21
-FUNC 1520 20 0 <name omitted>
-1520 4 83 21
-1524 a 83 21
-152e 10 84 21
-153e 2 85 21
-FUNC 1540 30 0 QMinimalIntegration::~QMinimalIntegration()
-1540 9 83 21
-1549 a 83 21
-1553 f 84 21
-1562 e 83 21
-FUNC 1570 17 0 QMinimalIntegration::hasCapability(QPlatformIntegration::Capability) const
-1570 6 88 21
-1576 a 89 21
-1580 5 92 21
-1585 2 94 21
-FUNC 1590 45 0 QMinimalIntegration::fontDatabase() const
-1590 9 106 21
-1599 6 107 21
-159f e 108 21
-15ad e 109 21
-15bb 5 110 21
-15c0 a 99 21
-15ca 4 110 21
-15ce 7 112 21
-FUNC 15e0 36 0 QMinimalIntegration::createPlatformWindow(QWindow*) const
-15e0 f 115 21
-15ef 8 117 21
-15f7 b 117 21
-1602 c 118 21
-160e 8 119 21
-FUNC 1620 2a 0 QMinimalIntegration::createPlatformBackingStore(QWindow*) const
-1620 f 123 21
-162f 1b 124 21
-FUNC 1650 a 0 QMinimalIntegration::createEventDispatcher() const
-1650 4 128 21
-1654 1 136 21
-1655 5 0 21
-FUNC 1660 10 0 QMinimalIntegration::instance()
-1660 4 141 21
-1664 a 96 15
-166e 2 142 21
-FUNC 1670 a 0 <name omitted>
-1670 4 99 21
-1674 1 99 21
-1675 5 0 21
-FUNC 1680 1c 0 DummyFontDatabase::~DummyFontDatabase()
-1680 9 99 21
-1689 5 99 21
-168e e 99 21
-FUNC 16a0 6 0 DummyFontDatabase::populateFontDatabase()
-16a0 4 102 21
-16a4 2 102 21
-FUNC 16b0 a 0 <name omitted>
-16b0 4 42 22
-16b4 1 42 22
-16b5 5 0 22
-FUNC 16c0 1c 0 QMinimalScreen::~QMinimalScreen()
-16c0 9 42 22
-16c9 5 42 22
-16ce e 42 22
-FUNC 16e0 e 0 QMinimalScreen::geometry() const
-16e0 4 48 22
-16e4 a 48 22
-FUNC 16f0 b 0 QPlatformScreen::availableGeometry() const
-16f0 4 91 16
-16f4 7 91 16
-FUNC 1700 9 0 QMinimalScreen::depth() const
-1700 4 49 22
-1704 5 49 22
-FUNC 1710 9 0 QMinimalScreen::format() const
-1710 4 50 22
-1714 5 50 22
-FUNC 1720 13 0 QPlatformScreen::name() const
-1720 4 115 16
-1724 a 1052 13
-172e 5 115 16
-FUNC 1740 9d 0 QList<QString>::QList(QList<QString> const&)
-1740 11 777 8
-1751 6 777 8
-1757 2 90 5
-1759 9 51 9
-1762 b 779 8
-176d b 108 8
-1778 4 443 8
-177c c 108 8
-1788 9 108 8
-1791 14 444 8
-17a5 6 878 13
-17ab 2 90 5
-17ad 7 51 9
-17b4 8 176 0
-17bc 4 445 8
-17c0 4 446 8
-17c4 8 443 8
-17cc 8 176 0
-17d4 9 790 8
-FUNC 17e0 115 0 QMinimalBackingStore::QMinimalBackingStore(QWindow*)
-17e0 10 47 20
-17f0 18 47 20
-1808 5 46 20
-180d 3 77 22
-1810 8 46 20
-1818 8 48 20
-1820 31 62 1
-1851 5 49 20
-1856 4 124 2
-185a 18 530 13
-1872 b 124 2
-187d 4 1053 13
-1881 2 90 5
-1883 9 62 9
-188c 8 214 0
-1894 6 1053 13
-189a e 1053 13
-18a8 5 222 6
-18ad f 98 2
-18bc 5 98 2
-18c1 c 121 2
-18cd f 98 2
-18dc 9 98 2
-18e5 5 49 20
-18ea b 50 20
-FUNC 1900 a 0 QMinimalBackingStore::QMinimalBackingStore(QWindow*)
-1900 4 47 20
-1904 1 50 20
-1905 5 0 20
-FUNC 1910 2a 0 <name omitted>
-1910 9 53 20
-1919 a 53 20
-1923 17 54 20
-FUNC 1940 2a 0 <name omitted>
-1940 9 53 20
-1949 a 53 20
-1953 17 54 20
-FUNC 1970 32 0 QMinimalBackingStore::~QMinimalBackingStore()
-1970 9 53 20
-1979 a 53 20
-1983 11 54 20
-1994 e 53 20
-FUNC 19b0 d6 0 QMinimalBackingStore::paintDevice()
-19b0 10 57 20
-19c0 a 58 20
-19ca 31 62 1
-19fb 5 59 20
-1a00 4 124 2
-1a04 18 530 13
-1a1c b 124 2
-1a27 4 1053 13
-1a2b 2 90 5
-1a2d 9 62 9
-1a36 8 214 0
-1a3e 6 1053 13
-1a44 e 1053 13
-1a52 5 222 6
-1a57 f 98 2
-1a66 9 98 2
-1a6f 5 59 20
-1a74 12 61 20
-FUNC 1a90 247 0 QMinimalBackingStore::flush(QWindow*, QRegion const&, QPoint const&)
-1a90 12 65 20
-1aa2 b 70 20
-1aad 15 650 13
-1ac2 7 896 13
-1ac9 22 72 20
-1aeb 5 896 13
-1af0 4 1053 13
-1af4 2 90 5
-1af6 9 62 9
-1aff 8 214 0
-1b07 6 1053 13
-1b0d e 1053 13
-1b1b 5 222 6
-1b20 31 62 1
-1b51 5 73 20
-1b56 4 124 2
-1b5a 18 530 13
-1b72 b 124 2
-1b7d 4 1053 13
-1b81 2 90 5
-1b83 9 62 9
-1b8c 8 214 0
-1b94 6 1053 13
-1b9a e 1053 13
-1ba8 5 222 6
-1bad f 98 2
-1bbc d 98 2
-1bc9 5 73 20
-1bce 4 483 7
-1bd2 4 530 13
-1bd6 b 124 2
-1be1 f 530 13
-1bf0 b 530 13
-1bfb b 124 2
-1c06 4 1053 13
-1c0a 2 90 5
-1c0c 9 62 9
-1c15 8 214 0
-1c1d 6 1053 13
-1c23 e 1053 13
-1c31 5 222 6
-1c36 f 98 2
-1c45 5 98 2
-1c4a 4 459 7
-1c4e 2 90 5
-1c50 9 62 9
-1c59 8 214 0
-1c61 6 459 7
-1c67 e 459 7
-1c75 9 222 6
-1c7e 5 73 20
-1c83 17 74 20
-1c9a 4 1053 13
+MODULE mac x86_64 751B71E39ECD3FC78296461AE9AC6BE80 libqminimal.dylib
+FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
+FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdebug.h
+FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
+FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/private/../../../../../src/gui/kernel/qguiapplication_p.h
+FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformscreen.h
+FILE 16 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qgenericunixeventdispatcher.cpp
+FILE 17 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qunixeventdispatcher.cpp
+FILE 18 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/main.cpp
+FILE 19 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalbackingstore.cpp
+FILE 20 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp
+FILE 21 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.h
+FILE 22 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/platformsupport/.moc/moc_qunixeventdispatcher_qpa_p.cpp
+FILE 23 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/platforms/minimal/.moc/main.moc
+FUNC 10e0 49 0 QMinimalIntegrationPlugin::create(QString const&, QStringList const&)
+10e0 d 49 18
+10ed 18 50 18
+1105 9 50 18
+110e 8 51 18
+1116 b 51 18
+1121 8 54 18
+FUNC 1130 6 0 QMinimalIntegrationPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+1130 4 56 23
+1134 2 61 23
+FUNC 1140 1e 0 QMinimalIntegrationPlugin::metaObject() const
+1140 4 70 23
+1144 4 113 10
+1148 7 71 23
+114f 6 71 23
+1155 9 71 23
+FUNC 1160 3e 0 QMinimalIntegrationPlugin::qt_metacast(char const*)
+1160 f 75 23
+116f 5 76 23
+1174 f 77 23
+1183 4 77 23
+1187 12 79 23
+1199 5 80 23
+FUNC 11a0 a 0 QMinimalIntegrationPlugin::qt_metacall(QMetaObject::Call, int, void**)
+11a0 4 83 23
+11a4 1 84 23
+11a5 5 0 23
+FUNC 11b0 d 0 qt_plugin_query_metadata
+11b0 4 173 23
+11b4 9 173 23
+FUNC 11c0 144 0 qt_plugin_instance
+11c0 4 173 23
+11c4 21 173 23
+11e5 1d 590 11
+1202 1f 173 23
+1221 7 588 11
+1228 5 588 11
+122d 1b 588 11
+1248 a 173 23
+1252 12 40 18
+1264 b 696 11
+126f 7 702 11
+1276 5 702 11
+127b 5 703 11
+1280 8 176 0
+1288 c 705 11
+1294 8 214 0
+129c 6 705 11
+12a2 7 706 11
+12a9 5 706 11
+12ae 5 161 11
+12b3 7 707 11
+12ba 7 708 11
+12c1 5 591 11
+12c6 8 214 0
+12ce 6 591 11
+12d4 8 161 11
+12dc 7 588 11
+12e3 3 588 11
+12e6 4 588 11
+12ea 6 588 11
+12f0 b 588 11
+12fb 9 588 11
+FUNC 1310 31 0 QPointer<QObject>::~QPointer()
+1310 4 64 4
+1314 c 591 11
+1320 8 214 0
+1328 6 591 11
+132e 3 591 11
+1331 5 591 11
+1336 5 161 11
+133b 6 64 4
+FUNC 1350 a 0 <name omitted>
+1350 4 40 18
+1354 1 40 18
+1355 5 0 18
+FUNC 1360 1c 0 QMinimalIntegrationPlugin::~QMinimalIntegrationPlugin()
+1360 9 40 18
+1369 5 40 18
+136e e 40 18
+FUNC 1380 259 0 QMinimalIntegration::QMinimalIntegration(QStringList const&)
+1380 17 67 20
+1397 a 67 20
+13a1 8 65 20
+13a9 3 776 8
+13ac 4 776 8
+13b0 2 90 5
+13b2 9 51 9
+13bb 7 779 8
+13c2 5 779 8
+13c7 4 108 8
+13cb 8 108 8
+13d3 4 443 8
+13d7 3 108 8
+13da 9 108 8
+13e3 9 108 8
+13ec 14 877 13
+1400 3 877 13
+1403 3 877 13
+1406 2 90 5
+1408 7 51 9
+140f 8 176 0
+1417 4 445 8
+141b 4 446 8
+141f 8 443 8
+1427 8 176 0
+142f 4 108 8
+1433 9 108 8
+143c 4 270 8
+1440 9 109 8
+1449 4 270 8
+144d 9 57 20
+1456 6 281 8
+145c 24 58 20
+1480 3 59 20
+1483 6 58 20
+1489 c 286 8
+1495 7 57 20
+149c 4 281 8
+14a0 2 57 20
+14a2 4 795 8
+14a6 3 90 5
+14a9 d 62 9
+14b6 9 214 0
+14bf a 795 8
+14c9 c 796 8
+14d5 5 465 8
+14da 16 465 8
+14f0 4 1053 13
+14f4 2 90 5
+14f6 9 62 9
+14ff 8 214 0
+1507 6 1053 13
+150d 1d 1053 13
+152a 5 222 6
+152f a 465 8
+1539 8 836 8
+1541 4 66 20
+1545 c 68 20
+1551 4 69 20
+1555 e 69 20
+1563 4 68 20
+1567 a 70 20
+1571 8 73 20
+1579 8 45 21
+1581 a 46 21
+158b 7 103 12
+1592 7 103 12
+1599 20 75 20
+15b9 6 76 20
+15bf b 79 20
+15ca f 80 20
+FUNC 15e0 a 0 QMinimalIntegration::QMinimalIntegration(QStringList const&)
+15e0 4 67 20
+15e4 1 67 20
+15e5 5 0 20
+FUNC 15f0 20 0 <name omitted>
+15f0 4 83 20
+15f4 a 83 20
+15fe 4 84 20
+1602 c 84 20
+160e 2 85 20
+FUNC 1610 20 0 <name omitted>
+1610 4 83 20
+1614 a 83 20
+161e 4 84 20
+1622 c 84 20
+162e 2 85 20
+FUNC 1630 30 0 QMinimalIntegration::~QMinimalIntegration()
+1630 9 83 20
+1639 a 83 20
+1643 4 84 20
+1647 b 84 20
+1652 e 83 20
+FUNC 1660 17 0 QMinimalIntegration::hasCapability(QPlatformIntegration::Capability) const
+1660 6 88 20
+1666 a 89 20
+1670 5 92 20
+1675 2 94 20
+FUNC 1680 45 0 QMinimalIntegration::fontDatabase() const
+1680 9 106 20
+1689 4 107 20
+168d 2 107 20
+168f 4 109 20
+1693 a 109 20
+169d 5 110 20
+16a2 a 99 20
+16ac 4 110 20
+16b0 7 112 20
+16b7 e 108 20
+FUNC 16d0 36 0 QMinimalIntegration::createPlatformWindow(QWindow*) const
+16d0 f 115 20
+16df 8 117 20
+16e7 b 117 20
+16f2 c 118 20
+16fe 8 119 20
+FUNC 1710 2a 0 QMinimalIntegration::createPlatformBackingStore(QWindow*) const
+1710 f 123 20
+171f 8 124 20
+1727 b 124 20
+1732 8 124 20
+FUNC 1740 a 0 QMinimalIntegration::createEventDispatcher() const
+1740 4 128 20
+1744 1 136 20
+1745 5 0 20
+FUNC 1750 10 0 QMinimalIntegration::instance()
+1750 4 141 20
+1754 a 96 14
+175e 2 142 20
+FUNC 1760 a 0 <name omitted>
+1760 4 42 21
+1764 1 42 21
+1765 5 0 21
+FUNC 1770 1c 0 QMinimalScreen::~QMinimalScreen()
+1770 9 42 21
+1779 5 42 21
+177e e 42 21
+FUNC 1790 e 0 QMinimalScreen::geometry() const
+1790 4 48 21
+1794 8 48 21
+179c 2 48 21
+FUNC 17a0 b 0 QPlatformScreen::availableGeometry() const
+17a0 4 91 15
+17a4 7 91 15
+FUNC 17b0 9 0 QMinimalScreen::depth() const
+17b0 4 49 21
+17b4 3 49 21
+17b7 2 49 21
+FUNC 17c0 9 0 QMinimalScreen::format() const
+17c0 4 50 21
+17c4 3 50 21
+17c7 2 50 21
+FUNC 17d0 13 0 QPlatformScreen::name() const
+17d0 4 115 15
+17d4 a 1052 13
+17de 5 115 15
+FUNC 17f0 a 0 <name omitted>
+17f0 4 99 20
+17f4 1 99 20
+17f5 5 0 20
+FUNC 1800 1c 0 DummyFontDatabase::~DummyFontDatabase()
+1800 9 99 20
+1809 5 99 20
+180e e 99 20
+FUNC 1820 6 0 DummyFontDatabase::populateFontDatabase()
+1820 4 102 20
+1824 2 102 20
+FUNC 1830 115 0 QMinimalBackingStore::QMinimalBackingStore(QWindow*)
+1830 10 47 19
+1840 5 45 19
+1845 a 47 19
+184f 9 44 19
+1858 5 46 19
+185d 3 77 21
+1860 8 46 19
+1868 8 48 19
+1870 7 62 1
+1877 17 62 1
+188e 13 62 1
+18a1 5 49 19
+18a6 4 124 2
+18aa 18 530 13
+18c2 b 124 2
+18cd 4 1053 13
+18d1 2 90 5
+18d3 9 62 9
+18dc 8 214 0
+18e4 6 1053 13
+18ea e 1053 13
+18f8 5 222 6
+18fd 4 98 2
+1901 b 98 2
+190c 5 98 2
+1911 4 121 2
+1915 8 121 2
+191d 4 98 2
+1921 b 98 2
+192c 9 98 2
+1935 5 49 19
+193a b 50 19
+FUNC 1950 a 0 QMinimalBackingStore::QMinimalBackingStore(QWindow*)
+1950 4 47 19
+1954 1 47 19
+1955 5 0 19
+FUNC 1960 2a 0 <name omitted>
+1960 9 53 19
+1969 a 53 19
+1973 17 54 19
+FUNC 1990 2a 0 <name omitted>
+1990 9 53 19
+1999 a 53 19
+19a3 17 54 19
+FUNC 19c0 32 0 QMinimalBackingStore::~QMinimalBackingStore()
+19c0 9 53 19
+19c9 a 53 19
+19d3 11 54 19
+19e4 e 53 19
+FUNC 1a00 d6 0 QMinimalBackingStore::paintDevice()
+1a00 10 57 19
+1a10 a 58 19
+1a1a 7 62 1
+1a21 17 62 1
+1a38 13 62 1
+1a4b 5 59 19
+1a50 4 124 2
+1a54 18 530 13
+1a6c b 124 2
+1a77 4 1053 13
+1a7b 2 90 5
+1a7d 9 62 9
+1a86 8 214 0
+1a8e 6 1053 13
+1a94 e 1053 13
+1aa2 5 222 6
+1aa7 4 98 2
+1aab b 98 2
+1ab6 9 98 2
+1abf 5 59 19
+1ac4 4 61 19
+1ac8 e 61 19
+FUNC 1ae0 247 0 QMinimalBackingStore::flush(QWindow*, QRegion const&, QPoint const&)
+1ae0 12 65 19
+1af2 b 70 19
+1afd 11 650 13
+1b0e 4 650 13
+1b12 7 896 13
+1b19 22 72 19
+1b3b 5 896 13
+1b40 4 1053 13
+1b44 2 90 5
+1b46 9 62 9
+1b4f 8 214 0
+1b57 6 1053 13
+1b5d e 1053 13
+1b6b 5 222 6
+1b70 7 62 1
+1b77 17 62 1
+1b8e 13 62 1
+1ba1 5 73 19
+1ba6 4 124 2
+1baa 18 530 13
+1bc2 b 124 2
+1bcd 4 1053 13
+1bd1 2 90 5
+1bd3 9 62 9
+1bdc 8 214 0
+1be4 6 1053 13
+1bea e 1053 13
+1bf8 5 222 6
+1bfd 4 98 2
+1c01 b 98 2
+1c0c d 98 2
+1c19 5 73 19
+1c1e 4 483 7
+1c22 4 530 13
+1c26 b 124 2
+1c31 f 530 13
+1c40 b 530 13
+1c4b b 124 2
+1c56 4 1053 13
+1c5a 2 90 5
+1c5c 9 62 9
+1c65 8 214 0
+1c6d 6 1053 13
+1c73 e 1053 13
+1c81 5 222 6
+1c86 4 98 2
+1c8a b 98 2
+1c95 5 98 2
+1c9a 4 459 7
 1c9e 2 90 5
 1ca0 9 62 9
 1ca9 8 214 0
-1cb1 6 1053 13
-1cb7 e 1053 13
-1cc5 5 222 6
-1cca d 76 20
-FUNC 1ce0 7b 0 QMinimalBackingStore::resize(QSize const&, QRegion const&)
-1ce0 15 79 20
-1cf5 19 80 20
-1d0e c 81 20
-1d1a 5 159 12
-1d1f 4 81 20
-1d23 a 159 12
-1d2d 21 82 20
-1d4e d 83 20
-FUNC 1d60 23 0 <name omitted>
-1d60 9 55 18
-1d69 13 55 18
-1d7c 7 55 18
-FUNC 1d90 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA(QObject*)
-1d90 9 55 18
-1d99 13 55 18
-1dac 7 55 18
-FUNC 1dc0 a 0 <name omitted>
-1dc0 4 58 18
-1dc4 1 58 18
-1dc5 5 0 18
-FUNC 1dd0 a 0 <name omitted>
-1dd0 4 58 18
-1dd4 1 58 18
-1dd5 5 0 18
-FUNC 1de0 1c 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA()
-1de0 9 58 18
-1de9 5 58 18
-1dee e 58 18
-FUNC 1e00 20 0 QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>)
-1e00 9 61 18
-1e09 8 62 18
-1e11 f 63 18
-FUNC 1e20 1d 0 QUnixEventDispatcherQPA::hasPendingEvents()
-1e20 4 67 18
-1e24 d 69 18
-1e31 c 69 18
-FUNC 1e40 1d 0 QUnixEventDispatcherQPA::flush()
-1e40 4 73 18
-1e44 7 110 3
-1e4b a 74 18
-1e55 6 75 18
-1e5b 2 76 18
-FUNC 1e60 27 0 createUnixEventDispatcher()
-1e60 b 41 17
-1e6b 1c 47 17
-FUNC 1e90 6 0 QUnixEventDispatcherQPA::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-1e90 4 56 23
-1e94 2 61 23
-FUNC 1ea0 1e 0 QUnixEventDispatcherQPA::metaObject() const
-1ea0 4 70 23
-1ea4 4 113 10
-1ea8 7 71 23
-1eaf f 71 23
-FUNC 1ec0 3e 0 QUnixEventDispatcherQPA::qt_metacast(char const*)
-1ec0 f 75 23
-1ecf 5 76 23
-1ed4 13 77 23
-1ee7 12 79 23
-1ef9 5 80 23
-FUNC 1f00 a 0 QUnixEventDispatcherQPA::qt_metacall(QMetaObject::Call, int, void**)
-1f00 4 83 23
-1f04 1 84 23
-1f05 5 0 23
-PUBLIC 2340 0 qt_meta_data_QMinimalIntegrationPlugin
-PUBLIC 2380 0 typeinfo name for QMinimalIntegrationPlugin
-PUBLIC 23a0 0 qt_meta_stringdata_QMinimalIntegrationPlugin
-PUBLIC 23e0 0 debugBackingStoreEnvironmentVariable
-PUBLIC 2400 0 typeinfo name for QMinimalIntegration
-PUBLIC 2420 0 typeinfo name for DummyFontDatabase
-PUBLIC 2440 0 typeinfo name for QMinimalScreen
-PUBLIC 2460 0 typeinfo name for QMinimalBackingStore
-PUBLIC 2480 0 qt_meta_data_QUnixEventDispatcherQPA
-PUBLIC 24c0 0 typeinfo name for QUnixEventDispatcherQPA
-PUBLIC 24e0 0 qt_meta_stringdata_QUnixEventDispatcherQPA
-PUBLIC 2510 0 qt_section_alignment_dummy
-PUBLIC 2520 0 qt_pluginMetaData
+1cb1 6 459 7
+1cb7 e 459 7
+1cc5 9 222 6
+1cce 5 73 19
+1cd3 17 74 19
+1cea 4 1053 13
+1cee 2 90 5
+1cf0 9 62 9
+1cf9 8 214 0
+1d01 6 1053 13
+1d07 e 1053 13
+1d15 5 222 6
+1d1a d 76 19
+FUNC 1d30 7b 0 QMinimalBackingStore::resize(QSize const&, QRegion const&)
+1d30 15 79 19
+1d45 19 80 19
+1d5e c 81 19
+1d6a 5 159 12
+1d6f 4 81 19
+1d73 a 159 12
+1d7d e 82 19
+1d8b b 82 19
+1d96 8 82 19
+1d9e d 83 19
+FUNC 1db0 23 0 <name omitted>
+1db0 9 55 17
+1db9 5 54 17
+1dbe e 55 17
+1dcc 7 55 17
+FUNC 1de0 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA(QObject*)
+1de0 9 55 17
+1de9 5 54 17
+1dee e 55 17
+1dfc 7 55 17
+FUNC 1e10 a 0 <name omitted>
+1e10 4 58 17
+1e14 1 58 17
+1e15 5 0 17
+FUNC 1e20 a 0 <name omitted>
+1e20 4 58 17
+1e24 1 58 17
+1e25 5 0 17
+FUNC 1e30 1c 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA()
+1e30 9 58 17
+1e39 5 58 17
+1e3e e 58 17
+FUNC 1e50 20 0 QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>)
+1e50 9 61 17
+1e59 8 62 17
+1e61 7 63 17
+1e68 3 62 17
+1e6b 5 63 17
+FUNC 1e70 1d 0 QUnixEventDispatcherQPA::hasPendingEvents()
+1e70 4 67 17
+1e74 9 69 17
+1e7d 4 69 17
+1e81 a 69 17
+1e8b 2 69 17
+FUNC 1e90 1d 0 QUnixEventDispatcherQPA::flush()
+1e90 4 73 17
+1e94 7 110 3
+1e9b a 74 17
+1ea5 6 75 17
+1eab 2 76 17
+FUNC 1eb0 27 0 createUnixEventDispatcher()
+1eb0 b 41 16
+1ebb a 47 16
+1ec5 8 47 16
+1ecd a 47 16
+FUNC 1ee0 6 0 QUnixEventDispatcherQPA::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+1ee0 4 56 22
+1ee4 2 61 22
+FUNC 1ef0 1e 0 QUnixEventDispatcherQPA::metaObject() const
+1ef0 4 70 22
+1ef4 4 113 10
+1ef8 7 71 22
+1eff 6 71 22
+1f05 9 71 22
+FUNC 1f10 3e 0 QUnixEventDispatcherQPA::qt_metacast(char const*)
+1f10 f 75 22
+1f1f 5 76 22
+1f24 f 77 22
+1f33 4 77 22
+1f37 12 79 22
+1f49 5 80 22
+FUNC 1f50 a 0 QUnixEventDispatcherQPA::qt_metacall(QMetaObject::Call, int, void**)
+1f50 4 83 22
+1f54 1 84 22
+1f55 5 0 22
+PUBLIC 2370 0 qt_meta_data_QMinimalIntegrationPlugin
+PUBLIC 23b0 0 typeinfo name for QMinimalIntegrationPlugin
+PUBLIC 23d0 0 qt_meta_stringdata_QMinimalIntegrationPlugin
+PUBLIC 2410 0 debugBackingStoreEnvironmentVariable
+PUBLIC 2430 0 typeinfo name for QMinimalIntegration
+PUBLIC 2450 0 typeinfo name for QMinimalScreen
+PUBLIC 2470 0 typeinfo name for DummyFontDatabase
+PUBLIC 2490 0 typeinfo name for QMinimalBackingStore
+PUBLIC 24b0 0 qt_meta_data_QUnixEventDispatcherQPA
+PUBLIC 24f0 0 typeinfo name for QUnixEventDispatcherQPA
+PUBLIC 2510 0 qt_meta_stringdata_QUnixEventDispatcherQPA
+PUBLIC 2540 0 qt_section_alignment_dummy
+PUBLIC 2550 0 qt_pluginMetaData
 PUBLIC 31e0 0 QMinimalIntegrationPlugin::staticMetaObject
 PUBLIC 3210 0 vtable for QMinimalIntegrationPlugin
 PUBLIC 3290 0 typeinfo for QMinimalIntegrationPlugin
@@ -452,194 +508,190 @@ PUBLIC 3440 0 typeinfo for QMinimalBackingStore
 PUBLIC 3460 0 QUnixEventDispatcherQPA::staticMetaObject
 PUBLIC 3490 0 vtable for QUnixEventDispatcherQPA
 PUBLIC 3580 0 typeinfo for QUnixEventDispatcherQPA
-PUBLIC 35a0 0 vtable for DummyFontDatabase
-PUBLIC 3640 0 typeinfo for DummyFontDatabase
-PUBLIC 3660 0 vtable for QMinimalScreen
-PUBLIC 3710 0 typeinfo for QMinimalScreen
-PUBLIC 3728 0 qt_plugin_instance::_instance
-PUBLIC 3738 0 guard variable for qt_plugin_instance::_instance
-PUBLIC 3740 0 QMinimalBackingStore::flush(QWindow*, QRegion const&, QPoint const&)::c
-STACK CFI INIT 1070 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1071 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1074 .cfa: $rbp 16 +
-STACK CFI 1077 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 10c0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 10c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 10c4 .cfa: $rbp 16 +
-STACK CFI INIT 10d0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 10d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 10d4 .cfa: $rbp 16 +
-STACK CFI INIT 10f0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 10f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 10f4 .cfa: $rbp 16 +
-STACK CFI 10f7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1130 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+PUBLIC 35a0 0 vtable for QMinimalScreen
+PUBLIC 3650 0 typeinfo for QMinimalScreen
+PUBLIC 3668 0 vtable for DummyFontDatabase
+PUBLIC 3700 0 typeinfo for DummyFontDatabase
+PUBLIC 3718 0 qt_plugin_instance::_instance
+PUBLIC 3728 0 guard variable for qt_plugin_instance::_instance
+PUBLIC 3730 0 QMinimalBackingStore::flush(QWindow*, QRegion const&, QPoint const&)::c
+STACK CFI INIT 10e0 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 10e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 10e4 .cfa: $rbp 16 +
+STACK CFI 10e7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1130 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1131 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1134 .cfa: $rbp 16 +
-STACK CFI INIT 1140 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1140 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1141 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1144 .cfa: $rbp 16 +
-STACK CFI INIT 1150 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1151 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1154 .cfa: $rbp 16 +
-STACK CFI 115b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 12a0 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 12a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 12a4 .cfa: $rbp 16 +
-STACK CFI INIT 12e0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 12e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 12e4 .cfa: $rbp 16 +
-STACK CFI INIT 12f0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 12f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 12f4 .cfa: $rbp 16 +
-STACK CFI 12f6 $rbx: .cfa -24 + ^
-STACK CFI INIT 1310 1d9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1160 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1161 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1164 .cfa: $rbp 16 +
+STACK CFI 1167 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 11a0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 11a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 11a4 .cfa: $rbp 16 +
+STACK CFI INIT 11b0 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 11b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 11b4 .cfa: $rbp 16 +
+STACK CFI INIT 11c0 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 11c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 11c4 .cfa: $rbp 16 +
+STACK CFI 11cb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1310 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1311 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1314 .cfa: $rbp 16 +
-STACK CFI 1321 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 14f0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 14f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 14f4 .cfa: $rbp 16 +
-STACK CFI INIT 1500 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1501 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1504 .cfa: $rbp 16 +
-STACK CFI INIT 1520 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1521 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1524 .cfa: $rbp 16 +
-STACK CFI INIT 1540 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1541 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1544 .cfa: $rbp 16 +
-STACK CFI 1546 $rbx: .cfa -24 + ^
-STACK CFI INIT 1570 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1571 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1574 .cfa: $rbp 16 +
-STACK CFI INIT 1590 45 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1591 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1594 .cfa: $rbp 16 +
-STACK CFI 1596 $rbx: .cfa -24 + ^
-STACK CFI INIT 15e0 36 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1350 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1351 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1354 .cfa: $rbp 16 +
+STACK CFI INIT 1360 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1361 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1364 .cfa: $rbp 16 +
+STACK CFI 1366 $rbx: .cfa -24 + ^
+STACK CFI INIT 1380 259 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1381 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1384 .cfa: $rbp 16 +
+STACK CFI 1391 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 15e0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 15e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 15e4 .cfa: $rbp 16 +
-STACK CFI 15e7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1620 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1621 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1624 .cfa: $rbp 16 +
-STACK CFI 1627 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1650 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1651 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1654 .cfa: $rbp 16 +
-STACK CFI INIT 1660 10 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 15f0 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 15f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 15f4 .cfa: $rbp 16 +
+STACK CFI INIT 1610 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1611 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1614 .cfa: $rbp 16 +
+STACK CFI INIT 1630 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1631 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1634 .cfa: $rbp 16 +
+STACK CFI 1636 $rbx: .cfa -24 + ^
+STACK CFI INIT 1660 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1661 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1664 .cfa: $rbp 16 +
-STACK CFI INIT 1670 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1671 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1674 .cfa: $rbp 16 +
-STACK CFI INIT 1680 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1680 45 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1681 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1684 .cfa: $rbp 16 +
 STACK CFI 1686 $rbx: .cfa -24 + ^
-STACK CFI INIT 16a0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 16a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 16a4 .cfa: $rbp 16 +
-STACK CFI INIT 16b0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 16b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 16b4 .cfa: $rbp 16 +
-STACK CFI INIT 16c0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 16c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 16c4 .cfa: $rbp 16 +
-STACK CFI 16c6 $rbx: .cfa -24 + ^
-STACK CFI INIT 16e0 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 16e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 16e4 .cfa: $rbp 16 +
-STACK CFI INIT 16f0 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 16f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 16f4 .cfa: $rbp 16 +
-STACK CFI INIT 1700 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1701 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1704 .cfa: $rbp 16 +
-STACK CFI INIT 1710 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 16d0 36 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 16d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 16d4 .cfa: $rbp 16 +
+STACK CFI 16d7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1710 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1711 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1714 .cfa: $rbp 16 +
-STACK CFI INIT 1720 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1721 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1724 .cfa: $rbp 16 +
-STACK CFI INIT 1740 9d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1717 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1740 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1741 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1744 .cfa: $rbp 16 +
-STACK CFI 174b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 17e0 115 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 17e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 17e4 .cfa: $rbp 16 +
-STACK CFI 17ed $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 1900 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1901 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1904 .cfa: $rbp 16 +
-STACK CFI INIT 1910 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1911 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1914 .cfa: $rbp 16 +
-STACK CFI 1916 $rbx: .cfa -24 + ^
-STACK CFI INIT 1940 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1941 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1944 .cfa: $rbp 16 +
-STACK CFI 1946 $rbx: .cfa -24 + ^
-STACK CFI INIT 1970 32 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1971 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1974 .cfa: $rbp 16 +
-STACK CFI 1976 $rbx: .cfa -24 + ^
-STACK CFI INIT 19b0 d6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 19b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 19b4 .cfa: $rbp 16 +
-STACK CFI 19bd $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 1a90 247 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1a91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1a94 .cfa: $rbp 16 +
-STACK CFI 1a9f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 1ce0 7b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ce1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ce4 .cfa: $rbp 16 +
-STACK CFI 1cef $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 1d60 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1d61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1d64 .cfa: $rbp 16 +
-STACK CFI 1d66 $rbx: .cfa -24 + ^
-STACK CFI INIT 1d90 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1d91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1d94 .cfa: $rbp 16 +
-STACK CFI 1d96 $rbx: .cfa -24 + ^
-STACK CFI INIT 1dc0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1dc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1dc4 .cfa: $rbp 16 +
-STACK CFI INIT 1dd0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1dd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1dd4 .cfa: $rbp 16 +
-STACK CFI INIT 1de0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1750 10 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1751 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1754 .cfa: $rbp 16 +
+STACK CFI INIT 1760 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1761 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1764 .cfa: $rbp 16 +
+STACK CFI INIT 1770 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1771 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1774 .cfa: $rbp 16 +
+STACK CFI 1776 $rbx: .cfa -24 + ^
+STACK CFI INIT 1790 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1791 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1794 .cfa: $rbp 16 +
+STACK CFI INIT 17a0 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17a4 .cfa: $rbp 16 +
+STACK CFI INIT 17b0 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17b4 .cfa: $rbp 16 +
+STACK CFI INIT 17c0 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17c4 .cfa: $rbp 16 +
+STACK CFI INIT 17d0 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17d4 .cfa: $rbp 16 +
+STACK CFI INIT 17f0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17f4 .cfa: $rbp 16 +
+STACK CFI INIT 1800 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1801 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1804 .cfa: $rbp 16 +
+STACK CFI 1806 $rbx: .cfa -24 + ^
+STACK CFI INIT 1820 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1821 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1824 .cfa: $rbp 16 +
+STACK CFI INIT 1830 115 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1831 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1834 .cfa: $rbp 16 +
+STACK CFI 183d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 1950 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1951 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1954 .cfa: $rbp 16 +
+STACK CFI INIT 1960 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1961 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1964 .cfa: $rbp 16 +
+STACK CFI 1966 $rbx: .cfa -24 + ^
+STACK CFI INIT 1990 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1991 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1994 .cfa: $rbp 16 +
+STACK CFI 1996 $rbx: .cfa -24 + ^
+STACK CFI INIT 19c0 32 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 19c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 19c4 .cfa: $rbp 16 +
+STACK CFI 19c6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1a00 d6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a04 .cfa: $rbp 16 +
+STACK CFI 1a0d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 1ae0 247 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ae1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ae4 .cfa: $rbp 16 +
+STACK CFI 1aef $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 1d30 7b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1d31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1d34 .cfa: $rbp 16 +
+STACK CFI 1d3f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 1db0 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1db1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1db4 .cfa: $rbp 16 +
+STACK CFI 1db6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1de0 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1de1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1de4 .cfa: $rbp 16 +
 STACK CFI 1de6 $rbx: .cfa -24 + ^
-STACK CFI INIT 1e00 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e04 .cfa: $rbp 16 +
-STACK CFI 1e07 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1e20 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1e10 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e14 .cfa: $rbp 16 +
+STACK CFI INIT 1e20 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1e21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1e24 .cfa: $rbp 16 +
-STACK CFI INIT 1e40 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e44 .cfa: $rbp 16 +
-STACK CFI INIT 1e60 27 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e64 .cfa: $rbp 16 +
-STACK CFI 1e66 $rbx: .cfa -24 + ^
-STACK CFI INIT 1e90 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1e30 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e34 .cfa: $rbp 16 +
+STACK CFI 1e36 $rbx: .cfa -24 + ^
+STACK CFI INIT 1e50 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e54 .cfa: $rbp 16 +
+STACK CFI 1e57 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1e70 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1e71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1e74 .cfa: $rbp 16 +
+STACK CFI INIT 1e90 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1e91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1e94 .cfa: $rbp 16 +
-STACK CFI INIT 1ea0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ea1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ea4 .cfa: $rbp 16 +
-STACK CFI INIT 1ec0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ec1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ec4 .cfa: $rbp 16 +
-STACK CFI 1ec7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1f00 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1f01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1f04 .cfa: $rbp 16 +
+STACK CFI INIT 1eb0 27 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1eb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1eb4 .cfa: $rbp 16 +
+STACK CFI 1eb6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1ee0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ee1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ee4 .cfa: $rbp 16 +
+STACK CFI INIT 1ef0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ef1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ef4 .cfa: $rbp 16 +
+STACK CFI INIT 1f10 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1f11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1f14 .cfa: $rbp 16 +
+STACK CFI 1f17 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1f50 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1f51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1f54 .cfa: $rbp 16 +

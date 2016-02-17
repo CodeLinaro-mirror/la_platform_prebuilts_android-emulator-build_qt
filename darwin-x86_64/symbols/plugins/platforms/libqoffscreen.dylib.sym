@@ -1,1260 +1,1593 @@
-MODULE mac x86_64 9FACC4F8F31A3D91BFDE5E54357AE5E80 libqoffscreen.dylib
-FILE 0 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 1 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
-FILE 2 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
-FILE 3 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 4 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
-FILE 5 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 6 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qhash.h
-FILE 7 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
-FILE 8 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qmargins.h
-FILE 9 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
-FILE 10 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
-FILE 11 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 12 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 13 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 14 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
-FILE 15 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 16 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qvector.h
-FILE 17 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/kernel/qwindow.h
-FILE 18 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformcursor.h
-FILE 19 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformscreen.h
-FILE 20 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/text/qplatformfontdatabase.h
-FILE 21 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qgenericunixeventdispatcher.cpp
-FILE 22 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qunixeventdispatcher.cpp
-FILE 23 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/main.cpp
-FILE 24 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreencommon.cpp
-FILE 25 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreencommon.h
-FILE 26 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenintegration.cpp
-FILE 27 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenintegration_dummy.cpp
-FILE 28 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenwindow.cpp
-FILE 29 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/platformsupport/.moc/moc_qunixeventdispatcher_qpa_p.cpp
-FILE 30 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/plugins/platforms/offscreen/.moc/main.moc
-FUNC 1780 37 0 QOffscreenIntegrationPlugin::create(QString const&, QStringList const&)
-1780 9 49 23
-1789 1c 51 23
-17a5 8 52 23
-17ad a 55 23
-FUNC 17c0 6 0 QOffscreenIntegrationPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-17c0 4 56 30
-17c4 2 61 30
-FUNC 17d0 1e 0 QOffscreenIntegrationPlugin::metaObject() const
-17d0 4 70 30
-17d4 4 113 12
-17d8 7 71 30
-17df f 71 30
-FUNC 17f0 3e 0 QOffscreenIntegrationPlugin::qt_metacast(char const*)
-17f0 f 75 30
-17ff 5 76 30
-1804 13 77 30
-1817 12 79 30
-1829 5 80 30
-FUNC 1830 a 0 QOffscreenIntegrationPlugin::qt_metacall(QMetaObject::Call, int, void**)
-1830 4 83 30
-1834 1 84 30
-1835 5 0 30
-FUNC 1840 d 0 qt_plugin_query_metadata
-1840 4 173 30
-1844 9 173 30
-FUNC 1850 144 0 qt_plugin_instance
-1850 4 173 30
-1854 21 173 30
-1875 1d 590 13
-1892 1f 173 30
-18b1 c 588 13
-18bd 1b 588 13
-18d8 a 173 30
-18e2 12 40 23
-18f4 b 696 13
-18ff c 702 13
-190b 5 703 13
-1910 8 176 0
-1918 c 705 13
-1924 8 214 0
-192c 6 705 13
-1932 c 706 13
-193e 5 161 13
-1943 7 707 13
-194a 7 708 13
-1951 5 591 13
-1956 8 214 0
-195e 6 591 13
-1964 8 161 13
-196c e 588 13
-197a 1a 588 13
-FUNC 19a0 31 0 QPointer<QObject>::~QPointer()
-19a0 4 64 3
-19a4 c 591 13
-19b0 8 214 0
-19b8 6 591 13
-19be 8 591 13
-19c6 5 161 13
-19cb 6 64 3
-FUNC 19e0 a 0 <name omitted>
-19e0 4 40 23
-19e4 1 40 23
-19e5 5 0 23
-FUNC 19f0 1c 0 QOffscreenIntegrationPlugin::~QOffscreenIntegrationPlugin()
-19f0 9 40 23
-19f9 5 40 23
-19fe e 40 23
-FUNC 1a10 d2 0 QOffscreenIntegration::QOffscreenIntegration()
-1a10 a 92 26
-1a1a a 92 26
-1a24 1d 95 12
-1a41 5 95 26
-1a46 e 87 20
-1a54 9 148 12
-1a5d 8 104 26
-1a65 12 69 25
-1a77 9 145 12
-1a80 4 148 12
-1a84 10 54 12
-1a94 10 106 26
-1aa4 9 145 12
-1aad 4 148 12
-1ab1 10 54 12
-1ac1 21 108 26
-FUNC 1af0 a 0 QOffscreenIntegration::QOffscreenIntegration()
-1af0 4 92 26
-1af4 1 109 26
-1af5 5 0 26
-FUNC 1b00 4d 0 <name omitted>
-1b00 9 112 26
-1b09 a 112 26
-1b13 4 100 12
-1b17 b 54 12
-1b22 4 100 12
-1b26 b 54 12
-1b31 4 100 12
-1b35 11 54 12
-1b46 7 113 26
-FUNC 1b50 4d 0 <name omitted>
-1b50 9 112 26
-1b59 a 112 26
-1b63 4 100 12
-1b67 b 54 12
-1b72 4 100 12
-1b76 b 54 12
-1b81 4 100 12
-1b85 11 54 12
-1b96 7 113 26
-FUNC 1ba0 4e 0 QOffscreenIntegration::~QOffscreenIntegration()
-1ba0 9 112 26
-1ba9 a 112 26
-1bb3 4 100 12
-1bb7 b 54 12
-1bc2 4 100 12
-1bc6 b 54 12
-1bd1 4 100 12
-1bd5 b 54 12
-1be0 e 112 26
-FUNC 1bf0 17 0 QOffscreenIntegration::hasCapability(QPlatformIntegration::Capability) const
-1bf0 6 116 26
-1bf6 a 117 26
-1c00 5 120 26
-1c05 2 122 26
-FUNC 1c10 36 0 QOffscreenIntegration::createPlatformWindow(QWindow*) const
-1c10 f 125 26
-1c1f 8 127 26
-1c27 b 127 26
-1c32 c 128 26
-1c3e 8 129 26
-FUNC 1c50 2a 0 QOffscreenIntegration::createPlatformBackingStore(QWindow*) const
-1c50 f 133 26
-1c5f 1b 134 26
-FUNC 1c80 a 0 QOffscreenIntegration::createEventDispatcher() const
-1c80 4 138 26
-1c84 1 140 26
-1c85 5 0 26
-FUNC 1c90 a 0 QOffscreenIntegration::fontDatabase() const
-1c90 4 153 26
-1c94 4 135 12
-1c98 2 154 26
-FUNC 1ca0 a 0 QOffscreenIntegration::drag() const
-1ca0 4 159 26
-1ca4 4 135 12
-1ca8 2 160 26
-FUNC 1cb0 a 0 QOffscreenIntegration::services() const
-1cb0 4 165 26
-1cb4 4 135 12
-1cb8 2 166 26
-FUNC 1cc0 a 0 <name omitted>
-1cc0 4 69 25
-1cc4 1 69 25
-1cc5 5 0 25
-FUNC 1cd0 1c 0 QOffscreenDrag::~QOffscreenDrag()
-1cd0 9 69 25
-1cd9 5 69 25
-1cde e 69 25
-FUNC 1cf0 8 0 QOffscreenDrag::platformDropData()
-1cf0 6 72 25
-1cf6 2 72 25
-FUNC 1d00 8 0 QOffscreenDrag::drag(QDrag*)
-1d00 6 73 25
-1d06 2 73 25
-FUNC 1d10 d8 0 QOffscreenWindow::QOffscreenWindow(QWindow*)
-1d10 13 49 28
-1d23 f 49 28
-1d32 1c 50 10
-1d4e 1a 49 28
-1d68 c 50 28
-1d74 7 53 28
-1d7b 8 53 28
-1d83 a 53 28
-1d8d 7 51 28
-1d94 14 51 28
-1da8 8 51 28
-1db0 5 55 28
-1db5 19 58 28
-1dce f 60 28
-1ddd b 61 28
-FUNC 1df0 a 0 QOffscreenWindow::QOffscreenWindow(QWindow*)
-1df0 4 49 28
-1df4 1 61 28
-1df5 5 0 28
-FUNC 1e00 44 0 <name omitted>
-1e00 9 64 28
-1e09 a 64 28
-1e13 c 65 28
-1e1f 7 66 28
-1e26 10 67 28
-1e36 e 68 28
-FUNC 1e50 44 0 <name omitted>
-1e50 9 64 28
-1e59 a 64 28
-1e63 c 65 28
-1e6f 7 66 28
-1e76 10 67 28
-1e86 e 68 28
-FUNC 1ea0 4c 0 QOffscreenWindow::~QOffscreenWindow()
-1ea0 9 64 28
-1ea9 a 64 28
-1eb3 c 65 28
-1ebf 7 66 28
-1ec6 10 67 28
-1ed6 8 68 28
-1ede e 64 28
-FUNC 1ef0 8e 0 QOffscreenWindow::setGeometry(QRect const&)
-1ef0 d 71 28
-1efd 11 72 28
-1f0e 8 75 28
-1f16 13 75 28
-1f29 10 154 28
-1f39 4 155 28
-1f3d 5 154 28
-1f42 11 157 28
-1f53 a 155 28
-1f5d b 78 28
-1f68 11 80 28
-1f79 5 81 28
-FUNC 1f80 47 0 QOffscreenWindow::setFrameMarginsEnabled(bool)
-1f80 9 153 28
-1f89 5 154 28
-1f8e 15 154 28
-1fa3 12 157 28
-1fb5 b 155 28
-1fc0 7 158 28
-FUNC 1fd0 158 0 QOffscreenWindow::setGeometryImpl(QRect const&)
-1fd0 e 84 28
-1fde f 85 28
-1fed 18 251 10
-2005 4 86 28
-2009 3 393 10
-200c 4 254 10
-2010 4 88 28
-2014 3 396 10
-2017 4 91 28
-201b 3 105 8
-201e 2 91 28
-2020 23 261 10
-2043 4 95 28
-2047 1c 261 10
-2063 3 108 8
-2066 4 97 28
-206a 17 261 10
-2081 8 101 28
-2089 a 103 28
-2093 8 104 28
-209b 18 50 10
-20b3 8 104 28
-20bb b 105 28
-20c6 16 251 10
-20dc 7 176 10
-20e3 7 176 10
-20ea 5 176 10
-20ef f 176 10
-20fe 1d 105 28
-211b 4 107 28
-211f 9 109 28
-FUNC 2130 127 0 QOffscreenWindow::setVisible(bool)
-2130 15 112 28
-2145 10 113 28
-2155 3 130 28
-2158 9 116 28
-2161 12 117 28
-2173 d 118 28
-2180 8 118 28
-2188 6 120 28
-218e 4 121 28
-2192 b 122 28
-219d 11 122 28
-21ae 18 50 10
-21c6 8 122 28
-21ce 9 127 28
-21d7 5 251 10
-21dc c 254 10
-21e8 7 176 10
-21ef 7 176 10
-21f6 5 176 10
-21fb 5 176 10
-2200 15 128 28
-2215 a 128 28
-221f c 130 28
-222b 1b 130 28
-2246 4 133 28
-224a d 134 28
-FUNC 2260 1f 0 QOffscreenWindow::requestActivateWindow()
-2260 4 137 28
-2264 6 138 28
-226a a 139 28
-2274 9 139 28
-227d 2 140 28
-FUNC 2280 a 0 QOffscreenWindow::winId() const
-2280 4 143 28
-2284 6 144 28
-FUNC 2290 e 0 QOffscreenWindow::frameMargins() const
-2290 4 148 28
-2294 a 149 28
-FUNC 22a0 eb 0 QOffscreenWindow::setWindowState(Qt::WindowState)
-22a0 11 161 28
-22b1 6 162 28
-22b7 15 154 28
-22cc 12 157 28
-22de b 155 28
-22e9 4 163 28
-22ed b 165 28
-22f8 14 170 28
-230c 17 382 10
-2323 7 173 10
-232a 7 173 10
-2331 e 170 28
-233f c 175 28
-234b 1d 167 28
-2368 8 175 28
-2370 8 181 28
-2378 13 181 28
-FUNC 2390 84 0 QOffscreenWindow::windowForWinId(unsigned long long)
-2390 4 185 28
-2394 8 186 28
-239c f 669 6
-23ab 7 951 6
-23b2 5 186 28
-23b7 c 81 6
-23c3 b 957 6
-23ce 12 959 6
-23e0 b 246 6
-23eb 6 959 6
-23f1 f 186 28
-2400 3 669 6
-2403 8 672 6
-240b 4 669 6
-240f 3 670 6
-2412 2 186 28
-FUNC 2420 19b 0 QHash<unsigned long long, QOffscreenWindow*>::operator[](unsigned long long const&)
-2420 14 788 6
-2434 a 363 6
-243e 24 633 6
-2462 3 634 6
-2465 3 90 4
-2468 9 62 11
-2471 9 214 0
-247a 6 634 6
-2480 3 635 6
-2483 c 621 6
-248f 3 636 6
-2492 4 951 6
-2496 3 952 6
-2499 e 81 6
-24a7 4 956 6
-24ab f 957 6
-24ba 16 959 6
-24d0 12 246 6
-24e2 10 959 6
-24f2 3 792 6
-24f5 9 793 6
-24fe 6 193 6
-2504 f 194 6
-2513 7 951 6
-251a 3 952 6
-251d e 81 6
-252b 4 956 6
-252f f 957 6
-253e 1d 959 6
-255b 16 246 6
-2571 d 600 6
-257e 8 600 6
-2586 16 245 6
-259c 3 600 6
-259f 3 601 6
-25a2 6 602 6
-25a8 4 796 6
-25ac f 799 6
-FUNC 25c0 1b0 0 QHash<unsigned long long, QOffscreenWindow*>::remove(unsigned long long const&)
-25c0 14 834 6
-25d4 15 357 6
-25e9 7 363 6
-25f0 24 633 6
-2614 7 634 6
-261b 3 90 4
-261e 9 62 11
-2627 9 214 0
-2630 6 634 6
-2636 7 635 6
-263d c 621 6
-2649 7 636 6
-2650 4 839 6
-2654 8 951 6
-265c 3 952 6
-265f d 81 6
-266c e 957 6
-267a 16 959 6
-2690 11 246 6
-26a1 10 959 6
-26b1 4 840 6
-26b5 1b 841 6
-26d0 3 844 6
-26d3 d 845 6
-26e0 8 576 6
-26e8 3 847 6
-26eb d 848 6
-26f8 3 845 6
-26fb b 848 6
-2706 8 576 6
-270e 3 847 6
-2711 11 848 6
-2722 15 203 6
-2737 5 205 6
-273c 7 203 6
-2743 3 205 6
-2746 2 541 1
-2748 3 205 6
-274b 8 205 6
-2753 e 852 6
-2761 f 853 6
-FUNC 2770 3e 0 QHash<unsigned long long, QOffscreenWindow*>::~QHash()
-2770 b 342 6
-277b 3 342 6
-277e 3 90 4
-2781 9 62 11
-278a 9 214 0
-2793 6 342 6
-2799 3 342 6
-279c c 621 6
-27a8 6 342 6
-FUNC 27b0 6 0 QHash<unsigned long long, QOffscreenWindow*>::deleteNode2(QHashData::Node*)
-27b0 4 581 6
-27b4 2 587 6
-FUNC 27c0 28 0 QHash<unsigned long long, QOffscreenWindow*>::duplicateNode(QHashData::Node*, void*)
-27c0 4 591 6
-27c4 8 593 6
-27cc 1a 245 6
-27e6 2 594 6
-FUNC 27f0 2d 0 <name omitted>
-27f0 4 0 28
-27f4 15 331 6
-2809 14 189 28
-FUNC 2820 6d 0 <name omitted>
-2820 a 92 24
-282a f 92 24
-2839 23 170 10
-285c 8 92 24
-2864 12 50 24
-2876 e 108 9
-2884 4 95 12
-2888 5 93 24
-FUNC 2890 6d 0 QOffscreenScreen::QOffscreenScreen()
+MODULE mac x86_64 6FC312AF06BF3AD2B9B65E2CE52163100 libqoffscreen.dylib
+FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
+FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qcoreapplication.h
+FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qhash.h
+FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qmargins.h
+FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
+FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
+FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 16 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qvector.h
+FILE 17 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/kernel/qwindow.h
+FILE 18 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformcursor.h
+FILE 19 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qplatformscreen.h
+FILE 20 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/text/qplatformfontdatabase.h
+FILE 21 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qgenericunixeventdispatcher.cpp
+FILE 22 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/platformsupport/eventdispatchers/qunixeventdispatcher.cpp
+FILE 23 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/main.cpp
+FILE 24 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreencommon.cpp
+FILE 25 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreencommon.h
+FILE 26 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenintegration.cpp
+FILE 27 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenintegration_dummy.cpp
+FILE 28 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/offscreen/qoffscreenwindow.cpp
+FILE 29 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/platformsupport/.moc/moc_qunixeventdispatcher_qpa_p.cpp
+FILE 30 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/platforms/offscreen/.moc/main.moc
+FUNC 1860 37 0 QOffscreenIntegrationPlugin::create(QString const&, QStringList const&)
+1860 9 49 23
+1869 18 51 23
+1881 4 51 23
+1885 8 52 23
+188d a 55 23
+FUNC 18a0 6 0 QOffscreenIntegrationPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+18a0 4 56 30
+18a4 2 61 30
+FUNC 18b0 1e 0 QOffscreenIntegrationPlugin::metaObject() const
+18b0 4 70 30
+18b4 4 113 12
+18b8 7 71 30
+18bf 6 71 30
+18c5 9 71 30
+FUNC 18d0 3e 0 QOffscreenIntegrationPlugin::qt_metacast(char const*)
+18d0 f 75 30
+18df 5 76 30
+18e4 f 77 30
+18f3 4 77 30
+18f7 12 79 30
+1909 5 80 30
+FUNC 1910 a 0 QOffscreenIntegrationPlugin::qt_metacall(QMetaObject::Call, int, void**)
+1910 4 83 30
+1914 1 84 30
+1915 5 0 30
+FUNC 1920 d 0 qt_plugin_query_metadata
+1920 4 173 30
+1924 9 173 30
+FUNC 1930 144 0 qt_plugin_instance
+1930 4 173 30
+1934 21 173 30
+1955 1d 590 13
+1972 1f 173 30
+1991 7 588 13
+1998 5 588 13
+199d 1b 588 13
+19b8 a 173 30
+19c2 12 40 23
+19d4 b 696 13
+19df 7 702 13
+19e6 5 702 13
+19eb 5 703 13
+19f0 8 176 0
+19f8 c 705 13
+1a04 8 214 0
+1a0c 6 705 13
+1a12 7 706 13
+1a19 5 706 13
+1a1e 5 161 13
+1a23 7 707 13
+1a2a 7 708 13
+1a31 5 591 13
+1a36 8 214 0
+1a3e 6 591 13
+1a44 8 161 13
+1a4c 7 588 13
+1a53 3 588 13
+1a56 4 588 13
+1a5a 6 588 13
+1a60 b 588 13
+1a6b 9 588 13
+FUNC 1a80 31 0 QPointer<QObject>::~QPointer()
+1a80 4 64 3
+1a84 c 591 13
+1a90 8 214 0
+1a98 6 591 13
+1a9e 3 591 13
+1aa1 5 591 13
+1aa6 5 161 13
+1aab 6 64 3
+FUNC 1ac0 a 0 <name omitted>
+1ac0 4 40 23
+1ac4 1 40 23
+1ac5 5 0 23
+FUNC 1ad0 1c 0 QOffscreenIntegrationPlugin::~QOffscreenIntegrationPlugin()
+1ad0 9 40 23
+1ad9 5 40 23
+1ade e 40 23
+FUNC 1af0 d2 0 QOffscreenIntegration::QOffscreenIntegration()
+1af0 a 92 26
+1afa a 92 26
+1b04 1d 94 12
+1b21 5 95 26
+1b26 e 87 20
+1b34 9 148 12
+1b3d 8 104 26
+1b45 12 69 25
+1b57 4 145 12
+1b5b 5 145 12
+1b60 4 148 12
+1b64 10 54 12
+1b74 8 106 26
+1b7c 8 106 26
+1b84 4 145 12
+1b88 5 145 12
+1b8d 4 148 12
+1b91 10 54 12
+1ba1 8 108 26
+1ba9 a 108 26
+1bb3 f 108 26
+FUNC 1bd0 a 0 QOffscreenIntegration::QOffscreenIntegration()
+1bd0 4 92 26
+1bd4 1 92 26
+1bd5 5 0 26
+FUNC 1be0 4d 0 <name omitted>
+1be0 9 112 26
+1be9 a 112 26
+1bf3 4 100 12
+1bf7 b 54 12
+1c02 4 100 12
+1c06 b 54 12
+1c11 4 100 12
+1c15 11 54 12
+1c26 7 113 26
+FUNC 1c30 4d 0 <name omitted>
+1c30 9 112 26
+1c39 a 112 26
+1c43 4 100 12
+1c47 b 54 12
+1c52 4 100 12
+1c56 b 54 12
+1c61 4 100 12
+1c65 11 54 12
+1c76 7 113 26
+FUNC 1c80 4e 0 QOffscreenIntegration::~QOffscreenIntegration()
+1c80 9 112 26
+1c89 a 112 26
+1c93 4 100 12
+1c97 b 54 12
+1ca2 4 100 12
+1ca6 b 54 12
+1cb1 4 100 12
+1cb5 b 54 12
+1cc0 e 112 26
+FUNC 1cd0 17 0 QOffscreenIntegration::hasCapability(QPlatformIntegration::Capability) const
+1cd0 6 116 26
+1cd6 a 117 26
+1ce0 5 120 26
+1ce5 2 122 26
+FUNC 1cf0 36 0 QOffscreenIntegration::createPlatformWindow(QWindow*) const
+1cf0 f 125 26
+1cff 8 127 26
+1d07 b 127 26
+1d12 c 128 26
+1d1e 8 129 26
+FUNC 1d30 2a 0 QOffscreenIntegration::createPlatformBackingStore(QWindow*) const
+1d30 f 133 26
+1d3f 8 134 26
+1d47 b 134 26
+1d52 8 134 26
+FUNC 1d60 a 0 QOffscreenIntegration::createEventDispatcher() const
+1d60 4 138 26
+1d64 1 140 26
+1d65 5 0 26
+FUNC 1d70 a 0 QOffscreenIntegration::fontDatabase() const
+1d70 4 153 26
+1d74 4 135 12
+1d78 2 154 26
+FUNC 1d80 a 0 QOffscreenIntegration::drag() const
+1d80 4 159 26
+1d84 4 135 12
+1d88 2 160 26
+FUNC 1d90 a 0 QOffscreenIntegration::services() const
+1d90 4 165 26
+1d94 4 135 12
+1d98 2 166 26
+FUNC 1da0 a 0 <name omitted>
+1da0 4 69 25
+1da4 1 69 25
+1da5 5 0 25
+FUNC 1db0 1c 0 QOffscreenDrag::~QOffscreenDrag()
+1db0 9 69 25
+1db9 5 69 25
+1dbe e 69 25
+FUNC 1dd0 8 0 QOffscreenDrag::platformDropData()
+1dd0 6 72 25
+1dd6 2 72 25
+FUNC 1de0 8 0 QOffscreenDrag::drag(QDrag*)
+1de0 6 73 25
+1de6 2 73 25
+FUNC 1df0 d8 0 QOffscreenWindow::QOffscreenWindow(QWindow*)
+1df0 13 49 28
+1e03 5 45 28
+1e08 a 49 28
+1e12 11 50 10
+1e23 4 50 10
+1e27 7 50 10
+1e2e 16 46 28
+1e44 4 48 28
+1e48 8 50 28
+1e50 4 50 28
+1e54 7 53 28
+1e5b 8 53 28
+1e63 a 53 28
+1e6d 7 51 28
+1e74 14 51 28
+1e88 8 51 28
+1e90 5 55 28
+1e95 11 58 28
+1ea6 4 58 28
+1eaa 4 58 28
+1eae c 60 28
+1eba 3 60 28
+1ebd b 61 28
+FUNC 1ed0 a 0 QOffscreenWindow::QOffscreenWindow(QWindow*)
+1ed0 4 49 28
+1ed4 1 49 28
+1ed5 5 0 28
+FUNC 1ee0 44 0 <name omitted>
+1ee0 9 64 28
+1ee9 a 64 28
+1ef3 7 65 28
+1efa 5 65 28
+1eff 7 66 28
+1f06 4 67 28
+1f0a c 67 28
+1f16 e 68 28
+FUNC 1f30 44 0 <name omitted>
+1f30 9 64 28
+1f39 a 64 28
+1f43 7 65 28
+1f4a 5 65 28
+1f4f 7 66 28
+1f56 4 67 28
+1f5a c 67 28
+1f66 e 68 28
+FUNC 1f80 4c 0 QOffscreenWindow::~QOffscreenWindow()
+1f80 9 64 28
+1f89 a 64 28
+1f93 7 65 28
+1f9a 5 65 28
+1f9f 7 66 28
+1fa6 4 67 28
+1faa c 67 28
+1fb6 8 68 28
+1fbe e 64 28
+FUNC 1fd0 8e 0 QOffscreenWindow::setGeometry(QRect const&)
+1fd0 d 71 28
+1fdd d 72 28
+1fea 4 72 28
+1fee 8 75 28
+1ff6 8 75 28
+1ffe 7 75 28
+2005 4 75 28
+2009 10 154 28
+2019 4 155 28
+201d 5 154 28
+2022 c 155 28
+202e f 157 28
+203d b 78 28
+2048 9 80 28
+2051 8 80 28
+2059 5 81 28
+FUNC 2060 47 0 QOffscreenWindow::setFrameMarginsEnabled(bool)
+2060 9 153 28
+2069 5 154 28
+206e 10 154 28
+207e 5 154 28
+2083 d 155 28
+2090 10 157 28
+20a0 7 158 28
+FUNC 20b0 11f 0 QOffscreenWindow::setGeometryImpl(QRect const&)
+20b0 e 84 28
+20be f 85 28
+20cd 3 251 10
+20d0 3 251 10
+20d3 3 251 10
+20d6 2 251 10
+20d8 4 86 28
+20dc 5 393 10
+20e1 3 254 10
+20e4 3 254 10
+20e7 3 254 10
+20ea 2 254 10
+20ec 4 88 28
+20f0 5 396 10
+20f5 4 91 28
+20f9 3 105 8
+20fc 2 91 28
+20fe 4 108 8
+2102 5 261 10
+2107 6 262 10
+210d 5 263 10
+2112 5 264 10
+2117 4 95 28
+211b 5 261 10
+2120 5 263 10
+2125 3 108 8
+2128 4 97 28
+212c 5 262 10
+2131 9 264 10
+213a 8 101 28
+2142 4 103 28
+2146 2 103 28
+2148 8 104 28
+2150 8 50 10
+2158 10 50 10
+2168 8 104 28
+2170 b 105 28
+217b 3 251 10
+217e 3 254 10
+2181 3 176 10
+2184 3 176 10
+2187 7 176 10
+218e 7 176 10
+2195 3 176 10
+2198 d 176 10
+21a5 8 105 28
+21ad 15 105 28
+21c2 4 107 28
+21c6 9 109 28
+FUNC 21d0 127 0 QOffscreenWindow::setVisible(bool)
+21d0 15 112 28
+21e5 4 113 28
+21e9 4 113 28
+21ed 8 113 28
+21f5 3 130 28
+21f8 9 116 28
+2201 d 117 28
+220e 5 117 28
+2213 d 118 28
+2220 8 118 28
+2228 6 120 28
+222e 4 121 28
+2232 b 122 28
+223d 11 122 28
+224e 8 50 10
+2256 10 50 10
+2266 8 122 28
+226e 9 127 28
+2277 3 251 10
+227a 2 251 10
+227c 4 254 10
+2280 4 254 10
+2284 2 254 10
+2286 2 254 10
+2288 7 176 10
+228f 7 176 10
+2296 2 176 10
+2298 3 176 10
+229b 2 176 10
+229d 3 176 10
+22a0 15 128 28
+22b5 a 128 28
+22bf c 130 28
+22cb 8 130 28
+22d3 13 130 28
+22e6 4 133 28
+22ea d 134 28
+FUNC 2300 1f 0 QOffscreenWindow::requestActivateWindow()
+2300 4 137 28
+2304 6 138 28
+230a a 139 28
+2314 9 139 28
+231d 2 140 28
+FUNC 2320 a 0 QOffscreenWindow::winId() const
+2320 4 143 28
+2324 4 144 28
+2328 2 144 28
+FUNC 2330 e 0 QOffscreenWindow::frameMargins() const
+2330 4 148 28
+2334 8 149 28
+233c 2 149 28
+FUNC 2340 eb 0 QOffscreenWindow::setWindowState(Qt::WindowState)
+2340 11 161 28
+2351 6 162 28
+2357 10 154 28
+2367 5 154 28
+236c d 155 28
+2379 10 157 28
+2389 4 163 28
+238d b 165 28
+2398 14 170 28
+23ac 2 382 10
+23ae 4 382 10
+23b2 6 382 10
+23b8 4 382 10
+23bc 4 382 10
+23c0 3 382 10
+23c3 7 173 10
+23ca 7 173 10
+23d1 e 170 28
+23df c 175 28
+23eb 1d 167 28
+2408 8 175 28
+2410 8 181 28
+2418 13 181 28
+FUNC 2430 7d 0 QOffscreenWindow::windowForWinId(unsigned long long)
+2430 4 185 28
+2434 8 186 28
+243c 9 669 6
+2445 6 669 6
+244b 4 951 6
+244f 3 951 6
+2452 5 186 28
+2457 7 81 6
+245e 2 81 6
+2460 3 81 6
+2463 7 957 6
+246a 4 957 6
+246e 15 959 6
+2483 3 959 6
+2486 5 186 28
+248b 5 246 6
+2490 6 246 6
+2496 3 186 28
+2499 3 669 6
+249c 8 672 6
+24a4 4 669 6
+24a8 3 670 6
+24ab 2 186 28
+FUNC 24b0 18e 0 QHash<unsigned long long, QOffscreenWindow*>::operator[](unsigned long long const&)
+24b0 14 788 6
+24c4 3 363 6
+24c7 7 363 6
+24ce 24 633 6
+24f2 3 634 6
+24f5 3 90 4
+24f8 9 62 11
+2501 9 214 0
+250a 6 634 6
+2510 3 635 6
+2513 c 621 6
+251f 3 636 6
+2522 4 951 6
+2526 3 952 6
+2529 7 81 6
+2530 3 81 6
+2533 4 81 6
+2537 2 956 6
+2539 2 956 6
+253b 7 957 6
+2542 4 957 6
+2546 4 957 6
+254a 4 959 6
+254e 12 959 6
+2560 6 246 6
+2566 9 246 6
+256f 3 959 6
+2572 d 959 6
+257f d 792 6
+258c 9 793 6
+2595 6 193 6
+259b 5 194 6
+25a0 2 194 6
+25a2 8 194 6
+25aa 3 951 6
+25ad 4 951 6
+25b1 3 952 6
+25b4 7 81 6
+25bb 3 81 6
+25be 4 81 6
+25c2 4 956 6
+25c6 7 957 6
+25cd 4 957 6
+25d1 4 957 6
+25d5 11 959 6
+25e6 5 959 6
+25eb 6 246 6
+25f1 10 246 6
+2601 8 600 6
+2609 3 600 6
+260c 3 245 6
+260f 4 245 6
+2613 3 245 6
+2616 4 245 6
+261a 8 245 6
+2622 3 601 6
+2625 3 602 6
+2628 3 602 6
+262b 4 796 6
+262f f 799 6
+FUNC 2640 1b0 0 QHash<unsigned long long, QOffscreenWindow*>::remove(unsigned long long const&)
+2640 14 834 6
+2654 7 357 6
+265b 6 357 6
+2661 8 357 6
+2669 7 363 6
+2670 24 633 6
+2694 7 634 6
+269b 3 90 4
+269e 9 62 11
+26a7 9 214 0
+26b0 6 634 6
+26b6 7 635 6
+26bd c 621 6
+26c9 7 636 6
+26d0 4 839 6
+26d4 4 951 6
+26d8 2 951 6
+26da 2 951 6
+26dc 3 952 6
+26df 7 81 6
+26e6 2 81 6
+26e8 4 81 6
+26ec 6 957 6
+26f2 4 957 6
+26f6 4 957 6
+26fa 4 959 6
+26fe 12 959 6
+2710 5 246 6
+2715 9 246 6
+271e 3 959 6
+2721 d 959 6
+272e e 840 6
+273c 14 841 6
+2750 3 844 6
+2753 3 845 6
+2756 2 845 6
+2758 4 845 6
+275c 4 845 6
+2760 8 576 6
+2768 3 847 6
+276b 7 848 6
+2772 6 848 6
+2778 3 845 6
+277b b 848 6
+2786 8 576 6
+278e 3 847 6
+2791 7 848 6
+2798 a 848 6
+27a2 4 203 6
+27a6 3 203 6
+27a9 9 203 6
+27b2 5 203 6
+27b7 5 205 6
+27bc 7 203 6
+27c3 3 205 6
+27c6 2 541 1
+27c8 3 205 6
+27cb 8 205 6
+27d3 7 852 6
+27da 3 852 6
+27dd 4 852 6
+27e1 f 853 6
+FUNC 27f0 3e 0 QHash<unsigned long long, QOffscreenWindow*>::~QHash()
+27f0 b 342 6
+27fb 3 342 6
+27fe 3 90 4
+2801 9 62 11
+280a 9 214 0
+2813 6 342 6
+2819 3 342 6
+281c c 621 6
+2828 6 342 6
+FUNC 2830 1b 0 QHash<unsigned long long, QOffscreenWindow*>::duplicateNode(QHashData::Node*, void*)
+2830 4 591 6
+2834 3 593 6
+2837 7 245 6
+283e 3 245 6
+2841 4 245 6
+2845 4 245 6
+2849 2 594 6
+FUNC 2850 6 0 QHash<unsigned long long, QOffscreenWindow*>::deleteNode2(QHashData::Node*)
+2850 4 581 6
+2854 2 587 6
+FUNC 2860 2d 0 <name omitted>
+2860 4 0 28
+2864 15 331 6
+2879 14 189 28
+FUNC 2890 6d 0 <name omitted>
 2890 a 92 24
-289a f 92 24
-28a9 23 170 10
-28cc 8 92 24
-28d4 12 50 24
-28e6 e 108 9
-28f4 4 95 12
+289a 5 89 24
+289f a 92 24
+28a9 12 170 10
+28bb 4 170 10
+28bf d 170 10
+28cc 8 91 24
+28d4 8 50 24
+28dc a 50 24
+28e6 7 108 9
+28ed 7 108 9
+28f4 4 94 12
 28f8 5 93 24
-FUNC 2900 312 0 QOffscreenScreen::grabWindow(unsigned long long, int, int, int, int) const
-2900 1a 96 24
-291a 17 170 10
-2931 8 99 24
-2939 5 100 24
-293e 21 100 24
-295f 5 101 24
-2964 8 777 7
-296c 2 90 4
-296e 9 51 11
-2977 c 779 7
-2983 c 108 7
-298f c 108 7
-299b 5 454 7
-29a0 4 109 7
-29a4 4 454 7
-29a8 8 790 7
-29b0 8 454 7
-29b8 5 108 7
-29bd 5 108 7
-29c2 7 455 7
-29c9 8 176 0
-29d1 d 108 7
-29de 4 270 7
-29e2 9 109 7
-29eb 4 270 7
-29ef 21 103 24
-2a10 c 286 7
-2a1c c 103 24
-2a28 4 281 7
-2a2c 5 103 24
-2a31 7 103 24
-2a38 d 104 24
-2a45 c 104 24
-2a51 21 104 24
-2a72 3 103 24
-2a75 c 286 7
-2a81 10 103 24
-2a91 f 281 7
-2aa0 f 103 24
-2aaf 4 795 7
-2ab3 2 90 4
-2ab5 d 62 11
-2ac2 8 214 0
-2aca 6 795 7
-2ad0 4 796 7
-2ad4 5 836 7
-2ad9 5 110 24
-2ade b 113 24
-2ae9 8 114 24
-2af1 5 279 10
-2af6 5 279 10
-2afb 4 114 24
-2aff b 279 10
-2b0a 8 173 10
-2b12 1d 173 10
-2b2f 9 114 24
-2b38 a 111 24
-2b42 4 795 7
-2b46 2 90 4
-2b48 9 62 11
-2b51 8 214 0
-2b59 6 795 7
-2b5f 4 796 7
-2b63 d 836 7
-2b70 8 205 24
-2b78 d 669 6
-2b85 5 951 6
-2b8a 5 205 24
-2b8f d 81 6
-2b9c a 957 6
-2ba6 a 959 6
-2bb0 b 246 6
-2bbb 6 959 6
-2bc1 f 205 24
-2bd0 3 669 6
-2bd3 8 672 6
-2bdb 4 669 6
-2bdf 3 670 6
-2be2 9 118 24
-2beb d 119 24
-2bf8 8 120 24
-2c00 12 121 24
-FUNC 2c20 84 0 QOffscreenBackingStore::backingStoreForWinId(unsigned long long)
-2c20 4 204 24
-2c24 8 205 24
-2c2c f 669 6
-2c3b 7 951 6
-2c42 5 205 24
-2c47 c 81 6
-2c53 b 957 6
-2c5e 12 959 6
-2c70 b 246 6
-2c7b 6 959 6
-2c81 f 205 24
-2c90 3 669 6
-2c93 8 672 6
-2c9b 4 669 6
-2c9f 3 670 6
-2ca2 2 205 24
-FUNC 2cb0 19a 0 QOffscreenBackingStore::grabWindow(unsigned long long, QRect const&) const
-2cb0 1a 184 24
-2cca 20 50 10
-2cea a 669 6
-2cf4 9 951 6
-2cfd c 81 6
-2d09 b 957 6
-2d14 c 959 6
-2d20 b 246 6
-2d2b a 959 6
-2d35 5 669 6
-2d3a 8 672 6
-2d42 3 185 24
-2d45 6 670 6
-2d4b 8 185 24
-2d53 21 179 10
-2d74 f 189 24
-2d83 1d 251 10
-2da0 4 190 24
-2da4 b 393 10
-2daf 5 254 10
-2db4 4 192 24
-2db8 9 396 10
-2dc1 3 279 10
-2dc4 2 279 10
-2dc6 3 279 10
-2dc9 2 279 10
-2dcb 7 173 10
-2dd2 7 173 10
-2dd9 1d 195 24
-2df6 c 182 10
-2e02 4 197 24
-2e06 8 187 24
-2e0e e 201 24
-2e1c 19 200 24
-2e35 15 200 24
-FUNC 2e50 33 0 <name omitted>
-2e50 9 125 24
-2e59 18 125 24
-2e71 b 331 6
-2e7c 7 126 24
-FUNC 2e90 33 0 QOffscreenBackingStore::QOffscreenBackingStore(QWindow*)
+FUNC 2900 6d 0 QOffscreenScreen::QOffscreenScreen()
+2900 a 92 24
+290a 5 89 24
+290f a 92 24
+2919 12 170 10
+292b 4 170 10
+292f d 170 10
+293c 8 91 24
+2944 8 50 24
+294c a 50 24
+2956 7 108 9
+295d 7 108 9
+2964 4 94 12
+2968 5 93 24
+FUNC 2970 2fb 0 QOffscreenScreen::grabWindow(unsigned long long, int, int, int, int) const
+2970 1a 96 24
+298a 3 170 10
+298d 4 170 10
+2991 5 170 10
+2996 3 170 10
+2999 5 170 10
+299e 3 170 10
+29a1 8 99 24
+29a9 5 100 24
+29ae 10 100 24
+29be d 100 24
+29cb 5 101 24
+29d0 4 776 7
+29d4 4 776 7
+29d8 2 90 4
+29da 9 51 11
+29e3 7 779 7
+29ea 5 779 7
+29ef 4 108 7
+29f3 8 108 7
+29fb 4 108 7
+29ff 8 108 7
+2a07 5 454 7
+2a0c 4 109 7
+2a10 5 454 7
+2a15 5 108 7
+2a1a 5 108 7
+2a1f 4 777 7
+2a23 7 455 7
+2a2a 8 176 0
+2a32 4 108 7
+2a36 9 108 7
+2a3f 4 270 7
+2a43 9 109 7
+2a4c 4 270 7
+2a50 9 103 24
+2a59 17 281 7
+2a70 4 103 24
+2a74 3 103 24
+2a77 8 104 24
+2a7f 5 104 24
+2a84 8 104 24
+2a8c 4 104 24
+2a90 1e 104 24
+2aae 4 104 24
+2ab2 3 103 24
+2ab5 c 286 7
+2ac1 1f 103 24
+2ae0 7 103 24
+2ae7 c 286 7
+2af3 c 103 24
+2aff d 281 7
+2b0c 4 795 7
+2b10 2 90 4
+2b12 9 62 11
+2b1b 8 214 0
+2b23 6 795 7
+2b29 4 796 7
+2b2d 5 836 7
+2b32 5 110 24
+2b37 b 113 24
+2b42 8 114 24
+2b4a 5 279 10
+2b4f 5 279 10
+2b54 4 114 24
+2b58 d 279 10
+2b65 8 173 10
+2b6d 1f 173 10
+2b8c 9 114 24
+2b95 a 111 24
+2b9f 4 795 7
+2ba3 2 90 4
+2ba5 9 62 11
+2bae 8 214 0
+2bb6 6 795 7
+2bbc 4 796 7
+2bc0 d 836 7
+2bcd 8 205 24
+2bd5 7 669 6
+2bdc 6 669 6
+2be2 3 951 6
+2be5 2 951 6
+2be7 5 205 24
+2bec 7 81 6
+2bf3 3 81 6
+2bf6 3 81 6
+2bf9 6 957 6
+2bff 4 957 6
+2c03 10 959 6
+2c13 3 959 6
+2c16 5 205 24
+2c1b 5 246 6
+2c20 6 246 6
+2c26 3 205 24
+2c29 3 669 6
+2c2c 8 672 6
+2c34 4 669 6
+2c38 3 670 6
+2c3b 9 118 24
+2c44 d 119 24
+2c51 8 120 24
+2c59 12 121 24
+FUNC 2c70 7d 0 QOffscreenBackingStore::backingStoreForWinId(unsigned long long)
+2c70 4 204 24
+2c74 8 205 24
+2c7c 9 669 6
+2c85 6 669 6
+2c8b 4 951 6
+2c8f 3 951 6
+2c92 5 205 24
+2c97 7 81 6
+2c9e 2 81 6
+2ca0 3 81 6
+2ca3 7 957 6
+2caa 4 957 6
+2cae 15 959 6
+2cc3 3 959 6
+2cc6 5 205 24
+2ccb 5 246 6
+2cd0 6 246 6
+2cd6 3 205 24
+2cd9 3 669 6
+2cdc 8 672 6
+2ce4 4 669 6
+2ce8 3 670 6
+2ceb 2 205 24
+FUNC 2cf0 198 0 QOffscreenBackingStore::grabWindow(unsigned long long, QRect const&) const
+2cf0 1a 184 24
+2d0a 7 50 10
+2d11 b 50 10
+2d1c 7 50 10
+2d23 7 50 10
+2d2a 4 669 6
+2d2e 6 669 6
+2d34 4 951 6
+2d38 5 951 6
+2d3d 7 81 6
+2d44 2 81 6
+2d46 3 81 6
+2d49 7 957 6
+2d50 4 957 6
+2d54 f 959 6
+2d63 5 959 6
+2d68 5 246 6
+2d6d 6 246 6
+2d73 5 669 6
+2d78 8 672 6
+2d80 3 185 24
+2d83 6 670 6
+2d89 8 185 24
+2d91 12 179 10
+2da3 f 179 10
+2db2 f 189 24
+2dc1 4 251 10
+2dc5 4 251 10
+2dc9 4 251 10
+2dcd 11 251 10
+2dde 4 190 24
+2de2 4 393 10
+2de6 3 393 10
+2de9 4 393 10
+2ded 3 254 10
+2df0 2 254 10
+2df2 4 192 24
+2df6 2 396 10
+2df8 2 396 10
+2dfa 5 396 10
+2dff 3 279 10
+2e02 2 279 10
+2e04 3 279 10
+2e07 2 279 10
+2e09 7 173 10
+2e10 7 173 10
+2e17 10 195 24
+2e27 5 195 24
+2e2c 8 195 24
+2e34 c 182 10
+2e40 4 197 24
+2e44 8 187 24
+2e4c e 201 24
+2e5a 19 200 24
+2e73 b 200 24
+2e7e a 200 24
+FUNC 2e90 33 0 <name omitted>
 2e90 9 125 24
-2e99 18 125 24
+2e99 5 124 24
+2e9e a 125 24
+2ea8 9 123 24
 2eb1 b 331 6
 2ebc 7 126 24
-FUNC 2ed0 5f 0 <name omitted>
-2ed0 9 129 24
-2ed9 a 129 24
-2ee3 5 130 24
-2ee8 4 342 6
-2eec 3 90 4
-2eef 9 62 11
-2ef8 9 214 0
-2f01 6 342 6
-2f07 4 342 6
-2f0b c 621 6
-2f17 11 131 24
-2f28 7 131 24
-FUNC 2f30 1af 0 QOffscreenBackingStore::clearHash()
-2f30 12 209 24
-2f42 10 210 24
-2f52 8 777 7
-2f5a 2 90 4
-2f5c 9 51 11
-2f65 c 779 7
-2f71 c 108 7
-2f7d c 108 7
-2f89 5 454 7
-2f8e 4 109 7
-2f92 4 454 7
-2f96 8 790 7
-2f9e 8 454 7
-2fa6 5 108 7
-2fab 5 108 7
-2fb0 7 455 7
-2fb7 8 176 0
-2fbf d 108 7
-2fcc 4 270 7
-2fd0 9 109 7
-2fd9 4 270 7
-2fdd 7 211 24
-2fe4 1c 212 24
-3000 c 286 7
-300c 7 211 24
-3013 4 281 7
-3017 5 211 24
-301c 7 211 24
-3023 b 212 24
-302e 6 213 24
-3034 d 214 24
-3041 4 795 7
-3045 2 90 4
-3047 9 62 11
-3050 8 214 0
-3058 6 795 7
-305e 4 796 7
-3062 5 836 7
-3067 f 331 6
-3076 8 627 6
-307e 3 90 4
-3081 9 62 11
-308a 9 214 0
-3093 6 342 6
-3099 13 621 6
-30ac 4 795 7
-30b0 2 90 4
-30b2 9 62 11
-30bb 8 214 0
-30c3 6 795 7
-30c9 4 796 7
-30cd 5 836 7
-30d2 d 217 24
-FUNC 30e0 5f 0 <name omitted>
-30e0 9 129 24
-30e9 a 129 24
-30f3 5 130 24
-30f8 4 342 6
-30fc 3 90 4
-30ff 9 62 11
-3108 9 214 0
-3111 6 342 6
-3117 4 342 6
-311b c 621 6
-3127 11 131 24
-3138 7 131 24
-FUNC 3140 67 0 QOffscreenBackingStore::~QOffscreenBackingStore()
-3140 9 129 24
-3149 a 129 24
-3153 5 130 24
-3158 4 342 6
-315c 3 90 4
-315f 9 62 11
-3168 9 214 0
-3171 6 342 6
-3177 4 342 6
-317b c 621 6
-3187 11 131 24
-3198 8 129 24
-31a0 7 131 24
-FUNC 31b0 a 0 QOffscreenBackingStore::paintDevice()
-31b0 4 134 24
-31b4 6 135 24
-FUNC 31c0 172 0 QOffscreenBackingStore::flush(QWindow*, QRegion const&, QPoint const&)
-31c0 1a 139 24
-31da c 142 24
-31e6 8 111 14
-31ee 10 142 24
-31fe 12 145 24
-3210 15 213 17
-3225 5 214 17
-322a 8 254 10
-3232 23 170 10
-3255 8 147 24
-325d 7 170 10
-3264 7 183 9
-326b 2 279 10
-326d 2 183 9
-326f 3 279 10
-3272 2 183 9
-3274 7 173 10
-327b 7 173 10
-3282 c 148 24
-328e 8 148 24
-3296 8 150 24
-329e 3 114 9
-32a1 4 117 9
-32a5 7 279 10
-32ac 4 279 10
-32b0 4 279 10
-32b4 2 279 10
-32b6 11 179 10
-32c7 3 279 10
-32ca 2 279 10
-32cc 4 173 10
-32d0 3 173 10
-32d3 3 173 10
-32d6 11 155 24
-32e7 21 157 24
-3308 16 158 24
-331e 14 159 24
-FUNC 3340 87 0 QOffscreenBackingStore::resize(QSize const&, QRegion const&)
-3340 17 162 24
-3357 19 163 24
-3370 c 164 24
-337c 5 159 14
-3381 4 164 24
-3385 a 159 14
-338f 21 165 24
-33b0 8 166 24
-33b8 f 167 24
-FUNC 33d0 bf 0 QOffscreenBackingStore::scroll(QRegion const&, int, int)
-33d0 1d 172 24
-33ed 18 173 24
-3405 8 176 24
-340d 4 82 16
-3411 f 177 24
-3420 4 55 5
-3424 b 108 9
-342f f 178 24
-343e 4 82 16
-3442 b 177 24
-344d 4 90 4
-3451 9 62 11
-345a 8 214 0
-3462 6 68 16
-3468 e 68 16
-3476 8 222 5
-347e 11 181 24
-FUNC 3490 1a3 0 QHash<unsigned long long, QRect>::operator[](unsigned long long const&)
-3490 14 788 6
-34a4 a 363 6
-34ae 24 633 6
-34d2 3 634 6
-34d5 3 90 4
-34d8 9 62 11
-34e1 9 214 0
-34ea 6 634 6
-34f0 3 635 6
-34f3 c 621 6
-34ff 3 636 6
-3502 4 951 6
-3506 3 952 6
-3509 e 81 6
-3517 4 956 6
-351b f 957 6
-352a 16 959 6
-3540 12 246 6
-3552 10 959 6
-3562 3 792 6
-3565 9 793 6
-356e 6 193 6
-3574 f 194 6
-3583 7 951 6
-358a 3 952 6
-358d e 81 6
-359b 4 956 6
-359f f 957 6
-35ae 1d 959 6
-35cb 16 246 6
-35e1 d 600 6
-35ee 8 600 6
-35f6 1e 245 6
-3614 3 600 6
-3617 3 601 6
-361a 6 602 6
-3620 4 796 6
-3624 f 799 6
-FUNC 3640 19b 0 QHash<unsigned long long, QOffscreenBackingStore*>::operator[](unsigned long long const&)
-3640 14 788 6
-3654 a 363 6
-365e 24 633 6
-3682 3 634 6
-3685 3 90 4
-3688 9 62 11
-3691 9 214 0
-369a 6 634 6
-36a0 3 635 6
-36a3 c 621 6
-36af 3 636 6
-36b2 4 951 6
-36b6 3 952 6
-36b9 e 81 6
-36c7 4 956 6
-36cb f 957 6
-36da 16 959 6
-36f0 12 246 6
-3702 10 959 6
-3712 3 792 6
-3715 9 793 6
-371e 6 193 6
-3724 f 194 6
-3733 7 951 6
-373a 3 952 6
-373d e 81 6
-374b 4 956 6
-374f f 957 6
-375e 1d 959 6
-377b 16 246 6
-3791 d 600 6
-379e 8 600 6
-37a6 16 245 6
-37bc 3 600 6
-37bf 3 601 6
-37c2 6 602 6
-37c8 4 796 6
-37cc f 799 6
-FUNC 37e0 141 0 QHash<unsigned long long, QRect>::keys() const
-37e0 14 698 6
-37f4 a 139 7
-37fe 6 355 6
-3804 5 539 7
-3809 5 540 7
-380e 8 108 7
-3816 8 755 7
-381e b 108 7
-3829 5 454 7
-382e 4 109 7
-3832 4 454 7
-3836 8 541 7
-383e 8 454 7
-3846 8 108 7
-384e 5 108 7
-3853 8 455 7
-385b 2 90 4
-385d 9 62 11
-3866 8 214 0
-386e 6 764 7
-3874 a 836 7
-387e 8 543 7
-3886 3 513 6
-3889 3 216 6
-388c 4 217 6
-3890 10 215 6
-38a0 8 218 6
-38a8 2 217 6
-38aa 4 220 6
-38ae 12 217 6
-38c0 12 550 7
-38d2 8 551 7
-38da 16 413 7
-38f0 4 413 7
-38f4 8 571 7
-38fc 3 576 7
-38ff b 479 6
-390a 5 702 6
-390f 12 707 6
-FUNC 3930 c9 0 QHash<unsigned long long, QOffscreenBackingStore*>::find(unsigned long long const&)
-3930 10 933 6
-3940 9 363 6
-3949 24 633 6
-396d 3 634 6
-3970 3 90 4
-3973 9 62 11
-397c 9 214 0
-3985 6 634 6
-398b 3 635 6
-398e c 621 6
-399a 3 636 6
-399d 7 951 6
-39a4 3 952 6
-39a7 c 81 6
-39b3 a 957 6
-39bd 13 959 6
-39d0 e 246 6
-39de 10 959 6
-39ee b 935 6
-FUNC 3a00 1b0 0 QHash<unsigned long long, QOffscreenBackingStore*>::remove(unsigned long long const&)
-3a00 14 834 6
-3a14 15 357 6
-3a29 7 363 6
-3a30 24 633 6
-3a54 7 634 6
-3a5b 3 90 4
-3a5e 9 62 11
-3a67 9 214 0
-3a70 6 634 6
-3a76 7 635 6
-3a7d c 621 6
-3a89 7 636 6
-3a90 4 839 6
-3a94 8 951 6
-3a9c 3 952 6
-3a9f d 81 6
-3aac e 957 6
-3aba 16 959 6
-3ad0 11 246 6
-3ae1 10 959 6
-3af1 4 840 6
-3af5 1b 841 6
-3b10 3 844 6
-3b13 d 845 6
-3b20 8 576 6
-3b28 3 847 6
-3b2b d 848 6
-3b38 3 845 6
-3b3b b 848 6
-3b46 8 576 6
-3b4e 3 847 6
-3b51 11 848 6
-3b62 15 203 6
-3b77 5 205 6
-3b7c 7 203 6
-3b83 3 205 6
-3b86 2 541 1
-3b88 3 205 6
-3b8b 8 205 6
-3b93 e 852 6
-3ba1 f 853 6
-FUNC 3bb0 3e 0 QHash<unsigned long long, QOffscreenBackingStore*>::~QHash()
-3bb0 b 342 6
-3bbb 3 342 6
-3bbe 3 90 4
-3bc1 9 62 11
-3bca 9 214 0
-3bd3 6 342 6
-3bd9 3 342 6
-3bdc c 621 6
-3be8 6 342 6
-FUNC 3bf0 30 0 <name omitted>
-3bf0 9 49 25
-3bf9 a 49 25
-3c03 4 100 12
-3c07 b 54 12
-3c12 e 49 25
-FUNC 3c20 38 0 QOffscreenScreen::~QOffscreenScreen()
-3c20 9 49 25
-3c29 a 49 25
-3c33 4 100 12
-3c37 b 54 12
-3c42 8 49 25
-3c4a e 49 25
-FUNC 3c60 e 0 QOffscreenScreen::geometry() const
-3c60 4 54 25
-3c64 a 54 25
-FUNC 3c70 b 0 QPlatformScreen::availableGeometry() const
-3c70 4 91 19
-3c74 7 91 19
-FUNC 3c80 b 0 QOffscreenScreen::depth() const
-3c80 9 55 25
-3c89 2 55 25
-FUNC 3c90 b 0 QOffscreenScreen::format() const
-3c90 9 56 25
-3c99 2 56 25
-FUNC 3ca0 13 0 QPlatformScreen::name() const
-3ca0 4 115 19
-3ca4 a 1052 15
-3cae 5 115 19
-FUNC 3cc0 a 0 QOffscreenScreen::cursor() const
-3cc0 4 57 25
-3cc4 4 135 12
-3cc8 2 57 25
-FUNC 3cd0 6 0 QHash<unsigned long long, QOffscreenBackingStore*>::deleteNode2(QHashData::Node*)
-3cd0 4 581 6
-3cd4 2 587 6
-FUNC 3ce0 c6 0 QHash<unsigned long long, QRect>::operator=(QHash<unsigned long long, QRect> const&)
-3ce0 e 641 6
-3cee f 642 6
-3cfd 3 90 4
-3d00 7 51 11
-3d07 9 176 0
-3d10 3 645 6
-3d13 3 90 4
-3d16 9 62 11
-3d1f 9 214 0
-3d28 6 645 6
-3d2e 3 646 6
-3d31 c 621 6
-3d3d 3 647 6
-3d40 6 648 6
-3d46 24 633 6
-3d6a 3 634 6
-3d6d 3 90 4
-3d70 9 62 11
-3d79 9 214 0
-3d82 6 634 6
-3d88 3 635 6
-3d8b c 621 6
-3d97 3 636 6
-3d9a c 651 6
-FUNC 3db0 30 0 QHash<unsigned long long, QRect>::duplicateNode(QHashData::Node*, void*)
-3db0 4 591 6
-3db4 8 593 6
-3dbc 22 245 6
-3dde 2 594 6
-FUNC 3de0 6 0 QHash<unsigned long long, QRect>::deleteNode2(QHashData::Node*)
-3de0 4 581 6
-3de4 2 587 6
-FUNC 3df0 28 0 QHash<unsigned long long, QOffscreenBackingStore*>::duplicateNode(QHashData::Node*, void*)
-3df0 4 591 6
-3df4 8 593 6
-3dfc 1a 245 6
-3e16 2 594 6
-FUNC 3e20 10f 0 QList<unsigned long long>::detach_helper_grow(int, int)
-3e20 1a 723 7
-3e3a 11 108 7
-3e4b 5 725 7
-3e50 e 108 7
-3e5e 5 454 7
-3e63 7 728 7
-3e6a 14 454 7
-3e7e 5 108 7
-3e83 8 108 7
-3e8b 8 455 7
-3e93 d 108 7
-3ea0 11 735 7
-3eb1 8 735 7
-3eb9 5 454 7
-3ebe 4 109 7
-3ec2 14 454 7
-3ed6 5 735 7
-3edb 8 735 7
-3ee3 8 455 7
-3eeb 2 90 4
-3eed 9 62 11
-3ef6 8 214 0
-3efe 6 745 7
-3f04 8 836 7
-3f0c 8 108 7
-3f14 1b 748 7
-FUNC 3f30 a 0 <name omitted>
-3f30 4 47 24
-3f34 1 79 18
-3f35 5 0 24
-FUNC 3f40 1c 0 QOffscreenCursor::~QOffscreenCursor()
-3f40 9 47 24
-3f49 5 79 18
-3f4e e 47 24
-FUNC 3f60 6 0 QPlatformCursor::pointerEvent(QMouseEvent const&)
-3f60 4 84 18
-3f64 2 84 18
-FUNC 3f70 6 0 QOffscreenCursor::changeCursor(QCursor*, QWindow*)
-3f70 4 80 24
-3f74 2 83 24
-FUNC 3f80 a 0 QOffscreenCursor::pos() const
-3f80 4 52 24
-3f84 6 52 24
-FUNC 3f90 2eb 0 QOffscreenCursor::setPos(QPoint const&)
-3f90 15 54 24
-3fa5 b 55 24
-3fb0 5 56 24
-3fb5 8 777 7
-3fbd 2 90 4
-3fbf 9 51 11
-3fc8 c 779 7
-3fd4 c 108 7
-3fe0 c 108 7
-3fec 5 454 7
-3ff1 4 109 7
-3ff5 4 454 7
-3ff9 8 790 7
-4001 8 454 7
-4009 5 108 7
-400e 5 108 7
-4013 7 455 7
-401a 8 176 0
-4022 d 108 7
-402f 4 270 7
-4033 9 109 7
-403c 4 270 7
-4040 20 58 24
-4060 c 286 7
-406c c 58 24
-4078 4 281 7
-407c 5 58 24
-4081 7 58 24
-4088 d 59 24
-4095 c 59 24
-40a1 21 59 24
-40c2 3 58 24
-40c5 c 286 7
-40d1 10 58 24
-40e1 f 281 7
-40f0 f 58 24
-40ff 4 795 7
-4103 2 90 4
-4105 9 62 11
-410e 8 214 0
-4116 6 795 7
-411c 4 796 7
-4120 5 836 7
-4125 a 65 24
-412f 5 66 24
-4134 8 219 17
-413c 7 67 24
-4143 3 138 9
-4146 3 138 9
-4149 e 69 24
-4157 5 69 24
-415c 5 270 9
-4161 5 71 24
-4166 d 270 9
-4173 15 270 9
-4188 a 270 9
-4192 6 270 9
-4198 7 117 9
-419f d 270 9
-41ac 1d 72 24
-41c9 5 270 9
-41ce 7 117 9
-41d5 8 270 9
-41dd 8 270 9
-41e5 d 270 9
-41f2 d 270 9
-41ff 8 74 24
-4207 19 74 24
-4220 e 74 24
-422e 5 76 24
-4233 12 76 24
-4245 4 795 7
-4249 2 90 4
-424b 9 62 11
-4254 8 214 0
-425c 6 795 7
-4262 4 796 7
-4266 5 836 7
-426b 10 77 24
-FUNC 4280 2d 0 <name omitted>
-4280 4 0 24
-4284 15 331 6
-4299 14 219 24
-FUNC 42b0 25 0 QOffscreenIntegration::createOffscreenIntegration()
-42b0 b 37 27
-42bb 1a 38 27
-FUNC 42e0 23 0 <name omitted>
-42e0 9 55 22
-42e9 13 55 22
-42fc 7 55 22
-FUNC 4310 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA(QObject*)
-4310 9 55 22
-4319 13 55 22
-432c 7 55 22
-FUNC 4340 a 0 <name omitted>
-4340 4 58 22
-4344 1 58 22
-4345 5 0 22
-FUNC 4350 a 0 <name omitted>
-4350 4 58 22
-4354 1 58 22
-4355 5 0 22
-FUNC 4360 1c 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA()
-4360 9 58 22
-4369 5 58 22
-436e e 58 22
-FUNC 4380 20 0 QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>)
-4380 9 61 22
-4389 8 62 22
-4391 f 63 22
-FUNC 43a0 1d 0 QUnixEventDispatcherQPA::hasPendingEvents()
-43a0 4 67 22
-43a4 d 69 22
-43b1 c 69 22
-FUNC 43c0 1d 0 QUnixEventDispatcherQPA::flush()
-43c0 4 73 22
-43c4 7 110 2
-43cb a 74 22
-43d5 6 75 22
-43db 2 76 22
-FUNC 43e0 27 0 createUnixEventDispatcher()
-43e0 b 41 21
-43eb 1c 47 21
-FUNC 4410 6 0 QUnixEventDispatcherQPA::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-4410 4 56 29
-4414 2 61 29
-FUNC 4420 1e 0 QUnixEventDispatcherQPA::metaObject() const
-4420 4 70 29
-4424 4 113 12
-4428 7 71 29
-442f f 71 29
-FUNC 4440 3e 0 QUnixEventDispatcherQPA::qt_metacast(char const*)
-4440 f 75 29
-444f 5 76 29
-4454 13 77 29
-4467 12 79 29
-4479 5 80 29
-FUNC 4480 a 0 QUnixEventDispatcherQPA::qt_metacall(QMetaObject::Call, int, void**)
-4480 4 83 29
-4484 1 84 29
-4485 5 0 29
-PUBLIC 4a50 0 qt_meta_data_QOffscreenIntegrationPlugin
-PUBLIC 4a90 0 typeinfo name for QOffscreenIntegrationPlugin
-PUBLIC 4ab0 0 qt_meta_stringdata_QOffscreenIntegrationPlugin
-PUBLIC 4af0 0 typeinfo name for QOffscreenIntegration
-PUBLIC 4b10 0 typeinfo name for QOffscreenDrag
-PUBLIC 4b40 0 typeinfo name for QOffscreenWindow
-PUBLIC 4b80 0 typeinfo name for QOffscreenScreen
-PUBLIC 4ba0 0 typeinfo name for QOffscreenBackingStore
-PUBLIC 4bc0 0 typeinfo name for QOffscreenCursor
-PUBLIC 4be0 0 qt_meta_data_QUnixEventDispatcherQPA
-PUBLIC 4c20 0 typeinfo name for QUnixEventDispatcherQPA
-PUBLIC 4c40 0 qt_meta_stringdata_QUnixEventDispatcherQPA
-PUBLIC 4c70 0 qt_section_alignment_dummy
-PUBLIC 4c80 0 qt_pluginMetaData
+FUNC 2ed0 33 0 QOffscreenBackingStore::QOffscreenBackingStore(QWindow*)
+2ed0 9 125 24
+2ed9 5 124 24
+2ede a 125 24
+2ee8 9 123 24
+2ef1 b 331 6
+2efc 7 126 24
+FUNC 2f10 5f 0 <name omitted>
+2f10 9 129 24
+2f19 a 129 24
+2f23 5 130 24
+2f28 4 342 6
+2f2c 3 90 4
+2f2f 9 62 11
+2f38 9 214 0
+2f41 6 342 6
+2f47 4 342 6
+2f4b c 621 6
+2f57 11 131 24
+2f68 7 131 24
+FUNC 2f70 19a 0 QOffscreenBackingStore::clearHash()
+2f70 12 209 24
+2f82 10 210 24
+2f92 4 776 7
+2f96 4 776 7
+2f9a 2 90 4
+2f9c 9 51 11
+2fa5 7 779 7
+2fac 5 779 7
+2fb1 4 108 7
+2fb5 8 108 7
+2fbd 4 108 7
+2fc1 8 108 7
+2fc9 5 454 7
+2fce 4 109 7
+2fd2 5 454 7
+2fd7 5 108 7
+2fdc 5 108 7
+2fe1 4 777 7
+2fe5 7 455 7
+2fec 8 176 0
+2ff4 4 108 7
+2ff8 9 108 7
+3001 4 270 7
+3005 9 109 7
+300e 4 270 7
+3012 7 211 24
+3019 4 281 7
+301d 13 212 24
+3030 7 211 24
+3037 b 212 24
+3042 6 213 24
+3048 b 214 24
+3053 c 286 7
+305f 7 211 24
+3066 6 281 7
+306c 4 795 7
+3070 2 90 4
+3072 9 62 11
+307b 8 214 0
+3083 6 795 7
+3089 4 796 7
+308d 5 836 7
+3092 f 331 6
+30a1 8 627 6
+30a9 3 90 4
+30ac 9 62 11
+30b5 9 214 0
+30be 6 342 6
+30c4 13 621 6
+30d7 4 795 7
+30db 2 90 4
+30dd 9 62 11
+30e6 8 214 0
+30ee 6 795 7
+30f4 4 796 7
+30f8 5 836 7
+30fd d 217 24
+FUNC 3110 5f 0 <name omitted>
+3110 9 129 24
+3119 a 129 24
+3123 5 130 24
+3128 4 342 6
+312c 3 90 4
+312f 9 62 11
+3138 9 214 0
+3141 6 342 6
+3147 4 342 6
+314b c 621 6
+3157 11 131 24
+3168 7 131 24
+FUNC 3170 67 0 QOffscreenBackingStore::~QOffscreenBackingStore()
+3170 9 129 24
+3179 a 129 24
+3183 5 130 24
+3188 4 342 6
+318c 3 90 4
+318f 9 62 11
+3198 9 214 0
+31a1 6 342 6
+31a7 4 342 6
+31ab c 621 6
+31b7 11 131 24
+31c8 8 129 24
+31d0 7 131 24
+FUNC 31e0 a 0 QOffscreenBackingStore::paintDevice()
+31e0 4 134 24
+31e4 4 135 24
+31e8 2 135 24
+FUNC 31f0 172 0 QOffscreenBackingStore::flush(QWindow*, QRegion const&, QPoint const&)
+31f0 1a 139 24
+320a c 142 24
+3216 8 111 14
+321e 10 142 24
+322e 12 145 24
+3240 15 213 17
+3255 5 214 17
+325a 4 254 10
+325e 4 254 10
+3262 7 170 10
+3269 7 170 10
+3270 3 170 10
+3273 3 170 10
+3276 2 170 10
+3278 d 170 10
+3285 8 147 24
+328d 4 170 10
+3291 3 170 10
+3294 3 183 9
+3297 4 183 9
+329b 2 279 10
+329d 2 183 9
+329f 3 279 10
+32a2 2 183 9
+32a4 7 173 10
+32ab 7 173 10
+32b2 c 148 24
+32be 8 148 24
+32c6 8 150 24
+32ce 3 114 9
+32d1 4 117 9
+32d5 7 279 10
+32dc 4 279 10
+32e0 4 279 10
+32e4 2 279 10
+32e6 5 179 10
+32eb c 179 10
+32f7 3 279 10
+32fa 2 279 10
+32fc 4 173 10
+3300 3 173 10
+3303 3 173 10
+3306 9 155 24
+330f 8 155 24
+3317 10 157 24
+3327 11 157 24
+3338 f 158 24
+3347 7 158 24
+334e 14 159 24
+FUNC 3370 87 0 QOffscreenBackingStore::resize(QSize const&, QRegion const&)
+3370 17 162 24
+3387 19 163 24
+33a0 c 164 24
+33ac 5 159 14
+33b1 4 164 24
+33b5 a 159 14
+33bf e 165 24
+33cd b 165 24
+33d8 8 165 24
+33e0 8 166 24
+33e8 f 167 24
+FUNC 3400 c4 0 QOffscreenBackingStore::scroll(QRegion const&, int, int)
+3400 1d 172 24
+341d c 173 24
+3429 f 173 24
+3438 8 176 24
+3440 4 82 16
+3444 c 177 24
+3450 4 55 5
+3454 4 108 9
+3458 7 108 9
+345f f 178 24
+346e 3 177 24
+3471 4 82 16
+3475 b 177 24
+3480 2 177 24
+3482 4 90 4
+3486 9 62 11
+348f 8 214 0
+3497 6 68 16
+349d e 68 16
+34ab 8 222 5
+34b3 11 181 24
+FUNC 34d0 1a2 0 QHash<unsigned long long, QRect>::operator[](unsigned long long const&)
+34d0 14 788 6
+34e4 3 363 6
+34e7 7 363 6
+34ee 24 633 6
+3512 3 634 6
+3515 3 90 4
+3518 9 62 11
+3521 9 214 0
+352a 6 634 6
+3530 3 635 6
+3533 c 621 6
+353f 3 636 6
+3542 4 951 6
+3546 3 952 6
+3549 7 81 6
+3550 3 81 6
+3553 4 81 6
+3557 2 956 6
+3559 2 956 6
+355b 7 957 6
+3562 4 957 6
+3566 4 957 6
+356a 4 959 6
+356e 12 959 6
+3580 6 246 6
+3586 9 246 6
+358f 3 959 6
+3592 d 959 6
+359f d 792 6
+35ac 9 793 6
+35b5 6 193 6
+35bb 5 194 6
+35c0 2 194 6
+35c2 8 194 6
+35ca 3 951 6
+35cd 4 951 6
+35d1 3 952 6
+35d4 7 81 6
+35db 3 81 6
+35de 4 81 6
+35e2 4 956 6
+35e6 7 957 6
+35ed 4 957 6
+35f1 4 957 6
+35f5 11 959 6
+3606 5 959 6
+360b 6 246 6
+3611 10 246 6
+3621 8 600 6
+3629 3 600 6
+362c 3 245 6
+362f 4 245 6
+3633 3 245 6
+3636 4 245 6
+363a 1c 245 6
+3656 3 601 6
+3659 3 602 6
+365c 3 602 6
+365f 4 796 6
+3663 f 799 6
+FUNC 3680 18e 0 QHash<unsigned long long, QOffscreenBackingStore*>::operator[](unsigned long long const&)
+3680 14 788 6
+3694 3 363 6
+3697 7 363 6
+369e 24 633 6
+36c2 3 634 6
+36c5 3 90 4
+36c8 9 62 11
+36d1 9 214 0
+36da 6 634 6
+36e0 3 635 6
+36e3 c 621 6
+36ef 3 636 6
+36f2 4 951 6
+36f6 3 952 6
+36f9 7 81 6
+3700 3 81 6
+3703 4 81 6
+3707 2 956 6
+3709 2 956 6
+370b 7 957 6
+3712 4 957 6
+3716 4 957 6
+371a 4 959 6
+371e 12 959 6
+3730 6 246 6
+3736 9 246 6
+373f 3 959 6
+3742 d 959 6
+374f d 792 6
+375c 9 793 6
+3765 6 193 6
+376b 5 194 6
+3770 2 194 6
+3772 8 194 6
+377a 3 951 6
+377d 4 951 6
+3781 3 952 6
+3784 7 81 6
+378b 3 81 6
+378e 4 81 6
+3792 4 956 6
+3796 7 957 6
+379d 4 957 6
+37a1 4 957 6
+37a5 11 959 6
+37b6 5 959 6
+37bb 6 246 6
+37c1 10 246 6
+37d1 8 600 6
+37d9 3 600 6
+37dc 3 245 6
+37df 4 245 6
+37e3 3 245 6
+37e6 4 245 6
+37ea 8 245 6
+37f2 3 601 6
+37f5 3 602 6
+37f8 3 602 6
+37fb 4 796 6
+37ff f 799 6
+FUNC 3810 131 0 QHash<unsigned long long, QRect>::keys() const
+3810 14 698 6
+3824 a 139 7
+382e 3 355 6
+3831 3 355 6
+3834 5 539 7
+3839 5 540 7
+383e 8 108 7
+3846 8 755 7
+384e 3 108 7
+3851 8 108 7
+3859 5 454 7
+385e 4 109 7
+3862 8 454 7
+386a 5 108 7
+386f 5 108 7
+3874 4 541 7
+3878 8 455 7
+3880 2 90 4
+3882 9 62 11
+388b 8 214 0
+3893 6 764 7
+3899 a 836 7
+38a3 8 543 7
+38ab 3 513 6
+38ae 3 216 6
+38b1 4 217 6
+38b5 b 215 6
+38c0 3 218 6
+38c3 5 218 6
+38c8 2 217 6
+38ca 4 220 6
+38ce 12 217 6
+38e0 3 550 7
+38e3 f 550 7
+38f2 8 551 7
+38fa 16 413 7
+3910 4 413 7
+3914 8 571 7
+391c 3 576 7
+391f b 479 6
+392a 5 702 6
+392f 12 707 6
+FUNC 3950 c4 0 QHash<unsigned long long, QOffscreenBackingStore*>::find(unsigned long long const&)
+3950 10 933 6
+3960 3 363 6
+3963 7 363 6
+396a 24 633 6
+398e 3 634 6
+3991 3 90 4
+3994 9 62 11
+399d 9 214 0
+39a6 6 634 6
+39ac 3 635 6
+39af c 621 6
+39bb 3 636 6
+39be 4 951 6
+39c2 4 951 6
+39c6 3 952 6
+39c9 7 81 6
+39d0 2 81 6
+39d2 4 81 6
+39d6 6 957 6
+39dc 4 957 6
+39e0 4 957 6
+39e4 12 959 6
+39f6 5 959 6
+39fb 5 246 6
+3a00 6 246 6
+3a06 3 935 6
+3a09 b 935 6
+FUNC 3a20 1b0 0 QHash<unsigned long long, QOffscreenBackingStore*>::remove(unsigned long long const&)
+3a20 14 834 6
+3a34 7 357 6
+3a3b 6 357 6
+3a41 8 357 6
+3a49 7 363 6
+3a50 24 633 6
+3a74 7 634 6
+3a7b 3 90 4
+3a7e 9 62 11
+3a87 9 214 0
+3a90 6 634 6
+3a96 7 635 6
+3a9d c 621 6
+3aa9 7 636 6
+3ab0 4 839 6
+3ab4 4 951 6
+3ab8 2 951 6
+3aba 2 951 6
+3abc 3 952 6
+3abf 7 81 6
+3ac6 2 81 6
+3ac8 4 81 6
+3acc 6 957 6
+3ad2 4 957 6
+3ad6 4 957 6
+3ada 4 959 6
+3ade 12 959 6
+3af0 5 246 6
+3af5 9 246 6
+3afe 3 959 6
+3b01 d 959 6
+3b0e e 840 6
+3b1c 14 841 6
+3b30 3 844 6
+3b33 3 845 6
+3b36 2 845 6
+3b38 4 845 6
+3b3c 4 845 6
+3b40 8 576 6
+3b48 3 847 6
+3b4b 7 848 6
+3b52 6 848 6
+3b58 3 845 6
+3b5b b 848 6
+3b66 8 576 6
+3b6e 3 847 6
+3b71 7 848 6
+3b78 a 848 6
+3b82 4 203 6
+3b86 3 203 6
+3b89 9 203 6
+3b92 5 203 6
+3b97 5 205 6
+3b9c 7 203 6
+3ba3 3 205 6
+3ba6 2 541 1
+3ba8 3 205 6
+3bab 8 205 6
+3bb3 7 852 6
+3bba 3 852 6
+3bbd 4 852 6
+3bc1 f 853 6
+FUNC 3bd0 3e 0 QHash<unsigned long long, QOffscreenBackingStore*>::~QHash()
+3bd0 b 342 6
+3bdb 3 342 6
+3bde 3 90 4
+3be1 9 62 11
+3bea 9 214 0
+3bf3 6 342 6
+3bf9 3 342 6
+3bfc c 621 6
+3c08 6 342 6
+FUNC 3c10 30 0 <name omitted>
+3c10 9 49 25
+3c19 a 49 25
+3c23 4 100 12
+3c27 b 54 12
+3c32 e 49 25
+FUNC 3c40 38 0 QOffscreenScreen::~QOffscreenScreen()
+3c40 9 49 25
+3c49 a 49 25
+3c53 4 100 12
+3c57 b 54 12
+3c62 8 49 25
+3c6a e 49 25
+FUNC 3c80 e 0 QOffscreenScreen::geometry() const
+3c80 4 54 25
+3c84 8 54 25
+3c8c 2 54 25
+FUNC 3c90 b 0 QPlatformScreen::availableGeometry() const
+3c90 4 91 19
+3c94 7 91 19
+FUNC 3ca0 b 0 QOffscreenScreen::depth() const
+3ca0 9 55 25
+3ca9 2 55 25
+FUNC 3cb0 b 0 QOffscreenScreen::format() const
+3cb0 9 56 25
+3cb9 2 56 25
+FUNC 3cc0 13 0 QPlatformScreen::name() const
+3cc0 4 115 19
+3cc4 a 1052 15
+3cce 5 115 19
+FUNC 3ce0 a 0 QOffscreenScreen::cursor() const
+3ce0 4 57 25
+3ce4 4 135 12
+3ce8 2 57 25
+FUNC 3cf0 a 0 <name omitted>
+3cf0 4 47 24
+3cf4 1 79 18
+3cf5 5 0 24
+FUNC 3d00 1c 0 QOffscreenCursor::~QOffscreenCursor()
+3d00 9 47 24
+3d09 5 79 18
+3d0e e 47 24
+FUNC 3d20 6 0 QPlatformCursor::pointerEvent(QMouseEvent const&)
+3d20 4 84 18
+3d24 2 84 18
+FUNC 3d30 6 0 QOffscreenCursor::changeCursor(QCursor*, QWindow*)
+3d30 4 80 24
+3d34 2 83 24
+FUNC 3d40 a 0 QOffscreenCursor::pos() const
+3d40 4 52 24
+3d44 4 52 24
+3d48 2 52 24
+FUNC 3d50 2f1 0 QOffscreenCursor::setPos(QPoint const&)
+3d50 15 54 24
+3d65 b 55 24
+3d70 5 56 24
+3d75 4 776 7
+3d79 4 776 7
+3d7d 2 90 4
+3d7f 9 51 11
+3d88 7 779 7
+3d8f 5 779 7
+3d94 4 108 7
+3d98 8 108 7
+3da0 4 108 7
+3da4 8 108 7
+3dac 5 454 7
+3db1 4 109 7
+3db5 5 454 7
+3dba 5 108 7
+3dbf 5 108 7
+3dc4 4 777 7
+3dc8 7 455 7
+3dcf 8 176 0
+3dd7 4 108 7
+3ddb 9 108 7
+3de4 4 270 7
+3de8 9 109 7
+3df1 4 270 7
+3df5 9 58 24
+3dfe 22 281 7
+3e20 4 58 24
+3e24 3 58 24
+3e27 8 59 24
+3e2f 5 59 24
+3e34 8 59 24
+3e3c 4 59 24
+3e40 1d 59 24
+3e5d 4 59 24
+3e61 3 58 24
+3e64 c 286 7
+3e70 20 58 24
+3e90 7 58 24
+3e97 c 286 7
+3ea3 c 58 24
+3eaf d 281 7
+3ebc 4 795 7
+3ec0 2 90 4
+3ec2 9 62 11
+3ecb 8 214 0
+3ed3 6 795 7
+3ed9 4 796 7
+3edd 5 836 7
+3ee2 a 65 24
+3eec 5 66 24
+3ef1 8 219 17
+3ef9 3 138 9
+3efc 4 67 24
+3f00 3 138 9
+3f03 e 69 24
+3f11 5 69 24
+3f16 5 270 9
+3f1b 5 71 24
+3f20 d 270 9
+3f2d 8 270 9
+3f35 d 270 9
+3f42 8 270 9
+3f4a 5 270 9
+3f4f 9 270 9
+3f58 7 117 9
+3f5f d 270 9
+3f6c 1d 72 24
+3f89 5 270 9
+3f8e 7 117 9
+3f95 8 270 9
+3f9d 8 270 9
+3fa5 8 270 9
+3fad 8 270 9
+3fb5 8 270 9
+3fbd 8 270 9
+3fc5 8 74 24
+3fcd 19 74 24
+3fe6 e 74 24
+3ff4 5 76 24
+3ff9 b 76 24
+4004 7 76 24
+400b 4 795 7
+400f 2 90 4
+4011 9 62 11
+401a 8 214 0
+4022 6 795 7
+4028 4 796 7
+402c 5 836 7
+4031 10 77 24
+FUNC 4050 6 0 QHash<unsigned long long, QRect>::deleteNode2(QHashData::Node*)
+4050 4 581 6
+4054 2 587 6
+FUNC 4060 2b 0 QHash<unsigned long long, QRect>::duplicateNode(QHashData::Node*, void*)
+4060 4 591 6
+4064 3 593 6
+4067 7 245 6
+406e 3 245 6
+4071 4 245 6
+4075 4 245 6
+4079 10 245 6
+4089 2 594 6
+FUNC 4090 1b 0 QHash<unsigned long long, QOffscreenBackingStore*>::duplicateNode(QHashData::Node*, void*)
+4090 4 591 6
+4094 3 593 6
+4097 7 245 6
+409e 3 245 6
+40a1 4 245 6
+40a5 4 245 6
+40a9 2 594 6
+FUNC 40b0 6 0 QHash<unsigned long long, QOffscreenBackingStore*>::deleteNode2(QHashData::Node*)
+40b0 4 581 6
+40b4 2 587 6
+FUNC 40c0 10f 0 QList<unsigned long long>::detach_helper_grow(int, int)
+40c0 1a 723 7
+40da 4 108 7
+40de d 108 7
+40eb 5 725 7
+40f0 4 108 7
+40f4 3 108 7
+40f7 7 108 7
+40fe 5 454 7
+4103 7 728 7
+410a f 454 7
+4119 5 454 7
+411e 5 108 7
+4123 8 108 7
+412b 8 455 7
+4133 4 108 7
+4137 6 108 7
+413d 3 108 7
+4140 4 735 7
+4144 d 735 7
+4151 8 736 7
+4159 5 454 7
+415e 4 109 7
+4162 f 454 7
+4171 5 454 7
+4176 5 735 7
+417b 8 736 7
+4183 8 455 7
+418b 2 90 4
+418d 9 62 11
+4196 8 214 0
+419e 6 745 7
+41a4 8 836 7
+41ac 4 108 7
+41b0 4 108 7
+41b4 c 748 7
+41c0 f 748 7
+FUNC 41d0 c6 0 QHash<unsigned long long, QRect>::operator=(QHash<unsigned long long, QRect> const&)
+41d0 e 641 6
+41de 3 642 6
+41e1 3 642 6
+41e4 9 642 6
+41ed 3 90 4
+41f0 7 51 11
+41f7 9 176 0
+4200 3 645 6
+4203 3 90 4
+4206 9 62 11
+420f 9 214 0
+4218 6 645 6
+421e 3 646 6
+4221 c 621 6
+422d 3 647 6
+4230 6 648 6
+4236 24 633 6
+425a 3 634 6
+425d 3 90 4
+4260 9 62 11
+4269 9 214 0
+4272 6 634 6
+4278 3 635 6
+427b c 621 6
+4287 3 636 6
+428a c 651 6
+FUNC 42a0 2d 0 <name omitted>
+42a0 4 0 24
+42a4 15 331 6
+42b9 14 219 24
+FUNC 42d0 25 0 QOffscreenIntegration::createOffscreenIntegration()
+42d0 b 37 27
+42db 8 38 27
+42e3 8 38 27
+42eb a 38 27
+FUNC 4300 23 0 <name omitted>
+4300 9 55 22
+4309 5 54 22
+430e e 55 22
+431c 7 55 22
+FUNC 4330 23 0 QUnixEventDispatcherQPA::QUnixEventDispatcherQPA(QObject*)
+4330 9 55 22
+4339 5 54 22
+433e e 55 22
+434c 7 55 22
+FUNC 4360 a 0 <name omitted>
+4360 4 58 22
+4364 1 58 22
+4365 5 0 22
+FUNC 4370 a 0 <name omitted>
+4370 4 58 22
+4374 1 58 22
+4375 5 0 22
+FUNC 4380 1c 0 QUnixEventDispatcherQPA::~QUnixEventDispatcherQPA()
+4380 9 58 22
+4389 5 58 22
+438e e 58 22
+FUNC 43a0 20 0 QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>)
+43a0 9 61 22
+43a9 8 62 22
+43b1 7 63 22
+43b8 3 62 22
+43bb 5 63 22
+FUNC 43c0 1d 0 QUnixEventDispatcherQPA::hasPendingEvents()
+43c0 4 67 22
+43c4 9 69 22
+43cd 4 69 22
+43d1 a 69 22
+43db 2 69 22
+FUNC 43e0 1d 0 QUnixEventDispatcherQPA::flush()
+43e0 4 73 22
+43e4 7 110 2
+43eb a 74 22
+43f5 6 75 22
+43fb 2 76 22
+FUNC 4400 27 0 createUnixEventDispatcher()
+4400 b 41 21
+440b a 47 21
+4415 8 47 21
+441d a 47 21
+FUNC 4430 6 0 QUnixEventDispatcherQPA::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+4430 4 56 29
+4434 2 61 29
+FUNC 4440 1e 0 QUnixEventDispatcherQPA::metaObject() const
+4440 4 70 29
+4444 4 113 12
+4448 7 71 29
+444f 6 71 29
+4455 9 71 29
+FUNC 4460 3e 0 QUnixEventDispatcherQPA::qt_metacast(char const*)
+4460 f 75 29
+446f 5 76 29
+4474 f 77 29
+4483 4 77 29
+4487 12 79 29
+4499 5 80 29
+FUNC 44a0 a 0 QUnixEventDispatcherQPA::qt_metacall(QMetaObject::Call, int, void**)
+44a0 4 83 29
+44a4 1 84 29
+44a5 5 0 29
+PUBLIC 4a60 0 qt_meta_data_QOffscreenIntegrationPlugin
+PUBLIC 4aa0 0 typeinfo name for QOffscreenIntegrationPlugin
+PUBLIC 4ac0 0 qt_meta_stringdata_QOffscreenIntegrationPlugin
+PUBLIC 4b00 0 typeinfo name for QOffscreenIntegration
+PUBLIC 4b20 0 typeinfo name for QOffscreenDrag
+PUBLIC 4b50 0 typeinfo name for QOffscreenWindow
+PUBLIC 4b90 0 typeinfo name for QOffscreenScreen
+PUBLIC 4bb0 0 typeinfo name for QOffscreenBackingStore
+PUBLIC 4bd0 0 typeinfo name for QOffscreenCursor
+PUBLIC 4bf0 0 qt_meta_data_QUnixEventDispatcherQPA
+PUBLIC 4c30 0 typeinfo name for QUnixEventDispatcherQPA
+PUBLIC 4c50 0 qt_meta_stringdata_QUnixEventDispatcherQPA
+PUBLIC 4c80 0 qt_section_alignment_dummy
+PUBLIC 4c90 0 qt_pluginMetaData
 PUBLIC 6320 0 QOffscreenIntegrationPlugin::staticMetaObject
 PUBLIC 6350 0 vtable for QOffscreenIntegrationPlugin
 PUBLIC 63d0 0 typeinfo for QOffscreenIntegrationPlugin
@@ -1263,7 +1596,7 @@ PUBLIC 64f0 0 typeinfo for QOffscreenIntegration
 PUBLIC 6510 0 vtable for QOffscreenWindow
 PUBLIC 6660 0 typeinfo for QOffscreenWindow
 PUBLIC 6680 0 vtable for QOffscreenScreen
-PUBLIC 6730 0 vtable for QOffscreenBackingStore
+PUBLIC 6728 0 vtable for QOffscreenBackingStore
 PUBLIC 67a0 0 typeinfo for QOffscreenScreen
 PUBLIC 67c0 0 typeinfo for QOffscreenBackingStore
 PUBLIC 67e0 0 QUnixEventDispatcherQPA::staticMetaObject
@@ -1279,362 +1612,362 @@ PUBLIC 6a38 0 QOffscreenBackingStore::m_backingStoreForWinIdHash
 PUBLIC 6a40 0 qt_plugin_instance::_instance
 PUBLIC 6a50 0 guard variable for qt_plugin_instance::_instance
 PUBLIC 6a58 0 QOffscreenWindow::QOffscreenWindow(QWindow*)::counter
-STACK CFI INIT 1780 37 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1781 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1784 .cfa: $rbp 16 +
-STACK CFI 1786 $rbx: .cfa -24 + ^
-STACK CFI INIT 17c0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 17c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 17c4 .cfa: $rbp 16 +
-STACK CFI INIT 17d0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 17d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 17d4 .cfa: $rbp 16 +
-STACK CFI INIT 17f0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 17f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 17f4 .cfa: $rbp 16 +
-STACK CFI 17f7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1830 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1831 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1834 .cfa: $rbp 16 +
-STACK CFI INIT 1840 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1841 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1844 .cfa: $rbp 16 +
-STACK CFI INIT 1850 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1851 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1854 .cfa: $rbp 16 +
-STACK CFI 185b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 19a0 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 19a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 19a4 .cfa: $rbp 16 +
-STACK CFI INIT 19e0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 19e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 19e4 .cfa: $rbp 16 +
-STACK CFI INIT 19f0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 19f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 19f4 .cfa: $rbp 16 +
-STACK CFI 19f6 $rbx: .cfa -24 + ^
-STACK CFI INIT 1a10 d2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1a11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1a14 .cfa: $rbp 16 +
-STACK CFI 1a17 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1af0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1860 37 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1861 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1864 .cfa: $rbp 16 +
+STACK CFI 1866 $rbx: .cfa -24 + ^
+STACK CFI INIT 18a0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 18a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 18a4 .cfa: $rbp 16 +
+STACK CFI INIT 18b0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 18b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 18b4 .cfa: $rbp 16 +
+STACK CFI INIT 18d0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 18d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 18d4 .cfa: $rbp 16 +
+STACK CFI 18d7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1910 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1911 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1914 .cfa: $rbp 16 +
+STACK CFI INIT 1920 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1921 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1924 .cfa: $rbp 16 +
+STACK CFI INIT 1930 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1931 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1934 .cfa: $rbp 16 +
+STACK CFI 193b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1a80 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a84 .cfa: $rbp 16 +
+STACK CFI INIT 1ac0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ac1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ac4 .cfa: $rbp 16 +
+STACK CFI INIT 1ad0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ad1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ad4 .cfa: $rbp 16 +
+STACK CFI 1ad6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1af0 d2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1af1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1af4 .cfa: $rbp 16 +
-STACK CFI INIT 1b00 4d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1b01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1b04 .cfa: $rbp 16 +
-STACK CFI 1b06 $rbx: .cfa -24 + ^
-STACK CFI INIT 1b50 4d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1b51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1b54 .cfa: $rbp 16 +
-STACK CFI 1b56 $rbx: .cfa -24 + ^
-STACK CFI INIT 1ba0 4e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ba1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ba4 .cfa: $rbp 16 +
-STACK CFI 1ba6 $rbx: .cfa -24 + ^
-STACK CFI INIT 1bf0 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1bf1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1bf4 .cfa: $rbp 16 +
-STACK CFI INIT 1c10 36 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1c11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1c14 .cfa: $rbp 16 +
-STACK CFI 1c17 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1c50 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1c51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1c54 .cfa: $rbp 16 +
-STACK CFI 1c57 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1c80 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1af7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1bd0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1bd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1bd4 .cfa: $rbp 16 +
+STACK CFI INIT 1be0 4d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1be1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1be4 .cfa: $rbp 16 +
+STACK CFI 1be6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1c30 4d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1c31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1c34 .cfa: $rbp 16 +
+STACK CFI 1c36 $rbx: .cfa -24 + ^
+STACK CFI INIT 1c80 4e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1c81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1c84 .cfa: $rbp 16 +
-STACK CFI INIT 1c90 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1c91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1c94 .cfa: $rbp 16 +
-STACK CFI INIT 1ca0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ca1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ca4 .cfa: $rbp 16 +
-STACK CFI INIT 1cb0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1cb4 .cfa: $rbp 16 +
-STACK CFI INIT 1cc0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1cc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1cc4 .cfa: $rbp 16 +
-STACK CFI INIT 1cd0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1c86 $rbx: .cfa -24 + ^
+STACK CFI INIT 1cd0 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1cd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1cd4 .cfa: $rbp 16 +
-STACK CFI 1cd6 $rbx: .cfa -24 + ^
-STACK CFI INIT 1cf0 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1cf0 36 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1cf1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1cf4 .cfa: $rbp 16 +
-STACK CFI INIT 1d00 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1d01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1d04 .cfa: $rbp 16 +
-STACK CFI INIT 1d10 d8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1d11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1d14 .cfa: $rbp 16 +
-STACK CFI 1d1d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 1df0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1cf7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1d30 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1d31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1d34 .cfa: $rbp 16 +
+STACK CFI 1d37 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1d60 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1d61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1d64 .cfa: $rbp 16 +
+STACK CFI INIT 1d70 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1d71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1d74 .cfa: $rbp 16 +
+STACK CFI INIT 1d80 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1d81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1d84 .cfa: $rbp 16 +
+STACK CFI INIT 1d90 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1d91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1d94 .cfa: $rbp 16 +
+STACK CFI INIT 1da0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1da1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1da4 .cfa: $rbp 16 +
+STACK CFI INIT 1db0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1db1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1db4 .cfa: $rbp 16 +
+STACK CFI 1db6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1dd0 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1dd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1dd4 .cfa: $rbp 16 +
+STACK CFI INIT 1de0 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1de1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1de4 .cfa: $rbp 16 +
+STACK CFI INIT 1df0 d8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1df1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1df4 .cfa: $rbp 16 +
-STACK CFI INIT 1e00 44 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e04 .cfa: $rbp 16 +
-STACK CFI 1e06 $rbx: .cfa -24 + ^
-STACK CFI INIT 1e50 44 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e54 .cfa: $rbp 16 +
-STACK CFI 1e56 $rbx: .cfa -24 + ^
-STACK CFI INIT 1ea0 4c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ea1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ea4 .cfa: $rbp 16 +
-STACK CFI 1ea6 $rbx: .cfa -24 + ^
-STACK CFI INIT 1ef0 8e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ef1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ef4 .cfa: $rbp 16 +
-STACK CFI 1ef7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1f80 47 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1dfd $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 1ed0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ed1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ed4 .cfa: $rbp 16 +
+STACK CFI INIT 1ee0 44 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ee1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ee4 .cfa: $rbp 16 +
+STACK CFI 1ee6 $rbx: .cfa -24 + ^
+STACK CFI INIT 1f30 44 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1f31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1f34 .cfa: $rbp 16 +
+STACK CFI 1f36 $rbx: .cfa -24 + ^
+STACK CFI INIT 1f80 4c .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1f81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1f84 .cfa: $rbp 16 +
 STACK CFI 1f86 $rbx: .cfa -24 + ^
-STACK CFI INIT 1fd0 158 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1fd0 8e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 1fd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 1fd4 .cfa: $rbp 16 +
-STACK CFI 1fdb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 2130 127 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2131 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2134 .cfa: $rbp 16 +
-STACK CFI 213f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 2260 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2261 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2264 .cfa: $rbp 16 +
-STACK CFI INIT 2280 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2281 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2284 .cfa: $rbp 16 +
-STACK CFI INIT 2290 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2291 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2294 .cfa: $rbp 16 +
-STACK CFI INIT 22a0 eb .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 22a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 22a4 .cfa: $rbp 16 +
-STACK CFI 22ab $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 2390 84 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2391 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2394 .cfa: $rbp 16 +
-STACK CFI INIT 2420 19b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2421 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2424 .cfa: $rbp 16 +
-STACK CFI 242e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 25c0 1b0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 25c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 25c4 .cfa: $rbp 16 +
-STACK CFI 25d1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2770 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2771 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2774 .cfa: $rbp 16 +
-STACK CFI INIT 27b0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 27b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 27b4 .cfa: $rbp 16 +
-STACK CFI INIT 27c0 28 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 27c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 27c4 .cfa: $rbp 16 +
-STACK CFI INIT 27f0 2d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1fd7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2060 47 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2061 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2064 .cfa: $rbp 16 +
+STACK CFI 2066 $rbx: .cfa -24 + ^
+STACK CFI INIT 20b0 11f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 20b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 20b4 .cfa: $rbp 16 +
+STACK CFI 20bb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 21d0 127 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 21d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 21d4 .cfa: $rbp 16 +
+STACK CFI 21df $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 2300 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2301 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2304 .cfa: $rbp 16 +
+STACK CFI INIT 2320 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2321 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2324 .cfa: $rbp 16 +
+STACK CFI INIT 2330 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2331 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2334 .cfa: $rbp 16 +
+STACK CFI INIT 2340 eb .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2341 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2344 .cfa: $rbp 16 +
+STACK CFI 234b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2430 7d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2431 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2434 .cfa: $rbp 16 +
+STACK CFI INIT 24b0 18e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 24b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 24b4 .cfa: $rbp 16 +
+STACK CFI 24be $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2640 1b0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2641 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2644 .cfa: $rbp 16 +
+STACK CFI 2651 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 27f0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 27f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 27f4 .cfa: $rbp 16 +
-STACK CFI INIT 2820 6d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2821 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2824 .cfa: $rbp 16 +
-STACK CFI 2827 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2830 1b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2831 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2834 .cfa: $rbp 16 +
+STACK CFI INIT 2850 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2851 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2854 .cfa: $rbp 16 +
+STACK CFI INIT 2860 2d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2861 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2864 .cfa: $rbp 16 +
 STACK CFI INIT 2890 6d .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2891 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2894 .cfa: $rbp 16 +
 STACK CFI 2897 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 2900 312 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2900 6d .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2901 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2904 .cfa: $rbp 16 +
-STACK CFI 2911 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2c20 84 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2c21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2c24 .cfa: $rbp 16 +
-STACK CFI INIT 2cb0 19a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2cb4 .cfa: $rbp 16 +
-STACK CFI 2cbd $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 2e50 33 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2e51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2e54 .cfa: $rbp 16 +
-STACK CFI 2e56 $rbx: .cfa -24 + ^
+STACK CFI 2907 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2970 2fb .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2971 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2974 .cfa: $rbp 16 +
+STACK CFI 2981 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2c70 7d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2c71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2c74 .cfa: $rbp 16 +
+STACK CFI INIT 2cf0 198 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2cf1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2cf4 .cfa: $rbp 16 +
+STACK CFI 2cfd $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
 STACK CFI INIT 2e90 33 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2e91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2e94 .cfa: $rbp 16 +
 STACK CFI 2e96 $rbx: .cfa -24 + ^
-STACK CFI INIT 2ed0 5f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2ed0 33 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2ed1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2ed4 .cfa: $rbp 16 +
 STACK CFI 2ed6 $rbx: .cfa -24 + ^
-STACK CFI INIT 2f30 1af .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2f31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2f34 .cfa: $rbp 16 +
-STACK CFI 2f3f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 30e0 5f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 30e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 30e4 .cfa: $rbp 16 +
-STACK CFI 30e6 $rbx: .cfa -24 + ^
-STACK CFI INIT 3140 67 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3141 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3144 .cfa: $rbp 16 +
-STACK CFI 3146 $rbx: .cfa -24 + ^
-STACK CFI INIT 31b0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 31b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 31b4 .cfa: $rbp 16 +
-STACK CFI INIT 31c0 172 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 31c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 31c4 .cfa: $rbp 16 +
-STACK CFI 31d1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3340 87 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3341 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3344 .cfa: $rbp 16 +
-STACK CFI 3351 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 33d0 bf .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 33d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 33d4 .cfa: $rbp 16 +
-STACK CFI 33e1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3490 1a3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3491 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3494 .cfa: $rbp 16 +
-STACK CFI 349e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3640 19b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3641 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3644 .cfa: $rbp 16 +
-STACK CFI 364e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 37e0 141 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 37e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 37e4 .cfa: $rbp 16 +
-STACK CFI 37ee $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3930 c9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3931 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3934 .cfa: $rbp 16 +
-STACK CFI 393a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 3a00 1b0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3a01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3a04 .cfa: $rbp 16 +
-STACK CFI 3a11 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3bb0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3bb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3bb4 .cfa: $rbp 16 +
-STACK CFI INIT 3bf0 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3bf1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3bf4 .cfa: $rbp 16 +
-STACK CFI 3bf6 $rbx: .cfa -24 + ^
-STACK CFI INIT 3c20 38 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3c21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3c24 .cfa: $rbp 16 +
-STACK CFI 3c26 $rbx: .cfa -24 + ^
-STACK CFI INIT 3c60 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3c61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3c64 .cfa: $rbp 16 +
-STACK CFI INIT 3c70 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3c71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3c74 .cfa: $rbp 16 +
-STACK CFI INIT 3c80 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2f10 5f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2f11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2f14 .cfa: $rbp 16 +
+STACK CFI 2f16 $rbx: .cfa -24 + ^
+STACK CFI INIT 2f70 19a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2f71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2f74 .cfa: $rbp 16 +
+STACK CFI 2f7f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 3110 5f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3111 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3114 .cfa: $rbp 16 +
+STACK CFI 3116 $rbx: .cfa -24 + ^
+STACK CFI INIT 3170 67 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3171 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3174 .cfa: $rbp 16 +
+STACK CFI 3176 $rbx: .cfa -24 + ^
+STACK CFI INIT 31e0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 31e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 31e4 .cfa: $rbp 16 +
+STACK CFI INIT 31f0 172 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 31f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 31f4 .cfa: $rbp 16 +
+STACK CFI 3201 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3370 87 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3371 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3374 .cfa: $rbp 16 +
+STACK CFI 3381 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3400 c4 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3401 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3404 .cfa: $rbp 16 +
+STACK CFI 3411 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 34d0 1a2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 34d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 34d4 .cfa: $rbp 16 +
+STACK CFI 34de $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3680 18e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3681 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3684 .cfa: $rbp 16 +
+STACK CFI 368e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3810 131 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3811 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3814 .cfa: $rbp 16 +
+STACK CFI 381e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3950 c4 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3951 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3954 .cfa: $rbp 16 +
+STACK CFI 395a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 3a20 1b0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3a21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3a24 .cfa: $rbp 16 +
+STACK CFI 3a31 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3bd0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3bd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3bd4 .cfa: $rbp 16 +
+STACK CFI INIT 3c10 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3c11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3c14 .cfa: $rbp 16 +
+STACK CFI 3c16 $rbx: .cfa -24 + ^
+STACK CFI INIT 3c40 38 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3c41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3c44 .cfa: $rbp 16 +
+STACK CFI 3c46 $rbx: .cfa -24 + ^
+STACK CFI INIT 3c80 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 3c81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 3c84 .cfa: $rbp 16 +
 STACK CFI INIT 3c90 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 3c91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 3c94 .cfa: $rbp 16 +
-STACK CFI INIT 3ca0 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3ca0 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 3ca1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 3ca4 .cfa: $rbp 16 +
-STACK CFI INIT 3cc0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3cb0 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3cb4 .cfa: $rbp 16 +
+STACK CFI INIT 3cc0 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 3cc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 3cc4 .cfa: $rbp 16 +
-STACK CFI INIT 3cd0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3cd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3cd4 .cfa: $rbp 16 +
-STACK CFI INIT 3ce0 c6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3ce0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 3ce1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 3ce4 .cfa: $rbp 16 +
-STACK CFI 3ceb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 3db0 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3db1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3db4 .cfa: $rbp 16 +
-STACK CFI INIT 3de0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3de1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3de4 .cfa: $rbp 16 +
-STACK CFI INIT 3df0 28 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3df1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3df4 .cfa: $rbp 16 +
-STACK CFI INIT 3e20 10f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3e21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3e24 .cfa: $rbp 16 +
-STACK CFI 3e31 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3f30 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f34 .cfa: $rbp 16 +
-STACK CFI INIT 3f40 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f44 .cfa: $rbp 16 +
-STACK CFI 3f46 $rbx: .cfa -24 + ^
-STACK CFI INIT 3f60 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f64 .cfa: $rbp 16 +
-STACK CFI INIT 3f70 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f74 .cfa: $rbp 16 +
-STACK CFI INIT 3f80 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f84 .cfa: $rbp 16 +
-STACK CFI INIT 3f90 2eb .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3f91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3f94 .cfa: $rbp 16 +
-STACK CFI 3fa2 $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 4280 2d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4281 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4284 .cfa: $rbp 16 +
-STACK CFI INIT 42b0 25 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 42b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 42b4 .cfa: $rbp 16 +
-STACK CFI 42b6 $rbx: .cfa -24 + ^
-STACK CFI INIT 42e0 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 42e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 42e4 .cfa: $rbp 16 +
-STACK CFI 42e6 $rbx: .cfa -24 + ^
-STACK CFI INIT 4310 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4311 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4314 .cfa: $rbp 16 +
-STACK CFI 4316 $rbx: .cfa -24 + ^
-STACK CFI INIT 4340 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4341 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4344 .cfa: $rbp 16 +
-STACK CFI INIT 4350 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4351 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4354 .cfa: $rbp 16 +
-STACK CFI INIT 4360 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3cf0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3cf1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3cf4 .cfa: $rbp 16 +
+STACK CFI INIT 3d00 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3d01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3d04 .cfa: $rbp 16 +
+STACK CFI 3d06 $rbx: .cfa -24 + ^
+STACK CFI INIT 3d20 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3d21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3d24 .cfa: $rbp 16 +
+STACK CFI INIT 3d30 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3d31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3d34 .cfa: $rbp 16 +
+STACK CFI INIT 3d40 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3d41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3d44 .cfa: $rbp 16 +
+STACK CFI INIT 3d50 2f1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3d51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3d54 .cfa: $rbp 16 +
+STACK CFI 3d62 $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 4050 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4051 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4054 .cfa: $rbp 16 +
+STACK CFI INIT 4060 2b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4061 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4064 .cfa: $rbp 16 +
+STACK CFI INIT 4090 1b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4091 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4094 .cfa: $rbp 16 +
+STACK CFI INIT 40b0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 40b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 40b4 .cfa: $rbp 16 +
+STACK CFI INIT 40c0 10f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 40c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 40c4 .cfa: $rbp 16 +
+STACK CFI 40d1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 41d0 c6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 41d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 41d4 .cfa: $rbp 16 +
+STACK CFI 41db $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 42a0 2d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 42a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 42a4 .cfa: $rbp 16 +
+STACK CFI INIT 42d0 25 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 42d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 42d4 .cfa: $rbp 16 +
+STACK CFI 42d6 $rbx: .cfa -24 + ^
+STACK CFI INIT 4300 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4301 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4304 .cfa: $rbp 16 +
+STACK CFI 4306 $rbx: .cfa -24 + ^
+STACK CFI INIT 4330 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4331 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4334 .cfa: $rbp 16 +
+STACK CFI 4336 $rbx: .cfa -24 + ^
+STACK CFI INIT 4360 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 4361 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 4364 .cfa: $rbp 16 +
-STACK CFI 4366 $rbx: .cfa -24 + ^
-STACK CFI INIT 4380 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4370 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4371 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4374 .cfa: $rbp 16 +
+STACK CFI INIT 4380 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 4381 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 4384 .cfa: $rbp 16 +
-STACK CFI 4387 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 43a0 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4386 $rbx: .cfa -24 + ^
+STACK CFI INIT 43a0 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 43a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 43a4 .cfa: $rbp 16 +
+STACK CFI 43a7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
 STACK CFI INIT 43c0 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 43c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 43c4 .cfa: $rbp 16 +
-STACK CFI INIT 43e0 27 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 43e0 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 43e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 43e4 .cfa: $rbp 16 +
-STACK CFI 43e6 $rbx: .cfa -24 + ^
-STACK CFI INIT 4410 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4411 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4414 .cfa: $rbp 16 +
-STACK CFI INIT 4420 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4421 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4424 .cfa: $rbp 16 +
-STACK CFI INIT 4440 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4400 27 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4401 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4404 .cfa: $rbp 16 +
+STACK CFI 4406 $rbx: .cfa -24 + ^
+STACK CFI INIT 4430 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4431 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4434 .cfa: $rbp 16 +
+STACK CFI INIT 4440 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 4441 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 4444 .cfa: $rbp 16 +
-STACK CFI 4447 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 4480 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4481 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4484 .cfa: $rbp 16 +
+STACK CFI INIT 4460 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4461 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4464 .cfa: $rbp 16 +
+STACK CFI 4467 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 44a0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 44a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 44a4 .cfa: $rbp 16 +

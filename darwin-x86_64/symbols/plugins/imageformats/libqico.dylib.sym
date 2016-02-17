@@ -1,840 +1,1119 @@
-MODULE mac x86_64 37439946B0E03B9D954F61451812A4B20 libqico.dylib
-FILE 0 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 1 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qendian.h
-FILE 2 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
-FILE 3 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
-FILE 4 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qiodevice.h
-FILE 5 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 6 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
-FILE 7 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
-FILE 8 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
-FILE 9 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 10 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
-FILE 11 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
-FILE 12 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 13 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 14 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 15 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
-FILE 16 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 17 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/image/qimage.h
-FILE 18 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qrgb.h
-FILE 19 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.cpp
-FILE 20 /private/tmp/grigoryj-build-qt-6786/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/qicohandler.cpp
-FILE 21 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/plugins/imageformats/ico/.moc/../../../../../../../src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.h
-FILE 22 /tmp/grigoryj-build-qt-6786/build-darwin-x86_64/qtbase/src/plugins/imageformats/ico/.moc/moc_main.cpp
-FUNC a40 8f 0 QICOPlugin::capabilities(QIODevice*, QByteArray const&) const
-a40 10 41 19
-a50 19 590 10
-a69 13 590 10
-a7c 6 471 10
-a82 6 44 19
-a88 c 46 19
-a94 e 50 19
-aa2 b 50 19
-aad 8 52 19
-ab5 3 124 2
-ab8 9 52 19
-ac1 e 55 19
-FUNC ad0 41 0 QICOPlugin::create(QIODevice*, QByteArray const&) const
-ad0 15 58 19
-ae5 8 59 19
-aed b 59 19
-af8 b 61 19
-b03 e 62 19
-FUNC b20 16 0 <name omitted>
-b20 4 246 20
-b24 10 246 20
-b34 2 247 20
-FUNC b40 16 0 <name omitted>
-b40 4 246 20
-b44 10 246 20
-b54 2 247 20
-FUNC b60 7f 0 <name omitted>
-b60 9 251 20
-b69 f 331 20
-b78 a 332 20
-b82 4 333 20
-b86 e 174 20
-b94 b 176 20
-b9f 4 78 1
-ba3 4 177 20
-ba7 4 78 1
-bab 4 178 20
-baf 4 78 1
-bb3 4 179 20
-bb7 5 334 20
-bbc a 252 20
-bc6 8 335 20
-bce 6 339 20
-bd4 4 253 20
-bd8 7 255 20
-FUNC be0 74 0 ICOReader::readHeader()
-be0 9 330 20
-be9 f 331 20
-bf8 a 332 20
-c02 4 333 20
-c06 e 174 20
-c14 b 176 20
-c1f 4 78 1
-c23 4 177 20
-c27 4 78 1
-c2b 4 178 20
-c2f 4 78 1
-c33 4 179 20
-c37 f 334 20
-c46 4 335 20
-c4a a 339 20
-FUNC c60 312 0 ICOReader::canRead(QIODevice*)
-c60 14 258 20
-c74 f 266 20
-c83 9 260 20
-c8c 15 261 20
-ca1 12 176 20
-cb3 5 78 1
-cb8 4 78 1
-cbc 12 78 1
-cce 16 138 20
-ce4 7 139 20
-ceb 12 266 20
-cfd 7 78 1
-d04 7f 269 20
-d83 19 279 20
-d9c 1f 266 20
-dbb 12 282 20
-dcd 12 283 20
-ddf 12 284 20
-df1 c 285 20
-dfd e 288 20
-e0b 11 289 20
-e1c 11 290 20
-e2d c 291 20
-e39 12 294 20
-e4b f 295 20
-e5a 12 298 20
-e6c f 299 20
-e7b c 301 20
-e87 11 302 20
-e98 11 303 20
-ea9 1d 304 20
-ec6 11 308 20
-ed7 11 311 20
-ee8 10 312 20
-ef8 11 315 20
-f09 c 316 20
-f15 11 319 20
-f26 13 320 20
-f39 d 323 20
-f46 15 323 20
-f5b 17 326 20
-FUNC f80 c6 0 <name omitted>
-f80 10 343 20
-f90 e 346 20
-f9e c 344 20
-faa 1c 345 20
-fc6 4 346 20
-fca e 136 20
-fd8 b 138 20
-fe3 c 139 20
-fef 3 140 20
-ff2 5 346 20
-ff7 3 141 20
-ffa 3 142 20
-ffd 7 346 20
-1004 4 144 20
-1008 4 346 20
-100c 4 145 20
-1010 4 78 1
-1014 3 146 20
-1017 4 346 20
-101b 1b 147 20
-1036 10 350 20
-FUNC 1050 e6 0 ICOReader::readBMPHeader(unsigned int, BMP_INFOHDR*)
-1050 13 355 20
-1063 e 358 20
-1071 d 356 20
-107e 17 357 20
-1095 4 358 20
-1099 e 200 20
-10a7 b 202 20
-10b2 4 78 1
-10b6 3 203 20
-10b9 4 358 20
-10bd 4 204 20
-10c1 4 78 1
-10c5 4 205 20
-10c9 7 358 20
-10d0 5 206 20
-10d5 4 358 20
-10d9 5 207 20
-10de 4 78 1
-10e2 4 208 20
-10e6 4 358 20
-10ea 4 209 20
-10ee 4 78 1
-10f2 4 210 20
-10f6 4 358 20
-10fa 4 211 20
-10fe 4 78 1
-1102 4 212 20
-1106 4 358 20
-110a 1c 213 20
-1126 10 364 20
-FUNC 1140 51 0 <name omitted>
-1140 e 367 20
-114e 6 368 20
-1154 10 369 20
-1164 9 370 20
-116d 1b 371 20
-1188 9 373 20
-FUNC 11a0 b9 0 ICOReader::readColorTable(QImage&)
-11a0 15 376 20
-11b5 7 377 20
-11bc c 378 20
-11c8 18 380 20
-11e0 17 381 20
-11f7 c 385 20
-1203 10 61 18
-1213 a 385 20
-121d 2 380 20
-121f 12 380 20
-1231 1b 388 20
-124c d 390 20
-FUNC 1260 51 0 <name omitted>
-1260 4 393 20
-1264 1b 394 20
-127f 19 397 20
-1298 6 401 20
-129e b 395 20
-12a9 6 399 20
-12af 2 403 20
-FUNC 12c0 9b 0 ICOReader::read1BitBMP(QImage&)
-12c0 17 412 20
-12d7 7 413 20
-12de a 415 20
-12e8 8 416 20
-12f0 10 419 20
-1300 6 418 20
-1306 4 419 20
-130a a 419 20
-1314 1d 419 20
-1331 1b 425 20
-134c f 427 20
-FUNC 1360 148 0 ICOReader::read4BitBMP(QImage&)
-1360 17 430 20
-1377 12 431 20
-1389 5 433 20
-138e 1a 434 20
-13a8 19 435 20
-13c1 f 438 20
-13d0 1c 439 20
-13ec 3 438 20
-13ef c 443 20
-13fb 15 445 20
-1410 7 446 20
-1417 f 447 20
-1426 2 445 20
-1428 12 445 20
-143a 5 449 20
-143f 7 450 20
-1446 b 438 20
-1451 21 456 20
-1472 1f 440 20
-1491 8 453 20
-1499 f 458 20
-FUNC 14b0 8b 0 ICOReader::read8BitBMP(QImage&)
-14b0 17 461 20
-14c7 7 462 20
-14ce 4 464 20
-14d2 8 465 20
-14da 6 468 20
-14e0 6 467 20
-14e6 4 468 20
-14ea a 468 20
-14f4 1d 468 20
-1511 1b 474 20
-152c f 476 20
-FUNC 1540 1ab 0 ICOReader::read16_24_32BMP(QImage&)
-1540 1b 479 20
-155b b 480 20
-1566 4 481 20
-156a 22 484 20
-158c 9 488 20
-1595 1c 485 20
-15b1 2 491 20
-15b3 10 488 20
-15c3 e 489 20
-15d1 4 490 20
-15d5 1d 491 20
-15f2 4 490 20
-15f6 9 496 20
-15ff 16 497 20
-1615 f 500 20
-1624 21 64 18
-1645 b 498 20
-1650 10 61 18
-1660 7 500 20
-1667 17 501 20
-167e 5 496 20
-1683 13 488 20
-1696 21 508 20
-16b7 1c 492 20
-16d3 9 505 20
-16dc f 510 20
-FUNC 16f0 75e 0 ICOReader::iconAt(int)
-16f0 1c 515 20
-170c 15 130 7
-1721 5 516 20
-1726 10 331 20
-1736 a 332 20
-1740 4 333 20
-1744 e 174 20
-1752 b 176 20
-175d 4 78 1
-1761 5 177 20
-1766 4 78 1
-176a 5 178 20
-176f 4 78 1
-1773 5 179 20
-1778 5 334 20
-177d a 252 20
-1787 9 335 20
-1790 7 339 20
-1797 5 253 20
-179c 8 518 20
-17a4 d 344 20
-17b1 20 345 20
-17d1 4 346 20
-17d5 12 136 20
-17e7 f 138 20
-17f6 4 139 20
-17fa b 78 1
-1805 22 346 20
-1827 10 525 20
-1837 18 527 20
-184f 4 528 20
-1853 7 461 10
-185a b 528 20
-1865 5 528 20
-186a 7 461 10
-1871 4 588 10
-1875 7 461 10
-187c 9 588 10
-1885 3 55 9
-1888 4 55 9
-188c e 588 10
-189a 2 90 8
-189c 11 62 12
-18ad 8 214 0
-18b5 c 459 10
-18c1 11 459 10
-18d2 e 222 9
-18e0 8 530 20
-18e8 10 531 20
-18f8 19 532 20
-1911 b 483 10
-191c 3 55 9
-191f 3 461 10
-1922 f 285 17
-1931 7 459 10
-1938 2 90 8
-193a 9 62 12
-1943 8 214 0
-194b 6 459 10
-1951 11 459 10
-1962 5 222 9
-1967 24 846 16
-198b 16 533 20
-19a1 b 533 20
-19ac 7 1053 16
-19b3 2 90 8
-19b5 9 62 12
-19be 8 214 0
-19c6 6 1053 16
-19cc 11 1053 16
-19dd 5 222 9
-19e2 7 1053 16
-19e9 8 90 8
-19f1 d 62 12
-19fe 8 214 0
-1a06 a 1053 16
-1a10 11 1053 16
-1a21 e 222 9
-1a2f 16 538 20
-1a45 12 539 20
-1a57 3 541 20
-1a5a 4 539 20
-1a5e 15 541 20
-1a73 8 545 20
-1a7b 1c 555 20
-1a97 f 549 20
-1aa6 d 552 20
-1ab3 13 557 20
-1ac6 f 558 20
-1ad5 1a 559 20
-1aef 7 560 20
-1af6 4 561 20
-1afa 7 562 20
-1b01 d 563 20
-1b0e 5 564 20
-1b13 e 565 20
-1b21 5 568 20
-1b26 f 570 20
-1b35 13 572 20
-1b48 a 575 20
-1b52 10 576 20
-1b62 e 368 20
-1b70 a 369 20
-1b7a b 370 20
-1b85 26 371 20
-1bab d 578 20
-1bb8 2c 394 20
-1be4 24 397 20
-1c08 f 401 20
-1c17 14 580 20
-1c2b e 581 20
-1c39 17 581 20
-1c50 d 581 20
-1c5d 18 582 20
-1c75 f 583 20
-1c84 12 584 20
-1c96 8 585 20
-1c9e b 586 20
-1ca9 1a 587 20
-1cc3 f 588 20
-1cd2 f 589 20
-1ce1 5 594 20
-1ce6 24 846 16
-1d0a 1d 597 20
-1d27 8 597 20
-1d2f 7 1053 16
-1d36 2 90 8
-1d38 9 62 12
-1d41 8 214 0
-1d49 6 1053 16
-1d4f 11 1053 16
-1d60 5 222 9
-1d65 7 1053 16
-1d6c 2 90 8
-1d6e 9 62 12
-1d77 8 214 0
-1d7f 6 1053 16
-1d85 11 1053 16
-1d96 c 222 9
-1da2 5 598 20
-1da7 7 459 10
-1dae 2 90 8
-1db0 9 62 12
-1db9 8 214 0
-1dc1 6 459 10
-1dc7 11 459 10
-1dd8 11 222 9
-1de9 f 602 20
-1df8 2c 603 20
-1e24 1d 395 20
-1e41 d 399 20
-FUNC 1e50 106 0 ICOReader::read(QIODevice*)
-1e50 17 616 20
-1e67 a 139 11
-1e71 2f 246 20
-1ea0 d 621 20
-1ead b 353 11
-1eb8 8 621 20
-1ec0 2 620 20
-1ec2 f 331 20
-1ed1 d 332 20
-1ede 4 333 20
-1ee2 a 174 20
-1eec e 176 20
-1efa 4 78 1
-1efe 4 177 20
-1f02 4 78 1
-1f06 4 178 20
-1f0a 4 78 1
-1f0e 4 179 20
-1f12 5 334 20
-1f17 a 252 20
-1f21 11 335 20
-1f32 6 339 20
-1f38 4 253 20
-1f3c 8 620 20
-1f44 12 624 20
-FUNC 1f60 7d8 0 ICOReader::write(QIODevice*, QList<QImage> const&)
-1f60 17 640 20
-1f77 e 736 20
-1f85 6 105 11
-1f8b d 643 20
-1f98 10 645 20
-1fa8 10 105 11
-1fb8 27 652 20
-1fdf 18 653 20
-1ff7 30 654 20
-2027 c 458 10
-2033 9 656 20
-203c 24 686 20
-2060 11 107 11
-2071 5 131 11
-2076 8 658 20
-207e f 660 20
-208d 19 660 20
-20a6 16 105 15
-20bc f 249 17
-20cb 13 662 20
-20de a 664 20
-20e8 d 664 20
-20f5 1a 664 20
-210f b 665 20
-211a 13 665 20
-212d 23 667 20
-2150 b 668 20
-215b 21 668 20
-217c 16 670 20
-2192 b 672 20
-219d 13 672 20
-21b0 31 675 20
-21e1 29 677 20
-220a 6 678 20
-2210 14 679 20
-2224 19 680 20
-223d d 681 20
-224a f 682 20
-2259 b 683 20
-2264 1d 683 20
-2281 8 684 20
-2289 a 685 20
-2293 f 689 20
-22a2 1a 691 20
-22bc 8 692 20
-22c4 e 693 20
-22d2 8 694 20
-22da 10 695 20
-22ea 7 696 20
-22f1 7 697 20
-22f8 8 698 20
-2300 e 699 20
-230e 8 700 20
-2316 8 701 20
-231e 14 703 20
-2332 d 703 20
-233f 8 704 20
-2347 28 706 20
-236f 16 708 20
-2385 1e 710 20
-23a3 e 712 20
-23b1 e 713 20
-23bf 11 716 20
-23d0 5 717 20
-23d5 7 718 20
-23dc 7 719 20
-23e3 7 720 20
-23ea 15 721 20
-23ff b 722 20
-240a 4 723 20
-240e 7 724 20
-2415 c 716 20
-2421 16 726 20
-2437 d 710 20
-2444 15 728 20
-2459 8 730 20
-2461 12 732 20
-2473 b 733 20
-247e b 733 20
-2489 b 733 20
-2494 4 732 20
-2498 1f 734 20
-24b7 1a 656 20
-24d1 9 188 20
-24da 6 72 1
-24e0 6 72 1
-24e6 13 72 1
-24f9 5 193 20
-24fe 32 736 20
-2530 5 158 20
-2535 6 159 20
-253b 6 160 20
-2541 6 161 20
-2547 4 162 20
-254b 4 72 1
-254f 4 163 20
-2553 4 72 1
-2557 3 164 20
-255a 3 72 1
-255d 3 165 20
-2560 8 72 1
-2568 f 166 20
-2577 17 739 20
-258e e 742 20
-259c 44 743 20
-25e0 2 224 20
-25e2 3 72 1
-25e5 3 225 20
-25e8 3 72 1
-25eb 3 226 20
-25ee 3 72 1
-25f1 4 227 20
-25f5 4 72 1
-25f9 4 228 20
-25fd 4 72 1
-2601 4 229 20
-2605 4 72 1
-2609 3 233 20
-260c 3 72 1
-260f 3 234 20
-2612 8 72 1
-261a 1b 236 20
-2635 8 483 10
-263d 3 55 9
-2640 4 117 4
-2644 8 117 4
-264c 4 461 10
-2650 a 745 20
-265a 31 743 20
-268b 14 745 20
-269f 8 751 20
-26a7 13 752 20
-26ba 16 753 20
-26d0 4 459 10
-26d4 2 90 8
-26d6 9 62 12
-26df 8 214 0
-26e7 6 459 10
-26ed e 459 10
-26fb 5 222 9
-2700 e 753 20
-270e 10 736 20
-271e 1a 756 20
-FUNC 2740 51 0 <name omitted>
-2740 d 763 20
-274d f 763 20
-275c 7 764 20
-2763 10 765 20
-2773 5 766 20
-2778 10 246 20
-2788 4 766 20
-278c 5 767 20
-FUNC 27a0 51 0 QtIcoHandler::QtIcoHandler(QIODevice*)
-27a0 d 763 20
-27ad f 763 20
-27bc 7 764 20
-27c3 10 765 20
-27d3 5 766 20
-27d8 10 246 20
-27e8 4 766 20
-27ec 5 767 20
-FUNC 2800 2f 0 <name omitted>
-2800 9 773 20
-2809 a 773 20
-2813 e 774 20
-2821 e 775 20
-FUNC 2830 2f 0 <name omitted>
-2830 9 773 20
-2839 a 773 20
-2843 e 774 20
-2851 e 775 20
-FUNC 2860 37 0 QtIcoHandler::~QtIcoHandler()
-2860 9 773 20
-2869 a 773 20
-2873 e 774 20
-2881 8 775 20
-2889 e 773 20
-FUNC 28a0 fe 0 QtIcoHandler::option(QImageIOHandler::ImageOption) const
-28a0 17 778 20
-28b7 f 784 20
-28c6 8 779 20
-28ce b 780 20
-28d9 d 781 20
-28e6 1f 783 20
-2905 e 136 20
-2913 e 138 20
-2921 3 139 20
-2924 6 784 20
-292a 10 785 20
-293a 3 786 20
-293d d 105 15
-294a a 786 20
-2954 e 789 20
-2962 10 790 20
-2972 8 367 6
-297a d 367 6
-2987 17 793 20
-FUNC 29a0 b 0 QtIcoHandler::supportsOption(QImageIOHandler::ImageOption) const
-29a0 4 796 20
-29a4 7 797 20
-FUNC 29b0 cf 0 QtIcoHandler::canRead() const
-29b0 10 806 20
-29c0 5 808 20
-29c5 5 809 20
-29ca b 810 20
-29d5 9 811 20
-29de 23 812 20
-2a01 4 459 10
-2a05 2 90 8
-2a07 9 62 12
-2a10 8 214 0
-2a18 6 459 10
-2a1e e 459 10
-2a2c 7 222 9
-2a33 29 62 3
-2a5c 15 814 20
-2a71 e 816 20
-FUNC 2a80 a 0 QtIcoHandler::canRead(QIODevice*)
-2a80 4 823 20
-2a84 1 825 20
-2a85 5 822 20
-FUNC 2a90 53 0 QtIcoHandler::read(QImage*)
-2a90 e 832 20
-2a9e 13 834 20
-2ab1 14 837 20
-2ac5 e 839 20
-2ad3 10 843 20
-FUNC 2af0 c0 0 QtIcoHandler::write(QImage const&)
-2af0 12 850 20
-2b02 8 851 20
-2b0a f 139 11
-2b19 b 853 20
-2b24 e 854 20
-2b32 4 795 11
-2b36 3 90 8
-2b39 9 62 12
-2b42 9 214 0
-2b4b 6 795 11
-2b51 c 796 11
-2b5d 5 463 11
-2b62 2c 463 11
-2b8e a 463 11
-2b98 8 836 11
-2ba0 10 855 20
-FUNC 2bb0 24 0 QtIcoHandler::name() const
-2bb0 9 862 20
-2bb9 1b 863 20
-FUNC 2be0 80 0 QtIcoHandler::imageCount() const
-2be0 4 871 20
-2be4 6 872 20
-2bea f 331 20
-2bf9 a 332 20
-2c03 4 333 20
-2c07 e 174 20
-2c15 b 176 20
-2c20 4 78 1
-2c24 4 177 20
-2c28 4 78 1
-2c2c 4 178 20
-2c30 4 78 1
-2c34 4 179 20
-2c38 5 334 20
-2c3d a 252 20
-2c47 8 335 20
-2c4f 6 339 20
-2c55 4 253 20
-2c59 7 872 20
-FUNC 2c60 30 0 QtIcoHandler::jumpToImage(int)
-2c60 d 879 20
-2c6d b 880 20
-2c78 4 881 20
-2c7c 14 884 20
-FUNC 2c90 13 0 QtIcoHandler::jumpToNextImage()
-2c90 4 891 20
-2c94 f 892 20
-FUNC 2cb0 54 0 QList<QImage>::append(QImage const&)
-2cb0 d 549 11
-2cbd 12 550 11
-2ccf 7 551 11
-2cd6 d 560 11
-2ce3 16 404 11
-2cf9 b 579 11
-FUNC 2d10 193 0 QList<QImage>::detach_helper_grow(int, int)
-2d10 1a 723 11
-2d2a c 108 11
-2d36 9 725 11
-2d3f d 108 11
-2d4c 9 728 11
-2d55 8 108 11
-2d5d d 108 11
-2d6a 22 431 11
-2d8c 4 432 11
-2d90 4 433 11
-2d94 a 430 11
-2d9e 16 108 11
-2db4 e 735 11
-2dc2 5 430 11
-2dc7 8 735 11
-2dcf 5 735 11
-2dd4 37 431 11
-2e0b 4 432 11
-2e0f 4 433 11
-2e13 a 430 11
-2e1d 3 90 8
-2e20 9 62 12
-2e29 9 214 0
-2e32 e 745 11
-2e40 5 463 11
-2e45 29 463 11
-2e6e a 463 11
-2e78 8 836 11
-2e80 8 108 11
-2e88 1b 748 11
-FUNC 2eb0 6 0 QICOPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-2eb0 4 57 22
-2eb4 2 62 22
-FUNC 2ec0 1e 0 QICOPlugin::metaObject() const
-2ec0 4 71 22
-2ec4 4 113 13
-2ec8 7 72 22
-2ecf f 72 22
-FUNC 2ee0 3e 0 QICOPlugin::qt_metacast(char const*)
-2ee0 f 76 22
-2eef 5 77 22
-2ef4 13 78 22
-2f07 12 80 22
-2f19 5 81 22
-FUNC 2f20 a 0 QICOPlugin::qt_metacall(QMetaObject::Call, int, void**)
-2f20 4 84 22
-2f24 1 85 22
-2f25 5 0 22
-FUNC 2f30 d 0 qt_plugin_query_metadata
-2f30 4 184 22
-2f34 9 184 22
-FUNC 2f40 144 0 qt_plugin_instance
-2f40 4 184 22
-2f44 21 184 22
-2f65 1d 590 14
-2f82 1f 184 22
-2fa1 c 588 14
-2fad 1b 588 14
-2fc8 a 184 22
-2fd2 12 46 21
-2fe4 b 696 14
-2fef c 702 14
-2ffb 5 703 14
-3000 8 176 0
-3008 c 705 14
-3014 8 214 0
-301c 6 705 14
-3022 c 706 14
-302e 5 161 14
-3033 7 707 14
-303a 7 708 14
-3041 5 591 14
-3046 8 214 0
-304e 6 591 14
-3054 8 161 14
-305c e 588 14
-306a 1a 588 14
-FUNC 3090 31 0 QPointer<QObject>::~QPointer()
-3090 4 64 5
-3094 c 591 14
-30a0 8 214 0
-30a8 6 591 14
-30ae 8 591 14
-30b6 5 161 14
-30bb 6 64 5
-FUNC 30d0 a 0 <name omitted>
-30d0 4 46 21
-30d4 1 46 21
-30d5 5 0 21
-FUNC 30e0 1c 0 QICOPlugin::~QICOPlugin()
-30e0 9 46 21
-30e9 5 46 21
-30ee e 46 21
+MODULE mac x86_64 9F799241B1653927A8F1B34FA227CDCC0 libqico.dylib
+FILE 0 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qendian.h
+FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
+FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
+FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qiodevice.h
+FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
+FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 16 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/image/qimage.h
+FILE 17 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qrgb.h
+FILE 18 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.cpp
+FILE 19 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/qicohandler.cpp
+FILE 20 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/imageformats/ico/.moc/../../../../../../../src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.h
+FILE 21 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/imageformats/ico/.moc/moc_main.cpp
+FUNC 9e0 8f 0 QICOPlugin::capabilities(QIODevice*, QByteArray const&) const
+9e0 10 41 18
+9f0 15 590 9
+a05 4 590 9
+a09 f 590 9
+a18 4 590 9
+a1c 6 471 9
+a22 6 44 18
+a28 8 46 18
+a30 4 46 18
+a34 a 50 18
+a3e 4 50 18
+a42 8 50 18
+a4a 3 50 18
+a4d 8 52 18
+a55 3 124 2
+a58 9 52 18
+a61 e 55 18
+FUNC a70 41 0 QICOPlugin::create(QIODevice*, QByteArray const&) const
+a70 15 58 18
+a85 8 59 18
+a8d b 59 18
+a98 b 61 18
+aa3 e 62 18
+FUNC ac0 16 0 <name omitted>
+ac0 4 246 19
+ac4 4 243 19
+ac8 8 244 19
+ad0 4 245 19
+ad4 2 247 19
+FUNC ae0 16 0 <name omitted>
+ae0 4 246 19
+ae4 4 243 19
+ae8 8 244 19
+af0 4 245 19
+af4 2 247 19
+FUNC b00 7f 0 <name omitted>
+b00 9 251 19
+b09 9 331 19
+b12 6 331 19
+b18 6 332 19
+b1e 4 332 19
+b22 4 333 19
+b26 e 174 19
+b34 5 176 19
+b39 6 176 19
+b3f 4 78 1
+b43 4 177 19
+b47 4 78 1
+b4b 4 178 19
+b4f 4 78 1
+b53 4 179 19
+b57 5 334 19
+b5c a 252 19
+b66 8 335 19
+b6e 6 339 19
+b74 4 253 19
+b78 7 255 19
+FUNC b80 74 0 ICOReader::readHeader()
+b80 9 330 19
+b89 9 331 19
+b92 6 331 19
+b98 6 332 19
+b9e 4 332 19
+ba2 4 333 19
+ba6 e 174 19
+bb4 5 176 19
+bb9 6 176 19
+bbf 4 78 1
+bc3 4 177 19
+bc7 4 78 1
+bcb 4 178 19
+bcf 4 78 1
+bd3 4 179 19
+bd7 f 334 19
+be6 4 335 19
+bea 3 339 19
+bed 7 339 19
+FUNC c00 2f2 0 ICOReader::canRead(QIODevice*)
+c00 23 258 19
+c23 9 260 19
+c2c 16 261 19
+c42 8 176 19
+c4a a 176 19
+c54 4 78 1
+c58 7 78 1
+c5f 8 78 1
+c67 14 138 19
+c7b a 138 19
+c85 7 139 19
+c8c e 266 19
+c9a b 78 1
+ca5 1e 270 19
+cc3 d 272 19
+cd0 c 272 19
+cdc 2a 272 19
+d06 1c 274 19
+d22 a 279 19
+d2c 8 279 19
+d34 19 266 19
+d4d 7 282 19
+d54 b 282 19
+d5f 7 283 19
+d66 b 283 19
+d71 7 284 19
+d78 b 284 19
+d83 b 285 19
+d8e e 288 19
+d9c 6 289 19
+da2 b 289 19
+dad 6 290 19
+db3 b 290 19
+dbe c 291 19
+dca 7 294 19
+dd1 b 294 19
+ddc f 295 19
+deb 7 298 19
+df2 b 298 19
+dfd f 299 19
+e0c c 301 19
+e18 e 302 19
+e26 e 303 19
+e34 13 304 19
+e47 a 308 19
+e51 7 308 19
+e58 5 311 19
+e5d b 311 19
+e68 f 312 19
+e77 6 315 19
+e7d b 315 19
+e88 f 316 19
+e97 5 319 19
+e9c b 319 19
+ea7 11 320 19
+eb8 a 323 19
+ec2 4 323 19
+ec6 16 323 19
+edc 16 326 19
+FUNC f00 c6 0 <name omitted>
+f00 1e 343 19
+f1e c 344 19
+f2a 3 345 19
+f2d 4 345 19
+f31 3 345 19
+f34 3 345 19
+f37 5 345 19
+f3c 6 345 19
+f42 4 345 19
+f46 4 346 19
+f4a e 136 19
+f58 5 138 19
+f5d 6 138 19
+f63 a 139 19
+f6d 2 139 19
+f6f 3 140 19
+f72 5 346 19
+f77 3 141 19
+f7a 3 142 19
+f7d 7 346 19
+f84 4 144 19
+f88 4 346 19
+f8c 4 145 19
+f90 4 78 1
+f94 3 146 19
+f97 4 346 19
+f9b 1b 147 19
+fb6 10 350 19
+FUNC fd0 e6 0 ICOReader::readBMPHeader(unsigned int, BMP_INFOHDR*)
+fd0 21 355 19
+ff1 d 356 19
+ffe 3 357 19
+1001 2 357 19
+1003 4 357 19
+1007 6 357 19
+100d 8 357 19
+1015 4 358 19
+1019 e 200 19
+1027 5 202 19
+102c 6 202 19
+1032 4 78 1
+1036 3 203 19
+1039 4 358 19
+103d 4 204 19
+1041 4 78 1
+1045 4 205 19
+1049 7 358 19
+1050 5 206 19
+1055 4 358 19
+1059 5 207 19
+105e 4 78 1
+1062 4 208 19
+1066 4 358 19
+106a 4 209 19
+106e 4 78 1
+1072 4 210 19
+1076 4 358 19
+107a 4 211 19
+107e 4 78 1
+1082 4 212 19
+1086 4 358 19
+108a 1c 213 19
+10a6 10 364 19
+FUNC 10c0 51 0 <name omitted>
+10c0 e 367 19
+10ce 6 368 19
+10d4 10 369 19
+10e4 9 370 19
+10ed 8 371 19
+10f5 b 371 19
+1100 8 371 19
+1108 9 373 19
+FUNC 1120 b9 0 ICOReader::readColorTable(QImage&)
+1120 15 376 19
+1135 5 377 19
+113a 2 377 19
+113c 4 378 19
+1140 8 378 19
+1148 18 380 19
+1160 11 381 19
+1171 6 381 19
+1177 4 385 19
+117b 4 385 19
+117f 4 385 19
+1183 3 61 17
+1186 3 61 17
+1189 a 61 17
+1193 a 385 19
+119d 2 380 19
+119f 12 380 19
+11b1 8 388 19
+11b9 b 388 19
+11c4 8 388 19
+11cc d 390 19
+FUNC 11e0 4a 0 <name omitted>
+11e0 4 393 19
+11e4 2 394 19
+11e6 f 394 19
+11f5 1 395 19
+11f6 16 0 19
+120c 1 399 19
+120d a 0 19
+1217 1 397 19
+1218 a 0 19
+1222 1 401 19
+1223 5 0 19
+1228 2 403 19
+FUNC 1230 9b 0 ICOReader::read1BitBMP(QImage&)
+1230 17 412 19
+1247 5 413 19
+124c 2 413 19
+124e a 415 19
+1258 8 416 19
+1260 10 419 19
+1270 4 418 19
+1274 2 418 19
+1276 4 419 19
+127a a 419 19
+1284 e 419 19
+1292 f 419 19
+12a1 8 425 19
+12a9 b 425 19
+12b4 8 425 19
+12bc f 427 19
+FUNC 12d0 166 0 ICOReader::read4BitBMP(QImage&)
+12d0 17 430 19
+12e7 7 431 19
+12ee a 431 19
+12f8 4 433 19
+12fc 4 434 19
+1300 3 434 19
+1303 f 434 19
+1312 3 434 19
+1315 19 435 19
+132e 9 438 19
+1337 e 439 19
+1345 b 439 19
+1350 4 438 19
+1354 c 443 19
+1360 6 445 19
+1366 1a 445 19
+1380 2 446 19
+1382 3 446 19
+1385 2 446 19
+1387 2 447 19
+1389 3 447 19
+138c 3 447 19
+138f 4 447 19
+1393 3 447 19
+1396 2 445 19
+1398 4 445 19
+139c 9 445 19
+13a5 5 445 19
+13aa 2 445 19
+13ac 6 449 19
+13b2 2 450 19
+13b4 3 450 19
+13b7 3 450 19
+13ba 6 438 19
+13c0 f 439 19
+13cf 10 439 19
+13df 8 440 19
+13e7 c 440 19
+13f3 b 440 19
+13fe e 453 19
+140c 8 456 19
+1414 b 456 19
+141f 8 456 19
+1427 f 458 19
+FUNC 1440 8b 0 ICOReader::read8BitBMP(QImage&)
+1440 17 461 19
+1457 5 462 19
+145c 2 462 19
+145e 4 464 19
+1462 8 465 19
+146a 6 468 19
+1470 4 467 19
+1474 2 467 19
+1476 4 468 19
+147a a 468 19
+1484 e 468 19
+1492 f 468 19
+14a1 8 474 19
+14a9 b 474 19
+14b4 8 474 19
+14bc f 476 19
+FUNC 14d0 1b0 0 ICOReader::read16_24_32BMP(QImage&)
+14d0 1b 479 19
+14eb 6 480 19
+14f1 6 480 19
+14f7 5 481 19
+14fc 8 484 19
+1504 1a 484 19
+151e 9 488 19
+1527 4 485 19
+152b 6 485 19
+1531 3 485 19
+1534 d 485 19
+1541 3 485 19
+1544 2 491 19
+1546 d 488 19
+1553 4 488 19
+1557 e 489 19
+1565 5 490 19
+156a 18 491 19
+1582 9 491 19
+158b 4 490 19
+158f 9 496 19
+1598 8 497 19
+15a0 5 497 19
+15a5 4 500 19
+15a9 4 500 19
+15ad 3 500 19
+15b0 4 500 19
+15b4 3 64 17
+15b7 3 64 17
+15ba 3 64 17
+15bd 2 64 17
+15bf 2 64 17
+15c1 14 64 17
+15d5 4 498 19
+15d9 4 498 19
+15dd 3 498 19
+15e0 3 61 17
+15e3 3 61 17
+15e6 a 61 17
+15f0 3 500 19
+15f3 4 500 19
+15f7 4 501 19
+15fb d 501 19
+1608 6 501 19
+160e 5 496 19
+1613 18 488 19
+162b 8 508 19
+1633 b 508 19
+163e e 508 19
+164c 8 492 19
+1654 c 492 19
+1660 8 492 19
+1668 9 505 19
+1671 f 510 19
+FUNC 1680 769 0 ICOReader::iconAt(int)
+1680 31 515 19
+16b1 5 516 19
+16b6 9 331 19
+16bf 7 331 19
+16c6 6 332 19
+16cc 4 332 19
+16d0 4 333 19
+16d4 e 174 19
+16e2 5 176 19
+16e7 6 176 19
+16ed 4 78 1
+16f1 5 177 19
+16f6 4 78 1
+16fa 5 178 19
+16ff 4 78 1
+1703 5 179 19
+1708 5 334 19
+170d a 252 19
+1717 9 335 19
+1720 7 339 19
+1727 5 253 19
+172c 8 518 19
+1734 d 344 19
+1741 3 345 19
+1744 4 345 19
+1748 3 345 19
+174b 3 345 19
+174e 5 345 19
+1753 6 345 19
+1759 8 345 19
+1761 4 346 19
+1765 12 136 19
+1777 5 138 19
+177c a 138 19
+1786 b 139 19
+1791 4 78 1
+1795 b 346 19
+17a0 10 525 19
+17b0 18 527 19
+17c8 4 528 19
+17cc 7 461 9
+17d3 b 528 19
+17de 5 528 19
+17e3 7 461 9
+17ea 4 588 9
+17ee 7 461 9
+17f5 9 588 9
+17fe 3 55 8
+1801 4 55 8
+1805 5 588 9
+180a 9 588 9
+1813 2 90 7
+1815 11 62 11
+1826 8 214 0
+182e c 459 9
+183a 11 459 9
+184b e 222 8
+1859 b 346 19
+1864 f 530 19
+1873 10 531 19
+1883 4 532 19
+1887 10 532 19
+1897 5 532 19
+189c b 483 9
+18a7 3 55 8
+18aa 3 461 9
+18ad f 285 16
+18bc 7 459 9
+18c3 2 90 7
+18c5 9 62 11
+18ce 8 214 0
+18d6 6 459 9
+18dc 11 459 9
+18ed 5 222 8
+18f2 11 846 15
+1903 13 846 15
+1916 16 533 19
+192c b 533 19
+1937 7 1053 15
+193e 2 90 7
+1940 9 62 11
+1949 8 214 0
+1951 6 1053 15
+1957 11 1053 15
+1968 5 222 8
+196d 7 1053 15
+1974 8 90 7
+197c d 62 11
+1989 8 214 0
+1991 a 1053 15
+199b 11 1053 15
+19ac e 222 8
+19ba e 538 19
+19c8 8 538 19
+19d0 4 539 19
+19d4 a 539 19
+19de 3 541 19
+19e1 4 539 19
+19e5 1c 541 19
+1a01 8 545 19
+1a09 4 555 19
+1a0d 2a 555 19
+1a37 16 549 19
+1a4d d 552 19
+1a5a 8 557 19
+1a62 2 557 19
+1a64 5 557 19
+1a69 4 557 19
+1a6d f 558 19
+1a7c 13 559 19
+1a8f 12 557 19
+1aa1 3 346 19
+1aa4 3 560 19
+1aa7 4 560 19
+1aab 4 561 19
+1aaf 3 562 19
+1ab2 4 562 19
+1ab6 3 563 19
+1ab9 4 563 19
+1abd 5 564 19
+1ac2 3 565 19
+1ac5 2 565 19
+1ac7 9 565 19
+1ad0 5 568 19
+1ad5 f 570 19
+1ae4 13 572 19
+1af7 a 575 19
+1b01 8 576 19
+1b09 8 576 19
+1b11 13 368 19
+1b24 a 369 19
+1b2e b 370 19
+1b39 f 371 19
+1b48 8 371 19
+1b50 f 371 19
+1b5f 5 578 19
+1b64 8 578 19
+1b6c 4 394 19
+1b70 16 394 19
+1b86 22 395 19
+1ba8 16 399 19
+1bbe 16 397 19
+1bd4 f 401 19
+1be3 5 580 19
+1be8 f 580 19
+1bf7 e 581 19
+1c05 14 581 19
+1c19 10 581 19
+1c29 8 582 19
+1c31 10 582 19
+1c41 f 583 19
+1c50 12 584 19
+1c62 8 585 19
+1c6a b 586 19
+1c75 8 587 19
+1c7d 12 587 19
+1c8f f 588 19
+1c9e f 589 19
+1cad 5 594 19
+1cb2 11 846 15
+1cc3 13 846 15
+1cd6 1d 597 19
+1cf3 8 597 19
+1cfb 7 1053 15
+1d02 2 90 7
+1d04 9 62 11
+1d0d 8 214 0
+1d15 6 1053 15
+1d1b 11 1053 15
+1d2c 5 222 8
+1d31 7 1053 15
+1d38 2 90 7
+1d3a 9 62 11
+1d43 8 214 0
+1d4b 6 1053 15
+1d51 11 1053 15
+1d62 c 222 8
+1d6e 5 598 19
+1d73 7 459 9
+1d7a 2 90 7
+1d7c 9 62 11
+1d85 8 214 0
+1d8d 6 459 9
+1d93 11 459 9
+1da4 11 222 8
+1db5 f 602 19
+1dc4 25 603 19
+FUNC 1df0 106 0 ICOReader::read(QIODevice*)
+1df0 17 616 19
+1e07 a 139 10
+1e11 4 243 19
+1e15 8 244 19
+1e1d 23 245 19
+1e40 d 621 19
+1e4d b 353 10
+1e58 8 621 19
+1e60 2 620 19
+1e62 9 331 19
+1e6b 6 331 19
+1e71 9 332 19
+1e7a 4 332 19
+1e7e 4 333 19
+1e82 a 174 19
+1e8c 8 176 19
+1e94 6 176 19
+1e9a 4 78 1
+1e9e 4 177 19
+1ea2 4 78 1
+1ea6 4 178 19
+1eaa 4 78 1
+1eae 4 179 19
+1eb2 5 334 19
+1eb7 a 252 19
+1ec1 11 335 19
+1ed2 6 339 19
+1ed8 4 253 19
+1edc 8 620 19
+1ee4 12 624 19
+FUNC 1f00 85e 0 ICOReader::write(QIODevice*, QList<QImage> const&)
+1f00 25 640 19
+1f25 3 105 10
+1f28 3 105 10
+1f2b d 643 19
+1f38 10 645 19
+1f48 a 105 10
+1f52 3 105 10
+1f55 3 105 10
+1f58 20 652 19
+1f78 18 653 19
+1f90 2e 654 19
+1fbe 12 458 9
+1fd0 16 656 19
+1fe6 14 687 19
+1ffa 29 656 19
+2023 a 107 10
+202d b 107 10
+2038 3 107 10
+203b 5 132 10
+2040 8 658 19
+2048 8 660 19
+2050 7 660 19
+2057 8 660 19
+205f 11 660 19
+2070 16 105 14
+2086 f 249 16
+2095 b 662 19
+20a0 8 662 19
+20a8 a 664 19
+20b2 d 664 19
+20bf 1a 664 19
+20d9 b 665 19
+20e4 b 665 19
+20ef 8 665 19
+20f7 8 667 19
+20ff d 667 19
+210c b 668 19
+2117 b 668 19
+2122 13 668 19
+2135 16 670 19
+214b b 672 19
+2156 b 672 19
+2161 8 672 19
+2169 8 675 19
+2171 3 675 19
+2174 3 675 19
+2177 15 675 19
+218c e 675 19
+219a 26 677 19
+21c0 d 677 19
+21cd 6 678 19
+21d3 5 679 19
+21d8 f 679 19
+21e7 8 680 19
+21ef 5 680 19
+21f4 c 680 19
+2200 8 681 19
+2208 5 681 19
+220d a 682 19
+2217 4 682 19
+221b b 683 19
+2226 8 683 19
+222e b 683 19
+2239 4 683 19
+223d 5 682 19
+2242 8 684 19
+224a a 685 19
+2254 5 689 19
+2259 a 689 19
+2263 a 691 19
+226d b 691 19
+2278 5 691 19
+227d 8 692 19
+2285 a 693 19
+228f 4 693 19
+2293 8 694 19
+229b a 695 19
+22a5 2 695 19
+22a7 4 695 19
+22ab 7 696 19
+22b2 7 697 19
+22b9 2 698 19
+22bb 4 698 19
+22bf a 699 19
+22c9 4 699 19
+22cd 8 700 19
+22d5 8 701 19
+22dd 14 703 19
+22f1 d 703 19
+22fe 8 704 19
+2306 28 706 19
+232e 16 708 19
+2344 8 710 19
+234c 14 710 19
+2360 b 710 19
+236b e 712 19
+2379 8 713 19
+2381 6 713 19
+2387 19 716 19
+23a0 4 717 19
+23a4 3 717 19
+23a7 5 718 19
+23ac 4 718 19
+23b0 5 719 19
+23b5 4 719 19
+23b9 5 720 19
+23be 4 720 19
+23c2 16 721 19
+23d8 b 722 19
+23e3 4 723 19
+23e7 7 724 19
+23ee c 716 19
+23fa 16 726 19
+2410 17 710 19
+2427 15 728 19
+243c 8 730 19
+2444 a 732 19
+244e 4 732 19
+2452 e 732 19
+2460 e 733 19
+246e b 733 19
+2479 b 733 19
+2484 5 732 19
+2489 2 732 19
+248b 1f 734 19
+24aa 13 656 19
+24bd 26 188 19
+24e3 6 72 1
+24e9 6 72 1
+24ef f 72 1
+24fe f 193 19
+250d 43 736 19
+2550 2 158 19
+2552 3 158 19
+2555 3 159 19
+2558 3 159 19
+255b 3 160 19
+255e 3 160 19
+2561 3 161 19
+2564 3 161 19
+2567 4 162 19
+256b 4 72 1
+256f 4 163 19
+2573 4 72 1
+2577 3 164 19
+257a 3 72 1
+257d 3 165 19
+2580 8 72 1
+2588 15 166 19
+259d 7 739 19
+25a4 5 739 19
+25a9 b 739 19
+25b4 e 742 19
+25c2 3e 743 19
+2600 2 224 19
+2602 3 72 1
+2605 3 225 19
+2608 3 72 1
+260b 3 226 19
+260e 3 72 1
+2611 4 227 19
+2615 4 72 1
+2619 4 228 19
+261d 4 72 1
+2621 4 229 19
+2625 4 72 1
+2629 3 233 19
+262c 3 72 1
+262f 3 234 19
+2632 8 72 1
+263a c 236 19
+2646 f 236 19
+2655 8 483 9
+265d 3 55 8
+2660 4 117 4
+2664 f 117 4
+2673 4 461 9
+2677 4 745 19
+267b 6 745 19
+2681 5 743 19
+2686 3 743 19
+2689 22 743 19
+26ab 17 745 19
+26c2 5 751 19
+26c7 13 752 19
+26da 16 753 19
+26f0 4 459 9
+26f4 2 90 7
+26f6 9 62 11
+26ff 8 214 0
+2707 6 459 9
+270d 11 459 9
+271e 8 222 8
+2726 1e 753 19
+2744 1a 756 19
+FUNC 2760 51 0 <name omitted>
+2760 d 763 19
+276d 5 762 19
+2772 a 763 19
+277c 7 764 19
+2783 10 765 19
+2793 5 766 19
+2798 4 243 19
+279c 8 244 19
+27a4 4 245 19
+27a8 4 766 19
+27ac 5 767 19
+FUNC 27c0 51 0 QtIcoHandler::QtIcoHandler(QIODevice*)
+27c0 d 763 19
+27cd 5 762 19
+27d2 a 763 19
+27dc 7 764 19
+27e3 10 765 19
+27f3 5 766 19
+27f8 4 243 19
+27fc 8 244 19
+2804 4 245 19
+2808 4 766 19
+280c 5 767 19
+FUNC 2820 2f 0 <name omitted>
+2820 9 773 19
+2829 a 773 19
+2833 4 774 19
+2837 a 774 19
+2841 e 775 19
+FUNC 2850 2f 0 <name omitted>
+2850 9 773 19
+2859 a 773 19
+2863 4 774 19
+2867 a 774 19
+2871 e 775 19
+FUNC 2880 37 0 QtIcoHandler::~QtIcoHandler()
+2880 9 773 19
+2889 a 773 19
+2893 4 774 19
+2897 a 774 19
+28a1 8 775 19
+28a9 e 773 19
+FUNC 28c0 fd 0 QtIcoHandler::option(QImageIOHandler::ImageOption) const
+28c0 26 778 19
+28e6 8 779 19
+28ee b 780 19
+28f9 d 781 19
+2906 4 783 19
+290a 4 783 19
+290e 4 783 19
+2912 5 783 19
+2917 9 783 19
+2920 4 783 19
+2924 e 136 19
+2932 8 138 19
+293a 6 138 19
+2940 3 139 19
+2943 6 784 19
+2949 10 785 19
+2959 3 786 19
+295c 3 105 14
+295f a 105 14
+2969 a 786 19
+2973 a 789 19
+297d 4 789 19
+2981 10 790 19
+2991 8 366 6
+2999 d 367 6
+29a6 17 793 19
+FUNC 29c0 b 0 QtIcoHandler::supportsOption(QImageIOHandler::ImageOption) const
+29c0 4 796 19
+29c4 5 797 19
+29c9 2 797 19
+FUNC 29d0 cf 0 QtIcoHandler::canRead() const
+29d0 10 806 19
+29e0 5 808 19
+29e5 3 809 19
+29e8 2 809 19
+29ea b 810 19
+29f5 9 811 19
+29fe 18 812 19
+2a16 b 812 19
+2a21 4 459 9
+2a25 2 90 7
+2a27 9 62 11
+2a30 8 214 0
+2a38 6 459 9
+2a3e e 459 9
+2a4c 7 222 8
+2a53 7 62 3
+2a5a 17 62 3
+2a71 b 62 3
+2a7c 15 814 19
+2a91 e 816 19
+FUNC 2aa0 a 0 QtIcoHandler::canRead(QIODevice*)
+2aa0 4 823 19
+2aa4 1 825 19
+2aa5 5 822 19
+FUNC 2ab0 53 0 QtIcoHandler::read(QImage*)
+2ab0 e 832 19
+2abe 4 834 19
+2ac2 7 834 19
+2ac9 8 834 19
+2ad1 8 837 19
+2ad9 c 837 19
+2ae5 e 839 19
+2af3 10 843 19
+FUNC 2b10 c0 0 QtIcoHandler::write(QImage const&)
+2b10 12 850 19
+2b22 8 851 19
+2b2a f 139 10
+2b39 b 853 19
+2b44 e 854 19
+2b52 4 795 10
+2b56 3 90 7
+2b59 9 62 11
+2b62 9 214 0
+2b6b 6 795 10
+2b71 c 796 10
+2b7d 5 463 10
+2b82 1e 463 10
+2ba0 3 463 10
+2ba3 b 463 10
+2bae 4 463 10
+2bb2 6 463 10
+2bb8 8 836 10
+2bc0 10 855 19
+FUNC 2bd0 24 0 QtIcoHandler::name() const
+2bd0 9 862 19
+2bd9 11 863 19
+2bea a 863 19
+FUNC 2c00 80 0 QtIcoHandler::imageCount() const
+2c00 4 871 19
+2c04 6 872 19
+2c0a 9 331 19
+2c13 6 331 19
+2c19 6 332 19
+2c1f 4 332 19
+2c23 4 333 19
+2c27 e 174 19
+2c35 5 176 19
+2c3a 6 176 19
+2c40 4 78 1
+2c44 4 177 19
+2c48 4 78 1
+2c4c 4 178 19
+2c50 4 78 1
+2c54 4 179 19
+2c58 5 334 19
+2c5d a 252 19
+2c67 8 335 19
+2c6f 6 339 19
+2c75 4 253 19
+2c79 7 872 19
+FUNC 2c80 30 0 QtIcoHandler::jumpToImage(int)
+2c80 d 879 19
+2c8d 6 880 19
+2c93 5 880 19
+2c98 4 881 19
+2c9c 9 884 19
+2ca5 6 884 19
+2cab 5 884 19
+FUNC 2cb0 13 0 QtIcoHandler::jumpToNextImage()
+2cb0 4 891 19
+2cb4 7 892 19
+2cbb 3 892 19
+2cbe 2 892 19
+2cc0 3 892 19
+FUNC 2cd0 54 0 QList<QImage>::append(QImage const&)
+2cd0 d 549 10
+2cdd 3 550 10
+2ce0 f 550 10
+2cef 7 551 10
+2cf6 d 560 10
+2d03 8 404 10
+2d0b b 404 10
+2d16 3 404 10
+2d19 b 579 10
+FUNC 2d30 193 0 QList<QImage>::detach_helper_grow(int, int)
+2d30 1a 723 10
+2d4a 4 108 10
+2d4e 8 108 10
+2d56 9 725 10
+2d5f 4 108 10
+2d63 9 108 10
+2d6c 9 728 10
+2d75 8 108 10
+2d7d d 108 10
+2d8a 13 431 10
+2d9d 3 431 10
+2da0 8 431 10
+2da8 4 431 10
+2dac 4 432 10
+2db0 4 433 10
+2db4 a 430 10
+2dbe 4 108 10
+2dc2 f 108 10
+2dd1 3 108 10
+2dd4 e 735 10
+2de2 5 430 10
+2de7 8 736 10
+2def 5 735 10
+2df4 29 431 10
+2e1d 3 431 10
+2e20 8 431 10
+2e28 3 431 10
+2e2b 4 432 10
+2e2f 4 433 10
+2e33 a 430 10
+2e3d 3 90 7
+2e40 9 62 11
+2e49 9 214 0
+2e52 e 745 10
+2e60 5 463 10
+2e65 1b 463 10
+2e80 3 463 10
+2e83 b 463 10
+2e8e 4 463 10
+2e92 6 463 10
+2e98 8 836 10
+2ea0 4 108 10
+2ea4 4 108 10
+2ea8 c 748 10
+2eb4 f 748 10
+FUNC 2ed0 6 0 QICOPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+2ed0 4 57 21
+2ed4 2 62 21
+FUNC 2ee0 1e 0 QICOPlugin::metaObject() const
+2ee0 4 71 21
+2ee4 4 113 12
+2ee8 7 72 21
+2eef 6 72 21
+2ef5 9 72 21
+FUNC 2f00 3e 0 QICOPlugin::qt_metacast(char const*)
+2f00 f 76 21
+2f0f 5 77 21
+2f14 f 78 21
+2f23 4 78 21
+2f27 12 80 21
+2f39 5 81 21
+FUNC 2f40 a 0 QICOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+2f40 4 84 21
+2f44 1 85 21
+2f45 5 0 21
+FUNC 2f50 d 0 qt_plugin_query_metadata
+2f50 4 184 21
+2f54 9 184 21
+FUNC 2f60 144 0 qt_plugin_instance
+2f60 4 184 21
+2f64 21 184 21
+2f85 1d 590 13
+2fa2 1f 184 21
+2fc1 7 588 13
+2fc8 5 588 13
+2fcd 1b 588 13
+2fe8 a 184 21
+2ff2 12 46 20
+3004 b 696 13
+300f 7 702 13
+3016 5 702 13
+301b 5 703 13
+3020 8 176 0
+3028 c 705 13
+3034 8 214 0
+303c 6 705 13
+3042 7 706 13
+3049 5 706 13
+304e 5 161 13
+3053 7 707 13
+305a 7 708 13
+3061 5 591 13
+3066 8 214 0
+306e 6 591 13
+3074 8 161 13
+307c 7 588 13
+3083 3 588 13
+3086 4 588 13
+308a 6 588 13
+3090 b 588 13
+309b 9 588 13
+FUNC 30b0 31 0 QPointer<QObject>::~QPointer()
+30b0 4 64 5
+30b4 c 591 13
+30c0 8 214 0
+30c8 6 591 13
+30ce 3 591 13
+30d1 5 591 13
+30d6 5 161 13
+30db 6 64 5
+FUNC 30f0 a 0 <name omitted>
+30f0 4 46 20
+30f4 1 46 20
+30f5 5 0 20
+FUNC 3100 1c 0 QICOPlugin::~QICOPlugin()
+3100 9 46 20
+3109 5 46 20
+310e e 46 20
 PUBLIC 3580 0 ICOReader::iconAt(int)::pngMagicData
 PUBLIC 3590 0 icoOrigDepthKey
 PUBLIC 35a0 0 typeinfo name for QtIcoHandler
@@ -851,171 +1130,171 @@ PUBLIC 4330 0 vtable for QICOPlugin
 PUBLIC 43b0 0 typeinfo for QICOPlugin
 PUBLIC 43c8 0 qt_plugin_instance::_instance
 PUBLIC 43d8 0 guard variable for qt_plugin_instance::_instance
-STACK CFI INIT a40 8f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI a41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI a44 .cfa: $rbp 16 +
-STACK CFI a4a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT ad0 41 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI ad1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI ad4 .cfa: $rbp 16 +
-STACK CFI ada $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT b20 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI b21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI b24 .cfa: $rbp 16 +
-STACK CFI INIT b40 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI b41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI b44 .cfa: $rbp 16 +
-STACK CFI INIT b60 7f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI b61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI b64 .cfa: $rbp 16 +
-STACK CFI b66 $rbx: .cfa -24 + ^
-STACK CFI INIT be0 74 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI be1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI be4 .cfa: $rbp 16 +
-STACK CFI be6 $rbx: .cfa -24 + ^
-STACK CFI INIT c60 312 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI c61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI c64 .cfa: $rbp 16 +
-STACK CFI c71 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT f80 c6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI f81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI f84 .cfa: $rbp 16 +
-STACK CFI f8d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 1050 e6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1051 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1054 .cfa: $rbp 16 +
-STACK CFI 105d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 1140 51 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1141 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1144 .cfa: $rbp 16 +
-STACK CFI 114b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 11a0 b9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 11a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 11a4 .cfa: $rbp 16 +
-STACK CFI 11af $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 1260 51 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1261 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1264 .cfa: $rbp 16 +
-STACK CFI INIT 12c0 9b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 12c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 12c4 .cfa: $rbp 16 +
-STACK CFI 12d1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1360 148 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1361 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1364 .cfa: $rbp 16 +
-STACK CFI 1371 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 14b0 8b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 14b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 14b4 .cfa: $rbp 16 +
-STACK CFI 14c1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1540 1ab .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1541 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1544 .cfa: $rbp 16 +
-STACK CFI 1551 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 16f0 75e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 16f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 16f4 .cfa: $rbp 16 +
-STACK CFI 1704 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1e50 106 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e54 .cfa: $rbp 16 +
-STACK CFI 1e61 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1f60 7d8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1f61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1f64 .cfa: $rbp 16 +
-STACK CFI 1f74 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2740 51 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2741 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2744 .cfa: $rbp 16 +
-STACK CFI 2747 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 27a0 51 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 27a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 27a4 .cfa: $rbp 16 +
-STACK CFI 27a7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 2800 2f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2801 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2804 .cfa: $rbp 16 +
-STACK CFI 2806 $rbx: .cfa -24 + ^
-STACK CFI INIT 2830 2f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2831 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2834 .cfa: $rbp 16 +
-STACK CFI 2836 $rbx: .cfa -24 + ^
-STACK CFI INIT 2860 37 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2861 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2864 .cfa: $rbp 16 +
-STACK CFI 2866 $rbx: .cfa -24 + ^
-STACK CFI INIT 28a0 fe .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 28a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 28a4 .cfa: $rbp 16 +
-STACK CFI 28b1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 29a0 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 29a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 29a4 .cfa: $rbp 16 +
-STACK CFI INIT 29b0 cf .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 29b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 29b4 .cfa: $rbp 16 +
-STACK CFI 29bd $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 2a80 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2a81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2a84 .cfa: $rbp 16 +
-STACK CFI INIT 2a90 53 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2a91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2a94 .cfa: $rbp 16 +
-STACK CFI 2a9b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 2af0 c0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2af1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2af4 .cfa: $rbp 16 +
-STACK CFI 2aff $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 2bb0 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2bb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2bb4 .cfa: $rbp 16 +
-STACK CFI 2bb6 $rbx: .cfa -24 + ^
-STACK CFI INIT 2be0 80 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2be1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2be4 .cfa: $rbp 16 +
-STACK CFI 2be6 $rbx: .cfa -24 + ^
-STACK CFI INIT 2c60 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2c61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2c64 .cfa: $rbp 16 +
-STACK CFI 2c67 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 2c90 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2c91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2c94 .cfa: $rbp 16 +
-STACK CFI INIT 2cb0 54 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9e0 8f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 9e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 9e4 .cfa: $rbp 16 +
+STACK CFI 9ea $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT a70 41 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI a71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI a74 .cfa: $rbp 16 +
+STACK CFI a7a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT ac0 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI ac1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI ac4 .cfa: $rbp 16 +
+STACK CFI INIT ae0 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI ae1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI ae4 .cfa: $rbp 16 +
+STACK CFI INIT b00 7f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI b01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI b04 .cfa: $rbp 16 +
+STACK CFI b06 $rbx: .cfa -24 + ^
+STACK CFI INIT b80 74 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI b81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI b84 .cfa: $rbp 16 +
+STACK CFI b86 $rbx: .cfa -24 + ^
+STACK CFI INIT c00 2f2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI c01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI c04 .cfa: $rbp 16 +
+STACK CFI c11 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT f00 c6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI f01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI f04 .cfa: $rbp 16 +
+STACK CFI f0d $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT fd0 e6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI fd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI fd4 .cfa: $rbp 16 +
+STACK CFI fdd $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 10c0 51 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 10c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 10c4 .cfa: $rbp 16 +
+STACK CFI 10cb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1120 b9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1121 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1124 .cfa: $rbp 16 +
+STACK CFI 112f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 11e0 4a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 11e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 11e4 .cfa: $rbp 16 +
+STACK CFI INIT 1230 9b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1231 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1234 .cfa: $rbp 16 +
+STACK CFI 1241 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 12d0 166 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 12d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 12d4 .cfa: $rbp 16 +
+STACK CFI 12e1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1440 8b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1441 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1444 .cfa: $rbp 16 +
+STACK CFI 1451 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 14d0 1b0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 14d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 14d4 .cfa: $rbp 16 +
+STACK CFI 14e1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1680 769 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1681 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1684 .cfa: $rbp 16 +
+STACK CFI 1694 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1df0 106 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1df1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1df4 .cfa: $rbp 16 +
+STACK CFI 1e01 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 1f00 85e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1f01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1f04 .cfa: $rbp 16 +
+STACK CFI 1f14 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2760 51 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2761 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2764 .cfa: $rbp 16 +
+STACK CFI 2767 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 27c0 51 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 27c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 27c4 .cfa: $rbp 16 +
+STACK CFI 27c7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2820 2f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2821 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2824 .cfa: $rbp 16 +
+STACK CFI 2826 $rbx: .cfa -24 + ^
+STACK CFI INIT 2850 2f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2851 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2854 .cfa: $rbp 16 +
+STACK CFI 2856 $rbx: .cfa -24 + ^
+STACK CFI INIT 2880 37 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2881 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2884 .cfa: $rbp 16 +
+STACK CFI 2886 $rbx: .cfa -24 + ^
+STACK CFI INIT 28c0 fd .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 28c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 28c4 .cfa: $rbp 16 +
+STACK CFI 28d1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 29c0 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 29c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 29c4 .cfa: $rbp 16 +
+STACK CFI INIT 29d0 cf .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 29d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 29d4 .cfa: $rbp 16 +
+STACK CFI 29dd $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 2aa0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2aa1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2aa4 .cfa: $rbp 16 +
+STACK CFI INIT 2ab0 53 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2ab1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2ab4 .cfa: $rbp 16 +
+STACK CFI 2abb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2b10 c0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2b11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2b14 .cfa: $rbp 16 +
+STACK CFI 2b1f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 2bd0 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2bd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2bd4 .cfa: $rbp 16 +
+STACK CFI 2bd6 $rbx: .cfa -24 + ^
+STACK CFI INIT 2c00 80 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2c01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2c04 .cfa: $rbp 16 +
+STACK CFI 2c06 $rbx: .cfa -24 + ^
+STACK CFI INIT 2c80 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2c81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2c84 .cfa: $rbp 16 +
+STACK CFI 2c87 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2cb0 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2cb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2cb4 .cfa: $rbp 16 +
-STACK CFI 2cba $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 2d10 193 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2d11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2d14 .cfa: $rbp 16 +
-STACK CFI 2d21 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2eb0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2eb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2eb4 .cfa: $rbp 16 +
-STACK CFI INIT 2ec0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2ec1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2ec4 .cfa: $rbp 16 +
-STACK CFI INIT 2ee0 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2cd0 54 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2cd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2cd4 .cfa: $rbp 16 +
+STACK CFI 2cda $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 2d30 193 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2d31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2d34 .cfa: $rbp 16 +
+STACK CFI 2d41 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2ed0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2ed1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2ed4 .cfa: $rbp 16 +
+STACK CFI INIT 2ee0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2ee1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2ee4 .cfa: $rbp 16 +
-STACK CFI 2ee7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 2f20 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2f21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2f24 .cfa: $rbp 16 +
-STACK CFI INIT 2f30 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2f31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2f34 .cfa: $rbp 16 +
-STACK CFI INIT 2f40 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2f00 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2f01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2f04 .cfa: $rbp 16 +
+STACK CFI 2f07 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 2f40 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2f41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2f44 .cfa: $rbp 16 +
-STACK CFI 2f4b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 3090 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3091 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3094 .cfa: $rbp 16 +
-STACK CFI INIT 30d0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 30d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 30d4 .cfa: $rbp 16 +
-STACK CFI INIT 30e0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 30e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 30e4 .cfa: $rbp 16 +
-STACK CFI 30e6 $rbx: .cfa -24 + ^
+STACK CFI INIT 2f50 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2f51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2f54 .cfa: $rbp 16 +
+STACK CFI INIT 2f60 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2f61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2f64 .cfa: $rbp 16 +
+STACK CFI 2f6b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 30b0 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 30b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 30b4 .cfa: $rbp 16 +
+STACK CFI INIT 30f0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 30f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 30f4 .cfa: $rbp 16 +
+STACK CFI INIT 3100 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3101 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3104 .cfa: $rbp 16 +
+STACK CFI 3106 $rbx: .cfa -24 + ^
