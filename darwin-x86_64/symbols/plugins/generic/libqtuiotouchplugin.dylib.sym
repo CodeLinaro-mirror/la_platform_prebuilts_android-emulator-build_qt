@@ -1,3085 +1,2580 @@
-MODULE mac x86_64 775179CA1E13306B85FA406873EB01560 libqtuiotouchplugin.dylib
-FILE 0 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h
-FILE 1 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 2 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qendian.h
-FILE 3 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
-FILE 4 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
-FILE 5 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
-FILE 6 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdebug.h
-FILE 7 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qloggingcategory.h
-FILE 8 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
-FILE 9 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject_impl.h
-FILE 10 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobjectdefs_impl.h
-FILE 11 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 12 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qatomic.h
-FILE 13 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
-FILE 14 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 15 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
-FILE 16 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
-FILE 17 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qmap.h
-FILE 18 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
-FILE 19 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
-FILE 20 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 21 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 22 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 23 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 24 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qvector.h
-FILE 25 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/math3d/qvector2d.h
-FILE 26 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qtransform.h
-FILE 27 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qwindowsysteminterface.h
-FILE 28 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/main.cpp
-FILE 29 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscbundle.cpp
-FILE 30 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscbundle_p.h
-FILE 31 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscmessage.cpp
-FILE 32 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscmessage_p.h
-FILE 33 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qtuio_p.h
-FILE 34 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qtuiocursor_p.h
-FILE 35 /private/tmp/qt-build/build/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qtuiohandler.cpp
-FILE 36 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/generic/tuiotouch/.moc/main.moc
-FILE 37 /tmp/qt-build/build/build-darwin-x86_64/qtbase/src/plugins/generic/tuiotouch/.moc/moc_qtuiohandler_p.cpp
-FUNC 1170 21 0 <name omitted>
-1170 b 54 28
-117b 5 53 28
-1180 a 54 28
-118a 7 55 28
-FUNC 11a0 21 0 <name omitted>
-11a0 b 54 28
-11ab 5 53 28
-11b0 a 54 28
-11ba 7 55 28
-FUNC 11d0 49 0 QTuioTouchPlugin::create(QString const&, QString const&)
-11d0 d 59 28
-11dd 18 60 28
-11f5 9 60 28
-11fe 8 61 28
-1206 b 61 28
-1211 8 64 28
-FUNC 1220 6 0 QTuioTouchPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-1220 4 56 36
-1224 2 61 36
-FUNC 1230 1e 0 QTuioTouchPlugin::metaObject() const
-1230 4 70 36
-1234 4 113 21
-1238 7 71 36
-123f 6 71 36
-1245 9 71 36
-FUNC 1250 3e 0 QTuioTouchPlugin::qt_metacast(char const*)
-1250 f 75 36
-125f 5 76 36
-1264 f 77 36
-1273 4 77 36
-1277 12 79 36
-1289 5 80 36
-FUNC 1290 a 0 QTuioTouchPlugin::qt_metacall(QMetaObject::Call, int, void**)
-1290 4 83 36
-1294 1 84 36
-1295 5 0 36
-FUNC 12a0 d 0 qt_plugin_query_metadata
-12a0 4 167 36
-12a4 9 167 36
-FUNC 12b0 144 0 qt_plugin_instance
-12b0 4 167 36
-12b4 21 167 36
-12d5 1d 590 22
-12f2 1f 167 36
-1311 7 588 22
-1318 5 588 22
-131d 1b 588 22
-1338 a 167 36
-1342 8 53 28
-134a a 54 28
-1354 b 696 22
-135f 7 702 22
-1366 5 702 22
-136b 5 703 22
-1370 8 176 1
-1378 c 705 22
-1384 8 214 1
-138c 6 705 22
-1392 7 706 22
-1399 5 706 22
-139e 5 161 22
-13a3 7 707 22
-13aa 7 708 22
-13b1 5 591 22
-13b6 8 214 1
-13be 6 591 22
-13c4 8 161 22
-13cc 7 588 22
-13d3 3 588 22
-13d6 4 588 22
-13da 6 588 22
-13e0 b 588 22
-13eb 9 588 22
-FUNC 1400 31 0 QPointer<QObject>::~QPointer()
-1400 4 64 11
-1404 c 591 22
-1410 8 214 1
-1418 6 591 22
-141e 3 591 22
-1421 5 591 22
-1426 5 161 22
-142b 6 64 11
-FUNC 1440 a 0 <name omitted>
-1440 4 42 28
-1444 1 42 28
-1445 5 0 28
-FUNC 1450 1c 0 QTuioTouchPlugin::~QTuioTouchPlugin()
-1450 9 42 28
-1459 5 42 28
-145e e 42 28
-FUNC 1470 66 0 <name omitted>
-1470 4 44 29
-1474 62 44 29
-FUNC 14e0 959 0 QOscBundle::QOscBundle(QByteArray const&)
-14e0 1a 56 29
-14fa c 52 29
-1506 6 53 29
-150c 9 54 29
-1515 9 55 29
-151e 14 139 16
-1532 52 44 29
-1584 d 90 13
-1591 52 44 29
-15e3 7 65 7
-15ea 7 62 5
-15f1 17 62 5
-1608 c 62 5
-1614 c 63 29
-1620 8 63 29
-1628 8 483 15
-1630 3 55 14
-1633 6 128 6
-1639 8 128 6
-1641 4 98 6
-1645 b 98 6
-1650 5 98 6
-1655 4 459 15
-1659 2 90 13
-165b 9 62 20
-1664 8 214 1
-166c 6 459 15
-1672 e 459 15
-1680 9 222 14
-1689 5 63 29
-168e f 458 15
-169d b 42 33
-16a8 f 43 33
-16b7 19 49 33
-16d0 8 49 33
-16d8 4 459 15
-16dc 2 90 13
-16de 9 62 20
-16e7 8 214 1
-16ef 6 459 15
-16f5 e 459 15
-1703 5 222 14
-1708 6 54 33
-170e 2 54 33
-1710 10 596 15
-1720 8 68 29
-1728 5 54 33
-172d a 461 15
-1737 17 461 15
-174e 4 55 14
-1752 6 86 29
-1758 3 78 2
-175b 4 87 29
-175f 3 88 29
-1762 3 78 2
-1765 a 89 29
-176f 9 93 29
-1778 1d 93 29
-1795 11 51 29
-17a6 9 105 2
-17af e 105 2
-17bd 26 93 29
-17e3 6 110 29
-17e9 3 78 2
-17ec 6 105 2
-17f2 3 111 29
-17f5 2 113 29
-17f7 9 113 29
-1800 8 116 29
-1808 24 129 29
-182c 14 138 29
-1840 8 139 29
-1848 4 139 29
-184c b 141 29
-1857 8 142 29
-185f 8 142 29
-1867 5 143 29
-186c b 144 29
-1877 b 145 29
-1882 b 146 29
-188d 23 147 29
-18b0 b 152 29
-18bb f 152 29
-18ca b 56 29
-18d5 9 172 29
-18de 5 156 29
-18e3 b 157 29
-18ee b 158 29
-18f9 b 159 29
-1904 f 160 29
-1913 13 162 29
-1926 a 62 5
-1930 7 62 5
-1937 16 62 5
-194d 1c 62 5
-1969 5 149 29
-196e 10 124 6
-197e f 530 23
-198d b 124 6
-1998 4 1053 23
-199c 2 90 13
-199e 9 62 20
-19a7 8 214 1
-19af 6 1053 23
-19b5 e 1053 23
-19c3 5 222 14
-19c8 7 98 6
-19cf 18 98 6
-19e7 c 98 6
-19f3 a 149 29
-19fd 7 795 16
-1a04 2 90 13
-1a06 d 62 20
-1a13 8 214 1
-1a1b a 795 16
-1a25 1c 796 16
-1a41 5 463 16
-1a46 2a 463 16
-1a70 4 463 16
-1a74 15 463 16
-1a89 4 463 16
-1a8d 6 463 16
-1a93 27 836 16
-1aba 7 459 15
-1ac1 2 90 13
-1ac3 1e 62 20
-1ae1 a 62 5
-1aeb 7 62 5
-1af2 16 62 5
-1b08 7 62 5
-1b0f 15 62 5
-1b24 5 163 29
-1b29 10 124 6
-1b39 f 530 23
-1b48 b 124 6
-1b53 4 1053 23
-1b57 2 90 13
-1b59 9 62 20
-1b62 8 214 1
-1b6a 6 1053 23
-1b70 e 1053 23
-1b7e 5 222 14
-1b83 7 98 6
-1b8a 18 98 6
-1ba2 c 98 6
-1bae c 163 29
-1bba 8 214 1
-1bc2 e 459 15
-1bd0 11 459 15
-1be1 1a 222 14
-1bfb 7 459 15
-1c02 2 90 13
-1c04 13 62 20
-1c17 8 214 1
+MODULE mac x86_64 CE694F26676B3CCAA6390EF58FE0CBE40 libqtuiotouchplugin.dylib
+FILE 0 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h
+FILE 1 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 2 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qendian.h
+FILE 3 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
+FILE 4 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qglobal.h
+FILE 5 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
+FILE 6 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qdebug.h
+FILE 7 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qloggingcategory.h
+FILE 8 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject.h
+FILE 9 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobject_impl.h
+FILE 10 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qobjectdefs_impl.h
+FILE 11 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 12 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qatomic.h
+FILE 13 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qgenericatomic.h
+FILE 14 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 15 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 16 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 17 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qmap.h
+FILE 18 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qpoint.h
+FILE 19 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrect.h
+FILE 20 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 21 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 22 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 23 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 24 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qvector.h
+FILE 25 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/math3d/qvector2d.h
+FILE 26 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qtransform.h
+FILE 27 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/5.5.0/QtGui/qpa/../../../../../src/gui/kernel/qwindowsysteminterface.h
+FILE 28 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/main.cpp
+FILE 29 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscbundle.cpp
+FILE 30 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscbundle_p.h
+FILE 31 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscmessage.cpp
+FILE 32 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qoscmessage_p.h
+FILE 33 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qtuio_p.h
+FILE 34 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qtuiocursor_p.h
+FILE 35 /private/tmp/grigoryj-build-qt-35642/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/generic/tuiotouch/qtuiohandler.cpp
+FILE 36 /tmp/grigoryj-build-qt-35642/build-darwin-x86_64/qtbase/src/plugins/generic/tuiotouch/.moc/main.moc
+FILE 37 /tmp/grigoryj-build-qt-35642/build-darwin-x86_64/qtbase/src/plugins/generic/tuiotouch/.moc/moc_qtuiohandler_p.cpp
+FUNC 1720 21 0 <name omitted>
+1720 b 54 28
+172b f 54 28
+173a 7 55 28
+FUNC 1750 21 0 <name omitted>
+1750 b 54 28
+175b f 54 28
+176a 7 55 28
+FUNC 1780 49 0 QTuioTouchPlugin::create(QString const&, QString const&)
+1780 d 59 28
+178d 21 60 28
+17ae 13 61 28
+17c1 8 64 28
+FUNC 17d0 6 0 QTuioTouchPlugin::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+17d0 4 56 36
+17d4 2 61 36
+FUNC 17e0 1e 0 QTuioTouchPlugin::metaObject() const
+17e0 4 70 36
+17e4 4 113 21
+17e8 7 71 36
+17ef f 71 36
+FUNC 1800 3e 0 QTuioTouchPlugin::qt_metacast(char const*)
+1800 f 75 36
+180f 5 76 36
+1814 13 77 36
+1827 12 79 36
+1839 5 80 36
+FUNC 1840 a 0 QTuioTouchPlugin::qt_metacall(QMetaObject::Call, int, void**)
+1840 4 83 36
+1844 1 84 36
+1845 5 0 36
+FUNC 1850 d 0 qt_plugin_query_metadata
+1850 4 167 36
+1854 9 167 36
+FUNC 1860 144 0 qt_plugin_instance
+1860 4 167 36
+1864 21 167 36
+1885 1d 590 22
+18a2 1f 167 36
+18c1 c 588 22
+18cd 1b 588 22
+18e8 a 167 36
+18f2 12 54 28
+1904 b 696 22
+190f c 702 22
+191b 5 703 22
+1920 8 176 1
+1928 c 705 22
+1934 8 214 1
+193c 6 705 22
+1942 c 706 22
+194e 5 161 22
+1953 7 707 22
+195a 7 708 22
+1961 5 591 22
+1966 8 214 1
+196e 6 591 22
+1974 8 161 22
+197c e 588 22
+198a 1a 588 22
+FUNC 19b0 31 0 QPointer<QObject>::~QPointer()
+19b0 4 64 11
+19b4 c 591 22
+19c0 8 214 1
+19c8 6 591 22
+19ce 8 591 22
+19d6 5 161 22
+19db 6 64 11
+FUNC 19f0 a 0 <name omitted>
+19f0 4 42 28
+19f4 1 42 28
+19f5 5 0 28
+FUNC 1a00 1c 0 QTuioTouchPlugin::~QTuioTouchPlugin()
+1a00 9 42 28
+1a09 5 42 28
+1a0e e 42 28
+FUNC 1a20 66 0 <name omitted>
+1a20 4 44 29
+1a24 62 44 29
+FUNC 1a90 890 0 QOscBundle::QOscBundle(QByteArray const&)
+1a90 21 56 29
+1ab1 20 56 29
+1ad1 e 139 16
+1adf 52 44 29
+1b31 d 90 13
+1b3e 52 44 29
+1b90 7 65 7
+1b97 2a 62 5
+1bc1 c 63 29
+1bcd 8 63 29
+1bd5 8 483 15
+1bdd 3 55 14
+1be0 6 128 6
+1be6 8 128 6
+1bee f 98 6
+1bfd 5 98 6
+1c02 4 459 15
+1c06 2 90 13
+1c08 9 62 20
+1c11 8 214 1
+1c19 6 459 15
 1c1f e 459 15
-1c2d 11 459 15
-1c3e 14 222 14
-1c52 7 459 15
-1c59 2 90 13
-1c5b 13 62 20
-1c6e 8 214 1
-1c76 e 459 15
-1c84 11 459 15
-1c95 18 222 14
-1cad 3 130 29
-1cb0 a 461 15
-1cba 15 461 15
-1ccf c 458 15
-1cdb 5 45 33
-1ce0 4 459 15
-1ce4 2 90 13
-1ce6 9 62 20
-1cef 8 214 1
-1cf7 6 459 15
-1cfd e 459 15
-1d0b 5 222 14
-1d10 4 459 15
-1d14 2 90 13
-1d16 9 62 20
-1d1f 8 214 1
-1d27 6 459 15
-1d2d e 459 15
-1d3b 5 222 14
-1d40 12 167 29
-1d52 a 62 5
-1d5c 20 62 5
-1d7c 7 62 5
-1d83 12 62 5
-1d95 5 119 29
-1d9a 4 124 6
-1d9e 18 530 23
-1db6 b 124 6
-1dc1 4 1053 23
-1dc5 2 90 13
-1dc7 9 62 20
-1dd0 8 214 1
-1dd8 6 1053 23
-1dde e 1053 23
-1dec 5 222 14
-1df1 4 98 6
-1df5 b 98 6
-1e00 9 98 6
-1e09 5 119 29
-1e0e 5 120 29
-1e13 b 121 29
-1e1e b 122 29
-1e29 10 123 29
-FUNC 1e40 a 0 QOscBundle::QOscBundle(QByteArray const&)
-1e40 4 56 29
-1e44 1 56 29
-1e45 5 0 29
-FUNC 1e50 8 0 QOscBundle::isValid() const
-1e50 4 171 29
-1e54 2 172 29
-1e56 2 172 29
-FUNC 1e60 1c 0 QOscBundle::bundles() const
-1e60 9 176 29
-1e69 9 177 29
-1e72 a 177 29
-FUNC 1e80 1c 0 QOscBundle::messages() const
-1e80 9 181 29
-1e89 4 182 29
-1e8d 5 777 16
-1e92 a 182 29
-FUNC 1ea0 af 0 QList<QOscMessage>::append(QOscMessage const&)
-1ea0 d 549 16
-1ead 3 550 16
-1eb0 f 550 16
-1ebf d 551 16
-1ecc 8 404 16
-1ed4 5 40 32
-1ed9 4 488 15
-1edd 4 488 15
-1ee1 2 90 13
-1ee3 7 51 20
-1eea a 176 1
-1ef4 d 560 16
-1f01 8 404 16
-1f09 5 40 32
-1f0e 4 488 15
-1f12 4 488 15
-1f16 2 90 13
-1f18 7 51 20
-1f1f 8 176 1
-1f27 10 40 32
-1f37 5 777 16
-1f3c 5 40 32
-1f41 3 404 16
-1f44 b 579 16
-FUNC 1f50 73 0 QList<QOscBundle>::append(QOscBundle const&)
-1f50 d 549 16
-1f5d 3 550 16
-1f60 f 550 16
-1f6f 7 551 16
-1f76 d 560 16
-1f83 8 404 16
-1f8b 15 42 30
-1fa0 5 777 16
-1fa5 8 42 30
-1fad 8 777 16
-1fb5 3 404 16
-1fb8 b 579 16
-FUNC 1fd0 1d9 0 QOscBundle::~QOscBundle()
-1fd0 4 42 30
-1fd4 11 795 16
-1fe5 2 90 13
-1fe7 d 62 20
-1ff4 8 214 1
-1ffc a 795 16
-2006 c 796 16
-2012 4 834 16
-2016 4 835 16
-201a c 463 16
-2026 5 834 16
-202b 15 835 16
-2040 4 463 16
-2044 4 463 16
-2048 9 463 16
-2051 4 795 16
-2055 2 90 13
-2057 9 62 20
-2060 8 214 1
-2068 6 795 16
-206e 10 796 16
-207e 5 463 16
-2083 1d 463 16
-20a0 4 463 16
-20a4 15 463 16
-20b9 4 463 16
-20bd 6 463 16
-20c3 d 836 16
-20d0 4 459 15
-20d4 2 90 13
-20d6 9 62 20
-20df 8 214 1
-20e7 6 459 15
-20ed e 459 15
-20fb 5 222 14
-2100 8 463 16
-2108 9 463 16
-2111 d 836 16
-211e 4 795 16
-2122 3 90 13
-2125 9 62 20
-212e 9 214 1
-2137 6 795 16
-213d c 796 16
-2149 5 463 16
-214e 22 463 16
-2170 3 463 16
-2173 15 463 16
-2188 a 463 16
-2192 8 836 16
-219a f 42 30
-FUNC 21b0 d6 0 QList<QOscBundle>::QList(QList<QOscBundle> const&)
-21b0 14 777 16
-21c4 3 776 16
-21c7 3 776 16
-21ca 2 90 13
-21cc 11 51 20
-21dd 3 779 16
-21e0 8 779 16
-21e8 3 108 16
-21eb 8 108 16
-21f3 5 430 16
-21f8 3 108 16
-21fb 9 108 16
-2204 9 108 16
-220d 18 430 16
-2225 8 431 16
-222d 4 431 16
-2231 15 42 30
-2246 5 777 16
-224b 8 42 30
-2253 8 777 16
-225b 4 431 16
-225f 4 432 16
-2263 4 433 16
-2267 8 430 16
-226f 8 176 1
-2277 f 790 16
-FUNC 2290 2e0 0 QList<QOscMessage>::detach_helper_grow(int, int)
-2290 1e 723 16
-22ae 3 108 16
-22b1 8 108 16
-22b9 9 725 16
-22c2 3 108 16
-22c5 9 108 16
-22ce d 728 16
-22db 8 108 16
-22e3 d 108 16
-22f0 1d 431 16
-230d 3 431 16
-2310 6 40 32
-2316 5 488 15
-231b 4 488 15
-231f 2 90 13
-2321 7 51 20
-2328 8 176 1
-2330 12 40 32
-2342 5 777 16
-2347 6 40 32
-234d 3 431 16
-2350 4 432 16
-2354 4 433 16
-2358 6 430 16
-235e 7 108 16
-2365 15 108 16
-237a 3 108 16
-237d e 735 16
-238b d 430 16
-2398 8 736 16
-23a0 5 735 16
-23a5 28 431 16
-23cd 3 431 16
-23d0 6 40 32
-23d6 4 488 15
-23da 4 488 15
-23de 2 90 13
-23e0 7 51 20
-23e7 8 176 1
-23ef 11 40 32
-2400 5 777 16
-2405 6 40 32
-240b 3 431 16
-240e 4 432 16
-2412 4 433 16
-2416 a 430 16
-2420 2 90 13
-2422 d 62 20
-242f 8 214 1
-2437 a 745 16
-2441 4 834 16
-2445 4 835 16
-2449 c 463 16
-2455 5 834 16
-245a 16 835 16
-2470 4 463 16
-2474 4 463 16
-2478 9 463 16
-2481 4 795 16
-2485 2 90 13
-2487 9 62 20
-2490 8 214 1
-2498 6 795 16
-249e 10 796 16
-24ae 5 463 16
-24b3 1d 463 16
-24d0 4 463 16
-24d4 15 463 16
-24e9 4 463 16
-24ed 6 463 16
-24f3 d 836 16
-2500 4 459 15
-2504 2 90 13
-2506 9 62 20
-250f 8 214 1
-2517 6 459 15
-251d e 459 15
-252b 5 222 14
-2530 8 463 16
-2538 9 463 16
-2541 9 836 16
-254a 7 108 16
-2551 4 108 16
-2555 c 748 16
-2561 f 748 16
-FUNC 2570 a1 0 QList<QVariant>::QList(QList<QVariant> const&)
-2570 15 777 16
-2585 3 776 16
-2588 3 776 16
-258b 2 90 13
-258d 9 51 20
-2596 3 779 16
-2599 8 779 16
-25a1 3 108 16
-25a4 8 108 16
-25ac 5 430 16
-25b1 3 108 16
-25b4 9 108 16
-25bd 9 108 16
-25c6 17 431 16
-25dd 4 431 16
-25e1 8 431 16
-25e9 3 431 16
-25ec 4 432 16
-25f0 4 433 16
-25f4 8 430 16
-25fc 8 176 1
-2604 d 790 16
-FUNC 2620 210 0 QList<QOscBundle>::detach_helper_grow(int, int)
-2620 1e 723 16
-263e 3 108 16
-2641 9 108 16
-264a 9 725 16
-2653 3 108 16
-2656 9 108 16
-265f d 728 16
-266c 8 108 16
-2674 d 108 16
-2681 1c 431 16
-269d 4 431 16
-26a1 16 42 30
-26b7 5 777 16
-26bc 8 42 30
-26c4 8 777 16
-26cc 3 431 16
-26cf 4 432 16
-26d3 4 433 16
-26d7 6 430 16
-26dd 7 108 16
-26e4 15 108 16
-26f9 3 108 16
-26fc e 735 16
-270a d 430 16
-2717 8 736 16
-271f 5 735 16
-2724 29 431 16
-274d 3 431 16
-2750 18 42 30
-2768 5 777 16
-276d 9 42 30
-2776 8 777 16
-277e 3 431 16
-2781 4 432 16
-2785 4 433 16
-2789 a 430 16
-2793 4 90 13
-2797 9 62 20
-27a0 a 214 1
-27aa 10 745 16
-27ba 5 463 16
-27bf 21 463 16
-27e0 3 463 16
-27e3 15 463 16
-27f8 a 463 16
-2802 8 836 16
-280a 7 108 16
-2811 4 108 16
-2815 c 748 16
-2821 f 748 16
-FUNC 2830 d6 0 QList<QOscBundle>::QList(QList<QOscBundle> const&)
-2830 14 777 16
-2844 3 776 16
-2847 3 776 16
-284a 2 90 13
-284c 11 51 20
-285d 3 779 16
-2860 8 779 16
-2868 3 108 16
-286b 8 108 16
-2873 5 430 16
-2878 3 108 16
-287b 9 108 16
-2884 9 108 16
-288d 18 430 16
-28a5 8 431 16
-28ad 4 431 16
-28b1 15 42 30
-28c6 5 777 16
-28cb 8 42 30
-28d3 8 777 16
-28db 4 431 16
-28df 4 432 16
-28e3 4 433 16
-28e7 8 430 16
-28ef 8 176 1
-28f7 f 790 16
-FUNC 2910 e6 0 QList<QOscMessage>::QList(QList<QOscMessage> const&)
+1c2d 9 222 14
+1c36 5 63 29
+1c3b f 458 15
+1c4a b 42 33
+1c55 f 43 33
+1c64 12 49 33
+1c76 8 49 33
+1c7e 4 459 15
+1c82 2 90 13
+1c84 9 62 20
+1c8d 8 214 1
+1c95 6 459 15
+1c9b e 459 15
+1ca9 5 222 14
+1cae 8 54 33
+1cb6 10 596 15
+1cc6 8 68 29
+1cce 5 54 33
+1cd3 1b 461 15
+1cee f 56 29
+1cfd b 55 14
+1d08 6 86 29
+1d0e 4 78 2
+1d12 5 87 29
+1d17 3 88 29
+1d1a 3 78 2
+1d1d 4 89 29
+1d21 1e 93 29
+1d3f a 105 2
+1d49 17 105 2
+1d60 1b 461 15
+1d7b 7 110 29
+1d82 3 78 2
+1d85 4 105 2
+1d89 4 111 29
+1d8d b 113 29
+1d98 8 116 29
+1da0 10 129 29
+1db0 f 130 29
+1dbf 14 138 29
+1dd3 13 139 29
+1de6 b 141 29
+1df1 10 142 29
+1e01 4 143 29
+1e05 a 144 29
+1e0f a 145 29
+1e19 a 146 29
+1e23 1d 147 29
+1e40 1a 152 29
+1e5a b 167 29
+1e65 9 172 29
+1e6e 4 156 29
+1e72 a 157 29
+1e7c a 158 29
+1e86 a 159 29
+1e90 f 160 29
+1e9f 11 162 29
+1eb0 43 62 5
+1ef3 5 149 29
+1ef8 10 124 6
+1f08 f 530 23
+1f17 b 124 6
+1f22 4 1053 23
+1f26 2 90 13
+1f28 9 62 20
+1f31 8 214 1
+1f39 6 1053 23
+1f3f e 1053 23
+1f4d 5 222 14
+1f52 12 98 6
+1f64 c 98 6
+1f70 a 149 29
+1f7a 7 795 16
+1f81 4 90 13
+1f85 d 62 20
+1f92 a 214 1
+1f9c 6 795 16
+1fa2 15 796 16
+1fb7 5 463 16
+1fbc 2c 463 16
+1fe8 a 463 16
+1ff2 1f 836 16
+2011 7 459 15
+2018 2 90 13
+201a 10 62 20
+202a 8 214 1
+2032 6 459 15
+2038 11 459 15
+2049 1e 222 14
+2067 27 62 5
+208e 7 62 5
+2095 15 62 5
+20aa 5 163 29
+20af 10 124 6
+20bf f 530 23
+20ce b 124 6
+20d9 4 1053 23
+20dd 2 90 13
+20df 9 62 20
+20e8 8 214 1
+20f0 6 1053 23
+20f6 e 1053 23
+2104 5 222 14
+2109 19 98 6
+2122 c 98 6
+212e a 163 29
+2138 7 459 15
+213f 2 90 13
+2141 9 62 20
+214a 8 214 1
+2152 6 459 15
+2158 11 459 15
+2169 5 222 14
+216e 7 459 15
+2175 2 90 13
+2177 9 62 20
+2180 8 214 1
+2188 6 459 15
+218e 11 459 15
+219f 12 222 14
+21b1 c 458 15
+21bd 5 45 33
+21c2 4 459 15
+21c6 2 90 13
+21c8 d 62 20
+21d5 8 214 1
+21dd a 459 15
+21e7 e 459 15
+21f5 11 222 14
+2206 2a 62 5
+2230 7 62 5
+2237 12 62 5
+2249 5 119 29
+224e 4 124 6
+2252 18 530 23
+226a b 124 6
+2275 4 1053 23
+2279 2 90 13
+227b 9 62 20
+2284 8 214 1
+228c 6 1053 23
+2292 e 1053 23
+22a0 5 222 14
+22a5 f 98 6
+22b4 9 98 6
+22bd 5 119 29
+22c2 4 120 29
+22c6 a 121 29
+22d0 a 122 29
+22da 4 123 29
+22de 4 459 15
+22e2 2 90 13
+22e4 9 62 20
+22ed 8 214 1
+22f5 6 459 15
+22fb e 459 15
+2309 5 222 14
+230e 12 167 29
+FUNC 2320 a 0 QOscBundle::QOscBundle(QByteArray const&)
+2320 4 56 29
+2324 1 167 29
+2325 5 0 29
+FUNC 2330 8 0 QOscBundle::isValid() const
+2330 4 171 29
+2334 4 172 29
+FUNC 2340 1c 0 QOscBundle::bundles() const
+2340 9 176 29
+2349 13 177 29
+FUNC 2360 1c 0 QOscBundle::messages() const
+2360 9 181 29
+2369 4 182 29
+236d 5 790 16
+2372 a 182 29
+FUNC 2380 af 0 QList<QOscMessage>::append(QOscMessage const&)
+2380 d 549 16
+238d 12 550 16
+239f d 551 16
+23ac 8 404 16
+23b4 5 40 32
+23b9 8 489 15
+23c1 2 90 13
+23c3 7 51 20
+23ca a 176 1
+23d4 d 560 16
+23e1 8 404 16
+23e9 5 40 32
+23ee 8 489 15
+23f6 2 90 13
+23f8 7 51 20
+23ff 8 176 1
+2407 10 40 32
+2417 5 790 16
+241c 5 40 32
+2421 3 404 16
+2424 b 579 16
+FUNC 2430 73 0 QList<QOscBundle>::append(QOscBundle const&)
+2430 d 549 16
+243d 12 550 16
+244f 7 551 16
+2456 d 560 16
+2463 8 404 16
+246b 15 42 30
+2480 5 790 16
+2485 8 42 30
+248d 8 790 16
+2495 3 404 16
+2498 b 579 16
+FUNC 24b0 1d9 0 QOscBundle::~QOscBundle()
+24b0 4 42 30
+24b4 11 795 16
+24c5 2 90 13
+24c7 d 62 20
+24d4 8 214 1
+24dc a 795 16
+24e6 c 796 16
+24f2 8 834 16
+24fa c 463 16
+2506 1a 834 16
+2520 d 463 16
+252d 4 795 16
+2531 2 90 13
+2533 9 62 20
+253c 8 214 1
+2544 6 795 16
+254a 10 796 16
+255a 5 463 16
+255f 3a 463 16
+2599 a 463 16
+25a3 d 836 16
+25b0 4 459 15
+25b4 2 90 13
+25b6 9 62 20
+25bf 8 214 1
+25c7 6 459 15
+25cd e 459 15
+25db 5 222 14
+25e0 c 463 16
+25ec 9 463 16
+25f5 d 836 16
+2602 4 795 16
+2606 3 90 13
+2609 9 62 20
+2612 9 214 1
+261b 6 795 16
+2621 c 796 16
+262d 23 463 16
+2650 18 463 16
+2668 a 463 16
+2672 8 836 16
+267a f 42 30
+FUNC 2690 d6 0 QList<QOscBundle>::QList(QList<QOscBundle> const&)
+2690 14 777 16
+26a4 6 777 16
+26aa 2 90 13
+26ac 11 51 20
+26bd b 779 16
+26c8 b 108 16
+26d3 5 430 16
+26d8 3 108 16
+26db 9 108 16
+26e4 9 108 16
+26ed 18 430 16
+2705 c 431 16
+2711 15 42 30
+2726 5 790 16
+272b 8 42 30
+2733 8 790 16
+273b 4 431 16
+273f 4 432 16
+2743 4 433 16
+2747 8 430 16
+274f 8 176 1
+2757 f 790 16
+FUNC 2770 e6 0 QList<QOscMessage>::QList(QList<QOscMessage> const&)
+2770 14 777 16
+2784 6 777 16
+278a 2 90 13
+278c 11 51 20
+279d b 779 16
+27a8 b 108 16
+27b3 9 430 16
+27bc c 108 16
+27c8 9 108 16
+27d1 1f 431 16
+27f0 6 40 32
+27f6 8 489 15
+27fe 2 90 13
+2800 7 51 20
+2807 8 176 1
+280f 11 40 32
+2820 5 790 16
+2825 6 40 32
+282b 4 431 16
+282f 4 432 16
+2833 4 433 16
+2837 8 430 16
+283f 8 176 1
+2847 f 790 16
+FUNC 2860 a1 0 QList<QVariant>::QList(QList<QVariant> const&)
+2860 15 777 16
+2875 6 777 16
+287b 2 90 13
+287d 9 51 20
+2886 b 779 16
+2891 b 108 16
+289c 5 430 16
+28a1 c 108 16
+28ad 9 108 16
+28b6 26 431 16
+28dc 4 432 16
+28e0 4 433 16
+28e4 8 430 16
+28ec 8 176 1
+28f4 d 790 16
+FUNC 2910 d6 0 QList<QOscBundle>::QList(QList<QOscBundle> const&)
 2910 14 777 16
-2924 3 776 16
-2927 3 776 16
+2924 6 777 16
 292a 2 90 13
 292c 11 51 20
-293d 3 779 16
-2940 8 779 16
-2948 3 108 16
-294b 8 108 16
-2953 9 430 16
-295c 3 108 16
-295f 9 108 16
-2968 9 108 16
-2971 1c 431 16
-298d 3 431 16
-2990 6 40 32
-2996 4 488 15
-299a 4 488 15
-299e 2 90 13
-29a0 7 51 20
-29a7 8 176 1
-29af 11 40 32
-29c0 5 777 16
-29c5 6 40 32
-29cb 4 431 16
-29cf 4 432 16
-29d3 4 433 16
-29d7 8 430 16
-29df 8 176 1
-29e7 f 790 16
-FUNC 2a00 66 0 <name omitted>
-2a00 4 46 31
-2a04 62 46 31
-FUNC 2a70 a00 0 QOscMessage::QOscMessage(QByteArray const&)
-2a70 1a 55 31
-2a8a 5 54 31
-2a8f b 458 15
-2a9a b 139 16
-2aa5 52 46 31
-2af7 d 56 31
-2b04 4 62 5
-2b08 58 46 31
-2b60 7 65 7
-2b67 7 62 5
-2b6e 16 62 5
-2b84 c 62 5
-2b90 c 56 31
-2b9c 8 56 31
-2ba4 8 483 15
-2bac 3 55 14
-2baf 6 128 6
-2bb5 8 128 6
-2bbd 4 98 6
-2bc1 b 98 6
-2bcc 5 98 6
-2bd1 4 459 15
-2bd5 2 90 13
-2bd7 9 62 20
-2be0 8 214 1
-2be8 6 459 15
-2bee e 459 15
-2bfc 9 222 14
-2c05 5 56 31
-2c0a 8 458 15
-2c12 a 42 33
-2c1c e 43 33
-2c2a 11 49 33
-2c3b 8 49 33
-2c43 4 459 15
-2c47 2 90 13
-2c49 9 62 20
-2c52 8 214 1
-2c5a 6 459 15
-2c60 e 459 15
-2c6e 5 222 14
-2c73 5 54 33
-2c78 2 54 33
-2c7a 4 461 15
-2c7e a 61 31
-2c88 4 54 33
-2c8c 6 458 15
-2c92 a 42 33
-2c9c f 43 33
-2cab d 49 33
-2cb8 14 49 33
-2ccc 8 49 33
-2cd4 4 459 15
-2cd8 2 90 13
-2cda 9 62 20
-2ce3 8 214 1
-2ceb 6 459 15
-2cf1 e 459 15
-2cff 5 222 14
-2d04 4 461 15
-2d08 3 461 15
-2d0b 8 75 31
-2d13 4 55 14
-2d17 14 75 31
-2d2b 7 139 16
-2d32 7 139 16
-2d39 9 81 31
-2d42 7 54 33
-2d49 4 54 33
-2d4d 13 54 33
-2d60 7 55 14
-2d67 16 83 31
-2d7d a 461 15
-2d87 15 461 15
-2d9c 7 92 31
-2da3 3 78 2
-2da6 2 105 2
-2da8 b 93 31
-2db3 a 96 31
-2dbd a 461 15
-2dc7 15 461 15
-2ddc 7 106 31
-2de3 3 78 2
-2de6 2 105 2
-2de8 4 107 31
-2dec b 108 31
-2df7 8 108 31
-2dff 21 96 31
-2e20 7 458 15
-2e27 10 458 15
-2e37 11 42 33
-2e48 9 43 33
-2e51 a 49 33
-2e5b 1b 49 33
-2e76 8 49 33
-2e7e 4 459 15
-2e82 2 90 13
-2e84 9 62 20
-2e8d 8 214 1
-2e95 6 459 15
-2e9b e 459 15
-2ea9 5 222 14
-2eae 4 54 33
-2eb2 4 54 33
-2eb6 a 54 33
-2ec0 16 87 31
-2ed6 13 87 31
-2ee9 7 459 15
-2ef0 2 90 13
-2ef2 9 62 20
-2efb 8 214 1
-2f03 6 459 15
-2f09 11 459 15
-2f1a 6 222 14
-2f20 3 81 31
-2f23 4 461 15
-2f27 4 81 31
-2f2b 10 81 31
-2f3b 4 53 31
-2f3f 7 115 31
-2f46 5 116 31
-2f4b 4 471 16
-2f4f 14 471 16
-2f63 8 777 16
-2f6b 4 98 0
-2f6f 4 99 0
-2f73 4 99 0
-2f77 4 100 0
-2f7b 8 474 16
-2f83 52 46 31
-2fd5 d 90 13
-2fe2 52 46 31
-3034 7 65 7
-303b a 62 5
-3045 20 62 5
-3065 15 62 5
-307a 5 119 31
-307f 7 124 6
-3086 18 530 23
-309e b 124 6
-30a9 4 1053 23
-30ad 2 90 13
-30af 9 62 20
-30b8 8 214 1
-30c0 6 1053 23
-30c6 e 1053 23
-30d4 5 222 14
-30d9 7 98 6
-30e0 b 98 6
-30eb 5 98 6
-30f0 8 483 15
-30f8 3 55 14
-30fb d 128 6
-3108 5 128 6
-310d 7 98 6
-3114 b 98 6
-311f 8 98 6
-3127 7 124 6
-312e 18 530 23
-3146 b 124 6
-3151 4 1053 23
-3155 2 90 13
-3157 9 62 20
-3160 8 214 1
-3168 6 1053 23
-316e e 1053 23
-317c 5 222 14
-3181 7 98 6
-3188 b 98 6
-3193 5 98 6
-3198 7 89 6
-319f 7 89 6
-31a6 18 89 6
-31be b 119 31
-31c9 1c 119 31
-31e5 c 458 15
-31f1 5 45 33
-31f6 4 459 15
-31fa 2 90 13
-31fc 11 62 20
-320d 8 214 1
-3215 a 459 15
-321f 9 459 15
-3228 c 458 15
-3234 5 45 33
-3239 4 459 15
-323d 2 90 13
-323f d 62 20
-324c 8 214 1
-3254 a 459 15
-325e e 459 15
-326c a 222 14
-3276 a 62 5
-3280 20 62 5
-32a0 1c 62 5
-32bc 5 110 31
-32c1 7 124 6
-32c8 18 530 23
-32e0 b 124 6
-32eb 4 1053 23
-32ef 2 90 13
-32f1 9 62 20
-32fa 8 214 1
-3302 6 1053 23
-3308 e 1053 23
-3316 5 222 14
-331b 7 98 6
-3322 b 98 6
-332d 5 98 6
-3332 7 109 6
-3339 8 109 6
-3341 7 98 6
-3348 b 98 6
-3353 c 98 6
-335f c 119 31
-336b 5 120 31
-3370 4 459 15
-3374 2 90 13
-3376 9 62 20
-337f 8 214 1
-3387 6 459 15
-338d e 459 15
-339b 5 222 14
-33a0 4 459 15
-33a4 2 90 13
-33a6 9 62 20
-33af 8 214 1
-33b7 6 459 15
-33bd e 459 15
-33cb 5 222 14
-33d0 12 120 31
-33e2 7 458 15
-33e9 f 458 15
-33f8 5 45 33
-33fd 4 459 15
-3401 2 90 13
-3403 9 62 20
-340c 8 214 1
-3414 6 459 15
-341a e 459 15
-3428 5 222 14
-342d 7 459 15
-3434 2 90 13
-3436 d 62 20
-3443 8 214 1
-344b a 459 15
-3455 11 459 15
-3466 a 222 14
-FUNC 3470 a 0 QOscMessage::QOscMessage(QByteArray const&)
-3470 4 55 31
-3474 1 55 31
-3475 5 0 31
-FUNC 3480 8 0 QOscMessage::isValid() const
-3480 4 123 31
-3484 2 124 31
-3486 2 124 31
-FUNC 3490 21 0 QOscMessage::addressPattern() const
-3490 4 128 31
-3494 4 488 15
-3498 3 488 15
-349b 2 90 13
-349d 7 51 20
-34a4 8 176 1
-34ac 5 129 31
-FUNC 34c0 1c 0 QOscMessage::arguments() const
-34c0 9 133 31
-34c9 4 134 31
-34cd 5 777 16
-34d2 a 134 31
-FUNC 34e0 54 0 QList<QVariant>::append(QVariant const&)
-34e0 d 549 16
-34ed 3 550 16
-34f0 f 550 16
-34ff 7 551 16
-3506 d 560 16
-3513 8 404 16
-351b b 404 16
-3526 3 404 16
-3529 b 579 16
-FUNC 3540 187 0 QDebug operator<<<QVariant>(QDebug, QList<QVariant> const&)
-3540 1c 182 6
-355c 3 100 6
-355f 3 100 6
-3562 c 97 6
-356e 5 109 6
-3573 3 98 6
-3576 b 98 6
-3581 5 98 6
-3586 7 105 16
-358d 3 105 16
-3590 20 185 6
-35b0 5 186 6
-35b5 8 124 6
-35bd f 530 23
-35cc b 124 6
-35d7 4 1053 23
-35db 2 90 13
-35dd 9 62 20
-35e6 8 214 1
-35ee 6 1053 23
-35f4 e 1053 23
-3602 5 222 14
-3607 3 98 6
-360a b 98 6
-3615 5 98 6
-361a 7 107 16
-3621 3 89 6
-3624 4 89 6
-3628 7 89 6
-362f 3 107 16
-3632 5 132 16
-3637 f 188 6
-3646 10 188 6
-3656 3 185 6
-3659 7 105 16
-3660 8 185 6
-3668 3 105 16
-366b 9 185 6
-3674 8 109 6
-367c 5 109 6
-3681 3 98 6
-3684 b 98 6
-368f 5 98 6
-3694 6 101 6
-369a 3 101 6
-369d 9 98 6
-36a6 5 98 6
-36ab 7 89 6
-36b2 3 89 6
-36b5 3 89 6
-36b8 f 192 6
-FUNC 36d0 97 0 QList<QVariant>::~QList()
-36d0 4 794 16
-36d4 e 795 16
-36e2 3 90 13
-36e5 9 62 20
-36ee 9 214 1
-36f7 6 795 16
-36fd b 796 16
-3708 5 463 16
-370d 23 463 16
-3730 3 463 16
-3733 15 463 16
-3748 4 463 16
-374c 6 463 16
-3752 8 836 16
-375a d 797 16
-FUNC 3770 19d 0 QList<QVariant>::detach_helper_grow(int, int)
-3770 1a 723 16
-378a 4 108 16
-378e 8 108 16
-3796 9 725 16
-379f 4 108 16
-37a3 9 108 16
-37ac 9 728 16
-37b5 8 108 16
-37bd d 108 16
-37ca 13 431 16
-37dd 3 431 16
-37e0 8 431 16
-37e8 4 431 16
-37ec 4 432 16
-37f0 4 433 16
-37f4 a 430 16
-37fe 4 108 16
-3802 f 108 16
-3811 3 108 16
-3814 e 735 16
-3822 5 430 16
-3827 8 736 16
-382f 5 735 16
-3834 29 431 16
-385d 3 431 16
-3860 8 431 16
-3868 3 431 16
-386b 4 432 16
-386f 4 433 16
-3873 a 430 16
-387d 4 90 13
-3881 9 62 20
-388a a 214 1
-3894 10 745 16
-38a4 5 463 16
-38a9 17 463 16
-38c0 3 463 16
-38c3 15 463 16
-38d8 4 463 16
-38dc 6 463 16
-38e2 8 836 16
-38ea 4 108 16
-38ee 4 108 16
-38f2 c 748 16
-38fe f 748 16
-FUNC 3910 66 0 <name omitted>
-3910 4 48 35
-3914 62 48 35
-FUNC 3980 66 0 <name omitted>
-3980 4 49 35
-3984 62 49 35
-FUNC 39f0 a73 0 QTuioHandler::QTuioHandler(QString const&)
-39f0 25 53 35
-3a15 5 51 35
-3a1a 14 53 35
-3a2e 8 52 35
-3a36 8 52 35
-3a3e 5 52 35
-3a43 f 51 35
-3a52 c 328 17
-3a5e c 64 24
-3a6a 22 51 35
-3a8c 8 54 35
-3a94 4 105 16
-3a98 d 105 16
-3aa5 4e 60 35
-3af3 d 107 16
-3b00 c 650 23
-3b0c 9 650 23
-3b15 f 61 35
-3b24 4 1053 23
-3b28 2 90 13
-3b2a 9 62 20
-3b33 8 214 1
-3b3b 6 1053 23
-3b41 e 1053 23
-3b4f 5 222 14
-3b54 8 107 16
-3b5c 8 107 16
-3b64 e 61 35
-3b72 16 934 23
-3b88 e 934 23
-3b96 4 1053 23
-3b9a 2 90 13
-3b9c 9 62 20
-3ba5 8 214 1
-3bad 6 1053 23
-3bb3 e 1053 23
-3bc1 c 222 14
-3bcd e 63 35
-3bdb 4 1053 23
-3bdf 2 90 13
-3be1 11 62 20
-3bf2 8 214 1
-3bfa a 1053 23
-3c04 11 1053 23
-3c15 c 650 23
-3c21 9 650 23
-3c2a f 64 35
-3c39 4 1053 23
-3c3d 2 90 13
-3c3f 9 62 20
-3c48 8 214 1
-3c50 6 1053 23
-3c56 e 1053 23
-3c64 5 222 14
-3c69 8 107 16
-3c71 8 107 16
-3c79 e 64 35
-3c87 1a 934 23
-3ca1 b 934 23
-3cac 4 1053 23
-3cb0 2 90 13
-3cb2 9 62 20
-3cbb 8 214 1
-3cc3 6 1053 23
-3cc9 e 1053 23
-3cd7 10 222 14
-3ce7 8 66 35
-3cef a 62 5
-3cf9 7 62 5
-3d00 16 62 5
-3d16 16 62 5
-3d2c 5 67 35
-3d31 9 124 6
-3d3a f 530 23
-3d49 b 124 6
-3d54 4 1053 23
-3d58 2 90 13
-3d5a 9 62 20
-3d63 8 214 1
-3d6b 6 1053 23
-3d71 e 1053 23
-3d7f 5 222 14
-3d84 4 98 6
-3d88 b 98 6
-3d93 5 98 6
-3d98 4 116 6
-3d9c 8 116 6
-3da4 4 98 6
-3da8 b 98 6
-3db3 9 98 6
-3dbc 5 67 35
-3dc1 4 1053 23
-3dc5 2 90 13
-3dc7 19 62 20
-3de0 7 865 23
-3de7 3 55 14
-3dea e 229 23
-3df8 c 1149 23
-3e04 8 1149 23
-3e0c 8 107 16
-3e14 3 107 16
-3e17 9 865 23
-3e20 3 55 14
-3e23 e 229 23
-3e31 c 1149 23
-3e3d 8 1149 23
-3e45 8 107 16
-3e4d d 107 16
-3e5a c 650 23
-3e66 c 650 23
-3e72 11 72 35
-3e83 7 1053 23
-3e8a 2 90 13
-3e8c 9 62 20
-3e95 8 214 1
-3e9d 6 1053 23
-3ea3 11 1053 23
-3eb4 5 222 14
-3eb9 8 72 35
-3ec1 8 107 16
-3ec9 d 107 16
-3ed6 1d 934 23
-3ef3 b 934 23
-3efe 4 1053 23
-3f02 2 90 13
-3f04 9 62 20
-3f0d 8 214 1
-3f15 6 1053 23
-3f1b e 1053 23
-3f29 13 222 14
-3f3c 5 74 35
-3f41 1a 75 35
-3f5b 7 1053 23
-3f62 2 90 13
-3f64 9 62 20
-3f6d 8 214 1
-3f75 6 1053 23
-3f7b 21 1053 23
-3f9c 8 214 1
-3fa4 21 1053 23
-3fc5 15 1053 23
-3fda 5 222 14
-3fdf 3 60 35
-3fe2 4 105 16
-3fe6 8 60 35
-3fee 3 105 16
-3ff1 10 60 35
-4001 21 86 35
-4022 f 87 35
-4031 c 87 35
-403d 1c 87 35
-4059 b 87 35
-4064 1a 89 35
-407e 38 90 35
-40b6 b 90 35
-40c1 21 92 35
-40e2 38 93 35
-411a b 93 35
-4125 5 95 35
-412a 11 650 23
-413b e 650 23
-4149 8 95 35
-4151 7 1053 23
-4158 2 90 13
-415a 9 62 20
-4163 8 214 1
-416b 6 1053 23
-4171 11 1053 23
-4182 5 222 14
-4187 c 96 35
-4193 f 97 35
-41a2 5 101 35
-41a7 11 101 35
-41b8 8 103 35
-41c0 18 103 35
-41d8 8 103 35
-41e0 8 103 35
-41e8 2b 108 35
-4213 5 237 8
-4218 6 57 12
-421e b 117 9
-4229 c 152 9
-4235 3c 235 8
-4271 d 108 35
-427e a 62 5
-4288 20 62 5
-42a8 1c 62 5
-42c4 5 104 35
-42c9 7 124 6
-42d0 18 530 23
-42e8 b 124 6
-42f3 4 1053 23
-42f7 2 90 13
-42f9 9 62 20
-4302 8 214 1
-430a 6 1053 23
-4310 e 1053 23
-431e 5 222 14
-4323 7 98 6
-432a b 98 6
-4335 c 98 6
-4341 8 104 35
-4349 b 865 23
-4354 3 55 14
-4357 a 125 6
-4361 5 125 6
-4366 7 98 6
-436d b 98 6
-4378 5 98 6
-437d 7 1053 23
-4384 2 90 13
-4386 9 62 20
-438f 8 214 1
-4397 6 1053 23
-439d 11 1053 23
-43ae c 222 14
-43ba 5 104 35
-43bf 4 795 16
-43c3 3 90 13
-43c6 d 62 20
-43d3 9 214 1
-43dc 6 795 16
-43e2 c 796 16
-43ee 5 465 16
-43f3 1d 465 16
-4410 3 1053 23
-4413 2 90 13
-4415 9 62 20
-441e 8 214 1
-4426 6 1053 23
-442c e 1053 23
-443a 5 222 14
-443f a 465 16
-4449 8 836 16
-4451 12 109 35
-FUNC 4470 731 0 QTuioHandler::processPackets()
-4470 4 116 35
-4474 2a 117 35
-449e 8 117 35
-44a6 1a 62 5
-44c0 b 458 15
-44cb c 119 35
-44d7 7 119 35
-44de 8 120 35
-44e6 4 485 15
-44ea 5 96 20
-44ef 7 485 15
-44f6 3 485 15
-44f9 3 96 14
-44fc 2 485 15
-44fe 7 96 14
-4505 5 485 15
-450a 4 479 15
-450e 7 55 14
-4515 4 123 35
-4519 f 123 35
-4528 a 126 35
-4532 4 461 15
-4536 4 129 35
-453a 9 129 35
-4543 b 130 35
-454e c 132 35
-455a 8 133 35
-4562 c 133 35
-456e 13 143 35
-4581 8 777 16
-4589 7 108 16
-4590 9 108 16
-4599 7 270 16
-45a0 9 109 16
-45a9 7 270 16
-45b0 7 145 35
-45b7 9 281 16
-45c0 a 132 16
-45ca b 146 35
-45d5 11 596 15
-45e6 7 459 15
-45ed 2 90 13
-45ef 9 62 20
-45f8 8 214 1
-4600 6 459 15
-4606 11 459 15
-4617 7 222 14
-461e 6 146 35
-4624 a 62 5
-462e 17 62 5
-4645 7 62 5
-464c 7 62 5
-4653 f 147 35
-4662 10 124 6
-4672 f 530 23
-4681 b 124 6
-468c 4 1053 23
-4690 2 90 13
-4692 9 62 20
-469b 8 214 1
-46a3 6 1053 23
-46a9 e 1053 23
-46b7 5 222 14
-46bc 7 98 6
-46c3 b 98 6
-46ce c 98 6
-46da 8 147 35
-46e2 b 483 15
-46ed 3 55 14
-46f0 6 128 6
-46f6 8 128 6
-46fe 7 98 6
-4705 b 98 6
-4710 5 98 6
-4715 7 459 15
-471c 2 90 13
-471e 9 62 20
-4727 8 214 1
-472f 6 459 15
-4735 11 459 15
-4746 5 222 14
-474b 1c 147 35
-4767 8 151 35
-476f 7 105 16
-4776 4 107 16
-477a 9 152 35
-4783 a 62 5
-478d 7 62 5
-4794 16 62 5
-47aa 1c 62 5
-47c6 5 153 35
-47cb 10 124 6
-47db f 530 23
-47ea b 124 6
-47f5 4 1053 23
-47f9 2 90 13
-47fb 9 62 20
-4804 8 214 1
-480c 6 1053 23
-4812 e 1053 23
-4820 5 222 14
-4825 7 98 6
-482c b 98 6
-4837 c 98 6
-4843 a 153 35
-484d c 132 16
-4859 8 157 35
-4861 f 590 15
-4870 8 158 35
-4878 f 590 15
-4887 8 160 35
-488f f 590 15
-489e 8 162 35
-48a6 f 590 15
-48b5 8 164 35
-48bd a 62 5
-48c7 7 62 5
-48ce 16 62 5
-48e4 7 62 5
-48eb e 62 5
-48f9 f 167 35
-4908 10 124 6
-4918 f 530 23
-4927 b 124 6
-4932 4 1053 23
-4936 2 90 13
-4938 9 62 20
-4941 8 214 1
-4949 6 1053 23
-494f e 1053 23
-495d 5 222 14
-4962 7 98 6
-4969 b 98 6
-4974 5 98 6
-4979 b 483 15
-4984 3 55 14
-4987 6 128 6
-498d 8 128 6
-4995 7 98 6
-499c b 98 6
-49a7 5 98 6
-49ac a 167 35
-49b6 a 159 35
-49c0 11 161 35
-49d1 11 163 35
-49e2 c 165 35
-49ee 7 459 15
-49f5 2 90 13
-49f7 9 62 20
-4a00 8 214 1
-4a08 6 459 15
-4a0e 11 459 15
-4a1f 18 222 14
-4a37 5 170 35
-4a3c 12 286 16
-4a4e 7 145 35
-4a55 d 281 16
-4a62 7 795 16
-4a69 2 90 13
-4a6b 9 62 20
-4a74 8 214 1
-4a7c 6 795 16
-4a82 e 796 16
-4a90 5 796 16
-4a95 4 795 16
-4a99 2 90 13
-4a9b 10 62 20
-4aab 8 214 1
-4ab3 6 795 16
-4ab9 8 796 16
-4ac1 f 796 16
-4ad0 4 795 16
-4ad4 2 90 13
-4ad6 9 62 20
-4adf 8 214 1
-4ae7 6 795 16
-4aed 4 796 16
-4af1 4 42 30
-4af5 5 796 16
-4afa 4 795 16
-4afe 2 90 13
-4b00 9 62 20
-4b09 8 214 1
-4b11 6 795 16
-4b17 4 796 16
-4b1b 9 834 16
-4b24 9 835 16
-4b2d 4 42 30
-4b31 5 834 16
-4b36 c 836 16
-4b42 8 171 35
-4b4a 4 459 15
-4b4e 2 90 13
-4b50 9 62 20
-4b59 8 214 1
-4b61 6 459 15
-4b67 13 459 15
-4b7a 5 222 14
-4b7f 8 117 35
-4b87 8 117 35
-4b8f 12 172 35
-FUNC 4bb0 a 0 QTuioHandler::QTuioHandler(QString const&)
-4bb0 4 53 35
-4bb4 1 53 35
-4bb5 5 0 35
-FUNC 4bc0 a7 0 QTuioHandler::~QTuioHandler()
-4bc0 e 112 35
-4bce e 112 35
-4bdc 4 68 24
-4be0 2 90 13
-4be2 9 62 20
-4beb 8 214 1
-4bf3 6 68 24
-4bf9 e 68 24
-4c07 5 222 14
-4c0c 4 339 17
-4c10 3 90 13
-4c13 9 62 20
-4c1c 9 214 1
-4c25 6 339 17
-4c2b 4 339 17
-4c2f 4 186 17
-4c33 a 221 17
-4c3d 8 223 17
-4c45 8 225 17
-4c4d 11 113 35
-4c5e 9 113 35
-FUNC 4c70 a 0 <name omitted>
-4c70 4 112 35
-4c74 1 112 35
-4c75 5 0 35
-FUNC 4c80 1c 0 QTuioHandler::~QTuioHandler()
-4c80 9 112 35
-4c89 5 112 35
-4c8e e 112 35
-FUNC 4ca0 3bd 0 QTuioHandler::process2DCurSource(QOscMessage const&)
-4ca0 12 175 35
-4cb2 5 176 35
-4cb7 4 105 16
-4cbb 3 105 16
-4cbe 4 107 16
-4cc2 2 105 16
-4cc4 9 177 35
-4ccd 5 132 16
-4cd2 5 182 35
-4cd7 9 182 35
-4ce0 52 48 35
-4d32 d 90 13
-4d3f 52 48 35
-4d91 7 65 7
-4d98 a 62 5
-4da2 20 62 5
-4dc2 12 62 5
-4dd4 5 187 35
-4dd9 4 124 6
-4ddd 18 530 23
-4df5 b 124 6
-4e00 4 1053 23
-4e04 2 90 13
-4e06 9 62 20
-4e0f 8 214 1
-4e17 6 1053 23
-4e1d e 1053 23
-4e2b 5 222 14
-4e30 4 98 6
-4e34 b 98 6
-4e3f 5 98 6
-4e44 4 107 16
-4e48 4 107 16
-4e4c c 132 16
-4e58 5 187 35
-4e5d b 483 15
-4e68 3 55 14
-4e6b a 128 6
-4e75 5 128 6
-4e7a 4 98 6
-4e7e b 98 6
-4e89 5 98 6
-4e8e 7 459 15
-4e95 2 90 13
-4e97 9 62 20
-4ea0 8 214 1
-4ea8 6 459 15
-4eae 11 459 15
-4ebf e 222 14
-4ecd 7 62 5
-4ed4 17 62 5
-4eeb 13 62 5
-4efe 5 178 35
-4f03 4 124 6
-4f07 18 530 23
-4f1f b 124 6
-4f2a 4 1053 23
-4f2e 2 90 13
-4f30 9 62 20
-4f39 8 214 1
-4f41 6 1053 23
-4f47 e 1053 23
-4f55 5 222 14
-4f5a 4 98 6
-4f5e b 98 6
-4f69 5 98 6
-4f6e 4 116 6
-4f72 4 105 16
-4f76 3 105 16
-4f79 3 105 16
-4f7c 5 116 6
-4f81 4 98 6
-4f85 b 98 6
-4f90 e 98 6
-4f9e 7 62 5
-4fa5 17 62 5
-4fbc 13 62 5
-4fcf 5 183 35
-4fd4 4 124 6
-4fd8 18 530 23
-4ff0 b 124 6
-4ffb 4 1053 23
-4fff 2 90 13
-5001 9 62 20
-500a 8 214 1
-5012 6 1053 23
-5018 e 1053 23
-5026 5 222 14
-502b 4 98 6
-502f b 98 6
-503a 9 98 6
-5043 9 187 35
-504c 11 188 35
-FUNC 5060 858 0 QTuioHandler::process2DCurAlive(QOscMessage const&)
-5060 1b 191 35
-507b 5 192 35
-5080 4 584 17
-5084 4 90 13
-5088 4 51 20
-508c 8 217 17
-5094 4 587 17
-5098 4 588 17
-509c 4 588 17
-50a0 5 588 17
-50a5 8 589 17
-50ad 7 589 17
-50b4 5 589 17
-50b9 3 96 17
-50bc 4 96 17
-50c0 3 96 17
-50c3 3 96 17
-50c6 f 591 17
-50d5 a 176 1
-50df 4 585 17
-50e3 4 585 17
-50e7 b 328 17
-50f2 4 105 16
-50f6 3 105 16
-50f9 3 105 16
-50fc 2 105 16
-50fe 9 203 35
-5107 19 47 34
-5120 4 107 16
-5124 4 107 16
-5128 3 107 16
-512b 7 132 16
-5132 7 209 35
-5139 4 656 17
-513d 5 186 17
-5142 8 286 17
-514a 6 287 17
-5150 3 67 17
-5153 4 67 17
-5157 4 106 17
-515b 7 130 17
-5162 3 287 17
-5165 4 105 17
-5169 7 130 17
-5170 5 288 17
-5175 3 67 17
-5178 b 288 17
-5183 11 48 34
-5194 4 364 17
-5198 9 96 20
-51a1 5 364 17
-51a6 4 663 17
-51aa 4 186 17
-51ae 12 667 17
-51c0 3 214 35
-51c3 3 67 17
-51c6 4 67 17
-51ca 4 186 17
-51ce 7 667 17
-51d5 7 186 17
-51dc 3 667 17
-51df 11 214 35
-51f0 9 678 17
-51f9 6 67 17
-51ff 11 67 17
-5210 f 186 17
-521f a 46 34
-5229 17 48 34
-5240 c 52 34
-524c 4 287 17
-5250 3 67 17
-5253 4 67 17
-5257 4 106 17
-525b 15 130 17
-5270 4 105 17
-5274 3 130 17
-5277 7 287 17
-527e 5 288 17
-5283 3 67 17
-5286 3 616 17
-5289 6 288 17
-528f 3 617 17
-5292 b 617 17
-529d 24 617 17
-52c1 4 364 17
-52c5 9 96 20
-52ce 5 364 17
-52d3 4 663 17
-52d7 4 186 17
-52db 15 667 17
-52f0 3 219 35
-52f3 3 67 17
-52f6 4 67 17
-52fa 4 186 17
-52fe 7 667 17
-5305 7 186 17
-530c 3 667 17
-530f d 219 35
-531c 13 199 17
-532f 3 202 17
-5332 29 679 17
-535b 3 203 35
-535e 4 105 16
-5362 8 203 35
-536a 3 105 16
-536d e 203 35
-537b 5 678 17
-5380 6 67 17
-5386 4 67 17
-538a 28 679 17
-53b2 6 364 17
-53b8 f 186 17
-53c7 13 199 17
-53da 3 202 17
-53dd 28 204 17
-5405 b 96 20
-5410 5 364 17
-5415 4 894 17
-5419 5 186 17
-541e 12 286 17
-5430 10 287 17
-5440 3 67 17
-5443 4 67 17
-5447 4 106 17
-544b 5 130 17
-5450 9 288 17
-5459 3 67 17
-545c 14 894 17
-5470 4 105 17
-5474 3 130 17
-5477 5 287 17
-547c 8 67 17
-5484 8 280 17
-548c 5 186 17
-5491 f 286 17
-54a0 3 107 16
-54a3 3 107 16
-54a6 5 132 16
-54ab 5 204 35
-54b0 3 204 35
-54b3 6 204 35
-54b9 a 62 5
-54c3 20 62 5
-54e3 19 62 5
-54fc 5 205 35
-5501 4 124 6
-5505 18 530 23
-551d b 124 6
-5528 4 1053 23
-552c 2 90 13
-552e 9 62 20
-5537 8 214 1
-553f 6 1053 23
-5545 e 1053 23
-5553 5 222 14
-5558 4 98 6
-555c b 98 6
-5567 5 98 6
-556c 4 116 6
-5570 8 116 6
-5578 4 98 6
-557c b 98 6
-5587 5 98 6
-558c 4 89 6
-5590 4 89 6
-5594 f 89 6
-55a3 5 205 35
-55a8 4 124 6
-55ac 18 530 23
-55c4 b 124 6
-55cf 4 1053 23
-55d3 2 90 13
-55d5 9 62 20
-55de 8 214 1
-55e6 6 1053 23
-55ec e 1053 23
-55fa 5 222 14
-55ff 4 98 6
-5603 b 98 6
-560e 9 98 6
-5617 17 205 35
-562e c 339 17
-563a 4 528 17
-563e 6 191 17
-5644 2 191 17
-5646 7 191 17
-564d 7 189 17
-5654 4 228 35
-5658 5 360 17
-565d 9 363 24
-5666 3 363 24
-5669 4 363 24
-566d 5 364 24
-5672 8 364 24
-567a 3 101 24
-567d 5 365 24
-5682 4 366 24
-5686 4 532 17
-568a 4 189 17
-568e 12 490 17
-56a0 4 486 17
-56a4 3 603 24
-56a7 4 203 14
-56ab 6 603 24
-56b1 3 603 24
-56b4 9 604 24
-56bd 4 55 14
-56c1 4 203 14
-56c5 31 616 24
-56f6 1d 605 24
-5713 7 607 24
-571a 3 606 24
-571d 8 607 24
-5725 7 610 24
-572c 3 55 14
-572f 8 203 14
-5737 21 610 24
-5758 3 620 24
-575b 3 620 24
-575e b 108 17
-5769 9 233 35
-5772 4 599 17
-5776 4 599 17
-577a 9 599 17
-5783 4 90 13
-5787 4 51 20
-578b 8 217 17
-5793 5 588 17
-5798 5 588 17
-579d 8 589 17
-57a5 7 589 17
-57ac 4 589 17
-57b0 3 96 17
-57b3 4 96 17
-57b7 3 96 17
-57ba 3 96 17
-57bd f 591 17
-57cc 5 600 17
-57d1 a 176 1
-57db 3 600 17
-57de 4 99 0
-57e2 4 100 0
-57e6 3 90 13
-57e9 9 62 20
-57f2 9 214 1
-57fb 6 339 17
-5801 4 186 17
-5805 a 221 17
-580f 8 223 17
-5817 b 225 17
-5822 4 90 13
-5826 9 62 20
-582f 5 339 17
-5834 a 214 1
-583e 6 339 17
-5844 4 186 17
-5848 a 221 17
-5852 8 223 17
-585a 8 225 17
-5862 4 339 17
-5866 2 90 13
-5868 9 62 20
-5871 8 214 1
-5879 6 339 17
-587f 4 186 17
-5883 a 221 17
-588d 8 223 17
-5895 c 225 17
-58a1 17 239 35
-FUNC 58c0 91e 0 QTuioHandler::process2DCurSet(QOscMessage const&)
-58c0 19 242 35
-58d9 5 243 35
-58de 4 105 16
-58e2 3 105 16
-58e5 4 107 16
-58e9 2 105 16
-58eb 9 244 35
-58f4 7 62 5
-58fb 17 62 5
-5912 13 62 5
-5925 5 245 35
-592a 4 124 6
-592e 18 530 23
-5946 b 124 6
-5951 4 1053 23
-5955 2 90 13
-5957 9 62 20
-5960 8 214 1
-5968 6 1053 23
-596e e 1053 23
-597c 5 222 14
-5981 4 98 6
-5985 b 98 6
-5990 5 98 6
-5995 4 116 6
-5999 4 105 16
-599d 3 105 16
-59a0 3 105 16
-59a3 5 116 6
-59a8 4 98 6
-59ac b 98 6
-59b7 9 98 6
-59c0 a 245 35
-59ca 5 132 16
-59cf 5 249 35
-59d4 9 249 35
-59dd 4 107 16
-59e1 4 107 16
-59e5 5 132 16
-59ea 5 250 35
-59ef 9 250 35
-59f8 4 107 16
-59fc 4 107 16
-5a00 5 132 16
-5a05 5 251 35
-5a0a 9 251 35
-5a13 4 107 16
-5a17 4 107 16
-5a1b 5 132 16
-5a20 5 252 35
-5a25 9 252 35
-5a2e 4 107 16
-5a32 4 107 16
-5a36 5 132 16
-5a3b 5 253 35
-5a40 9 253 35
-5a49 4 107 16
-5a4d 4 107 16
-5a51 5 132 16
-5a56 5 254 35
-5a5b 9 254 35
-5a64 4 107 16
-5a68 4 107 16
-5a6c 7 132 16
-5a73 8 260 35
-5a7b 4 107 16
-5a7f 4 107 16
-5a83 7 132 16
-5a8a c 261 35
-5a96 4 107 16
-5a9a 4 107 16
-5a9e 7 132 16
-5aa5 c 262 35
-5ab1 4 107 16
-5ab5 4 107 16
-5ab9 7 132 16
-5ac0 d 263 35
-5acd 4 107 16
-5ad1 4 107 16
-5ad5 7 132 16
-5adc d 264 35
-5ae9 4 107 16
-5aed 4 107 16
-5af1 7 132 16
-5af8 d 265 35
-5b05 4 364 17
-5b09 4 267 35
-5b0d 5 96 20
-5b12 8 364 17
-5b1a 6 841 17
-5b20 6 186 17
-5b26 9 286 17
-5b2f 3 287 17
-5b32 5 67 17
-5b37 5 67 17
-5b3c 5 106 17
-5b41 a 130 17
-5b4b 5 105 17
-5b50 3 130 17
-5b53 a 287 17
-5b5d a 62 5
-5b67 20 62 5
-5b87 16 62 5
-5b9d 5 256 35
-5ba2 4 124 6
-5ba6 18 530 23
-5bbe b 124 6
-5bc9 4 1053 23
-5bcd 2 90 13
-5bcf 9 62 20
-5bd8 8 214 1
-5be0 6 1053 23
-5be6 e 1053 23
-5bf4 5 222 14
-5bf9 4 98 6
-5bfd b 98 6
-5c08 5 98 6
-5c0d 4 89 6
-5c11 4 89 6
-5c15 f 89 6
-5c24 b 256 35
-5c2f 1d 256 35
-5c4c 15 280 35
-5c61 5 288 17
-5c66 3 67 17
-5c69 3 841 17
-5c6c 5 288 17
-5c71 4 189 17
-5c75 3 842 17
-5c78 5 96 20
-5c7d 8 364 17
-5c85 3 530 17
-5c88 4 189 17
-5c8c 9 268 35
-5c95 52 49 35
-5ce7 d 90 13
-5cf4 52 49 35
-5d46 7 65 7
-5d4d a 62 5
-5d57 20 62 5
-5d77 15 62 5
-5d8c 5 273 35
-5d91 7 124 6
-5d98 18 530 23
-5db0 b 124 6
-5dbb 4 1053 23
-5dbf 2 90 13
-5dc1 9 62 20
-5dca 8 214 1
-5dd2 6 1053 23
-5dd8 e 1053 23
-5de6 5 222 14
-5deb 7 98 6
-5df2 b 98 6
-5dfd 5 98 6
-5e02 7 116 6
-5e09 8 116 6
-5e11 7 98 6
-5e18 b 98 6
-5e23 8 98 6
-5e2b 7 124 6
-5e32 18 530 23
-5e4a b 124 6
-5e55 4 1053 23
-5e59 2 90 13
-5e5b 9 62 20
-5e64 8 214 1
-5e6c 6 1053 23
-5e72 e 1053 23
-5e80 5 222 14
-5e85 7 98 6
-5e8c b 98 6
-5e97 5 98 6
-5e9c 7 122 6
-5ea3 c 122 6
-5eaf 7 98 6
-5eb6 b 98 6
-5ec1 5 98 6
-5ec6 7 122 6
-5ecd c 122 6
-5ed9 7 98 6
-5ee0 b 98 6
-5eeb 5 98 6
-5ef0 7 122 6
-5ef7 d 122 6
-5f04 7 98 6
-5f0b b 98 6
-5f16 5 98 6
-5f1b 7 122 6
-5f22 d 122 6
-5f2f 7 98 6
-5f36 b 98 6
-5f41 5 98 6
-5f46 7 122 6
-5f4d d 122 6
-5f5a 7 98 6
-5f61 b 98 6
-5f6c c 98 6
-5f78 5 273 35
-5f7d 8 60 34
-5f85 11 61 34
-5f96 8 61 34
-5f9e 15 736 4
-5fb3 6 514 4
-5fb9 8 514 4
-5fc1 e 514 4
-5fcf 4 514 4
-5fd3 c 736 4
-5fdf 6 514 4
-5fe5 8 514 4
-5fed 4 736 4
-5ff1 a 60 34
-5ffb 9 87 34
-6004 e 64 34
-6012 5 71 34
-6017 b 74 34
-6022 f 78 34
-6031 f 81 34
-6040 14 84 34
-6054 a 62 5
-605e 20 62 5
-607e 1c 62 5
-609a 5 269 35
-609f 7 124 6
-60a6 18 530 23
-60be b 124 6
-60c9 4 1053 23
-60cd 2 90 13
-60cf 9 62 20
-60d8 8 214 1
-60e0 6 1053 23
-60e6 e 1053 23
-60f4 5 222 14
-60f9 7 98 6
-6100 b 98 6
-610b 5 98 6
-6110 7 116 6
-6117 8 116 6
-611f 7 98 6
-6126 b 98 6
-6131 c 98 6
-613d a 269 35
-6147 e 64 34
-6155 11 71 34
-6166 8 71 34
-616e 15 736 4
-6183 6 514 4
-6189 8 514 4
-6191 e 514 4
-619f 4 514 4
-61a3 c 736 4
-61af 6 514 4
-61b5 8 514 4
-61bd 5 71 34
-61c2 4 736 4
-61c6 a 70 34
-61d0 e 87 34
-FUNC 61e0 4bf 0 QTuioHandler::process2DCurFseq(QOscMessage const&)
-61e0 17 312 35
-61f7 5 315 35
-61fc 10 316 35
-620c b 139 16
-6217 4 584 17
-621b 3 90 13
-621e 4 51 20
-6222 8 217 17
-622a 4 588 17
-622e 4 588 17
-6232 5 588 17
-6237 8 589 17
-623f 7 589 17
-6246 4 589 17
-624a 3 96 17
-624d 4 96 17
-6251 3 96 17
-6254 3 96 17
-6257 f 591 17
-6266 c 176 1
-6272 4 585 17
-6276 7 321 35
-627d b 191 17
-6288 4 191 17
-628c 4 189 17
-6290 10 490 17
-62a0 4 487 17
-62a4 12 322 35
-62b6 b 323 35
-62c1 4 68 24
-62c5 2 90 13
-62c7 9 62 20
-62d0 8 214 1
-62d8 6 68 24
-62de e 68 24
-62ec 5 222 14
-62f1 b 108 17
-62fc c 490 17
-6308 2 90 13
-630a 9 62 20
-6313 b 214 1
-631e 9 339 17
-6327 4 186 17
-632b a 221 17
-6335 8 223 17
-633d b 225 17
-6348 5 328 24
-634d 3 90 13
-6350 4 51 20
-6354 4 331 24
-6358 4 331 24
-635c 10 336 24
-636c 8 215 14
-6374 e 336 24
-6382 c 176 1
-638e 5 329 24
-6393 c 329 24
-639f 12 332 24
-63b1 8 215 14
-63b9 7 332 24
-63c0 5 334 24
-63c5 a 339 24
-63cf 9 340 24
-63d8 4 203 14
-63dc 5 299 24
-63e1 8 55 14
-63e9 7 55 14
-63f0 15 300 24
-6405 4 300 24
-6409 7 300 24
-6410 4 300 24
-6414 6 299 24
-641a 5 341 24
-641f 3 341 24
-6422 8 341 24
-642a 4 207 14
-642e 5 326 35
-6433 1d 62 14
-6450 15 327 35
-6465 7 328 35
-646c b 329 35
-6477 4 68 24
-647b 2 90 13
-647d 9 62 20
-6486 8 214 1
-648e 6 68 24
-6494 e 68 24
-64a2 5 222 14
-64a7 a 326 35
-64b1 7 68 24
-64b8 2 90 13
-64ba 9 62 20
-64c3 b 214 1
-64ce 13 68 24
-64e1 5 222 14
-64e6 b 331 35
-64f1 c 331 35
-64fd 5 434 24
-6502 d 434 24
-650f a 90 13
-6519 9 51 20
-6522 4 331 24
-6526 4 331 24
-652a 10 336 24
-653a 5 215 14
-653f 9 336 24
-6548 9 176 1
-6551 f 329 24
-6560 11 332 24
-6571 8 215 14
-6579 7 332 24
-6580 4 334 24
-6584 9 339 24
-658d 7 203 14
-6594 4 203 14
-6598 9 299 24
-65a1 7 55 14
-65a8 8 55 14
-65b0 15 300 24
-65c5 4 300 24
-65c9 7 300 24
-65d0 4 300 24
-65d4 6 299 24
-65da 4 341 24
-65de 3 341 24
-65e1 7 98 0
-65e8 5 99 0
-65ed 7 99 0
-65f4 5 100 0
-65f9 2 90 13
-65fb 9 62 20
-6604 8 214 1
-660c 10 68 24
-661c 5 222 14
-6621 9 90 13
-662a 9 62 20
-6633 b 214 1
-663e 9 68 24
-6647 16 222 14
-665d 4 795 16
-6661 2 90 13
-6663 9 62 20
-666c b 214 1
-6677 9 795 16
-6680 8 796 16
-6688 5 796 16
-668d 12 334 35
-FUNC 66a0 321 0 QTuioHandler::cursorToTouchPoint(QTuioCursor const&, QWindow*)
-66a0 1b 283 35
-66bb 30 266 18
-66eb 7 117 27
-66f2 7 127 25
-66f9 7 127 25
-6700 7 112 3
-6707 b 64 24
-6712 3 56 34
-6715 c 285 35
-6721 4 286 35
-6725 5 288 35
-672a 5 288 35
-672f 9 186 26
-6738 4 290 35
-673c 6 186 26
-6742 a 188 26
-674c 3 187 26
-674f 4 197 26
-6753 4 117 27
-6757 8 291 35
-675f a 291 35
-6769 4 88 34
-676d 3 293 35
-6770 1b 294 35
-678b 10 303 35
-679b a 303 35
-67a5 19 303 35
-67be 9 303 35
-67c7 e 517 4
-67d5 4 517 4
-67d9 4 517 4
-67dd 7 517 4
-67e4 8 517 4
-67ec 8 517 4
-67f4 4 517 4
-67f8 c 517 4
-6804 4 517 4
-6808 7 517 4
-680f e 517 4
-681d 4 517 4
-6821 4 517 4
-6825 7 517 4
-682c 7 517 4
-6833 8 517 4
-683b 4 517 4
-683f c 517 4
-684b 4 517 4
-684f b 517 4
-685a 7 270 18
-6861 11 270 18
-6872 4 517 4
-6876 4 517 4
-687a 7 517 4
-6881 8 517 4
-6889 8 517 4
-6891 4 517 4
-6895 c 517 4
-68a1 4 517 4
-68a5 4 517 4
-68a9 4 346 18
-68ad 22 346 18
-68cf 4 517 4
-68d3 4 517 4
-68d7 7 517 4
-68de 4 517 4
-68e2 8 517 4
-68ea 4 517 4
-68ee e 517 4
-68fc 8 517 4
-6904 4 517 4
-6908 9 383 18
-6911 8 305 35
-6919 8 305 35
-6921 7 270 18
-6928 4 305 35
-692c c 270 18
-6938 9 341 18
-6941 11 341 18
-6952 4 707 19
-6956 4 707 19
-695a 5 707 19
-695f 5 707 19
-6964 4 707 19
-6968 5 707 19
-696d 10 306 35
-697d b 306 35
-6988 14 306 35
-699c 6 306 35
-69a2 f 306 35
-69b1 10 308 35
-FUNC 69d0 20a 0 QList<QWindowSystemInterface::TouchPoint>::append(QWindowSystemInterface::TouchPoint const&)
-69d0 12 549 16
-69e2 3 550 16
-69e5 f 550 16
-69f4 d 551 16
-6a01 d 404 16
-6a0e f 116 27
-6a1d 5 328 24
-6a22 2 90 13
-6a24 8 51 20
-6a2c 3 331 24
-6a2f 8 331 24
-6a37 10 336 24
-6a47 5 215 14
-6a4c 8 336 24
-6a54 d 560 16
-6a61 d 404 16
-6a6e f 116 27
-6a7d 5 328 24
-6a82 2 90 13
-6a84 4 51 20
-6a88 3 331 24
-6a8b 8 331 24
-6a93 10 336 24
-6aa3 5 215 14
-6aa8 d 336 24
-6ab5 d 329 24
-6ac2 8 329 24
-6aca a 176 1
-6ad4 8 176 1
-6adc 5 329 24
-6ae1 8 329 24
-6ae9 12 332 24
-6afb 5 215 14
-6b00 3 332 24
-6b03 4 334 24
-6b07 10 339 24
-6b17 9 340 24
-6b20 a 203 14
-6b2a 4 55 14
-6b2e 12 55 14
-6b40 7 300 24
-6b47 4 300 24
-6b4b 7 300 24
-6b52 4 300 24
-6b56 8 299 24
-6b5e 12 332 24
-6b70 5 215 14
-6b75 3 332 24
-6b78 4 334 24
-6b7c c 339 24
-6b88 9 340 24
-6b91 6 203 14
-6b97 4 55 14
-6b9b 5 55 14
-6ba0 7 300 24
-6ba7 4 300 24
-6bab 7 300 24
-6bb2 4 300 24
-6bb6 6 299 24
-6bbc 5 341 24
-6bc1 3 341 24
-6bc4 3 341 24
-6bc7 3 341 24
-6bca 3 404 16
-6bcd d 579 16
-FUNC 6be0 bb 0 QList<QOscBundle>::node_destruct(QList<QOscBundle>::Node*, QList<QOscBundle>::Node*)
-6be0 15 461 16
-6bf5 b 463 16
-6c00 4 463 16
-6c04 4 463 16
-6c08 5 463 16
-6c0d 5 795 16
-6c12 2 90 13
-6c14 5 62 20
-6c19 9 42 30
-6c22 8 214 1
-6c2a 6 795 16
-6c30 3 796 16
-6c33 5 796 16
-6c38 5 795 16
-6c3d 2 90 13
-6c3f 5 62 20
-6c44 9 42 30
-6c4d 8 214 1
-6c55 6 795 16
-6c5b 3 796 16
-6c5e 9 834 16
-6c67 9 835 16
-6c70 5 834 16
-6c75 8 836 16
-6c7d 8 463 16
-6c85 9 463 16
-6c8e d 466 16
-FUNC 6ca0 60 0 QtPrivate::QSlotObject<void (QTuioHandler::*)(), void, void>::impl(int, QtPrivate::QSlotObjectBase*, QObject*, void**, bool*)
-6ca0 4 137 9
-6ca4 a 138 9
-6cae 4 143 9
-6cb2 16 135 10
-6cc8 7 146 9
-6ccf 18 146 9
-6ce7 9 146 9
-6cf0 e 140 9
-6cfe 2 150 9
-FUNC 6d00 a8 0 QList<QOscMessage>::dealloc(QListData::Data*)
-6d00 1a 833 16
-6d1a 5 463 16
-6d1f 21 463 16
-6d40 3 463 16
-6d43 5 463 16
-6d48 9 40 32
-6d51 4 459 15
-6d55 2 90 13
-6d57 9 62 20
-6d60 8 214 1
-6d68 6 459 15
-6d6e e 459 15
-6d7c 5 222 14
-6d81 8 463 16
-6d89 4 463 16
-6d8d 6 463 16
-6d93 8 836 16
-6d9b d 837 16
-FUNC 6db0 cd 0 QMapNode<int, QTuioCursor>::copy(QMapData<int, QTuioCursor>*) const
-6db0 23 231 17
-6dd3 b 199 17
-6dde 4 202 17
-6de2 3 202 17
-6de5 1f 204 17
-6e04 3 93 17
-6e07 3 94 17
-6e0a 7 94 17
-6e11 4 94 17
-6e15 6 94 17
-6e1b 3 94 17
-6e1e 9 234 17
-6e27 b 235 17
-6e32 4 96 17
-6e36 4 96 17
-6e3a 3 96 17
-6e3d 8 96 17
-6e45 7 240 17
-6e4c 2 240 17
-6e4e 8 241 17
-6e56 4 241 17
-6e5a 3 96 17
-6e5d 4 96 17
-6e61 3 96 17
-6e64 5 96 17
-6e69 8 244 17
-6e71 c 246 17
-FUNC 6e80 94 0 QMap<int, QTuioCursor>::detach_helper()
-6e80 d 952 17
-6e8d 8 217 17
-6e95 3 954 17
-6e98 4 954 17
-6e9c 5 954 17
-6ea1 8 955 17
-6ea9 7 955 17
-6eb0 4 955 17
-6eb4 3 96 17
-6eb7 4 96 17
-6ebb 3 96 17
-6ebe 3 96 17
-6ec1 3 958 17
-6ec4 2 90 13
-6ec6 9 62 20
-6ecf 8 214 1
-6ed7 6 958 17
-6edd 3 959 17
-6ee0 4 186 17
-6ee4 a 221 17
-6eee 8 223 17
-6ef6 8 225 17
-6efe 3 960 17
-6f01 8 961 17
-6f09 b 962 17
-FUNC 6f20 1e6 0 QVector<QTuioCursor>::reallocData(int, int, QFlags<QArrayData::AllocationOption>)
-6f20 10 497 24
-6f30 4 503 24
-6f34 3 499 24
-6f37 a 96 20
-6f41 7 504 24
-6f48 6 553 24
-6f4e 4 203 14
-6f52 9 283 24
-6f5b 3 55 14
-6f5e a 556 24
-6f68 8 203 14
-6f70 6 46 34
-6f76 17 48 34
-6f8d b 52 34
-6f98 5 283 24
-6f9d 15 558 24
-6fb2 d 507 24
-6fbf 8 215 14
-6fc7 4 514 24
-6fcb 3 516 24
-6fce 3 517 24
-6fd1 3 517 24
-6fd4 6 517 24
-6fda 7 203 14
-6fe1 4 55 14
-6fe5 4 55 14
-6fe9 5 522 24
-6fee 4 55 14
-6ff2 3e 522 24
-7030 15 523 24
-7045 4 523 24
-7049 7 523 24
-7050 4 523 24
-7054 6 522 24
-705a 6 534 24
-7060 a 534 24
-706a 3 55 14
-706d b 203 14
-7078 8 283 24
-7080 6 46 34
-7086 17 48 34
-709d b 52 34
-70a8 5 283 24
-70ad 8 548 24
-70b5 10 548 24
-70c5 3 563 24
-70c8 5 563 24
-70cd 2 90 13
-70cf 9 62 20
-70d8 8 214 1
-70e0 6 564 24
-70e6 d 568 24
-70f3 5 222 14
-70f8 3 573 24
-70fb b 584 24
-FUNC 7110 9f 0 QList<QWindowSystemInterface::TouchPoint>::dealloc(QListData::Data*)
-7110 1a 833 16
-712a 5 463 16
-712f 21 463 16
-7150 3 463 16
-7153 5 463 16
-7158 4 68 24
-715c 2 90 13
-715e 9 62 20
-7167 8 214 1
-716f 6 68 24
-7175 e 68 24
-7183 5 222 14
-7188 8 463 16
-7190 4 463 16
-7194 6 463 16
-719a 8 836 16
-71a2 d 837 16
-FUNC 71b0 31a 0 QList<QWindowSystemInterface::TouchPoint>::detach_helper_grow(int, int)
-71b0 1e 723 16
-71ce 3 108 16
-71d1 8 108 16
-71d9 9 725 16
-71e2 3 108 16
-71e5 3 108 16
-71e8 6 728 16
-71ee d 728 16
-71fb 3 108 16
-71fe 8 728 16
-7206 9 108 16
-720f 16 108 16
-7225 8 431 16
-722d 9 431 16
-7236 f 116 27
-7245 4 328 24
-7249 2 90 13
-724b 4 51 20
-724f 3 331 24
-7252 4 331 24
-7256 10 336 24
-7266 5 215 14
-726b 1a 336 24
-7285 b 329 24
-7290 8 176 1
-7298 4 329 24
-729c 6 329 24
-72a2 12 332 24
-72b4 5 215 14
-72b9 4 332 24
-72bd 4 334 24
-72c1 d 339 24
-72ce 8 340 24
-72d6 6 203 14
-72dc 4 55 14
-72e0 10 55 14
-72f0 7 300 24
-72f7 4 300 24
-72fb 7 300 24
-7302 4 300 24
-7306 6 299 24
-730c 4 341 24
-7310 4 341 24
-7314 3 341 24
-7317 3 341 24
-731a 3 431 16
-731d 4 432 16
-7321 4 433 16
-7325 a 430 16
-732f 7 108 16
-7336 13 108 16
-7349 3 108 16
-734c 9 735 16
-7355 4 109 16
-7359 9 430 16
-7362 5 109 16
-7367 c 736 16
-7373 12 735 16
-7385 8 431 16
-738d 9 431 16
-7396 f 116 27
-73a5 4 328 24
-73a9 2 90 13
-73ab 4 51 20
-73af 3 331 24
-73b2 4 331 24
-73b6 10 336 24
-73c6 5 215 14
-73cb a 336 24
-73d5 b 329 24
-73e0 8 176 1
-73e8 4 329 24
-73ec 5 329 24
-73f1 12 332 24
-7403 5 215 14
-7408 3 332 24
-740b 4 334 24
-740f c 339 24
-741b 8 340 24
-7423 6 203 14
-7429 4 55 14
-742d 13 55 14
-7440 7 300 24
-7447 4 300 24
-744b 7 300 24
-7452 4 300 24
-7456 6 299 24
-745c 4 341 24
-7460 3 341 24
-7463 3 341 24
-7466 3 341 24
-7469 3 431 16
-746c 4 432 16
-7470 4 433 16
-7474 e 430 16
-7482 2 90 13
-7484 9 62 20
-748d 8 214 1
-7495 6 745 16
-749b 9 746 16
-74a4 7 108 16
-74ab 4 108 16
-74af c 748 16
-74bb f 748 16
-FUNC 74d0 4f 0 QTuioHandler::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
-74d0 4 81 37
-74d4 4 82 37
-74d8 7 85 37
-74df 12 94 37
-74f1 1 86 37
-74f2 5 80 37
-74f7 4 87 37
-74fb 6 87 37
-7501 4 88 37
-7505 6 88 37
-750b 4 89 37
-750f 6 89 37
-7515 4 90 37
-7519 6 90 37
-FUNC 7540 1e 0 QTuioHandler::metaObject() const
-7540 4 103 37
-7544 4 113 21
-7548 7 104 37
-754f 6 104 37
-7555 9 104 37
-FUNC 7560 3e 0 QTuioHandler::qt_metacast(char const*)
-7560 f 108 37
-756f 5 109 37
-7574 f 110 37
-7583 4 110 37
-7587 12 112 37
-7599 5 113 37
-FUNC 75a0 60 0 QTuioHandler::qt_metacall(QMetaObject::Call, int, void**)
-75a0 13 116 37
-75b3 8 117 37
-75bb 5 118 37
-75c0 5 120 37
-75c5 6 125 37
-75cb 3 126 37
-75ce c 126 37
-75da 8 121 37
-75e2 e 122 37
-75f0 4 127 37
-75f4 c 130 37
-PUBLIC 7f90 0 qt_meta_data_QTuioTouchPlugin
-PUBLIC 7fd0 0 typeinfo name for QTuioTouchPlugin
-PUBLIC 7fe8 0 qt_meta_stringdata_QTuioTouchPlugin
-PUBLIC 8090 0 qt_meta_data_QTuioHandler
-PUBLIC 8164 0 typeinfo name for QTuioHandler
-PUBLIC 8178 0 qt_meta_stringdata_QTuioHandler
-PUBLIC 82d0 0 qt_section_alignment_dummy
-PUBLIC 82e0 0 qt_pluginMetaData
-PUBLIC 9350 0 vtable for QTuioTouchPlugin
-PUBLIC 93c8 0 QTuioTouchPlugin::staticMetaObject
-PUBLIC 9400 0 typeinfo for QTuioTouchPlugin
-PUBLIC 9420 0 QTuioHandler::staticMetaObject
-PUBLIC 9450 0 vtable for QTuioHandler
-PUBLIC 94c0 0 typeinfo for QTuioHandler
-PUBLIC 94d8 0 qt_plugin_instance::_instance
-PUBLIC 94e8 0 guard variable for qt_plugin_instance::_instance
-PUBLIC 94f0 0 lcTuioBundle()::category
-PUBLIC 9508 0 guard variable for lcTuioBundle()::category
-PUBLIC 9510 0 lcTuioMessage()::category
-PUBLIC 9528 0 guard variable for lcTuioMessage()::category
-PUBLIC 9530 0 lcTuioSource()::category
-PUBLIC 9548 0 guard variable for lcTuioSource()::category
-PUBLIC 9550 0 lcTuioSet()::category
-PUBLIC 9568 0 guard variable for lcTuioSet()::category
-STACK CFI INIT 1170 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1171 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1174 .cfa: $rbp 16 +
-STACK CFI 1176 $rbx: .cfa -24 + ^
-STACK CFI INIT 11a0 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 11a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 11a4 .cfa: $rbp 16 +
-STACK CFI 11a6 $rbx: .cfa -24 + ^
-STACK CFI INIT 11d0 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 11d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 11d4 .cfa: $rbp 16 +
-STACK CFI 11d7 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1220 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1221 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1224 .cfa: $rbp 16 +
-STACK CFI INIT 1230 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1231 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1234 .cfa: $rbp 16 +
-STACK CFI INIT 1250 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1251 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1254 .cfa: $rbp 16 +
-STACK CFI 1257 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1290 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1291 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1294 .cfa: $rbp 16 +
-STACK CFI INIT 12a0 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 12a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 12a4 .cfa: $rbp 16 +
-STACK CFI INIT 12b0 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 12b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 12b4 .cfa: $rbp 16 +
-STACK CFI 12bb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 1400 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1401 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1404 .cfa: $rbp 16 +
-STACK CFI INIT 1440 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1441 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1444 .cfa: $rbp 16 +
-STACK CFI INIT 1450 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1451 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1454 .cfa: $rbp 16 +
-STACK CFI 1456 $rbx: .cfa -24 + ^
-STACK CFI INIT 1470 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1471 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1474 .cfa: $rbp 16 +
-STACK CFI 1476 $rbx: .cfa -24 + ^
-STACK CFI INIT 14e0 959 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 14e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 14e4 .cfa: $rbp 16 +
-STACK CFI 14f4 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 1e40 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e41 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e44 .cfa: $rbp 16 +
-STACK CFI INIT 1e50 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e54 .cfa: $rbp 16 +
-STACK CFI INIT 1e60 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e64 .cfa: $rbp 16 +
-STACK CFI 1e66 $rbx: .cfa -24 + ^
-STACK CFI INIT 1e80 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1e81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1e84 .cfa: $rbp 16 +
-STACK CFI 1e86 $rbx: .cfa -24 + ^
-STACK CFI INIT 1ea0 af .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1ea1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1ea4 .cfa: $rbp 16 +
-STACK CFI 1eaa $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 1f50 73 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1f51 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1f54 .cfa: $rbp 16 +
-STACK CFI 1f5a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 1fd0 1d9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 1fd1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 1fd4 .cfa: $rbp 16 +
-STACK CFI 1fe1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 21b0 d6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 21b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 21b4 .cfa: $rbp 16 +
-STACK CFI 21be $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2290 2e0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2291 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2294 .cfa: $rbp 16 +
-STACK CFI 22a1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2570 a1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2571 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2574 .cfa: $rbp 16 +
-STACK CFI 257f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 2620 210 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2621 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2624 .cfa: $rbp 16 +
-STACK CFI 2631 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2830 d6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2831 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2834 .cfa: $rbp 16 +
-STACK CFI 283e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2910 e6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+293d b 779 16
+2948 b 108 16
+2953 5 430 16
+2958 3 108 16
+295b 9 108 16
+2964 9 108 16
+296d 18 430 16
+2985 c 431 16
+2991 15 42 30
+29a6 5 790 16
+29ab 8 42 30
+29b3 8 790 16
+29bb 4 431 16
+29bf 4 432 16
+29c3 4 433 16
+29c7 8 430 16
+29cf 8 176 1
+29d7 f 790 16
+FUNC 29f0 210 0 QList<QOscBundle>::detach_helper_grow(int, int)
+29f0 1e 723 16
+2a0e c 108 16
+2a1a 9 725 16
+2a23 c 108 16
+2a2f d 728 16
+2a3c 8 108 16
+2a44 d 108 16
+2a51 20 431 16
+2a71 16 42 30
+2a87 5 790 16
+2a8c 8 42 30
+2a94 8 790 16
+2a9c 3 431 16
+2a9f 4 432 16
+2aa3 4 433 16
+2aa7 6 430 16
+2aad 1f 108 16
+2acc e 735 16
+2ada d 430 16
+2ae7 8 735 16
+2aef 5 735 16
+2af4 2c 431 16
+2b20 18 42 30
+2b38 5 790 16
+2b3d 9 42 30
+2b46 8 790 16
+2b4e 3 431 16
+2b51 4 432 16
+2b55 4 433 16
+2b59 a 430 16
+2b63 4 90 13
+2b67 9 62 20
+2b70 a 214 1
+2b7a 10 745 16
+2b8a 26 463 16
+2bb0 18 463 16
+2bc8 a 463 16
+2bd2 8 836 16
+2bda b 108 16
+2be5 1b 748 16
+FUNC 2c00 2e4 0 QList<QOscMessage>::detach_helper_grow(int, int)
+2c00 1e 723 16
+2c1e b 108 16
+2c29 9 725 16
+2c32 c 108 16
+2c3e d 728 16
+2c4b 8 108 16
+2c53 d 108 16
+2c60 20 431 16
+2c80 6 40 32
+2c86 9 489 15
+2c8f 2 90 13
+2c91 7 51 20
+2c98 8 176 1
+2ca0 12 40 32
+2cb2 5 790 16
+2cb7 6 40 32
+2cbd 3 431 16
+2cc0 4 432 16
+2cc4 4 433 16
+2cc8 6 430 16
+2cce 1f 108 16
+2ced e 735 16
+2cfb d 430 16
+2d08 8 735 16
+2d10 5 735 16
+2d15 2b 431 16
+2d40 6 40 32
+2d46 8 489 15
+2d4e 2 90 13
+2d50 7 51 20
+2d57 8 176 1
+2d5f 11 40 32
+2d70 5 790 16
+2d75 6 40 32
+2d7b 3 431 16
+2d7e 4 432 16
+2d82 4 433 16
+2d86 a 430 16
+2d90 2 90 13
+2d92 d 62 20
+2d9f 8 214 1
+2da7 a 745 16
+2db1 8 834 16
+2db9 c 463 16
+2dc5 1b 834 16
+2de0 d 463 16
+2ded 4 795 16
+2df1 2 90 13
+2df3 9 62 20
+2dfc 8 214 1
+2e04 6 795 16
+2e0a 10 796 16
+2e1a 5 463 16
+2e1f 3a 463 16
+2e59 a 463 16
+2e63 d 836 16
+2e70 4 459 15
+2e74 2 90 13
+2e76 9 62 20
+2e7f 8 214 1
+2e87 6 459 15
+2e8d e 459 15
+2e9b 5 222 14
+2ea0 c 463 16
+2eac 9 463 16
+2eb5 9 836 16
+2ebe b 108 16
+2ec9 1b 748 16
+FUNC 2ef0 66 0 <name omitted>
+2ef0 4 46 31
+2ef4 62 46 31
+FUNC 2f60 a26 0 QOscMessage::QOscMessage(QByteArray const&)
+2f60 1a 55 31
+2f7a 4 55 31
+2f7e b 458 15
+2f89 b 139 16
+2f94 52 46 31
+2fe6 d 90 13
+2ff3 52 46 31
+3045 7 65 7
+304c 2a 62 5
+3076 c 56 31
+3082 8 56 31
+308a 8 483 15
+3092 3 55 14
+3095 6 128 6
+309b 8 128 6
+30a3 f 98 6
+30b2 5 98 6
+30b7 4 459 15
+30bb 2 90 13
+30bd 9 62 20
+30c6 8 214 1
+30ce 6 459 15
+30d4 e 459 15
+30e2 9 222 14
+30eb 5 56 31
+30f0 8 458 15
+30f8 a 42 33
+3102 e 43 33
+3110 11 49 33
+3121 8 49 33
+3129 4 459 15
+312d 2 90 13
+312f 9 62 20
+3138 8 214 1
+3140 6 459 15
+3146 e 459 15
+3154 5 222 14
+3159 7 54 33
+3160 4 461 15
+3164 a 61 31
+316e 4 54 33
+3172 6 458 15
+3178 a 42 33
+3182 f 43 33
+3191 21 49 33
+31b2 8 49 33
+31ba 4 459 15
+31be 2 90 13
+31c0 9 62 20
+31c9 8 214 1
+31d1 6 459 15
+31d7 e 459 15
+31e5 5 222 14
+31ea 7 461 15
+31f1 8 75 31
+31f9 4 55 14
+31fd 14 75 31
+3211 7 139 16
+3218 7 139 16
+321f 9 81 31
+3228 18 54 33
+3240 10 458 15
+3250 7 55 14
+3257 16 83 31
+326d 1f 461 15
+328c 7 92 31
+3293 3 78 2
+3296 2 105 2
+3298 b 93 31
+32a3 a 96 31
+32ad 1f 461 15
+32cc 7 106 31
+32d3 3 78 2
+32d6 2 105 2
+32d8 4 107 31
+32dc 1a 108 31
+32f6 25 96 31
+331b 10 458 15
+332b e 42 33
+3339 9 43 33
+3342 1e 49 33
+3360 8 49 33
+3368 4 459 15
+336c 2 90 13
+336e 9 62 20
+3377 8 214 1
+337f 6 459 15
+3385 e 459 15
+3393 5 222 14
+3398 18 54 33
+33b0 26 87 31
+33d6 7 459 15
+33dd 2 90 13
+33df 5 62 20
+33e4 24 458 15
+3408 8 214 1
+3410 4 459 15
+3414 10 458 15
+3424 11 459 15
+3435 b 222 14
+3440 3 81 31
+3443 4 461 15
+3447 11 81 31
+3458 4 55 31
+345c 7 115 31
+3463 5 116 31
+3468 18 471 16
+3480 8 790 16
+3488 4 98 0
+348c 8 99 0
+3494 4 100 0
+3498 8 474 16
+34a0 52 46 31
+34f2 d 90 13
+34ff 52 46 31
+3551 7 65 7
+3558 3f 62 5
+3597 5 119 31
+359c 7 124 6
+35a3 18 530 23
+35bb b 124 6
+35c6 4 1053 23
+35ca 2 90 13
+35cc 9 62 20
+35d5 8 214 1
+35dd 6 1053 23
+35e3 e 1053 23
+35f1 5 222 14
+35f6 12 98 6
+3608 5 98 6
+360d 8 483 15
+3615 3 55 14
+3618 d 128 6
+3625 5 128 6
+362a 12 98 6
+363c 8 98 6
+3644 7 124 6
+364b 18 530 23
+3663 b 124 6
+366e 4 1053 23
+3672 2 90 13
+3674 9 62 20
+367d 8 214 1
+3685 6 1053 23
+368b e 1053 23
+3699 5 222 14
+369e 12 98 6
+36b0 5 98 6
+36b5 e 89 6
+36c3 18 89 6
+36db 27 119 31
+3702 c 458 15
+370e 5 45 33
+3713 4 459 15
+3717 2 90 13
+3719 11 62 20
+372a 8 214 1
+3732 a 459 15
+373c 9 459 15
+3745 c 458 15
+3751 5 45 33
+3756 4 459 15
+375a 2 90 13
+375c d 62 20
+3769 8 214 1
+3771 a 459 15
+377b e 459 15
+3789 a 222 14
+3793 46 62 5
+37d9 5 110 31
+37de 7 124 6
+37e5 18 530 23
+37fd b 124 6
+3808 4 1053 23
+380c 2 90 13
+380e 9 62 20
+3817 8 214 1
+381f 6 1053 23
+3825 e 1053 23
+3833 5 222 14
+3838 12 98 6
+384a 5 98 6
+384f f 109 6
+385e 12 98 6
+3870 c 98 6
+387c c 119 31
+3888 5 120 31
+388d 4 459 15
+3891 2 90 13
+3893 9 62 20
+389c 8 214 1
+38a4 6 459 15
+38aa e 459 15
+38b8 5 222 14
+38bd 4 459 15
+38c1 2 90 13
+38c3 9 62 20
+38cc 8 214 1
+38d4 6 459 15
+38da e 459 15
+38e8 5 222 14
+38ed 12 120 31
+38ff f 458 15
+390e 5 45 33
+3913 4 459 15
+3917 2 90 13
+3919 9 62 20
+3922 8 214 1
+392a 6 459 15
+3930 e 459 15
+393e 5 222 14
+3943 7 459 15
+394a 2 90 13
+394c d 62 20
+3959 8 214 1
+3961 a 459 15
+396b 11 459 15
+397c a 222 14
+FUNC 3990 a 0 QOscMessage::QOscMessage(QByteArray const&)
+3990 4 55 31
+3994 1 120 31
+3995 5 0 31
+FUNC 39a0 8 0 QOscMessage::isValid() const
+39a0 4 123 31
+39a4 4 124 31
+FUNC 39b0 21 0 QOscMessage::addressPattern() const
+39b0 4 128 31
+39b4 7 489 15
+39bb 2 90 13
+39bd 7 51 20
+39c4 8 176 1
+39cc 5 129 31
+FUNC 39e0 1c 0 QOscMessage::arguments() const
+39e0 9 133 31
+39e9 4 134 31
+39ed 5 790 16
+39f2 a 134 31
+FUNC 3a00 54 0 QList<QVariant>::append(QVariant const&)
+3a00 d 549 16
+3a0d 12 550 16
+3a1f 7 551 16
+3a26 d 560 16
+3a33 16 404 16
+3a49 b 579 16
+FUNC 3a60 182 0 QDebug operator<<<QVariant>(QDebug, QList<QVariant> const&)
+3a60 1c 182 6
+3a7c 6 100 6
+3a82 c 97 6
+3a8e 5 109 6
+3a93 11 98 6
+3aa4 5 98 6
+3aa9 a 105 16
+3ab3 1d 185 6
+3ad0 5 186 6
+3ad5 8 124 6
+3add f 530 23
+3aec b 124 6
+3af7 4 1053 23
+3afb 2 90 13
+3afd 9 62 20
+3b06 8 214 1
+3b0e 6 1053 23
+3b14 e 1053 23
+3b22 5 222 14
+3b27 e 98 6
+3b35 5 98 6
+3b3a 7 107 16
+3b41 7 89 6
+3b48 7 89 6
+3b4f 3 107 16
+3b52 5 131 16
+3b57 1f 188 6
+3b76 3 185 6
+3b79 d 105 16
+3b86 9 185 6
+3b8f d 109 6
+3b9c e 98 6
+3baa 5 98 6
+3baf 9 101 6
+3bb8 9 98 6
+3bc1 5 98 6
+3bc6 a 89 6
+3bd0 3 89 6
+3bd3 f 192 6
+FUNC 3bf0 97 0 QList<QVariant>::~QList()
+3bf0 4 794 16
+3bf4 e 795 16
+3c02 3 90 13
+3c05 9 62 20
+3c0e 9 214 1
+3c17 6 795 16
+3c1d b 796 16
+3c28 5 463 16
+3c2d 3b 463 16
+3c68 a 463 16
+3c72 8 836 16
+3c7a d 797 16
+FUNC 3c90 19d 0 QList<QVariant>::detach_helper_grow(int, int)
+3c90 1a 723 16
+3caa c 108 16
+3cb6 9 725 16
+3cbf d 108 16
+3ccc 9 728 16
+3cd5 8 108 16
+3cdd d 108 16
+3cea 22 431 16
+3d0c 4 432 16
+3d10 4 433 16
+3d14 a 430 16
+3d1e 16 108 16
+3d34 e 735 16
+3d42 5 430 16
+3d47 8 735 16
+3d4f 5 735 16
+3d54 37 431 16
+3d8b 4 432 16
+3d8f 4 433 16
+3d93 a 430 16
+3d9d 4 90 13
+3da1 9 62 20
+3daa a 214 1
+3db4 10 745 16
+3dc4 5 463 16
+3dc9 2f 463 16
+3df8 a 463 16
+3e02 8 836 16
+3e0a 8 108 16
+3e12 1b 748 16
+FUNC 3e30 66 0 <name omitted>
+3e30 4 48 35
+3e34 62 48 35
+FUNC 3ea0 66 0 <name omitted>
+3ea0 4 49 35
+3ea4 62 49 35
+FUNC 3f10 a73 0 QTuioHandler::QTuioHandler(QString const&)
+3f10 25 53 35
+3f35 3b 53 35
+3f70 b 328 17
+3f7b b 64 24
+3f86 21 53 35
+3fa7 8 54 35
+3faf 11 105 16
+3fc0 43 60 35
+4003 d 107 16
+4010 15 650 23
+4025 f 61 35
+4034 4 1053 23
+4038 2 90 13
+403a 9 62 20
+4043 8 214 1
+404b 6 1053 23
+4051 e 1053 23
+405f 5 222 14
+4064 10 107 16
+4074 e 61 35
+4082 27 934 23
+40a9 4 1053 23
+40ad 2 90 13
+40af 9 62 20
+40b8 8 214 1
+40c0 6 1053 23
+40c6 e 1053 23
+40d4 c 222 14
+40e0 e 63 35
+40ee 4 1053 23
+40f2 2 90 13
+40f4 21 62 20
+4115 15 650 23
+412a f 64 35
+4139 4 1053 23
+413d 2 90 13
+413f 9 62 20
+4148 8 214 1
+4150 6 1053 23
+4156 e 1053 23
+4164 5 222 14
+4169 10 107 16
+4179 e 64 35
+4187 25 934 23
+41ac 4 1053 23
+41b0 2 90 13
+41b2 9 62 20
+41bb 8 214 1
+41c3 6 1053 23
+41c9 e 1053 23
+41d7 10 222 14
+41e7 8 66 35
+41ef 3d 62 5
+422c 5 67 35
+4231 9 124 6
+423a f 530 23
+4249 b 124 6
+4254 4 1053 23
+4258 2 90 13
+425a 9 62 20
+4263 8 214 1
+426b 6 1053 23
+4271 e 1053 23
+427f 5 222 14
+4284 f 98 6
+4293 5 98 6
+4298 c 116 6
+42a4 f 98 6
+42b3 9 98 6
+42bc 5 67 35
+42c1 4 1053 23
+42c5 2 90 13
+42c7 29 62 20
+42f0 7 865 23
+42f7 3 55 14
+42fa e 229 23
+4308 14 1149 23
+431c b 107 16
+4327 9 865 23
+4330 3 55 14
+4333 e 229 23
+4341 14 1149 23
+4355 15 107 16
+436a 18 650 23
+4382 11 72 35
+4393 7 1053 23
+439a 2 90 13
+439c 9 62 20
+43a5 8 214 1
+43ad 6 1053 23
+43b3 11 1053 23
+43c4 5 222 14
+43c9 8 72 35
+43d1 15 107 16
+43e6 28 934 23
+440e 4 1053 23
+4412 2 90 13
+4414 9 62 20
+441d 8 214 1
+4425 6 1053 23
+442b e 1053 23
+4439 13 222 14
+444c 5 74 35
+4451 1a 75 35
+446b 7 1053 23
+4472 2 90 13
+4474 d 62 20
+4481 8 214 1
+4489 a 1053 23
+4493 16 1053 23
+44a9 8 214 1
+44b1 16 1053 23
+44c7 8 214 1
+44cf 1d 1053 23
+44ec d 1053 23
+44f9 11 1053 23
+450a 5 222 14
+450f 3 60 35
+4512 c 105 16
+451e 10 60 35
+452e 21 86 35
+454f 35 87 35
+4584 b 87 35
+458f 1a 89 35
+45a9 36 90 35
+45df b 90 35
+45ea 21 92 35
+460b 36 93 35
+4641 b 93 35
+464c 4 95 35
+4650 1f 650 23
+466f 8 95 35
+4677 7 1053 23
+467e 2 90 13
+4680 9 62 20
+4689 8 214 1
+4691 6 1053 23
+4697 11 1053 23
+46a8 5 222 14
+46ad b 96 35
+46b8 e 97 35
+46c6 15 101 35
+46db 30 103 35
+470b 2b 108 35
+4736 5 235 8
+473b 6 57 12
+4741 b 117 9
+474c c 152 9
+4758 3c 235 8
+4794 d 108 35
+47a1 46 62 5
+47e7 5 104 35
+47ec 7 124 6
+47f3 18 530 23
+480b b 124 6
+4816 4 1053 23
+481a 2 90 13
+481c 9 62 20
+4825 8 214 1
+482d 6 1053 23
+4833 e 1053 23
+4841 5 222 14
+4846 12 98 6
+4858 c 98 6
+4864 8 104 35
+486c b 865 23
+4877 3 55 14
+487a a 125 6
+4884 5 125 6
+4889 12 98 6
+489b 5 98 6
+48a0 7 1053 23
+48a7 2 90 13
+48a9 9 62 20
+48b2 8 214 1
+48ba 6 1053 23
+48c0 11 1053 23
+48d1 c 222 14
+48dd 5 104 35
+48e2 4 795 16
+48e6 3 90 13
+48e9 d 62 20
+48f6 9 214 1
+48ff 6 795 16
+4905 c 796 16
+4911 5 465 16
+4916 1a 465 16
+4930 3 1053 23
+4933 2 90 13
+4935 9 62 20
+493e 8 214 1
+4946 6 1053 23
+494c e 1053 23
+495a 5 222 14
+495f a 465 16
+4969 8 836 16
+4971 12 109 35
+FUNC 4990 772 0 QTuioHandler::processPackets()
+4990 4 116 35
+4994 32 117 35
+49c6 10 62 5
+49d6 a 459 15
+49e0 b 458 15
+49eb c 119 35
+49f7 b 119 35
+4a02 5 120 35
+4a07 4 485 15
+4a0b 5 96 20
+4a10 10 485 15
+4a20 3 485 15
+4a23 3 96 14
+4a26 2 485 15
+4a28 7 96 14
+4a2f 5 485 15
+4a34 4 479 15
+4a38 7 55 14
+4a3f 4 123 35
+4a43 10 123 35
+4a53 a 126 35
+4a5d 4 461 15
+4a61 d 129 35
+4a6e b 130 35
+4a79 c 132 35
+4a85 14 133 35
+4a99 13 143 35
+4aac 8 790 16
+4ab4 10 108 16
+4ac4 7 270 16
+4acb 9 109 16
+4ad4 7 270 16
+4adb 15 145 35
+4af0 12 286 16
+4b02 7 145 35
+4b09 7 281 16
+4b10 c 145 35
+4b1c a 131 16
+4b26 b 146 35
+4b31 12 596 15
+4b43 7 459 15
+4b4a 2 90 13
+4b4c 9 62 20
+4b55 8 214 1
+4b5d 6 459 15
+4b63 11 459 15
+4b74 8 222 14
+4b7c 6 146 35
+4b82 21 62 5
+4ba3 7 62 5
+4baa 15 62 5
+4bbf 5 147 35
+4bc4 10 124 6
+4bd4 f 530 23
+4be3 b 124 6
+4bee 4 1053 23
+4bf2 2 90 13
+4bf4 9 62 20
+4bfd 8 214 1
+4c05 6 1053 23
+4c0b e 1053 23
+4c19 5 222 14
+4c1e 15 98 6
+4c33 c 98 6
+4c3f 8 147 35
+4c47 b 483 15
+4c52 3 55 14
+4c55 d 128 6
+4c62 5 128 6
+4c67 12 98 6
+4c79 5 98 6
+4c7e 7 459 15
+4c85 2 90 13
+4c87 9 62 20
+4c90 8 214 1
+4c98 6 459 15
+4c9e 11 459 15
+4caf c 222 14
+4cbb 1c 147 35
+4cd7 8 151 35
+4cdf 7 105 16
+4ce6 4 107 16
+4cea 9 152 35
+4cf3 43 62 5
+4d36 5 153 35
+4d3b 10 124 6
+4d4b f 530 23
+4d5a b 124 6
+4d65 4 1053 23
+4d69 2 90 13
+4d6b 9 62 20
+4d74 8 214 1
+4d7c 6 1053 23
+4d82 e 1053 23
+4d90 5 222 14
+4d95 15 98 6
+4daa c 98 6
+4db6 a 153 35
+4dc0 8 131 16
+4dc8 8 157 35
+4dd0 f 590 15
+4ddf 8 158 35
+4de7 f 590 15
+4df6 8 160 35
+4dfe f 590 15
+4e0d 8 162 35
+4e15 f 590 15
+4e24 b 164 35
+4e2f 27 62 5
+4e56 7 62 5
+4e5d 15 62 5
+4e72 5 167 35
+4e77 10 124 6
+4e87 f 530 23
+4e96 b 124 6
+4ea1 4 1053 23
+4ea5 2 90 13
+4ea7 9 62 20
+4eb0 8 214 1
+4eb8 6 1053 23
+4ebe e 1053 23
+4ecc 5 222 14
+4ed1 15 98 6
+4ee6 5 98 6
+4eeb b 483 15
+4ef6 3 55 14
+4ef9 d 128 6
+4f06 5 128 6
+4f0b 12 98 6
+4f1d c 98 6
+4f29 7 167 35
+4f30 a 159 35
+4f3a 11 161 35
+4f4b 11 163 35
+4f5c c 165 35
+4f68 7 459 15
+4f6f 2 90 13
+4f71 9 62 20
+4f7a 8 214 1
+4f82 6 459 15
+4f88 11 459 15
+4f99 e 222 14
+4fa7 19 170 35
+4fc0 7 795 16
+4fc7 2 90 13
+4fc9 9 62 20
+4fd2 8 214 1
+4fda 6 795 16
+4fe0 13 796 16
+4ff3 4 795 16
+4ff7 2 90 13
+4ff9 9 62 20
+5002 8 214 1
+500a 6 795 16
+5010 10 796 16
+5020 4 795 16
+5024 2 90 13
+5026 9 62 20
+502f 8 214 1
+5037 6 795 16
+503d 4 796 16
+5041 4 42 30
+5045 5 796 16
+504a 4 795 16
+504e 2 90 13
+5050 9 62 20
+5059 8 214 1
+5061 6 795 16
+5067 4 796 16
+506b 12 834 16
+507d 4 42 30
+5081 5 834 16
+5086 c 836 16
+5092 5 171 35
+5097 4 459 15
+509b 2 90 13
+509d 15 62 20
+50b2 1a 222 14
+50cc 8 214 1
+50d4 c 459 15
+50e0 10 117 35
+50f0 12 172 35
+FUNC 5110 a 0 QTuioHandler::QTuioHandler(QString const&)
+5110 4 53 35
+5114 1 109 35
+5115 5 0 35
+FUNC 5120 a5 0 QTuioHandler::~QTuioHandler()
+5120 e 112 35
+512e e 112 35
+513c 4 68 24
+5140 2 90 13
+5142 9 62 20
+514b 8 214 1
+5153 6 68 24
+5159 e 68 24
+5167 5 222 14
+516c 4 339 17
+5170 2 90 13
+5172 9 62 20
+517b 8 214 1
+5183 6 339 17
+5189 4 339 17
+518d 4 186 17
+5191 a 221 17
+519b 8 223 17
+51a3 8 225 17
+51ab 11 113 35
+51bc 9 113 35
+FUNC 51d0 a 0 <name omitted>
+51d0 4 112 35
+51d4 1 112 35
+51d5 5 0 35
+FUNC 51e0 1c 0 QTuioHandler::~QTuioHandler()
+51e0 9 112 35
+51e9 5 112 35
+51ee e 112 35
+FUNC 5200 3bd 0 QTuioHandler::process2DCurSource(QOscMessage const&)
+5200 12 175 35
+5212 5 176 35
+5217 7 105 16
+521e 4 107 16
+5222 2 105 16
+5224 9 177 35
+522d 5 131 16
+5232 e 182 35
+5240 52 48 35
+5292 d 90 13
+529f 52 48 35
+52f1 7 65 7
+52f8 3c 62 5
+5334 5 187 35
+5339 4 124 6
+533d 18 530 23
+5355 b 124 6
+5360 4 1053 23
+5364 2 90 13
+5366 9 62 20
+536f 8 214 1
+5377 6 1053 23
+537d e 1053 23
+538b 5 222 14
+5390 f 98 6
+539f 5 98 6
+53a4 8 107 16
+53ac c 131 16
+53b8 5 187 35
+53bd b 483 15
+53c8 3 55 14
+53cb a 128 6
+53d5 5 128 6
+53da f 98 6
+53e9 5 98 6
+53ee 7 459 15
+53f5 2 90 13
+53f7 9 62 20
+5400 8 214 1
+5408 6 459 15
+540e 11 459 15
+541f e 222 14
+542d 31 62 5
+545e 5 178 35
+5463 4 124 6
+5467 18 530 23
+547f b 124 6
+548a 4 1053 23
+548e 2 90 13
+5490 9 62 20
+5499 8 214 1
+54a1 6 1053 23
+54a7 e 1053 23
+54b5 5 222 14
+54ba f 98 6
+54c9 5 98 6
+54ce 4 116 6
+54d2 a 105 16
+54dc 5 116 6
+54e1 f 98 6
+54f0 e 98 6
+54fe 31 62 5
+552f 5 183 35
+5534 4 124 6
+5538 18 530 23
+5550 b 124 6
+555b 4 1053 23
+555f 2 90 13
+5561 9 62 20
+556a 8 214 1
+5572 6 1053 23
+5578 e 1053 23
+5586 5 222 14
+558b f 98 6
+559a 9 98 6
+55a3 9 187 35
+55ac 11 188 35
+FUNC 55c0 7f3 0 QTuioHandler::process2DCurAlive(QOscMessage const&)
+55c0 1b 191 35
+55db 5 192 35
+55e0 4 584 17
+55e4 3 90 13
+55e7 9 51 20
+55f0 8 217 17
+55f8 4 587 17
+55fc d 588 17
+5609 13 589 17
+561c d 96 17
+5629 a 591 17
+5633 9 176 1
+563c 8 585 17
+5644 b 328 17
+564f c 105 16
+565b 10 203 35
+566b 25 53 34
+5690 b 107 16
+569b 7 131 16
+56a2 7 209 35
+56a9 4 656 17
+56ad 5 186 17
+56b2 8 286 17
+56ba 7 656 17
+56c1 3 287 17
+56c4 c 105 17
+56d0 5 67 17
+56d5 4 106 17
+56d9 5 130 17
+56de 5 288 17
+56e3 c 288 17
+56ef 11 53 34
+5700 9 364 17
+5709 8 364 17
+5711 4 663 17
+5715 4 186 17
+5719 17 667 17
+5730 3 214 35
+5733 5 67 17
+5738 4 186 17
+573c 7 667 17
+5743 6 186 17
+5749 3 667 17
+574c 16 214 35
+5762 5 678 17
+5767 9 67 17
+5770 6 186 17
+5776 13 199 17
+5789 3 202 17
+578c 29 679 17
+57b5 3 203 35
+57b8 c 105 16
+57c4 e 203 35
+57d2 2f 53 34
+5801 3 287 17
+5804 c 105 17
+5810 5 67 17
+5815 4 106 17
+5819 5 130 17
+581e 5 288 17
+5823 7 288 17
+582a 32 617 17
+585c 9 364 17
+5865 8 364 17
+586d 4 663 17
+5871 4 186 17
+5875 b 667 17
+5880 3 219 35
+5883 5 67 17
+5888 4 186 17
+588c 7 667 17
+5893 6 186 17
+5899 3 667 17
+589c 9 219 35
+58a5 5 678 17
+58aa 5 67 17
+58af 28 679 17
+58d7 6 364 17
+58dd 6 186 17
+58e3 13 199 17
+58f6 3 202 17
+58f9 28 204 17
+5921 b 364 17
+592c 5 364 17
+5931 4 894 17
+5935 5 186 17
+593a d 286 17
+5947 3 287 17
+594a 6 105 17
+5950 5 67 17
+5955 4 106 17
+5959 5 130 17
+595e 9 288 17
+5967 9 67 17
+5970 8 280 17
+5978 5 186 17
+597d 13 286 17
+5990 6 107 16
+5996 5 131 16
+599b e 204 35
+59a9 43 62 5
+59ec 5 205 35
+59f1 4 124 6
+59f5 18 530 23
+5a0d b 124 6
+5a18 4 1053 23
+5a1c 2 90 13
+5a1e 9 62 20
+5a27 8 214 1
+5a2f 6 1053 23
+5a35 e 1053 23
+5a43 5 222 14
+5a48 f 98 6
+5a57 5 98 6
+5a5c c 116 6
+5a68 f 98 6
+5a77 5 98 6
+5a7c 8 89 6
+5a84 f 89 6
+5a93 5 205 35
+5a98 4 124 6
+5a9c 18 530 23
+5ab4 b 124 6
+5abf 4 1053 23
+5ac3 2 90 13
+5ac5 9 62 20
+5ace 8 214 1
+5ad6 6 1053 23
+5adc e 1053 23
+5aea 5 222 14
+5aef f 98 6
+5afe 9 98 6
+5b07 17 205 35
+5b1e 9 339 17
+5b27 b 528 17
+5b32 7 191 17
+5b39 6 191 17
+5b3f 4 189 17
+5b43 4 228 35
+5b47 9 360 17
+5b50 17 363 24
+5b67 d 364 24
+5b74 c 101 24
+5b80 5 365 24
+5b85 4 366 24
+5b89 4 189 17
+5b8d 13 490 17
+5ba0 4 486 17
+5ba4 3 603 24
+5ba7 4 203 14
+5bab 9 603 24
+5bb4 9 604 24
+5bbd 4 55 14
+5bc1 4 203 14
+5bc5 31 616 24
+5bf6 1d 605 24
+5c13 7 607 24
+5c1a 3 606 24
+5c1d 8 607 24
+5c25 7 610 24
+5c2c 3 55 14
+5c2f 8 203 14
+5c37 22 610 24
+5c59 6 620 24
+5c5f b 108 17
+5c6a 10 233 35
+5c7a 11 599 17
+5c8b 4 90 13
+5c8f 3 51 20
+5c92 9 600 17
+5c9b 8 217 17
+5ca3 a 588 17
+5cad 13 589 17
+5cc0 d 96 17
+5ccd a 591 17
+5cd7 a 176 1
+5ce1 3 600 17
+5ce4 4 99 0
+5ce8 4 100 0
+5cec 2 90 13
+5cee 9 62 20
+5cf7 8 214 1
+5cff 6 339 17
+5d05 4 186 17
+5d09 a 221 17
+5d13 8 223 17
+5d1b b 225 17
+5d26 2 90 13
+5d28 9 62 20
+5d31 8 214 1
+5d39 6 339 17
+5d3f 4 186 17
+5d43 a 221 17
+5d4d 8 223 17
+5d55 8 225 17
+5d5d 4 339 17
+5d61 2 90 13
+5d63 9 62 20
+5d6c 8 214 1
+5d74 6 339 17
+5d7a 4 186 17
+5d7e a 221 17
+5d88 8 223 17
+5d90 c 225 17
+5d9c 17 239 35
+FUNC 5dc0 902 0 QTuioHandler::process2DCurSet(QOscMessage const&)
+5dc0 19 242 35
+5dd9 5 243 35
+5dde 7 105 16
+5de5 4 107 16
+5de9 2 105 16
+5deb 9 244 35
+5df4 31 62 5
+5e25 5 245 35
+5e2a 4 124 6
+5e2e 18 530 23
+5e46 b 124 6
+5e51 4 1053 23
+5e55 2 90 13
+5e57 9 62 20
+5e60 8 214 1
+5e68 6 1053 23
+5e6e e 1053 23
+5e7c 5 222 14
+5e81 f 98 6
+5e90 5 98 6
+5e95 4 116 6
+5e99 a 105 16
+5ea3 5 116 6
+5ea8 f 98 6
+5eb7 9 98 6
+5ec0 a 245 35
+5eca 5 131 16
+5ecf e 249 35
+5edd 8 107 16
+5ee5 5 131 16
+5eea e 250 35
+5ef8 8 107 16
+5f00 5 131 16
+5f05 e 251 35
+5f13 8 107 16
+5f1b 5 131 16
+5f20 e 252 35
+5f2e 8 107 16
+5f36 5 131 16
+5f3b e 253 35
+5f49 8 107 16
+5f51 5 131 16
+5f56 e 254 35
+5f64 8 107 16
+5f6c 7 131 16
+5f73 8 260 35
+5f7b 8 107 16
+5f83 7 131 16
+5f8a c 261 35
+5f96 8 107 16
+5f9e 7 131 16
+5fa5 c 262 35
+5fb1 8 107 16
+5fb9 7 131 16
+5fc0 d 263 35
+5fcd 8 107 16
+5fd5 7 131 16
+5fdc d 264 35
+5fe9 8 107 16
+5ff1 7 131 16
+5ff8 d 265 35
+6005 4 364 17
+6009 4 267 35
+600d 5 364 17
+6012 8 364 17
+601a 3 841 17
+601d 7 186 17
+6024 e 286 17
+6032 40 62 5
+6072 5 256 35
+6077 4 124 6
+607b 18 530 23
+6093 b 124 6
+609e 4 1053 23
+60a2 2 90 13
+60a4 9 62 20
+60ad 8 214 1
+60b5 6 1053 23
+60bb e 1053 23
+60c9 5 222 14
+60ce f 98 6
+60dd 5 98 6
+60e2 8 89 6
+60ea f 89 6
+60f9 28 256 35
+6121 15 280 35
+6136 3 287 17
+6139 6 105 17
+613f 6 67 17
+6145 4 106 17
+6149 5 130 17
+614e 5 288 17
+6153 7 288 17
+615a 4 189 17
+615e 5 364 17
+6163 8 364 17
+616b 3 530 17
+616e 4 189 17
+6172 9 268 35
+617b 52 49 35
+61cd d 90 13
+61da 52 49 35
+622c 7 65 7
+6233 3f 62 5
+6272 5 273 35
+6277 7 124 6
+627e 18 530 23
+6296 b 124 6
+62a1 4 1053 23
+62a5 2 90 13
+62a7 9 62 20
+62b0 8 214 1
+62b8 6 1053 23
+62be e 1053 23
+62cc 5 222 14
+62d1 12 98 6
+62e3 5 98 6
+62e8 f 116 6
+62f7 12 98 6
+6309 8 98 6
+6311 7 124 6
+6318 18 530 23
+6330 b 124 6
+633b 4 1053 23
+633f 2 90 13
+6341 9 62 20
+634a 8 214 1
+6352 6 1053 23
+6358 e 1053 23
+6366 5 222 14
+636b 12 98 6
+637d 5 98 6
+6382 13 122 6
+6395 12 98 6
+63a7 5 98 6
+63ac 13 122 6
+63bf 12 98 6
+63d1 5 98 6
+63d6 14 122 6
+63ea 12 98 6
+63fc 5 98 6
+6401 14 122 6
+6415 12 98 6
+6427 5 98 6
+642c 14 122 6
+6440 12 98 6
+6452 c 98 6
+645e 5 273 35
+6463 8 60 34
+646b 19 61 34
+6484 14 736 4
+6498 e 514 4
+64a6 12 514 4
+64b8 c 736 4
+64c4 e 514 4
+64d2 4 736 4
+64d6 a 61 34
+64e0 9 87 34
+64e9 e 64 34
+64f7 5 71 34
+64fc b 74 34
+6507 f 78 34
+6516 f 81 34
+6525 14 84 34
+6539 46 62 5
+657f 5 269 35
+6584 7 124 6
+658b 18 530 23
+65a3 b 124 6
+65ae 4 1053 23
+65b2 2 90 13
+65b4 9 62 20
+65bd 8 214 1
+65c5 6 1053 23
+65cb e 1053 23
+65d9 5 222 14
+65de 12 98 6
+65f0 5 98 6
+65f5 f 116 6
+6604 12 98 6
+6616 c 98 6
+6622 a 269 35
+662c e 64 34
+663a 19 71 34
+6653 14 736 4
+6667 e 514 4
+6675 12 514 4
+6687 c 736 4
+6693 e 514 4
+66a1 5 71 34
+66a6 4 736 4
+66aa a 71 34
+66b4 e 87 34
+FUNC 66d0 8a1 0 QTuioHandler::process2DCurFseq(QOscMessage const&)
+66d0 14 312 35
+66e4 5 315 35
+66e9 10 316 35
+66f9 b 139 16
+6704 4 584 17
+6708 3 90 13
+670b e 51 20
+6719 8 217 17
+6721 10 588 17
+6731 13 589 17
+6744 d 96 17
+6751 a 591 17
+675b c 176 1
+6767 7 585 17
+676e 19 191 17
+6787 4 191 17
+678b 4 189 17
+678f 11 490 17
+67a0 4 487 17
+67a4 12 322 35
+67b6 b 323 35
+67c1 4 68 24
+67c5 2 90 13
+67c7 9 62 20
+67d0 8 214 1
+67d8 6 68 24
+67de e 68 24
+67ec 5 222 14
+67f1 b 108 17
+67fc c 490 17
+6808 2 90 13
+680a 9 62 20
+6813 b 214 1
+681e 9 339 17
+6827 4 186 17
+682b a 221 17
+6835 8 223 17
+683d 8 225 17
+6845 5 328 24
+684a 3 90 13
+684d d 51 20
+685a 8 331 24
+6862 10 336 24
+6872 8 215 14
+687a 6 339 24
+6880 c 176 1
+688c a 329 24
+6896 12 332 24
+68a8 d 215 14
+68b5 8 334 24
+68bd b 339 24
+68c8 5 340 24
+68cd a 203 14
+68d7 9 299 24
+68e0 4 55 14
+68e4 4 203 14
+68e8 5b 55 14
+6943 6a 300 24
+69ad 16 340 24
+69c3 13a 300 24
+6afd 9 299 24
+6b06 17 341 24
+6b1d 4 207 14
+6b21 10 326 35
+6b31 f 62 14
+6b40 15 327 35
+6b55 7 328 35
+6b5c b 329 35
+6b67 4 68 24
+6b6b 2 90 13
+6b6d 9 62 20
+6b76 8 214 1
+6b7e 6 68 24
+6b84 e 68 24
+6b92 5 222 14
+6b97 11 326 35
+6ba8 2 90 13
+6baa 9 62 20
+6bb3 b 214 1
+6bbe 13 68 24
+6bd1 5 222 14
+6bd6 17 331 35
+6bed 12 434 24
+6bff a 90 13
+6c09 d 51 20
+6c16 f 331 24
+6c25 10 336 24
+6c35 8 215 14
+6c3d 6 339 24
+6c43 18 176 1
+6c5b 11 332 24
+6c6c 10 215 14
+6c7c 8 334 24
+6c84 b 339 24
+6c8f b 203 14
+6c9a d 299 24
+6ca7 3 55 14
+6caa 4 203 14
+6cae 4c 55 14
+6cfa 63 300 24
+6d5d 16 340 24
+6d73 13a 300 24
+6ead 9 299 24
+6eb6 8 341 24
+6ebe 5 99 0
+6ec3 5 100 0
+6ec8 2 90 13
+6eca 9 62 20
+6ed3 b 214 1
+6ede 13 68 24
+6ef1 5 222 14
+6ef6 9 90 13
+6eff 9 62 20
+6f08 b 214 1
+6f13 9 68 24
+6f1c 16 222 14
+6f32 4 795 16
+6f36 2 90 13
+6f38 9 62 20
+6f41 b 214 1
+6f4c 9 795 16
+6f55 d 796 16
+6f62 f 334 35
+FUNC 6f80 315 0 QTuioHandler::cursorToTouchPoint(QTuioCursor const&, QWindow*)
+6f80 1d 283 35
+6f9d 4 117 27
+6fa1 30 266 18
+6fd1 7 117 27
+6fd8 e 127 25
+6fe6 7 112 3
+6fed b 64 24
+6ff8 3 56 34
+6ffb c 285 35
+7007 4 286 35
+700b 5 288 35
+7010 4 288 35
+7014 9 186 26
+701d 4 290 35
+7021 6 186 26
+7027 a 188 26
+7031 3 187 26
+7034 4 197 26
+7038 15 291 35
+704d 4 88 34
+7051 3 293 35
+7054 1b 294 35
+706f 10 303 35
+707f a 303 35
+7089 19 303 35
+70a2 8 303 35
+70aa 47 517 4
+70f1 4b 517 4
+713c 7 270 18
+7143 7 270 18
+714a 1c 346 18
+7166 48 517 4
+71ae 33 517 4
+71e1 9 383 18
+71ea 8 305 35
+71f2 f 305 35
+7201 7 270 18
+7208 8 270 18
+7210 c 341 18
+721c 4 305 35
+7220 16 707 19
+7236 10 306 35
+7246 b 306 35
+7251 14 306 35
+7265 6 306 35
+726b 9 129 25
+7274 f 306 35
+7283 12 308 35
+FUNC 72a0 4e7 0 QList<QWindowSystemInterface::TouchPoint>::append(QWindowSystemInterface::TouchPoint const&)
+72a0 12 549 16
+72b2 12 550 16
+72c4 d 551 16
+72d1 d 404 16
+72de 8 116 27
+72e6 4 328 24
+72ea 2 90 13
+72ec 11 51 20
+72fd b 331 24
+7308 10 336 24
+7318 5 215 14
+731d a 336 24
+7327 d 560 16
+7334 d 404 16
+7341 8 116 27
+7349 4 328 24
+734d 2 90 13
+734f 9 51 20
+7358 b 331 24
+7363 10 336 24
+7373 5 215 14
+7378 a 336 24
+7382 8 176 1
+738a e 329 24
+7398 8 176 1
+73a0 e 329 24
+73ae 12 332 24
+73c0 5 215 14
+73c5 5 332 24
+73ca 4 334 24
+73ce 12 339 24
+73e0 4 340 24
+73e4 10 203 14
+73f4 4 55 14
+73f8 4 203 14
+73fc 3c 55 14
+7438 47 300 24
+747f 14 340 24
+7493 ec 300 24
+757f e 299 24
+758d 12 332 24
+759f 5 215 14
+75a4 5 332 24
+75a9 4 334 24
+75ad 12 339 24
+75bf 4 340 24
+75c3 10 203 14
+75d3 4 55 14
+75d7 4 203 14
+75db 3c 55 14
+7617 48 300 24
+765f 14 340 24
+7673 ec 300 24
+775f 9 299 24
+7768 f 341 24
+7777 3 404 16
+777a d 579 16
+FUNC 7790 5f1 0 QList<QWindowSystemInterface::TouchPoint>::detach_helper_grow(int, int)
+7790 1e 723 16
+77ae b 108 16
+77b9 9 725 16
+77c2 6 108 16
+77c8 13 728 16
+77db 3 108 16
+77de 8 728 16
+77e6 5 108 16
+77eb 1a 108 16
+7805 11 431 16
+7816 8 116 27
+781e 4 328 24
+7822 2 90 13
+7824 9 51 20
+782d 7 331 24
+7834 10 336 24
+7844 5 215 14
+7849 7 336 24
+7850 8 176 1
+7858 d 329 24
+7865 12 332 24
+7877 5 215 14
+787c 4 332 24
+7880 4 334 24
+7884 11 339 24
+7895 4 340 24
+7899 10 203 14
+78a9 4 55 14
+78ad 4 203 14
+78b1 42 55 14
+78f3 4c 300 24
+793f 14 340 24
+7953 ec 300 24
+7a3f 9 299 24
+7a48 18 341 24
+7a60 3 431 16
+7a63 4 432 16
+7a67 4 433 16
+7a6b 9 430 16
+7a74 1d 108 16
+7a91 9 735 16
+7a9a 4 109 16
+7a9e 9 430 16
+7aa7 5 109 16
+7aac 8 735 16
+7ab4 11 735 16
+7ac5 11 431 16
+7ad6 8 116 27
+7ade 4 328 24
+7ae2 2 90 13
+7ae4 9 51 20
+7aed 7 331 24
+7af4 10 336 24
+7b04 5 215 14
+7b09 7 336 24
+7b10 8 176 1
+7b18 d 329 24
+7b25 12 332 24
+7b37 5 215 14
+7b3c 4 332 24
+7b40 4 334 24
+7b44 11 339 24
+7b55 4 340 24
+7b59 10 203 14
+7b69 4 55 14
+7b6d 4 203 14
+7b71 42 55 14
+7bb3 4c 300 24
+7bff 14 340 24
+7c13 ec 300 24
+7cff 9 299 24
+7d08 18 341 24
+7d20 4 431 16
+7d24 4 432 16
+7d28 4 433 16
+7d2c d 430 16
+7d39 2 90 13
+7d3b 9 62 20
+7d44 8 214 1
+7d4c 6 745 16
+7d52 9 746 16
+7d5b b 108 16
+7d66 1b 748 16
+FUNC 7d90 9f 0 QList<QWindowSystemInterface::TouchPoint>::dealloc(QListData::Data*)
+7d90 1a 833 16
+7daa 5 463 16
+7daf 29 463 16
+7dd8 4 68 24
+7ddc 2 90 13
+7dde 9 62 20
+7de7 8 214 1
+7def 6 68 24
+7df5 e 68 24
+7e03 5 222 14
+7e08 8 463 16
+7e10 a 463 16
+7e1a 8 836 16
+7e22 d 837 16
+FUNC 7e30 94 0 QMap<int, QTuioCursor>::detach_helper()
+7e30 d 952 17
+7e3d 8 217 17
+7e45 c 954 17
+7e51 13 955 17
+7e64 d 96 17
+7e71 3 958 17
+7e74 2 90 13
+7e76 9 62 20
+7e7f 8 214 1
+7e87 6 958 17
+7e8d 3 959 17
+7e90 4 186 17
+7e94 a 221 17
+7e9e 8 223 17
+7ea6 8 225 17
+7eae 3 960 17
+7eb1 8 961 17
+7eb9 b 962 17
+FUNC 7ed0 d0 0 QMapNode<int, QTuioCursor>::copy(QMapData<int, QTuioCursor>*) const
+7ed0 1f 231 17
+7eef b 199 17
+7efa 7 202 17
+7f01 1f 204 17
+7f20 3 93 17
+7f23 3 94 17
+7f26 7 94 17
+7f2d 4 94 17
+7f31 6 94 17
+7f37 3 94 17
+7f3a 9 234 17
+7f43 c 235 17
+7f4f f 96 17
+7f5e 8 238 17
+7f66 9 240 17
+7f6f c 241 17
+7f7b f 96 17
+7f8a 8 244 17
+7f92 e 246 17
+FUNC 7fa0 334 0 QVector<QTuioCursor>::reallocData(int, int, QFlags<QArrayData::AllocationOption>)
+7fa0 15 497 24
+7fb5 8 503 24
+7fbd 8 499 24
+7fc5 18 504 24
+7fdd 5 203 14
+7fe2 9 553 24
+7feb e 283 24
+7ff9 3 55 14
+7ffc 7 556 24
+8003 4 203 14
+8007 4 556 24
+800b 2c 203 14
+8037 5 284 24
+803c 24 53 34
+8060 1a 284 24
+807a 25 53 34
+809f 9 284 24
+80a8 24 53 34
+80cc 9 283 24
+80d5 16 558 24
+80eb d 507 24
+80f8 8 215 14
+8100 5 514 24
+8105 7 516 24
+810c 3 55 14
+810f a 517 24
+8119 f 203 14
+8128 c 55 14
+8134 32 523 24
+8166 2 522 24
+8168 b 523 24
+8173 11 534 24
+8184 e 55 14
+8192 7 203 14
+8199 3b 283 24
+81d4 5 284 24
+81d9 24 53 34
+81fd 1d 284 24
+821a 25 53 34
+823f 9 284 24
+8248 24 53 34
+826c 9 283 24
+8275 1c 548 24
+8291 8 563 24
+8299 2 90 13
+829b 9 62 20
+82a4 8 214 1
+82ac 6 564 24
+82b2 d 568 24
+82bf 5 222 14
+82c4 3 573 24
+82c7 d 584 24
+FUNC 82e0 a8 0 QList<QOscMessage>::dealloc(QListData::Data*)
+82e0 1a 833 16
+82fa 5 463 16
+82ff 29 463 16
+8328 9 40 32
+8331 4 459 15
+8335 2 90 13
+8337 9 62 20
+8340 8 214 1
+8348 6 459 15
+834e e 459 15
+835c 5 222 14
+8361 8 463 16
+8369 a 463 16
+8373 8 836 16
+837b d 837 16
+FUNC 8390 60 0 QtPrivate::QSlotObject<void (QTuioHandler::*)(), void, void>::impl(int, QtPrivate::QSlotObjectBase*, QObject*, void**, bool*)
+8390 4 137 9
+8394 a 138 9
+839e 4 143 9
+83a2 16 135 10
+83b8 28 146 9
+83e0 e 140 9
+83ee 2 150 9
+FUNC 83f0 bd 0 QList<QOscBundle>::node_destruct(QList<QOscBundle>::Node*, QList<QOscBundle>::Node*)
+83f0 15 461 16
+8405 b 463 16
+8410 9 463 16
+8419 4 795 16
+841d 2 90 13
+841f 5 62 20
+8424 8 42 30
+842c 8 214 1
+8434 6 795 16
+843a 8 796 16
+8442 4 795 16
+8446 4 90 13
+844a 5 62 20
+844f 8 42 30
+8457 a 214 1
+8461 6 795 16
+8467 3 796 16
+846a 19 834 16
+8483 8 836 16
+848b c 463 16
+8497 9 463 16
+84a0 d 466 16
+FUNC 84b0 4f 0 QTuioHandler::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+84b0 4 81 37
+84b4 4 82 37
+84b8 7 85 37
+84bf 12 94 37
+84d1 6 86 37
+84d7 a 87 37
+84e1 a 88 37
+84eb a 89 37
+84f5 a 90 37
+FUNC 8520 1e 0 QTuioHandler::metaObject() const
+8520 4 103 37
+8524 4 113 21
+8528 7 104 37
+852f f 104 37
+FUNC 8540 3e 0 QTuioHandler::qt_metacast(char const*)
+8540 f 108 37
+854f 5 109 37
+8554 13 110 37
+8567 12 112 37
+8579 5 113 37
+FUNC 8580 60 0 QTuioHandler::qt_metacall(QMetaObject::Call, int, void**)
+8580 13 116 37
+8593 8 117 37
+859b 5 118 37
+85a0 5 120 37
+85a5 6 125 37
+85ab f 126 37
+85ba 8 121 37
+85c2 e 122 37
+85d0 4 127 37
+85d4 c 130 37
+PUBLIC 8f80 0 qt_meta_data_QTuioTouchPlugin
+PUBLIC 8fc0 0 typeinfo name for QTuioTouchPlugin
+PUBLIC 8fd8 0 qt_meta_stringdata_QTuioTouchPlugin
+PUBLIC 9090 0 qt_meta_data_QTuioHandler
+PUBLIC 9164 0 typeinfo name for QTuioHandler
+PUBLIC 9178 0 qt_meta_stringdata_QTuioHandler
+PUBLIC 92d0 0 qt_section_alignment_dummy
+PUBLIC 92e0 0 qt_pluginMetaData
+PUBLIC a350 0 vtable for QTuioTouchPlugin
+PUBLIC a3c8 0 QTuioTouchPlugin::staticMetaObject
+PUBLIC a400 0 typeinfo for QTuioTouchPlugin
+PUBLIC a420 0 QTuioHandler::staticMetaObject
+PUBLIC a450 0 vtable for QTuioHandler
+PUBLIC a4c0 0 typeinfo for QTuioHandler
+PUBLIC a4d8 0 qt_plugin_instance::_instance
+PUBLIC a4e8 0 guard variable for qt_plugin_instance::_instance
+PUBLIC a4f0 0 lcTuioBundle()::category
+PUBLIC a508 0 guard variable for lcTuioBundle()::category
+PUBLIC a510 0 lcTuioMessage()::category
+PUBLIC a528 0 guard variable for lcTuioMessage()::category
+PUBLIC a530 0 lcTuioSource()::category
+PUBLIC a548 0 guard variable for lcTuioSource()::category
+PUBLIC a550 0 lcTuioSet()::category
+PUBLIC a568 0 guard variable for lcTuioSet()::category
+STACK CFI INIT 1720 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1721 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1724 .cfa: $rbp 16 +
+STACK CFI 1726 $rbx: .cfa -24 + ^
+STACK CFI INIT 1750 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1751 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1754 .cfa: $rbp 16 +
+STACK CFI 1756 $rbx: .cfa -24 + ^
+STACK CFI INIT 1780 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1781 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1784 .cfa: $rbp 16 +
+STACK CFI 1787 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 17d0 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17d4 .cfa: $rbp 16 +
+STACK CFI INIT 17e0 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 17e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 17e4 .cfa: $rbp 16 +
+STACK CFI INIT 1800 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1801 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1804 .cfa: $rbp 16 +
+STACK CFI 1807 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 1840 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1841 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1844 .cfa: $rbp 16 +
+STACK CFI INIT 1850 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1851 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1854 .cfa: $rbp 16 +
+STACK CFI INIT 1860 144 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1861 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1864 .cfa: $rbp 16 +
+STACK CFI 186b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 19b0 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 19b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 19b4 .cfa: $rbp 16 +
+STACK CFI INIT 19f0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 19f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 19f4 .cfa: $rbp 16 +
+STACK CFI INIT 1a00 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a04 .cfa: $rbp 16 +
+STACK CFI 1a06 $rbx: .cfa -24 + ^
+STACK CFI INIT 1a20 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a24 .cfa: $rbp 16 +
+STACK CFI 1a26 $rbx: .cfa -24 + ^
+STACK CFI INIT 1a90 890 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a94 .cfa: $rbp 16 +
+STACK CFI 1aa4 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2320 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2321 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2324 .cfa: $rbp 16 +
+STACK CFI INIT 2330 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2331 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2334 .cfa: $rbp 16 +
+STACK CFI INIT 2340 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2341 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2344 .cfa: $rbp 16 +
+STACK CFI 2346 $rbx: .cfa -24 + ^
+STACK CFI INIT 2360 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2361 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2364 .cfa: $rbp 16 +
+STACK CFI 2366 $rbx: .cfa -24 + ^
+STACK CFI INIT 2380 af .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2381 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2384 .cfa: $rbp 16 +
+STACK CFI 238a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 2430 73 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2431 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2434 .cfa: $rbp 16 +
+STACK CFI 243a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 24b0 1d9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 24b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 24b4 .cfa: $rbp 16 +
+STACK CFI 24c1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2690 d6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2691 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2694 .cfa: $rbp 16 +
+STACK CFI 269e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2770 e6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2771 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2774 .cfa: $rbp 16 +
+STACK CFI 277e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2860 a1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2861 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2864 .cfa: $rbp 16 +
+STACK CFI 286f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 2910 d6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
 STACK CFI 2911 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
 STACK CFI 2914 .cfa: $rbp 16 +
 STACK CFI 291e $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 2a00 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2a01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2a04 .cfa: $rbp 16 +
-STACK CFI 2a06 $rbx: .cfa -24 + ^
-STACK CFI INIT 2a70 a00 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 2a71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 2a74 .cfa: $rbp 16 +
-STACK CFI 2a84 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3470 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3471 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3474 .cfa: $rbp 16 +
-STACK CFI INIT 3480 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3481 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3484 .cfa: $rbp 16 +
-STACK CFI INIT 3490 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3491 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3494 .cfa: $rbp 16 +
-STACK CFI INIT 34c0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 34c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 34c4 .cfa: $rbp 16 +
-STACK CFI 34c6 $rbx: .cfa -24 + ^
-STACK CFI INIT 34e0 54 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 34e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 34e4 .cfa: $rbp 16 +
-STACK CFI 34ea $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 3540 187 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3541 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3544 .cfa: $rbp 16 +
-STACK CFI 3551 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 36d0 97 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 36d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 36d4 .cfa: $rbp 16 +
-STACK CFI 36df $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 3770 19d .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3771 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3774 .cfa: $rbp 16 +
-STACK CFI 3781 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 3910 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3911 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3914 .cfa: $rbp 16 +
-STACK CFI 3916 $rbx: .cfa -24 + ^
-STACK CFI INIT 3980 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 3981 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 3984 .cfa: $rbp 16 +
-STACK CFI 3986 $rbx: .cfa -24 + ^
-STACK CFI INIT 39f0 a73 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 39f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 39f4 .cfa: $rbp 16 +
-STACK CFI 3a04 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 4470 731 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4471 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4474 .cfa: $rbp 16 +
-STACK CFI 4484 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 4bb0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4bb1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4bb4 .cfa: $rbp 16 +
-STACK CFI INIT 4bc0 a7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4bc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4bc4 .cfa: $rbp 16 +
-STACK CFI 4bcb $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 4c70 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4c71 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4c74 .cfa: $rbp 16 +
-STACK CFI INIT 4c80 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4c81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4c84 .cfa: $rbp 16 +
-STACK CFI 4c86 $rbx: .cfa -24 + ^
-STACK CFI INIT 4ca0 3bd .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 4ca1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 4ca4 .cfa: $rbp 16 +
-STACK CFI 4cae $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 5060 858 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 5061 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 5064 .cfa: $rbp 16 +
-STACK CFI 5074 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 58c0 91e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 58c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 58c4 .cfa: $rbp 16 +
-STACK CFI 58d2 $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 61e0 4bf .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 61e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 61e4 .cfa: $rbp 16 +
-STACK CFI 61f4 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 66a0 321 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 66a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 66a4 .cfa: $rbp 16 +
-STACK CFI 66af $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 69d0 20a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 69d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 69d4 .cfa: $rbp 16 +
-STACK CFI 69df $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 6be0 bb .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 6be1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 6be4 .cfa: $rbp 16 +
-STACK CFI 6bef $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 6ca0 60 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 6ca1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 6ca4 .cfa: $rbp 16 +
-STACK CFI INIT 6d00 a8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 6d01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 6d04 .cfa: $rbp 16 +
-STACK CFI 6d0f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 6db0 cd .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 6db1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 6db4 .cfa: $rbp 16 +
-STACK CFI 6dbb $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 6e80 94 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 6e81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 6e84 .cfa: $rbp 16 +
-STACK CFI 6e8a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 6f20 1e6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 6f21 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 6f24 .cfa: $rbp 16 +
-STACK CFI 6f2a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
-STACK CFI INIT 7110 9f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 7111 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 7114 .cfa: $rbp 16 +
-STACK CFI 711f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
-STACK CFI INIT 71b0 31a .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 71b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 71b4 .cfa: $rbp 16 +
-STACK CFI 71c1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
-STACK CFI INIT 74d0 4f .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 74d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 74d4 .cfa: $rbp 16 +
-STACK CFI INIT 7540 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 7541 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 7544 .cfa: $rbp 16 +
-STACK CFI INIT 7560 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 7561 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 7564 .cfa: $rbp 16 +
-STACK CFI 7567 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
-STACK CFI INIT 75a0 60 .cfa: $rsp 8 + .ra: .cfa -8 + ^
-STACK CFI 75a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
-STACK CFI 75a4 .cfa: $rbp 16 +
-STACK CFI 75ab $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 29f0 210 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 29f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 29f4 .cfa: $rbp 16 +
+STACK CFI 2a01 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2c00 2e4 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2c01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2c04 .cfa: $rbp 16 +
+STACK CFI 2c11 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 2ef0 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2ef1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2ef4 .cfa: $rbp 16 +
+STACK CFI 2ef6 $rbx: .cfa -24 + ^
+STACK CFI INIT 2f60 a26 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2f61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2f64 .cfa: $rbp 16 +
+STACK CFI 2f74 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3990 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3991 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3994 .cfa: $rbp 16 +
+STACK CFI INIT 39a0 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 39a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 39a4 .cfa: $rbp 16 +
+STACK CFI INIT 39b0 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 39b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 39b4 .cfa: $rbp 16 +
+STACK CFI INIT 39e0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 39e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 39e4 .cfa: $rbp 16 +
+STACK CFI 39e6 $rbx: .cfa -24 + ^
+STACK CFI INIT 3a00 54 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3a01 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3a04 .cfa: $rbp 16 +
+STACK CFI 3a0a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 3a60 182 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3a61 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3a64 .cfa: $rbp 16 +
+STACK CFI 3a71 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3bf0 97 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3bf1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3bf4 .cfa: $rbp 16 +
+STACK CFI 3bff $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 3c90 19d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3c91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3c94 .cfa: $rbp 16 +
+STACK CFI 3ca1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 3e30 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3e31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3e34 .cfa: $rbp 16 +
+STACK CFI 3e36 $rbx: .cfa -24 + ^
+STACK CFI INIT 3ea0 66 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3ea1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3ea4 .cfa: $rbp 16 +
+STACK CFI 3ea6 $rbx: .cfa -24 + ^
+STACK CFI INIT 3f10 a73 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3f11 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3f14 .cfa: $rbp 16 +
+STACK CFI 3f24 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 4990 772 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4991 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4994 .cfa: $rbp 16 +
+STACK CFI 49a4 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 5110 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5111 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5114 .cfa: $rbp 16 +
+STACK CFI INIT 5120 a5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5121 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5124 .cfa: $rbp 16 +
+STACK CFI 512b $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 51d0 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 51d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 51d4 .cfa: $rbp 16 +
+STACK CFI INIT 51e0 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 51e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 51e4 .cfa: $rbp 16 +
+STACK CFI 51e6 $rbx: .cfa -24 + ^
+STACK CFI INIT 5200 3bd .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5201 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5204 .cfa: $rbp 16 +
+STACK CFI 520e $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 55c0 7f3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 55c1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 55c4 .cfa: $rbp 16 +
+STACK CFI 55d4 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 5dc0 902 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 5dc1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 5dc4 .cfa: $rbp 16 +
+STACK CFI 5dd2 $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 66d0 8a1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 66d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 66d4 .cfa: $rbp 16 +
+STACK CFI 66e1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 6f80 315 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 6f81 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 6f84 .cfa: $rbp 16 +
+STACK CFI 6f91 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 72a0 4e7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 72a1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 72a4 .cfa: $rbp 16 +
+STACK CFI 72af $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 7790 5f1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 7791 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 7794 .cfa: $rbp 16 +
+STACK CFI 77a1 $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -56 + ^
+STACK CFI INIT 7d90 9f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 7d91 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 7d94 .cfa: $rbp 16 +
+STACK CFI 7d9f $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 7e30 94 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 7e31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 7e34 .cfa: $rbp 16 +
+STACK CFI 7e3a $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 7ed0 d0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 7ed1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 7ed4 .cfa: $rbp 16 +
+STACK CFI 7eda $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -40 + ^
+STACK CFI INIT 7fa0 334 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 7fa1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 7fa4 .cfa: $rbp 16 +
+STACK CFI 7faf $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 82e0 a8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 82e1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 82e4 .cfa: $rbp 16 +
+STACK CFI 82ef $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 8390 60 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 8391 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 8394 .cfa: $rbp 16 +
+STACK CFI INIT 83f0 bd .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 83f1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 83f4 .cfa: $rbp 16 +
+STACK CFI 83ff $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
+STACK CFI INIT 84b0 4f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 84b1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 84b4 .cfa: $rbp 16 +
+STACK CFI INIT 8520 1e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 8521 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 8524 .cfa: $rbp 16 +
+STACK CFI INIT 8540 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 8541 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 8544 .cfa: $rbp 16 +
+STACK CFI 8547 $r14: .cfa -24 + ^ $rbx: .cfa -32 + ^
+STACK CFI INIT 8580 60 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 8581 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 8584 .cfa: $rbp 16 +
+STACK CFI 858b $r12: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^ $rbx: .cfa -48 + ^
