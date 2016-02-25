@@ -1,26 +1,26 @@
 MODULE Linux x86 3A7435B6E1370D1608084F188771CE1D0 libqico.so
-FILE 0 /tmp/zyy-build-qt-114033/build-linux-x86/qtbase/src/plugins/imageformats/ico/.moc/../../../../../../../src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.h
-FILE 1 /tmp/zyy-build-qt-114033/build-linux-x86/qtbase/src/plugins/imageformats/ico/.moc/moc_main.cpp
-FILE 2 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 3 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qendian.h
-FILE 4 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
-FILE 5 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
-FILE 6 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qiodevice.h
-FILE 7 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
-FILE 8 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
-FILE 9 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
-FILE 10 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
-FILE 11 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
-FILE 12 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
-FILE 13 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
-FILE 14 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 15 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 16 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
-FILE 17 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
-FILE 18 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/image/qimage.h
-FILE 19 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qrgb.h
-FILE 20 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.cpp
-FILE 21 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/qicohandler.cpp
+FILE 0 /tmp/grigoryj-build-qt-133445/build-linux-x86/qtbase/src/plugins/imageformats/ico/.moc/../../../../../../../src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.h
+FILE 1 /tmp/grigoryj-build-qt-133445/build-linux-x86/qtbase/src/plugins/imageformats/ico/.moc/moc_main.cpp
+FILE 2 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 3 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qendian.h
+FILE 4 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qflags.h
+FILE 5 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/global/qlogging.h
+FILE 6 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/io/qiodevice.h
+FILE 7 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qpointer.h
+FILE 8 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/kernel/qvariant.h
+FILE 9 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/thread/qbasicatomic.h
+FILE 10 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qarraydata.h
+FILE 11 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qbytearray.h
+FILE 12 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qlist.h
+FILE 13 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qrefcount.h
+FILE 14 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 15 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 16 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsize.h
+FILE 17 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qstring.h
+FILE 18 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/image/qimage.h
+FILE 19 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtGui/../../src/gui/painting/qrgb.h
+FILE 20 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/main.cpp
+FILE 21 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/imageformats/ico/qicohandler.cpp
 FUNC 2080 c7 0 QICOPlugin::capabilities
 2080 11 41 20
 2091 8 41 20

@@ -1,9 +1,9 @@
 MODULE Linux x86_64 EA3BE65FAF9F36E0A123349070DBE8FA0 libqxcb.so
-FILE 0 /tmp/zyy-build-qt-114033/build-linux-x86_64/qtbase/src/plugins/platforms/xcb/.moc/qxcbmain.moc
-FILE 1 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
-FILE 2 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
-FILE 3 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
-FILE 4 /tmp/zyy-build-qt-114033/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/xcb/qxcbmain.cpp
+FILE 0 /tmp/grigoryj-build-qt-133445/build-linux-x86_64/qtbase/src/plugins/platforms/xcb/.moc/qxcbmain.moc
+FILE 1 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/arch/qatomic_x86.h
+FILE 2 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qscopedpointer.h
+FILE 3 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h
+FILE 4 /tmp/grigoryj-build-qt-133445/src/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/xcb/qxcbmain.cpp
 FUNC 13f0 2 0 QXcbIntegrationPlugin::qt_static_metacall
 13f0 2 56 0
 FUNC 1400 5c 0 QXcbIntegrationPlugin::create
